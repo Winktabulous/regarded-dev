@@ -100,7 +100,7 @@ apache-commons-codec = { module = "commons-codec:commons-codec", version = "1.18
 apache-commons-text = { module = "org.apache.commons:commons-text", version = "1.13.0" }
 
 google-guava = { module = "com.google.guava:guava", version = "33.4.8-jre" }
-google-gson = { module = "com.google.code.gson:gson", version = "2.12.1" }
+google-gson = { module = "com.google.code.gson:gson", version = "2.13.1" }
 
 openhft-affinity = { module = "net.openhft:affinity", version = "3.27ea0" }
 openhft-chronicle-threads = { module = "net.openhft:chronicle-threads", version = "2.27ea0" }
