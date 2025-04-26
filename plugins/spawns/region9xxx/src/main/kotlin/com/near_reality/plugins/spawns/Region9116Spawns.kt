@@ -1,0 +1,52 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region9116Spawns : NPCSpawnsScript() {
+    init {
+        WHIRLPOOL(2245, 10026, 0, SOUTH, 5)
+        WHIRLPOOL(2246, 10013, 0, SOUTH, 5)
+        WHIRLPOOL(2246, 10019, 0, SOUTH, 5)
+        WATERFIEND_2917(2248, 9994, 0, SOUTH, 2)
+        WATERFIEND_2917(2248, 9997, 0, SOUTH, 2)
+        WATERFIEND_2917(2250, 9991, 0, SOUTH, 2)
+        WATERFIEND_2917(2250, 9995, 0, SOUTH, 2)
+        WATERFIEND_2917(2252, 9993, 0, SOUTH, 2)
+        WHIRLPOOL(2254, 10035, 0, SOUTH, 5)
+        WATERFIEND_2917(2255, 9989, 0, SOUTH, 2)
+        WHIRLPOOL(2255, 10024, 0, SOUTH, 5)
+        WHIRLPOOL(2255, 10029, 0, SOUTH, 5)
+        WHIRLPOOL(2257, 10039, 0, SOUTH, 5)
+        WATERFIEND_2917(2258, 9988, 0, SOUTH, 2)
+        WATERFIEND_2917(2259, 9991, 0, SOUTH, 2)
+        WHIRLPOOL(2259, 9996, 0, SOUTH, 5)
+        WHIRLPOOL(2259, 10021, 0, SOUTH, 5)
+        WATERFIEND_2917(2261, 9987, 0, SOUTH, 2)
+        WHIRLPOOL(2261, 10016, 0, SOUTH, 5)
+        WATERFIEND_2917(2264, 9988, 0, SOUTH, 2)
+        WHIRLPOOL(2264, 10003, 0, SOUTH, 5)
+        WHIRLPOOL(2266, 10011, 0, SOUTH, 5)
+        WHIRLPOOL(2267, 9993, 0, SOUTH, 5)
+        WHIRLPOOL(2267, 9996, 0, SOUTH, 5)
+        WHIRLPOOL(2270, 9989, 0, SOUTH, 5)
+        WHIRLPOOL(2274, 10009, 0, SOUTH, 5)
+        WHIRLPOOL_496(2278, 10034, 0, SOUTH, 0)
+        WATERFIEND_2917(2280, 9989, 0, SOUTH, 2)
+        WHIRLPOOL(2280, 10010, 0, SOUTH, 5)
+        WATERFIEND_2917(2281, 9987, 0, SOUTH, 2)
+        WATERFIEND_2917(2285, 9988, 0, SOUTH, 2)
+        WHIRLPOOL(2285, 10005, 0, SOUTH, 5)
+        WATERFIEND_2917(2287, 9987, 0, SOUTH, 2)
+        WATERFIEND_2917(2287, 9989, 0, SOUTH, 2)
+        WHIRLPOOL(2291, 10016, 0, SOUTH, 5)
+        WHIRLPOOL(2292, 9991, 0, SOUTH, 5)
+        WHIRLPOOL(2296, 9992, 0, SOUTH, 5)
+        WHIRLPOOL(2296, 10002, 0, SOUTH, 5)
+        WHIRLPOOL(2297, 9998, 0, SOUTH, 5)
+        WHIRLPOOL(2298, 10010, 0, SOUTH, 5)
+        WHIRLPOOL(2298, 10017, 0, SOUTH, 5)
+    }
+}

@@ -1,0 +1,71 @@
+# Green
+[[sprite]]
+id=2517
+width=1
+height=27
+
+[sprite.images]
+0="green.png"
+
+# Dark green
+[[sprite]]
+id=2518
+width=1
+height=27
+
+[sprite.images]
+0="dark-green.png"
+
+# Blue
+[[sprite]]
+id=2519
+width=1
+height=27
+
+[sprite.images]
+0="blue.png"
+
+# Dark blue
+[[sprite]]
+id=2520
+width=1
+height=27
+
+[sprite.images]
+0="dark-blue.png"
+
+# Orange
+[[sprite]]
+id=2521
+width=1
+height=27
+
+[sprite.images]
+0="orange.png"
+
+# Dark orange
+[[sprite]]
+id=2522
+width=1
+height=27
+
+[sprite.images]
+0="dark-orange.png"
+
+# Red
+[[sprite]]
+id=2525
+width=1
+height=27
+
+[sprite.images]
+0="red.png"
+
+# Dark red
+[[sprite]]
+id=2526
+width=1
+height=27
+
+[sprite.images]
+0="dark-red.png"

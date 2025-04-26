@@ -1,0 +1,126 @@
+void script_12564(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	Color color20;
+	Sprite sprite21;
+	int int22;
+	Enum enum23;
+	int int24;
+	string str25;
+	string str26;
+	string str27;
+	widget0.clearChildren();
+	widget0.setScrollPos(0, 0);
+	widget1.clearChildren();
+	widget(5006, 24).clearChildren();
+	widget1.setIsHidden(false);
+	widget2.setIsHidden(true);
+	widget6.setIsHidden(true);
+	widget5.setIsHidden(true);
+	widget7.setIsHidden(true);
+	widget(5006, 7).setIsHidden(true);
+	widget(5006, 12).setIsHidden(true);
+	widget(5006, 24).setIsHidden(false);
+	widget(5006, 58).setIsHidden(false);
+	widget0.setPosition(134, 60, 0, 0);
+	widget0.setSize(318, 190, 0, 0);
+	widget(5006, 58).setPosition(134, 250, 0, 0);
+	widget(5006, 10).setIsHidden(true);
+	int8 = enumSize(10002);
+	int9 = 90;
+	int10 = 0;
+	int11 = int9 * (int8 + 1);
+	int12 = 0;
+	int12 = script_1192(widget0, int12);
+	int13 = 0;
+	int14 = 20;
+	int15 = 0;
+	int16 = 0;
+	int17 = 6;
+	int18 = enumSize(10003);
+	while (int15 < int18) {
+		CHILD.createChild(widget0, 5, int12);
+		int12 = int12 + 1;
+		CHILD.setPosition(2, 26 + int15 * 60, 0, 0);
+		CHILD.setSize(4, 60, 1, 0);
+		if (int15 % 2 == 0) {
+			CHILD.setSprite(1040);
+		}
+		int19 = 24 + int15 * 60;
+		str25 = enum('i', 's', 10003, int15);
+		CHILD.createChild(widget0, 4, int12);
+		int12 = int12 + 1;
+		CHILD.setPosition(6, int19, 0, 0);
+		CHILD.setSize(90, 60, 0, 0);
+		CHILD.setFont(1445);
+		CHILD.setTextAlignment(1, 1, 14);
+		CHILD.setText(str25);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		int15 = int15 + 1;
+		int10 = int19;
+	}
+	int15 = 0;
+	int17 = 90;
+	while (int15 < int8) {
+		color20 = color(enum('i', 'i', 10004, int15));
+		str26 = enum('i', 's', 10002, int15);
+		sprite21 = enum('i', 'd', 10013, int15);
+		CHILD.createChild(widget0, 4, int12);
+		int12 = int12 + 1;
+		CHILD.setPosition(int17, 0, 0, 0);
+		CHILD.setSize(90, 24, 0, 0);
+		CHILD.setFont(1445);
+		CHILD.setTextAlignment(1, 1, 14);
+		CHILD.setText(str26);
+		CHILD.setRGB(color20);
+		CHILD.setTextAntiMacro(true);
+		int22 = (90 - getMaxLineWidth(str26, 90, 1445)) / 2;
+		CHILD.createChild(widget0, 5, int12);
+		int12 = int12 + 1;
+		CHILD.setPosition(int17 + int22 - 16, 4, 0, 0);
+		CHILD.setSize(13, 13, 0, 0);
+		CHILD.setFont(1445);
+		CHILD.setSprite(sprite21);
+		enum23 = enum('i', 'g', 10005, int15);
+		int18 = enumSize(enum23);
+		int16 = 0;
+		while (int16 < int18) {
+			int24 = 24 + int16 * 60;
+			str27 = enum('i', 's', enum23, int16);
+			CHILD.createChild(widget0, 4, int12);
+			int12 = int12 + 1;
+			CHILD.setPosition(int17, int24, 0, 0);
+			CHILD.setSize(90, 60, 0, 0);
+			CHILD.setFont(1445);
+			CHILD.setTextAlignment(1, 1, 14);
+			CHILD.setText(str27);
+			CHILD.setRGB(color20);
+			CHILD.setTextAntiMacro(true);
+			int16 = int16 + 1;
+		}
+		int15 = int15 + 1;
+		int17 = int17 + int9 + 1;
+	}
+	int10 = int10 + 64;
+	if (int10 > widget0.getHeight() || int11 > widget0.getWidth()) {
+		widget0.setScrollMax(int11, int10);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget0.setScrollPos(0, 0);
+	script_6156(widget(5006, 58), widget0, 4538, 4537, 4536, 4535, 4533, 4534);
+	script_6157(widget(5006, 58), widget0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

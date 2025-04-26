@@ -1,0 +1,38 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14385Spawns : NPCSpawnsScript() {
+    init {
+        3828(3592, 3183, 0, SOUTH, 2)
+        MEIYERDITCH_CITIZEN_3790(3593, 3187, 0, SOUTH, 2)
+        MEIYERDITCH_CITIZEN_3801(3596, 3184, 0, SOUTH, 5)
+        CHILD_3814(3597, 3189, 0, SOUTH, 5)
+        VYREWATCH_3717(3597, 3193, 0, SOUTH, 6)
+        MEIYERDITCH_CITIZEN_3788(3599, 3190, 0, SOUTH, 2)
+        VYREWATCH_3730(3601, 3183, 0, SOUTH, 12)
+        VAMPYRE_JUVENILE(3603, 3189, 0, SOUTH, 10)
+        MEIYERDITCH_CITIZEN_3789(3603, 3195, 0, SOUTH, 5)
+        MEIYERDITCH_CITIZEN_3799(3608, 3189, 0, SOUTH, 5)
+        STRAY_DOG_3830(3609, 3186, 0, SOUTH, 9)
+        VYREWATCH_3729(3614, 3189, 0, SOUTH, 10)
+        CHILD_3816(3614, 3196, 0, SOUTH, 2)
+        VAMPYRE_JUVENILE_3693(3618, 3187, 0, SOUTH, 9)
+        VYREWATCH_3718(3621, 3182, 0, SOUTH, 10)
+        CHILD_3817(3623, 3184, 0, SOUTH, 5)
+        MEIYERDITCH_CITIZEN_3804(3623, 3189, 0, SOUTH, 5)
+        MEIYERDITCH_CITIZEN_3803(3624, 3196, 0, SOUTH, 5)
+        VYREWATCH_3719(3629, 3190, 0, SOUTH, 8)
+        MEIYERDITCH_CITIZEN_3793(3632, 3196, 0, SOUTH, 0)
+        CAT_3831(3636, 3195, 0, SOUTH, 5)
+        VYREWATCH_3732(3638, 3187, 0, SOUTH, 11)
+        VAMPYRE_JUVENILE(3638, 3196, 0, SOUTH, 10)
+        VAMPYRE_JUVENILE_3693(3639, 3193, 0, SOUTH, 9)
+        VYREWATCH_3755(3589, 3169, 1, SOUTH, 8)
+        VYREWATCH_3751(3591, 3197, 1, SOUTH, 10)
+        VYREWATCH_3753(3598, 3172, 1, SOUTH, 9)
+    }
+}

@@ -1,0 +1,8 @@
+# Preset icon
+[sprite]
+id = 10000
+width = 29
+height = 19
+
+[sprite.images]
+0 = "presets.png"

@@ -1,0 +1,5 @@
+void script_12563(int arg0) {
+	playSoundEffect(2266, 1, 0);
+	script_12559();
+	return;
+}

@@ -1,0 +1,42 @@
+# Login box
+[[sprite]]
+inherit=499
+
+[sprite.images]
+0="inferno_loginscreen/loginbox.png"
+
+# Login box button
+[[sprite]]
+inherit=500
+
+[sprite.images]
+0="inferno_loginscreen/loginbox_button.png"
+
+# Music button
+[[sprite]]
+inherit=811
+
+[sprite.images]
+0="inferno_loginscreen/music_button_enabled.png"
+1="inferno_loginscreen/music_button_disabled.png"
+
+# World button
+[[sprite]]
+inherit=818
+
+[sprite.images]
+0="inferno_loginscreen/world_button.png"
+
+# Mobile button 1
+[[sprite]]
+inherit=2135
+
+[sprite.images]
+0="inferno_loginscreen/mobile_button_1.png"
+
+# Mobile button 2
+[[sprite]]
+inherit=2137
+
+[sprite.images]
+0="inferno_loginscreen/mobile_button_2.png"

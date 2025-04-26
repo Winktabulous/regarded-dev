@@ -1,0 +1,9 @@
+[package]
+name = "scripts-macro"
+version = "0.1.0"
+authors = ["Polish Civil <polishcivil@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate_type = ["proc-macro"]
+

@@ -1,0 +1,747 @@
+# Challenge Headmaster
+[[npc]]
+inherit=379
+name="Challenge Headmaster"
+op1="Talk-to"
+op3="View Challenges"
+
+# Grand Exchange Clerk
+[[npc]]
+inherit=2148
+op2="Exchange"
+op3="History"
+op4="Offers Viewer"
+op5="Sets"
+
+# Waydar
+[[npc]]
+inherit=1446
+op1="Talk-to"
+op3="Trade"
+op4="Gamble-Ban"
+
+# Grand Exchange Clerk
+[[npc]]
+inherit=2149
+op2="Exchange"
+op3="History"
+op4="Offers Viewer"
+op5="Sets"
+
+# Grand Exchange Clerk
+[[npc]]
+inherit=2150
+op2="Exchange"
+op3="History"
+op4="Offers Viewer"
+op5="Sets"
+
+# Grand Exchange Clerk
+[[npc]]
+inherit=2151
+op2="Exchange"
+op3="History"
+op4="Offers Viewer"
+op5="Sets"
+
+# %SERVER_NAME% guide
+[[npc]]
+inherit=3308
+name="%SERVER_NAME% Guide"
+op2="Trade"
+
+# Zahur
+[[npc]]
+inherit=4753
+op2="Decant"
+op3="Clean"
+op4="Crush secondaries"
+op5="Make unfinished potion(s)"
+
+# Perdu
+[[npc]]
+inherit=7456
+op1="Repair"
+op3=""
+
+# Near-Reality Teleporter
+[[npc]]
+id=16000
+inherit=4398
+name="%SERVER_NAME% Teleporter"
+op1="Teleport"
+op4="Teleport-previous"
+models=[28220, 214, 250, 28991, 28226, 28224, 177, 534, 10698, 28223, 29249]
+standanimation=813
+walkanimation=1205
+rotate90animation=1207
+rotate180animation=1206
+rotate270animation=1208
+
+# Cynthia (Melee Armoury Shop)
+[[npc]]
+id=16001
+inherit=1176
+name="Cynthia"
+ops=["", "", "Trade", "", ""]
+
+# Arnas (Melee Weaponry Shop)
+[[npc]]
+id=16002
+inherit=4105
+name="Arnas"
+ops=["", "", "Trade", "", ""]
+models=[230, 246, 302, 168, 179, 263, 185, 491]
+
+[[item]]
+inherit=29836
+invmodel=64001
+
+#[[item]]
+#inherit=20792
+#primarymalemodel=64002
+#primaryfemalemodel=64002
+
+# Robin (Ranged Armoury Shop)
+[[npc]]
+id=16003
+inherit=6067
+name="Robin Hood"
+combatlevel=0
+ops=["", "", "Trade", "", ""]
+
+# Fae (Ranged Weaponry Shop)
+[[npc]]
+id=16004
+inherit=1157
+name="Ranged Store"
+combatlevel=0
+ops=["", "", "Trade", "", ""]
+models=[390, 414, 477, 20429, 332, 356, 512, 422]
+
+# Dhalius (Magic Weaponry Shop)
+[[npc]]
+id=16005
+inherit=881
+name="Dhalius"
+ops=["", "", "Trade", "", ""]
+
+# Hezaff (Magic Armoury Shop)
+[[npc]]
+id=16006
+inherit=3232
+name="Hezaff"
+ops=["", "", "Trade", "Buy-teletabs", ""]
+
+# John (Food Shop)
+[[npc]]
+id=16007
+inherit=1027
+name="Consumables Store"
+combatlevel=0
+ops=["", "", "Trade", "", ""]
+models=[18191, 217, 302, 3190, 10980, 176, 562, 254, 185, 246]
+
+# Primula
+[[npc]]
+inherit=7953
+name="Herblore Store"
+
+# Jackie (Skilling Shop)
+[[npc]]
+id=16008
+inherit=5036
+name="Jackie"
+ops=["", "", "Trade", "Jewellery", ""]
+
+# Frank (Vote Shop)
+[[npc]]
+id=16009
+inherit=4225
+name="Frank"
+op1=""
+op3="Vote shop"
+op4="Loyalty shop"
+
+# Mac
+[[npc]]
+id=16010
+inherit=6481
+name="Mac"
+combatlevel=0
+op1="Talk-to"
+op3="Trade"
+
+# Combat dummy
+[[npc]]
+id=16019
+inherit=2668
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+# Undead combat dummy
+[[npc]]
+id=16020
+inherit=7413
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+# Make-over-mage
+[[npc]]
+id=16021
+inherit=1307
+op1="Talk-to"
+op4="Makeover"
+op5="Skin Colour"
+
+# %SERVER_NAME% Portal
+[[object]]
+id=35000
+inherit=15478
+name="%SERVER_NAME% Portal"
+ops=["Teleport", "Teleport-previous", "", "", ""]
+modelcolours=[49705, 49829, 49953, 49948, 50072]
+replacementcolours=[4008, 2980, 1952, 2971, 2967]
+
+# Mounted Max Cape
+[[object]]
+id=35002
+inherit=29170
+op1=""
+op2=""
+op4=""
+sizex=1
+sizey=1
+
+# Fairy ring
+[[object]]
+id=35003
+inherit=29422
+op4="Ring-last-destination"
+op5=""
+modelsizex=192
+modelsizey=192
+modelheight=192
+sizex=3
+sizey=3
+offsetx=50
+offsety=80
+
+# Grand Exchange Booth
+[[object]]
+inherit=10060
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Grand Exchange Booth
+[[object]]
+inherit=10061
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Altar
+[[object]]
+inherit=409
+id=18258
+name="Altar"
+op1="Pray-at"
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Altar
+[[object]]
+inherit=31858
+id=24911
+name="Altar of the Occult"
+op1="Standard"
+op5=""
+
+# Wilderness Statistics
+[[object]]
+inherit=26756
+op1="Toggle K/D"
+op2=""
+
+# Home lectern
+[[object]]
+id=35008
+inherit=12136
+name="Lectern"
+op1="Study"
+optionsinvisible=-1
+accessblockflag=14
+
+# Door
+[[object]]
+id=35009
+inherit=11784
+name="Door"
+op1="Open"
+optionsinvisible=-1
+
+# Door
+[[object]]
+id=35010
+inherit=11785
+name="Door"
+op1="Open"
+optionsinvisible=-1
+
+# Door
+[[object]]
+id=35011
+inherit=11784
+name="Door"
+op1="Close"
+optionsinvisible=-1
+
+# Door
+[[object]]
+id=35012
+inherit=11785
+name="Door"
+op1="Close"
+optionsinvisible=-1
+
+# Home Teleport (Teletab)
+[[item]]
+id=22721
+inherit=8007
+name="Home teleport"
+grandexchange=true
+invmodel=50000
+placeholderid=30028
+placeholdertemplate=-1
+op2=""
+op3=""
+op4=""
+
+# Home Teleport (Teletab) (placeholder)
+[[item]]
+id=30028
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=22721
+invmodel=50000
+
+[item.parameters]
+601="Home Teleport"
+
+# Home Teleport for spellbooks
+[[item]]
+inherit=[9712, 11142, 11143, 21835]
+
+[item.parameters]
+601="Home Teleport"
+
+# Box of Restoration - base
+[[object]]
+id=35001
+inherit=23709
+name="Box of Restoration"
+models=[]
+#offsety=20
+#varbit=-1
+transformedids=[35021, 35022]
+sizex=2
+
+# Box of Restoration - basic
+[[object]]
+id=35021
+inherit=23709
+name="Box of Restoration"
+op1="Restore"
+modelsizex=205
+modelsizey=152
+modelheight=190
+offsety=20
+sizex=2
+
+# Box of Restoration - full
+[[object]]
+id=35022
+inherit=23709
+name="Box of Restoration"
+op1="Restore"
+op2="Remove-skull"
+modelsizex=205
+modelsizey=152
+modelheight=190
+offsety=20
+sizex=2
+
+# Box of Restoration varbit
+#[[varbit]]
+#id=16004
+#basevar=3800
+#startbit=0
+#endbit=1
+
+# Daily Board
+[[object]]
+inherit=26756
+name="Daily board"
+id=35023
+op1="Read"
+op2=""
+
+# Magic storage unit base
+[[object]]
+inherit=18803
+name="Magic storage unit"
+models=[]
+varbit=16001
+id=60000
+transformedids=[60001, 60002, 818, -1]
+
+# Magic storage unit locked
+[[object]]
+inherit=18802
+name="Magic storage unit"
+id=60001
+op1="Unlock"
+op2=""
+op5=""
+
+# Magic storage unit unlocked
+[[object]]
+inherit=18803
+name="Magic storage unit"
+id=60002
+op1="Search"
+op2=""
+
+# Magic storage unit varbit
+[[varbit]]
+id=16003
+basevar=3800
+startbit=2
+endbit=4
+
+# Banker
+[[npc]]
+inherit=2117
+id=16029
+op1="Talk-to"
+op2="Bank"
+op3="Collect"
+op4="Presets"
+op5="Last-preset"
+
+# Banker
+[[npc]]
+inherit=2118
+id=16030
+op1="Talk-to"
+op2="Bank"
+op3="Collect"
+op4="Presets"
+op5="Last-preset"
+
+# Banker
+[[npc]]
+inherit=2117
+op1="Talk-to"
+op2="Bank"
+op3="Collect"
+op4="Presets"
+op5="Last-preset"
+
+[[npc]]
+inherit=2118
+op1="Talk-to"
+op2="Bank"
+op3="Collect"
+op4="Presets"
+op5="Last-preset"
+
+# Tablet lectern
+[[object]]
+inherit=18245
+op1="Create-tablet"
+
+# Emblem Trader (Edgeville)
+[[npc]]
+inherit=308
+op4="BH Shop"
+op5="Exchange Emblems"
+
+# Emblem Trader (Wilderness)
+[[npc]]
+inherit=7943
+op2=""
+op3=""
+op4=""
+
+# Watson
+[[npc]]
+inherit=7303
+op3="Check"
+
+# Shop keeper
+[[npc]]
+inherit=2821
+op1=""
+name="General Store"
+
+# Shop assistant
+[[npc]]
+inherit=2822
+op1=""
+
+# Herquin
+[[npc]]
+inherit=6529
+op1=""
+op4="Jewellery"
+name="Tools Store"
+
+# Aivas
+[[npc]]
+inherit=8123
+op3="Trade"
+
+# Tristan
+[[npc]]
+inherit=8122
+name="Melee Store"
+op3="Trade"
+
+# Baby Yaga
+[[npc]]
+inherit=3837
+op1=""
+op4="Buy-teletabs"
+name="Magic Store"
+
+# Mac
+[[npc]]
+inherit=6481
+models=[64000]
+op3="Trade"
+
+# Frank
+[[npc]]
+inherit=4225
+op1="Vote shop"
+op3="Loyalty shop"
+
+# Jossik
+[[npc]]
+inherit=4423
+op1=""
+op3=""
+name="God Books Store"
+
+# Probita
+[[npc]]
+inherit=5906
+name="Pet Insurance"
+
+# Nulodion
+[[npc]]
+inherit=1400
+name="Dwarf Cannon Manager"
+
+# Dusuri
+[[npc]]
+inherit=10630
+name="Shooting Star Store"
+
+# Grace
+[[npc]]
+inherit=5919
+op1=""
+op2="Trade"
+op3=""
+op4=""
+op5=""
+
+# Wilderness lever
+[[object]]
+inherit=9472
+op1="Ardougne"
+op2="Edgeville"
+
+# Rope for wreckage
+[[object]]
+inherit=32238
+optionsinvisible=-1
+op1="Climb-Down"
+
+# Rope for wreckage
+[[object]]
+inherit=32324
+optionsinvisible=0
+
+# Wilderness Entrance
+[[object]]
+inherit=2
+id=50073
+name="Wilderness vault entrance"
+op2="Peek"
+models=[60160]
+sizex=5
+sizey=5
+
+# Wilderness Entrance sealed
+[[object]]
+inherit=2
+id=50074
+name="Wilderness vault entrance (sealed)"
+op2="Peek"
+models=[60166]
+sizex=5
+sizey=5
+
+# Wilderness chest
+[[object]]
+inherit=41746
+id=50075
+name="Chest"
+op1="Open"
+models=[60170]
+sizex=2
+sizey=1
+
+# Wilderness chest (open)
+[[object]]
+inherit=41746
+id=50076
+name="Chest"
+op1="Open"
+op2=""
+models=[60169]
+sizex=2
+sizey=1
+
+# Wilderness chest (rare)
+[[object]]
+inherit=41746
+id=50077
+name="Chest"
+op1="Open"
+models=[60168]
+sizex=2
+sizey=1
+
+# Wilderness chest (rare) (open)
+[[object]]
+inherit=41746
+id=50078
+name="Chest"
+op1="Open"
+op2=""
+models=[60167]
+sizex=2
+sizey=1
+
+# Wilderness vault fire
+[[object]]
+inherit=23105
+id=50079
+animation=6646
+name="Fire"
+op1="Douse"
+op2=""
+models=[26584]
+projectileclip=false
+
+# Soul Goblet
+[[object]]
+inherit=14638
+id=50080
+animation=6646
+name="Soul Goblet"
+op1=""
+op2=""
+modelsizex=128
+modelsizey=128
+modelheight=128
+models=[60171]
+
+# Scoreboard
+[[object]]
+inherit=40448
+op2="Group Challenges"
+op3="Solo Challenges"
+
+# Scoreboard
+#[[object]]
+#inherit=40448
+#id=50091
+#models=[60197]
+#sizex=2
+#sizey=1
+#modelsizex=128
+#modelsizey=128
+#modelheight=128
+
+# Well
+#[[object]]
+#inherit=884
+#op1="Contribute"
+#id=50092
+#models=[60198]
+
+# Afk Master
+[[npc]]
+inherit=9006
+name="Afk Master"
+op1="Talk-to"
+op2="Trade"
+op3=""
+op4=""
+op5=""
+
+# Perk Master
+[[npc]]
+inherit=3585
+id=14900
+name="Perk Master"
+op1="Talk-to"
+op2="Buy Perks"
+op3="Exchange Remnants"
+op4="Open Store"
+op5=""
+
+
+#tournament portal
+[[object]]
+inherit=41724
+name="Tournament Portal"
+op1="View-Tournaments"
+op2=""
+op3=""
+op4=""
+op5=""
+
+#vanstrom klause
+[[npc]]
+inherit=3733
+op1="Talk-to"
+
+[[object]]
+inherit=41728
+name="Hiscores"
+
+[[object]]
+inherit=6802
+name="Repair Stand"
+op1="Repair"
+op5=""
+
+#wise old man
+[[npc]]
+inherit=2108
+op2="Toggles"
+name="Wise Donation Man"

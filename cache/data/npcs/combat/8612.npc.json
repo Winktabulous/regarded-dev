@@ -1,0 +1,67 @@
+{
+  "id": 8612,
+  "hitpoints": 250,
+  "attackSpeed": 4,
+  "slayerLevel": 84,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "DRAGONBANE_WEAPONS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      140,
+      118,
+      120,
+      112,
+      140
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      60,
+      60,
+      60,
+      20,
+      100
+    ],
+    "otherBonuses": [
+      40,
+      12,
+      40
+    ]
+  },
+  "attackDefinitions": {
+    "type": "RANGED",
+    "maxHit": 15,
+    "animation": {
+      "id": -1,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": -1,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

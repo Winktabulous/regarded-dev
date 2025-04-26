@@ -1,0 +1,20 @@
+# Achievement diary pointers
+[enum]
+id=2500
+keytype="int"
+valuetype="enum"
+default=-1
+
+[enum.values]
+0=2501
+1=2502
+2=2503
+3=2504
+4=2505
+5=2506
+6=2507
+7=2508
+8=2509
+9=2510
+10=2511
+11=2512

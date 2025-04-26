@@ -1,0 +1,17 @@
+# Lumbridge destination
+[[component]]
+inherit="218:4"
+op2="Lumbridge"
+clickmask=1030
+
+# Lunar Isle destination
+[[component]]
+inherit="218:99"
+op2="Lunar Isle"
+clickmask=1030
+
+# Arceuus destination
+[[component]]
+inherit="218:143"
+op2="Arceuus"
+clickmask=1030

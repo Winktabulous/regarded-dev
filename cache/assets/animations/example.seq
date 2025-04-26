@@ -1,0 +1,16 @@
+!!mgi.types.config.AnimationDefinitions
+id: 0
+frameIds: []
+frameLengths: []
+extraFrameIds: null
+mergedBoneGroups: null
+forcedPriority: 5
+priority: -1
+frameStep: -1
+leftHandItem: -1
+rightHandItem: -1
+precedenceAnimating: -1
+replyMode: 2
+iterations: 99
+stretches: false
+soundEffects: null

@@ -1,0 +1,71 @@
+{
+  "id": 475,
+  "hitpoints": 105,
+  "attackSpeed": 4,
+  "slayerLevel": 35,
+  "attackDistance": 1,
+  "aggressionDistance": 1,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "immunityTypes": [
+    "POISON",
+    "VENOM"
+  ],
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "WATER"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      30,
+      30,
+      16,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "CRUSH",
+    "maxHit": 4,
+    "animation": {
+      "id": 1802,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 1803,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 1804,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

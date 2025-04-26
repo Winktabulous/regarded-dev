@@ -1,0 +1,50 @@
+void script_34010(int arg0, int arg1, Widget widget2, string string3, int arg4) {
+	int int5;
+	int5 = 0;
+	if (arg0 == 1 && arg1 == 0) {
+		int5 = script_208(widget2);
+	} else {
+		int5 = script_198(widget2);
+	}
+	if (widget2 == widget(arg4)) {
+		CHILD.createChild(widget2, 4, int5);
+		_CHILD.createChild(widget2, 4, int5 + 1);
+		CHILD.setSize(0, 10, 1, 1);
+		_CHILD.setSize(0, 10, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		_CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setTextAntiMacro(true);
+		_CHILD.setTextAntiMacro(true);
+		CHILD.setFont(495);
+		_CHILD.setFont(494);
+		if (arg0 == 1) {
+			CHILD.setRGB(0xFFFFFF);
+			_CHILD.setRGB(0xFFFFFF);
+			CHILD.setTextAlignment(1, 0, 0);
+			CHILD.setText("Confirm:");
+			_CHILD.setTextAlignment(1, 2, 0);
+			_CHILD.setText(string3);
+		} else {
+			CHILD.setRGB(0x9F9F9F);
+			_CHILD.setRGB(0x9F9F9F);
+			CHILD.setTextAlignment(1, 1, 0);
+			CHILD.setText("---");
+			_CHILD.setTextAlignment(1, 1, 0);
+			_CHILD.setText("");
+		}
+	} else {
+		CHILD.createChild(widget2, 4, int5);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		if (arg0 == 1) {
+			CHILD.setRGB(0xFFFFFF);
+		} else {
+			CHILD.setRGB(0x9F9F9F);
+		}
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(string3);
+	}
+	return;
+}

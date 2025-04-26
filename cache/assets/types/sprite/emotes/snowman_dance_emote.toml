@@ -1,0 +1,17 @@
+# Snowman dance lit
+[[sprite]]
+id=10011
+width=48
+height=48
+
+[sprite.images]
+0="emotes/snowman_dance_lit.png"
+
+# Snowman dance unlit
+[[sprite]]
+id=10012
+width=48
+height=48
+
+[sprite.images]
+0="emotes/snowman_dance_unlit.png"

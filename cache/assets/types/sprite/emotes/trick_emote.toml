@@ -1,0 +1,17 @@
+# Trick lit
+[[sprite]]
+id=10007
+width=48
+height=48
+
+[sprite.images]
+0="emotes/trick_lit.png"
+
+# Trick unlit
+[[sprite]]
+id=10008
+width=48
+height=48
+
+[sprite.images]
+0="emotes/trick_unlit.png"

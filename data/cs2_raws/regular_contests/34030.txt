@@ -1,0 +1,7 @@
+define void script_34035(Widget, Widget, Widget) 34035
+void script_34030(Widget widget0, Widget arg1, Widget widget2) {
+	script_227(widget2, "");
+	script_34035(widget0, arg1, widget2);
+	widget0.hookVARP(&script_34035((int)widget0, (int)arg1, (int)widget2), 261, 262, 263);
+	return;
+}

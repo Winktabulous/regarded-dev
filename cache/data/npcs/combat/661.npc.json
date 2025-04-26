@@ -1,0 +1,84 @@
+{
+  "id": 661,
+  "hitpoints": 12,
+  "attackSpeed": 4,
+  "slayerLevel": 1,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "weaknesses": [
+    "WATER"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      3,
+      1,
+      4,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "otherBonuses": [
+      12,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "STAB",
+    "maxHit": 1,
+    "animation": {
+      "id": 6188,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 696,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 6183,
+      "delay": 0
+    },
+    "sound": {
+      "id": 472,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 6182,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 469,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

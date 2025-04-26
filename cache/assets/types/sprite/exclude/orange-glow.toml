@@ -1,0 +1,8 @@
+# Arrow downstairs
+[sprite]
+id=2524
+width=40
+height=50
+
+[sprite.images]
+0="orange-glow2.png"

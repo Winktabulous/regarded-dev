@@ -1,0 +1,6 @@
+// 32039
+[clientscript,script32039](component $component0)
+if_settext(~tostring_spacer(%varbit17004, ","), $component0);
+%varcint1155 = clientclock;
+%varcint1156 = calc(%varcint1155 + 100);
+if_setontimer("script32026(event_com)", $component0);

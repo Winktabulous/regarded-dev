@@ -1,0 +1,49 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region5279Spawns : NPCSpawnsScript() {
+    init {
+        WYRM(1280, 10186, 0, SOUTH, 12)
+        HYDRA(1303, 10235, 0, SOUTH, 8)
+        KAALMEJSAN(1305, 10204, 0, SOUTH, 0)
+        HYDRA(1307, 10231, 0, SOUTH, 8)
+        KAALKETJOR(1310, 10209, 0, SOUTH, 0)
+        HYDRA(1310, 10235, 0, SOUTH, 8)
+        KAALXILDAR(1315, 10204, 0, SOUTH, 0)
+        HYDRA(1315, 10235, 0, SOUTH, 8)
+        GREATER_DEMON_2026(1283, 10210, 1, SOUTH, 4)
+        GREATER_DEMON_2027(1284, 10199, 1, SOUTH, 2)
+        GREATER_DEMON(1287, 10207, 1, SOUTH, 2)
+        DRAKE_8612(1307, 10232, 1, SOUTH, 6)
+        DRAKE_8612(1310, 10239, 1, SOUTH, 6)
+        DRAKE_8612(1317, 10234, 1, SOUTH, 6)
+        SULPHUR_LIZARD(1326, 10179, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1326, 10183, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1330, 10183, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1331, 10178, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1334, 10189, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1335, 10178, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1335, 10186, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1336, 10182, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1340, 10180, 1, SOUTH, 9)
+        SULPHUR_LIZARD(1340, 10185, 1, SOUTH, 9)
+        DRAKE_8612(1342, 10235, 1, SOUTH, 6)
+        FIRE_GIANT_2078(1280, 10214, 2, SOUTH, 6)
+        FIRE_GIANT(1281, 10205, 2, SOUTH, 4)
+        FIRE_GIANT_2078(1282, 10200, 2, SOUTH, 6)
+        FIRE_GIANT_2080(1282, 10209, 2, SOUTH, 4)
+        FIRE_GIANT_2080(1286, 10203, 2, SOUTH, 4)
+        FIRE_GIANT_2078(1287, 10210, 2, SOUTH, 6)
+        HELLHOUND(1330, 10194, 2, SOUTH, 7)
+        HELLHOUND(1334, 10192, 2, SOUTH, 7)
+        HELLHOUND(1334, 10200, 2, SOUTH, 7)
+        HELLHOUND(1336, 10212, 2, SOUTH, 7)
+        HELLHOUND(1339, 10209, 2, SOUTH, 7)
+        HELLHOUND(1340, 10198, 2, SOUTH, 7)
+        HELLHOUND(1340, 10202, 2, SOUTH, 7)
+    }
+}

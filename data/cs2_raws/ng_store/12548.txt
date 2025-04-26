@@ -1,0 +1,146 @@
+void script_12548(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	Item item13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	Widget widget20;
+	int8 = widget0.getScrollMaxV();
+	widget0.clearChildren();
+	widget1.clearChildren();
+	widget1.setIsHidden(false);
+	widget2.setIsHidden(false);
+	widget6.setIsHidden(true);
+	widget5.setIsHidden(true);
+	widget(5006, 7).setIsHidden(true);
+	widget(5006, 10).setIsHidden(true);
+	widget(5006, 58).setIsHidden(true);
+	widget(5006, 12).setIsHidden(false);
+	widget7.setIsHidden(false);
+	widget0.setPosition(136, 70, 0, 0);
+	widget0.setSize(307, 170, 0, 0);
+	int9 = 0;
+	int9 = script_715(widget0, int9);
+	int10 = 0;
+	int11 = 0;
+	int12 = getItemContainerLength(1001);
+	item13 = getItemIdInSlot(1001, int11);
+	int14 = 1;
+	while (int11 < int12 && item13 != null) {
+		CHILD.createChild(widget0, 5, int9);
+		int9 = int9 + 1;
+		CHILD.setSpriteTiling(true);
+		CHILD.setSprite(297);
+		CHILD.setTrans(255);
+		CHILD.setSize(0, 34, 1, 0);
+		CHILD.setPosition(0, int10, 1, 0);
+		CHILD.setContextMenuOption(1, "Remove from cart");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase(getItemName(item13));
+		CHILD.createChild(widget0, 3, int9);
+		int9 = int9 + 1;
+		CHILD.setSize(0, 34, 1, 0);
+		CHILD.setPosition(0, int10, 1, 0);
+		CHILD.setFilled(true);
+		if (int11 % 2 == 0) {
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setTrans(255);
+			CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 225, -1));
+			CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 225, -1));
+			CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, -1));
+		} else {
+			CHILD.setRGB(0x000000);
+			CHILD.setTrans(225);
+			CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 128, -1));
+			CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 128, -1));
+			CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 225, -1));
+		}
+		_CHILD.createChild(widget0, 5, int9);
+		int9 = int9 + 1;
+		_CHILD.setSize(36, 32, 0, 0);
+		_CHILD.setPosition(3, int10 + int14, 0, 0);
+		_CHILD.setOutlineThickness(1);
+		_CHILD.setShadowColor(0x333333);
+		if (itemIsStackable(item13) == true) {
+			_CHILD.setItem(item13, 5000);
+		} else {
+			_CHILD.setItemNoNum(item13, 1);
+		}
+		_CHILD.createChild(widget0, 4, int9);
+		int9 = int9 + 1;
+		_CHILD.setSize(44, 34, 1, 0);
+		_CHILD.setPosition(3, int10, 2, 0);
+		_CHILD.setRGB(0xFF981F);
+		_CHILD.setFont(1445);
+		_CHILD.setTextAlignment(0, 1, 0);
+		_CHILD.setTextAntiMacro(true);
+		_CHILD.setText(getItemName(item13));
+		int10 = int10 + 34;
+		int11 = int11 + 1;
+		item13 = getItemIdInSlot(1001, int11);
+	}
+	if (int11 == 0) {
+		CHILD.createChild(widget0, 4, int9);
+		int9 = int9 + 1;
+		CHILD.setSize(0, 16, 1, 0);
+		CHILD.setPosition(0, 0, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(1447);
+		CHILD.setTextAlignment(1, 1, 15);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("No items in cart");
+		int19 = widget0.getHeight();
+		CHILD.createChild(widget0, 4, int9);
+		int9 = int9 + 1;
+		CHILD.setSize(20, 24, 1, 0);
+		CHILD.setPosition(0, 32, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(1442);
+		CHILD.setTextAlignment(1, 1, 11);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("Right-click the desired item(s) and quantity you wish to purchase. To complete your purchase, you may checkout using the button below.");
+		int18 = 0;
+		widget20 = widget(5006, 12);
+		int18 = script_198(widget20);
+		widget20.setPosition(136, int19 + 51, 0, 0);
+		CHILD.createChild(widget20, 4, int18);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setText("Checkout");
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(1, 1, 14);
+	} else {
+		int18 = 0;
+		int19 = widget0.getHeight();
+		widget20 = widget(5006, 12);
+		int18 = script_208(widget20);
+		widget20.hookMouseEnter(&script_3242(widget20, 0));
+		widget20.hookMouseExit(&script_3240(widget20, 0));
+		widget20.setPosition(136, int19 + 64, 0, 0);
+		CHILD.createChild(widget20, 4, int18);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setText("Checkout");
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(1, 1, 14);
+	}
+	if (int10 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int10);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget0.setScrollPos(0, 0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

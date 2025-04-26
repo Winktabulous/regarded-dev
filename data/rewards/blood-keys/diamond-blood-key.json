@@ -1,0 +1,289 @@
+[
+  {
+    "name": "diamond-blood-key",
+    "rewards": [
+      {
+        "percent": 100,
+        "type": "ALWAYS_ROLL",
+        "entries": [
+          {
+            "itemId": 63004, // PKP
+            "minAmount": 10000,
+            "maxAmount": 20000
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // Coins
+            "minAmount": 250000000,
+            "maxAmount": 750000000
+          },
+          {
+            "itemId": 11694, // Armadyl godsword
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13655, // Dragon kiteshield
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 7901, // Lime whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 7822, // Lava whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 49553, // Amulet of torture
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 49547, // Necklace of anguish
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 49544, // Tormented bracelet
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 50062, // Torture ornament kit
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 52246, // Anguish ornament kit
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 53348, // Tormented ornament kit
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 50065, // Occult ornament kit
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13887, // Vestas chainbody
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13893, // Vestas chainskirt
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13864, // Zuriels hood
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13858, // Zuriels robe top
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13861, // Zuriels robe bottom
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13867, // Zuriels staff
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13870, // Morrigans leather body
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 13873, // Morrigans leather chaps
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 49481, // Heavy ballista
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15220, // Berserker ring (kept on death)
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15018, // Seers ring (kept on death)
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15019, // Archers ring (kept on death)
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15020, // Warrior ring (kept on death)
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42931, // Serpentine helm
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42900, // Uncharged toxic trident
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42904, // Toxic staff of the dead
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 19780, // Korasis sword
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 41785, // Armadyl crossbow
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 51902, // Dragon crossbow
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 17273, // Flameburst defender
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 17291, // Blood necklace
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42002, // Occult necklace
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 924, // Ganodermic visor
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 920, // Ganodermic poncho
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 922, // Ganodermic leggings
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 20002, // Ragefire boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 20000, // Steadfast boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 20001, // Glaiven boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 49564, // Royal seed pod
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 19893, // Spirit cape
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 2572, // Ring of wealth
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15241, // Hand cannon
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 41926, // Odium ward
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 41924, // Malediction ward
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42756, // Mysterious emblem (tier ten)
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11724, // Bandos chestplate
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11726, // Bandos tassets
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11728, // Bandos boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11718, // Armadyl helmet
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11720, // Armadyl chestplate
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11722, // Armadyl chainskirt
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "id": 480,
+  "hitpoints": 25,
+  "attackSpeed": 6,
+  "slayerLevel": 17,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "toxinDefinitions": {
+    "type": "POISON",
+    "damage": 4
+  },
+  "statDefinitions": {
+    "combatStats": [
+      13,
+      13,
+      35,
+      13,
+      1
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "STAB",
+    "maxHit": 2,
+    "animation": {
+      "id": 1789,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 784,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 1791,
+      "delay": 0
+    },
+    "sound": {
+      "id": 786,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 1792,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 785,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

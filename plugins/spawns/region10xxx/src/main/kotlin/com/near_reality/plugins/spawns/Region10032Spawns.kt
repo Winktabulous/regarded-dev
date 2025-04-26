@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10032Spawns : NPCSpawnsScript() {
+    init {
+        OGRE_2095(2496, 3092, 0, SOUTH, 2)
+        OGRE_2095(2497, 3089, 0, SOUTH, 2)
+        OGRE_2095(2500, 3092, 0, SOUTH, 2)
+        OGRE_2095(2500, 3097, 0, SOUTH, 2)
+        OGRE_2096(2502, 3114, 0, SOUTH, 3)
+        OGRE_2095(2503, 3095, 0, SOUTH, 2)
+        OGRE_2095(2504, 3133, 0, SOUTH, 2)
+        OGRE_2096(2505, 3111, 0, SOUTH, 3)
+        OG(2506, 3116, 0, SOUTH, 3)
+        OGRE_2096(2507, 3108, 0, SOUTH, 3)
+        OGRE_2096(2508, 3119, 0, SOUTH, 3)
+        OGRE_2096(2509, 3087, 0, SOUTH, 3)
+        OGRE_2096(2510, 3084, 0, SOUTH, 3)
+        GREW(2513, 3084, 0, SOUTH, 3)
+        OGRE_2096(2513, 3087, 0, SOUTH, 3)
+        OGRE_2096(2514, 3081, 0, SOUTH, 3)
+        COLONEL_RADICK(2535, 3091, 0, SOUTH, 3)
+        TOWER_GUARD(2540, 3090, 0, SOUTH, 5)
+        6706(2540, 3092, 0, SOUTH, 5)
+        SOLDIER_5421(2540, 3102, 0, SOUTH, 5)
+        SOLDIER_5421(2542, 3094, 0, SOUTH, 5)
+        SOLDIER_5421(2543, 3088, 0, SOUTH, 5)
+        SOLDIER_5421(2545, 3094, 0, SOUTH, 5)
+        TOWER_GUARD(2545, 3113, 0, SOUTH, 5)
+        SOLDIER_5421(2546, 3085, 0, SOUTH, 5)
+        TOWER_GUARD(2546, 3116, 0, SOUTH, 5)
+        SOLDIER_5421(2547, 3091, 0, SOUTH, 5)
+        TOWER_GUARD(2549, 3112, 0, SOUTH, 5)
+        5382(2550, 3100, 0, SOUTH, 2)
+        GUARD_CAPTAIN(2551, 3078, 0, SOUTH, 2)
+        TOWER_GUARD(2554, 3117, 0, SOUTH, 5)
+        BARTENDER_1320(2556, 3078, 0, SOUTH, 2)
+        6706(2558, 3090, 0, SOUTH, 5)
+        SOLDIER_5421(2533, 3086, 1, SOUTH, 5)
+        SOLDIER_5421(2533, 3094, 1, SOUTH, 5)
+        SOLDIER_5421(2534, 3097, 1, SOUTH, 5)
+        SOLDIER_5421(2535, 3088, 1, SOUTH, 5)
+        SOLDIER_5421(2537, 3078, 1, SOUTH, 5)
+        SOLDIER_5421(2537, 3102, 1, SOUTH, 5)
+        SOLDIER_5421(2539, 3107, 1, SOUTH, 5)
+        WATCHMAN(2544, 3112, 1, SOUTH, 3)
+        WATCHMAN(2545, 3116, 1, SOUTH, 3)
+        WATCHMAN(2549, 3112, 1, SOUTH, 3)
+        WATCHMAN(2549, 3116, 1, SOUTH, 3)
+        SOLDIER_5421(2551, 3109, 1, SOUTH, 5)
+        SOLDIER_5421(2553, 3073, 1, SOUTH, 5)
+        SOLDIER_5421(2558, 3073, 1, SOUTH, 5)
+        WIZARD_4399(2544, 3112, 2, SOUTH, 5)
+        WIZARD_4398(2544, 3117, 2, SOUTH, 5)
+        WIZARD_4400(2549, 3112, 2, SOUTH, 5)
+        WATCHTOWER_WIZARD(2549, 3116, 2, SOUTH, 5)
+    }
+}

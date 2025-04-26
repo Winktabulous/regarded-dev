@@ -1,0 +1,64 @@
+{
+  "id": 2584,
+  "hitpoints": 10,
+  "attackSpeed": 8,
+  "slayerLevel": 0,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "statDefinitions": {
+    "combatStats": [
+      95,
+      5,
+      25,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      100,
+      100,
+      100,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      50,
+      50,
+      100,
+      50,
+      10
+    ],
+    "otherBonuses": [
+      10,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "SLASH",
+    "maxHit": 2,
+    "animation": {
+      "id": 2181,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 2182,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 2183,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

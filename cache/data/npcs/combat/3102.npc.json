@@ -1,0 +1,84 @@
+{
+  "id": 3102,
+  "hitpoints": 14,
+  "attackSpeed": 4,
+  "slayerLevel": 0,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "weaknesses": [
+    "EARTH"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      6,
+      5,
+      5,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      8,
+      9,
+      9,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "otherBonuses": [
+      10,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "STAB",
+    "maxHit": 2,
+    "animation": {
+      "id": 422,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 2562,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 424,
+      "delay": 0
+    },
+    "sound": {
+      "id": 501,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 836,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 505,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

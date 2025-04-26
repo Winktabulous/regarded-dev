@@ -1,0 +1,16 @@
+# Tome of Experience
+[[item]]
+id=30215
+inherit=22415
+op2="Read-All"
+price=999
+stackable=1
+placeholderid=30216
+placeholdertemplate=-1
+
+#Placeholder
+[[item]]
+id=30216
+inherit=14577
+placeholdertemplate=14401
+placeholderid=30215

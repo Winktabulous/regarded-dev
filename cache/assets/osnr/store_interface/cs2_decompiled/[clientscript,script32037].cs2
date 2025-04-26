@@ -1,0 +1,15 @@
+// 32037
+[clientscript,script32037](component $component0, component $component1, int $int2, int $int3)
+cc_deleteall($component0);
+cc_create($component0, ^iftype_graphic, 0);
+cc_setsize(21, 21, ^setsize_abs, ^setsize_abs);
+cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
+def_graphic $graphic4 = "menu_buttons,3";
+def_graphic $graphic5 = "menu_buttons,2";
+cc_setgraphic($graphic5);
+cc_setonmouserepeat("cc_graphic_swapper(event_com, event_comsubid, $graphic4, -1)");
+cc_setonmouseleave("cc_graphic_swapper(event_com, event_comsubid, $graphic5, -1)");
+if_setop(1, "Show Info", $component0);
+if_setonop("script32038(event_com, $component1)", $component0);
+~displayname_button_init($int2, "Close");
+~displayname_button_init($int3, "Next");

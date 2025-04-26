@@ -1,0 +1,49 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region7492Spawns : NPCSpawnsScript() {
+    init {
+        GIANT_ROCK_CRAB_5940(1879, 4375, 0, SOUTH, 5)
+        WALLASALKI_5939(1882, 4370, 0, SOUTH, 8)
+        ROCK_5945(1882, 4382, 0, SOUTH, 0)
+        DAGANNOTH_5943(1884, 4364, 0, SOUTH, 24)
+        DAGANNOTH_5943(1884, 4377, 0, SOUTH, 24)
+        WALLASALKI_5939(1884, 4386, 0, SOUTH, 8)
+        ROCK_5945(1884, 4389, 0, SOUTH, 0)
+        DAGANNOTH_5942(1886, 4370, 0, SOUTH, 27)
+        DAGANNOTH_5942(1887, 4372, 0, SOUTH, 27)
+        ROCK_5945(1887, 4386, 0, SOUTH, 0)
+        ROCK_5945(1887, 4409, 0, SOUTH, 0)
+        GIANT_ROCK_CRAB_5940(1889, 4366, 0, SOUTH, 5)
+        ROCK_5945(1889, 4394, 0, SOUTH, 0)
+        DAGANNOTH_5943(1891, 4360, 0, SOUTH, 24)
+        WALLASALKI_5939(1891, 4369, 0, SOUTH, 8)
+        DAGANNOTH_5942(1895, 4362, 0, SOUTH, 27)
+        DAGANNOTH_5943(1895, 4368, 0, SOUTH, 24)
+        ROCK_5945(1895, 4409, 0, SOUTH, 0)
+        ROCK_5945(1898, 4400, 0, SOUTH, 0)
+        DAGANNOTH_5942(1899, 4364, 0, SOUTH, 27)
+        ROCK_5945(1900, 4410, 0, SOUTH, 0)
+        DAGANNOTH_5943(1901, 4371, 0, SOUTH, 24)
+        WALLASALKI_5939(1904, 4374, 0, SOUTH, 8)
+        ROCK_5945(1904, 4401, 0, SOUTH, 0)
+        GIANT_ROCK_CRAB_5940(1905, 4361, 0, SOUTH, 5)
+        ROCK_5945(1907, 4407, 0, SOUTH, 0)
+        WALLASALKI_5939(1908, 4365, 0, SOUTH, 8)
+        DAGANNOTH_5943(1913, 4367, 0, SOUTH, 24)
+        DAGANNOTH_5942(1859, 4360, 1, SOUTH, 27)
+        DAGANNOTH_5942(1864, 4365, 1, SOUTH, 27)
+        DAGANNOTH_5943(1864, 4395, 1, SOUTH, 24)
+        DAGANNOTH_5943(1864, 4408, 1, SOUTH, 24)
+        DAGANNOTH_5943(1866, 4401, 1, SOUTH, 24)
+        DAGANNOTH_5943(1877, 4410, 1, SOUTH, 24)
+        DAGANNOTH_5943(1888, 4409, 1, SOUTH, 24)
+        DAGANNOTH_5942(1863, 4380, 2, SOUTH, 27)
+        DAGANNOTH_5942(1864, 4383, 2, SOUTH, 27)
+        16024(1918, 4362, 0, NORTH, 0)
+    }
+}

@@ -1,0 +1,49 @@
+void script_12542(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6) {
+	int int7;
+	int int8;
+	int int9;
+	Sprite sprite10;
+	int int11;
+	int int12;
+	string str13;
+	int7 = 126;
+	int8 = 0;
+	int9 = 0;
+	str13 = "Price";
+	sprite10 = null;
+	int11 = 1;
+	int12 = -1;
+	if (CHILD.setChild(widget0, arg3) == true) {
+		CHILD.setText(str13);
+	}
+	if (CHILD.setChild(widget0, arg4) == true) {
+		CHILD.setSprite(sprite10);
+	}
+	if (int11 == 1) {
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setSprite(297);
+		}
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(245);
+		}
+		_CHILD.hookFrame(null);
+		return;
+	}
+	if (CHILD.setChild(widget0, arg3) == true) {
+		CHILD.setText(str13);
+	}
+	if (CHILD.setChild(widget0, arg4) == true) {
+		CHILD.setSprite(sprite10);
+	}
+	if (CHILD.setChild(widget0, arg2) == true) {
+		CHILD.setSprite(897);
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(255);
+	}
+	_CHILD.hookMouseHover(null);
+	_CHILD.hookMouseExit(null);
+	_CHILD.hookFrame(null);
+	_CHILD.hookOptionClick(null);
+	return;
+}

@@ -1,0 +1,44 @@
+#home allotment south
+[[object]]
+id=50062
+inherit=8553
+#home allotment north
+[[object]]
+id=50063
+inherit=8552
+#RDI allotment north
+[[object]]
+id=50064
+inherit=8553
+#home herb
+[[object]]
+id=50065
+inherit=8151
+#home flower
+[[object]]
+id=50066
+inherit=7848
+#udi tree
+[[object]]
+id=50067
+inherit=8391
+#udi herb
+[[object]]
+id=50068
+inherit=8151
+#die herb
+[[object]]
+id=50069
+inherit=8151
+#di herb
+[[object]]
+id=50070
+inherit=8151
+#rdi herb
+[[object]]
+id=50071
+inherit=8151
+#home compost
+[[object]]
+id=50072
+inherit=7836

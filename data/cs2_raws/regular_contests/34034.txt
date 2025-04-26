@@ -1,0 +1,9 @@
+void script_34034(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, 0) == true) {
+		_CHILD.setSize(CHILD.getWidth(), CHILD.getHeight(), 0, 0);
+		_CHILD.setPosition(CHILD.getX(), CHILD.getY(), 0, 0);
+		_CHILD.setHidden(false);
+		sendIntegerInput(str(arg2));
+	}
+	return;
+}

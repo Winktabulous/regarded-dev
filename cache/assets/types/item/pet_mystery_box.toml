@@ -1,0 +1,24 @@
+# Pet mystery box
+[[item]]
+id=30031
+inherit=6199
+name="Pet mystery box"
+grandexchange=true
+placeholderid=30032
+replacementcolours=[0]
+op2="Quick-Open"
+
+# Pet mystery box (placeholder)
+[[item]]
+id=30032
+inherit=18086
+name="null"
+placeholderid=30031
+replacementcolours=[0]
+
+# Pet mystery box rewards with destroy option
+[[item]]
+inherit=[20838, 20840, 20842, 20844, 11863, 12887, 12888, 12889, 12890,
+         12891, 11021, 11019, 11020, 11022]
+grandexchange=true
+op5="Drop"

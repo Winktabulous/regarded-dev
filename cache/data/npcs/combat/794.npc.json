@@ -1,0 +1,85 @@
+{
+  "id": 794,
+  "hitpoints": 50,
+  "attackSpeed": 10,
+  "slayerLevel": 1,
+  "attackDistance": 8,
+  "aggressionDistance": 8,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "KERIS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      90,
+      90,
+      90,
+      70,
+      1
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      70,
+      0
+    ],
+    "defensiveStats": [
+      40,
+      90,
+      90,
+      34,
+      0
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MAGIC",
+    "maxHit": 17,
+    "animation": {
+      "id": 711,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 178,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 424,
+      "delay": 0
+    },
+    "sound": {
+      "id": 619,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 836,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 618,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

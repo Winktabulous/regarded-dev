@@ -1,0 +1,38 @@
+void script_2094(Widget widget0, int arg1, string string2, string arg3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	int int6;
+	int int7;
+	int int8;
+	widget0.clearChildren();
+	int6 = 0;
+	_CHILD.createChild(widget0, 3, int6);
+	int7 = int6;
+	int6 = int6 + 1;
+	_CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setFilled(true);
+	_CHILD.setRGB(0xFFFFFF);
+	int6 = script_715(widget0, int6);
+	CHILD.createChild(widget0, 4, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(30, 0, 1, 1);
+	CHILD.setPosition(5, 0, 2, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	if (widget0.getHeight() < 30) {
+		CHILD.setText("<col=ffffff>" + string2 + "</col>" + " - " + arg3);
+	} else {
+		CHILD.setText("<col=ffffff>" + string2 + "</col>" + "<br>" + arg3);
+	}
+	CHILD.createChild(widget0, 5, int6);
+	int8 = int6;
+	int6 = int6 + 1;
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(5, 0, 0, 1);
+	script_2096(widget0, int7, int8, arg1, widget4, widget5, widget6, widget7);
+	widget0.hookVARP(&script_2095(widget0, int7, int8, arg1, widget4, widget5, widget6, widget7), 499, 281);
+	widget0.hookMousePress(&script_10103());
+	widget0.setContextMenuOption(1, string2);
+	return;
+}

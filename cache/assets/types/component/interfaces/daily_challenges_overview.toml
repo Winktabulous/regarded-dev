@@ -1,0 +1,252 @@
+id=1705
+name="daily_challenges_overview"
+
+# Universe
+[[component]]
+name="universe"
+type="layer"
+widthmode=1
+width=24
+height=300
+xmode=1
+y=20
+
+# Layout
+[[component]]
+name="layout"
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+xmode=1
+ymode=1
+onload=[10300]
+
+# Main container
+[[component]]
+name="main_container"
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+xmode=1
+ymode=1
+
+# Challenges layout
+[[component]]
+name="challenges_layout"
+type="layer"
+layer="main_container"
+x=13
+y=43
+width=137
+height=242
+onload=[712, "component:self", 0]
+
+# Challenges layout background
+[[component]]
+type="rectangle"
+layer="challenges_layout"
+color="170801"
+opacity=166
+filled=true
+widthmode=1
+heightmode=1
+
+# Challenges container
+[[component]]
+type="layer"
+layer="challenges_layout"
+x=6
+y=6
+widthmode=1
+heightmode=1
+width=12
+height=12
+
+# Challenge title
+[[component]]
+type="text"
+layer="main_container"
+font=645
+xallignment=1
+yallignment=1
+x=192
+y=35
+width=285
+height=52
+
+# Challenge icon
+[[component]]
+type="graphic"
+layer="main_container"
+x=161
+y=48
+width=30
+height=30
+
+# Challenge information container
+[[component]]
+name="challenge_information_container"
+type="layer"
+layer="main_container"
+x=160
+y=93
+width=315
+height=45
+onload=[712, "component:self", 0]
+
+# Challenge information background
+[[component]]
+type="rectangle"
+layer="challenge_information_container"
+color="170801"
+opacity=166
+filled=true
+widthmode=1
+heightmode=1
+
+# Challenge Category
+[[component]]
+type="text"
+layer="challenge_information_container"
+text="<col=ff981f>Category:<col> -"
+color="ffffff"
+font=496
+yallignment=1
+x=10
+y=12
+width=145
+height=20
+
+# Challenge Difficulty
+[[component]]
+type="text"
+layer="challenge_information_container"
+text="<col=ff981f>Difficulty:<col> -"
+color="ffffff"
+font=496
+yallignment=1
+x=172
+y=12
+width=125
+height=20
+
+# Challenge progress container
+[[component]]
+name="challenge_progress_container"
+type="layer"
+layer="main_container"
+x=160
+y=143
+width=315
+height=81
+onload=[712, "component:self", 0]
+
+# Challenge progress background
+[[component]]
+type="rectangle"
+layer="challenge_progress_container"
+color="170801"
+opacity=166
+filled=true
+widthmode=1
+heightmode=1
+
+# Progress bar container
+[[component]]
+name="progress_bar_container"
+type="layer"
+layer="challenge_progress_container"
+x=15
+y=39
+width=284
+height=26
+onload=[991, "component:self", 0]
+
+# Progress bar background
+[[component]]
+type="rectangle"
+layer="progress_bar_container"
+color="453933"
+filled=true
+x=3
+y=3
+width=278
+height=19
+
+# Progress bar amount
+[[component]]
+type="rectangle"
+layer="progress_bar_container"
+color="2ea315"
+filled=true
+x=3
+y=3
+height=19
+
+# Progress bar text
+[[component]]
+type="text"
+layer="progress_bar_container"
+text="-"
+color="ffffff"
+font=494
+xallignment=1
+yallignment=1
+x=101
+y=5
+width=80
+height=17
+
+# Challenge rewards container
+[[component]]
+name="challenge_rewards_container"
+type="layer"
+layer="main_container"
+x=160
+y=229
+width=215
+height=54
+onload=[712, "component:self", 0]
+
+# Challenge rewards background
+[[component]]
+type="rectangle"
+layer="challenge_rewards_container"
+color="170801"
+opacity=166
+filled=true
+widthmode=1
+heightmode=1
+
+# Rewards text
+[[component]]
+type="text"
+layer="challenge_rewards_container"
+text="Rewards:"
+font=496
+yallignment=1
+x=14
+y=17
+width=63
+height=20
+
+# Challenge rewards body
+[[component]]
+type="layer"
+layer="challenge_rewards_container"
+widthmode=1
+heightmode=1
+
+# Claim button
+[[component]]
+type="layer"
+layer="main_container"
+x=397
+y=241
+width=60
+height=30
+
+
+

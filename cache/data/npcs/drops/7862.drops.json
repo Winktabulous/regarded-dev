@@ -1,0 +1,119 @@
+{
+  "npcId": 7862,
+  "drops": [
+    {
+      "itemId": 1123,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 10000
+    },
+    {
+      "itemId": 1303,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 10000
+    },
+    {
+      "itemId": 1355,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 25000
+    },
+    {
+      "itemId": 1369,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 25000
+    },
+    {
+      "itemId": 1197,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 25000
+    },
+    {
+      "itemId": 1315,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 25000
+    },
+    {
+      "itemId": 868,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 25000
+    },
+    {
+      "itemId": 556,
+      "minAmount": 75,
+      "maxAmount": 75,
+      "rate": 25000
+    },
+    {
+      "itemId": 563,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 25000
+    },
+    {
+      "itemId": 565,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 25000
+    },
+    {
+      "itemId": 19582,
+      "minAmount": 10,
+      "maxAmount": 25,
+      "rate": 25000
+    },
+    {
+      "itemId": 2361,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 25000
+    },
+    {
+      "itemId": 1897,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 25000
+    },
+    {
+      "itemId": 816,
+      "minAmount": 16,
+      "maxAmount": 16,
+      "rate": 70000
+    },
+    {
+      "itemId": 554,
+      "minAmount": 50,
+      "maxAmount": 50,
+      "rate": 70000
+    },
+    {
+      "itemId": 995,
+      "minAmount": 3920,
+      "maxAmount": 13800,
+      "rate": 70000
+    },
+    {
+      "itemId": 829,
+      "minAmount": 30,
+      "maxAmount": 60,
+      "rate": 70000
+    },
+    {
+      "itemId": 536,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100000
+    },
+    {
+      "itemId": 1747,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100000
+    }
+  ]
+}

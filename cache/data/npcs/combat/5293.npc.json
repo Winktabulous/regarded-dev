@@ -1,0 +1,81 @@
+{
+  "id": 5293,
+  "hitpoints": 105,
+  "attackSpeed": 5,
+  "slayerLevel": 1,
+  "attackDistance": 8,
+  "aggressionDistance": 8,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "statDefinitions": {
+    "combatStats": [
+      10,
+      10,
+      80,
+      1,
+      90
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      50,
+      50,
+      50,
+      60,
+      70
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MELEE",
+    "maxHit": 12,
+    "animation": {
+      "id": 2080,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 1353,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 424,
+      "delay": 0
+    },
+    "sound": {
+      "id": 24,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 836,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 426,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

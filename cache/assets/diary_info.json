@@ -1,0 +1,2481 @@
+[
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "ARDOUGNE"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "DESERT"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "DESERT"
+    }
+  ],
+  [
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FALADOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FALADOR"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "VARROCK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "VARROCK"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "LUMBRIDGE_AND_DRAYNOR"
+    }
+  ],
+  [
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KARAMJA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KARAMJA"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WILDERNESS"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "FREMENNIK"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KANDARIN"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "WESTERN_PROVINCES"
+    }
+  ],
+  [
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "MORYTANIA"
+    }
+  ],
+  [
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "EASY",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "MEDIUM",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "HARD",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": true,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    },
+    {
+      "autoCompleted": false,
+      "type": "ELITE",
+      "area": "KEBOS"
+    }
+  ]
+]

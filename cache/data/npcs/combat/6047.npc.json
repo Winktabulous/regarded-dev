@@ -1,0 +1,66 @@
+{
+  "id": 6047,
+  "hitpoints": 40,
+  "attackSpeed": 7,
+  "slayerLevel": 1,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "weaknesses": [
+    "WATER"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      40,
+      45,
+      45,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      40,
+      40,
+      40,
+      0,
+      40
+    ],
+    "otherBonuses": [
+      30,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "CRUSH",
+    "maxHit": 8,
+    "animation": {
+      "id": 99,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 100,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 102,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

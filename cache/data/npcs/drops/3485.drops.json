@@ -1,0 +1,23 @@
+{
+  "npcId": 3485,
+  "drops": [
+    {
+      "itemId": 1035,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 20215
+    },
+    {
+      "itemId": 1033,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 39480
+    },
+    {
+      "itemId": 526,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100000
+    }
+  ]
+}

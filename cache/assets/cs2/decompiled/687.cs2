@@ -1,0 +1,18 @@
+int, int script_687(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14) {
+	int componentId = 30;
+	Widget widget15 = widget(215, 14);
+	_ = (int)script_228(widget2, "Game Mode Setup", 0);
+	widget3.setText("Game Mode");
+	script_2094(widget4, 0, "Regular", "No " + strForGender("Iron Man", "Iron Woman") + " restrictions will apply to this account.", widget4, widget5, widget6, widget7);
+	script_2094(widget5, 1, "Standard " + strForGender("Iron Man", "Iron Woman"), "An " + strForGender("Iron Man", "Iron Woman") + " cannot trade, stake, receive PK loot, scavenge dropped items, nor play certain multiplayer minigames.", widget4, widget5, widget6, widget7);
+	script_2094(widget6, 3, "Hardcore " + strForGender("Iron Man", "Iron Woman"), "In addition to the standard " + strForGender("Iron Man", "Iron Woman") + " rules, a Hardcore " + strForGender("Iron Man", "Iron Woman") + " only has 1 life. A dangerous death will result in being downgraded to a standard " + strForGender("Iron Man", "Iron Woman") + ".", widget4, widget5, widget6, widget7);
+	script_2094(widget7, 2, "Ultimate " + strForGender("Iron Man", "Iron Woman"), "In addition to the standard " + strForGender("Iron Man", "Iron Woman") + " rules, an Ultimate " + strForGender("Iron Man", "Iron Woman") + " cannot use banks, nor retain any items on death in dangerous areas.", widget4, widget5, widget6, widget7);
+	widget8.clearChildren();
+	if (CHILD.setChild(widget(215, 14)) == true) {
+		CHILD.setHidden(true);
+	}
+	CHILD.createChild(widget2, 0, componentId);
+	CHILD.setSize(40, 20);
+	CHILD.setPosition(50, 300);
+	return 0, 0;
+}

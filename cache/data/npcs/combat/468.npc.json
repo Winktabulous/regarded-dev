@@ -1,0 +1,85 @@
+{
+  "id": 468,
+  "hitpoints": 210,
+  "attackSpeed": 4,
+  "slayerLevel": 72,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "DRAGONBANE_WEAPONS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      125,
+      116,
+      120,
+      125,
+      120
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      140,
+      90,
+      90,
+      80,
+      140
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "SLASH",
+    "maxHit": 13,
+    "animation": {
+      "id": 2986,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 586,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 2983,
+      "delay": 0
+    },
+    "sound": {
+      "id": 771,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 2987,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 772,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+void script_2096(Widget widget0, int arg1, int arg2, int arg3, Widget arg4, Widget arg5, Widget arg6, Widget arg7) {
+	_CHILD.setTrans(255);
+	if (VARPBIT[1776] == 1) {
+    	CHILD.setSprite(697);
+    	widget0.hookMouseHover(&script_244(CTX_WIDGET, arg1, 225, null));
+        widget0.hookMouseExit(&script_244(CTX_WIDGET, arg1, 255, null));
+        widget0.hookOptionClick(&script_2115(CTX_MENU_OPTION, widget0, arg1, arg2, arg3, arg4, arg5, arg6, arg7));
+        return;
+    }
+    if (VARPBIT[1777] == arg3) {
+		CHILD.setSprite(699);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 0));
+	} else if (VARP[281] < 1000 || VARPBIT[1776] == 1 || (arg3 == 0 || arg3 == 1 && (VARPBIT[1777] == 3 || VARPBIT[1777] == 2))) {
+		CHILD.setSprite(697);
+        widget0.hookMouseHover(&script_244(CTX_WIDGET, arg1, 225, null));
+        widget0.hookMouseExit(&script_244(CTX_WIDGET, arg1, 255, null));
+        widget0.hookOptionClick(&script_2115(CTX_MENU_OPTION, widget0, arg1, arg2, arg3, arg4, arg5, arg6, arg7));
+	} else {
+		CHILD.setSprite(697);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	}
+	return;
+}

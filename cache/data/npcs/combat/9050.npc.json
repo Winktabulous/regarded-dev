@@ -1,0 +1,39 @@
+{
+  "id": 9050,
+  "hitpoints": 1000,
+  "attackSpeed": 6,
+  "slayerLevel": 1,
+  "attackDistance": 8,
+  "aggressionDistance": 8,
+  "maximumDistance": 8,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "statDefinitions": {
+    "combatStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  }
+}

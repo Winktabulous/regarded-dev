@@ -1,0 +1,9 @@
+int script_34036(int arg0) {
+	if (isBitFlagged(VARP[262], (int)osrs_m6516(arg0, 5014)) == true) {
+		return 901389;
+	}
+	if (isBitFlagged(VARP[263], (int)osrs_m6516(arg0, 5014)) == true) {
+		return 16776960;
+	}
+	return 16711680;
+}

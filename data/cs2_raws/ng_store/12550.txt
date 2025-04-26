@@ -1,0 +1,14 @@
+void script_12550(Widget widget0, Widget widget1) {
+	int int2;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	widget0.setIsHidden(true);
+	widget(5006, 10).setIsHidden(true);
+	int2 = 0;
+	int2 = 0;
+	int2 = script_12553(widget1, int2, 0, 38, 3, 0x726451, "Perks", 495, 0xFF981F, 0, 3018, 26, 26, 0, 0, script_5808(0, VARPBIT[17006]));
+	int2 = script_12553(widget1, int2, 1, 38, 3, 0x726451, "Shop", 495, 0xFF981F, 0, 1652, 32, 36, 0, 0, script_5808(1, VARPBIT[17006]));
+	int2 = script_12553(widget1, int2, 2, 38, 3, 0x726451, "Checkout", 495, 0xFF981F, 0, 1651, 32, 36, 0, 0, script_5808(2, VARPBIT[17006]));
+	script_12554(widget(863, 11), "Buy Credits", 0);
+	return;
+}

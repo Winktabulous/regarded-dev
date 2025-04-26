@@ -1,0 +1,48 @@
+
+# Frank
+[[npc]]
+id=10970
+inherit=9749
+combatlevel=0
+name="Frank"
+op1="Talk-to"
+op2="Pick-up"
+op3=""
+size=1
+minimapvisible=false
+familiar=true
+
+# Pet Frank
+[[item]]
+id=30500
+inherit=11995
+name="Frank"
+examine="A pet bloodveld. Cute."
+invmodel=5065
+zoom=2000
+modelroll=0
+modelpitch=0
+modelyaw=0
+offsetx=-7
+offsety=-3
+placeholderid=30501
+stackable=0
+notedid=-1
+grandexchange=false
+price=8000000
+
+# Pet Frank (placeholder)
+[[item]]
+id=30501
+inherit=11995
+name="Frank"
+examine="A pet bloodveld. Cute."
+placeholderid=30500
+placeholdertemplate=14401
+invmodel=5065
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5

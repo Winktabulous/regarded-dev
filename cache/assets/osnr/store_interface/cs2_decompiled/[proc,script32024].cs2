@@ -1,0 +1,31 @@
+// 32024
+[proc,script32024](component $component0, string $string0, int $int1)
+cc_deleteall($component0);
+def_int $int2 = 0;
+if ($int1 = 0) {
+	$int2 = ~script5820($component0, $int2, 0, 0, if_getwidth($component0), if_getheight($component0), 3927);
+} else {
+	$int2 = ~script5820($component0, $int2, 0, 0, if_getwidth($component0), if_getheight($component0), 3929);
+}
+def_string $text1 = $string0;
+cc_create($component0, ^iftype_text, $int2);
+cc_setposition(1, 2, ^setpos_abs_left, ^setpos_abs_top);
+cc_setsize(0, 0, ^setsize_minus, ^setsize_minus);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
+cc_settextshadow(false);
+cc_settextfont(b12_full);
+cc_setcolour(0xff981f);
+cc_settext($text1);
+$int2 = calc($int2 + 1);
+cc_create($component0, ^iftype_text, $int2);
+cc_setposition(0, 1, ^setpos_abs_left, ^setpos_abs_top);
+cc_setsize(0, 0, ^setsize_minus, ^setsize_minus);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
+cc_settextshadow(false);
+cc_settextfont(b12_full);
+cc_setcolour(^black);
+cc_settext($text1);
+$int2 = calc($int2 + 1);
+if_setonmouseover("script32025($component0, $string0, 1)", $component0);
+if_setonmouseleave("script32025($component0, $string0, 0)", $component0);
+if_setop(1, $string0, $component0);

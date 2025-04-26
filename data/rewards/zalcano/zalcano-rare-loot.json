@@ -1,0 +1,40 @@
+[
+  {
+    "name": "zalcano-rare-loot",
+    "rewards": [
+      {
+        "percent": 0.65,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 23953, // crystal tool seed
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      },
+      {
+        "percent": 0.15,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 23908, // zalcano shard
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      },
+      {
+        "percent": 0.028,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 6571, // uncut onyx
+            "minAmount": 1,
+          "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

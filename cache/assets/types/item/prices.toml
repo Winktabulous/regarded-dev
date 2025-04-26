@@ -1,0 +1,14 @@
+# Runes that u can make profit with buying and selling
+[[item]]
+inherit=[4694, 4695, 4696, 4697, 4698, 4699]
+price=10
+
+# Mind shield
+[[item]]
+inherit=[9731]
+price=100
+
+#Amethyst stuff
+[[item]]
+inherit=[21352, 13220, 21326, 21332, 21334, 21336, 21347, 21350, 25849, 25851, 25853, 25855, 25857]
+price=100

@@ -1,0 +1,11 @@
+// 32015
+[proc,script32015](int $int0)
+.cc_setgraphic(null);
+if ($int0 > 0) {
+	def_string $string0 = ~tostring_spacer($int0, ",");
+	cc_settext($string0);
+	.cc_setposition(calc(0 - ((13 + parawidth($string0, 512, b12_full)) / 2 + 6)), 0, ^setpos_abs_centre, ^setpos_abs_centre);
+} else {
+	cc_settext("0");
+	cc_setcolour(0x9f9f9f);
+}

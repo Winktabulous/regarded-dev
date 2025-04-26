@@ -1,0 +1,114 @@
+void script_12539(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	Item item23;
+	int int24;
+	int int25;
+	int int26;
+	int int27;
+	int int28;
+	int int29;
+	widget0.clearChildren();
+	widget0.setScrollPos(0, 0);
+	widget1.clearChildren();
+	widget(5006, 24).clearChildren();
+	widget1.setIsHidden(false);
+	widget2.setIsHidden(true);
+	widget6.setIsHidden(true);
+	widget5.setIsHidden(true);
+	widget7.setIsHidden(true);
+	widget(5006, 10).setIsHidden(true);
+	widget(5006, 7).setIsHidden(true);
+	widget(5006, 12).setIsHidden(true);
+	widget(5006, 58).setIsHidden(true);
+	widget(5006, 24).setIsHidden(false);
+	script_12547(widget(5006, 24), 10000, 10001, 56557624, 56557618, 56557620, 56557625, 56557569, VARPBIT[17007], 0);
+	widget0.setPosition(134, 80, 0, 0);
+	widget0.setSize(312, 200, 0, 0);
+	int8 = widget0.getWidth();
+	int9 = 0;
+	CHILD.createChild(widget0, 5, int9);
+	int9 = int9 + 1;
+	CHILD.setSize(int8 - 20, 45, 0, 0);
+	CHILD.setPosition(10, 5, 0, 0);
+	CHILD.setSprite(1040);
+	CHILD.createChild(widget0, 3, int9);
+	int9 = int9 + 1;
+	CHILD.setSize(int8 - 20, 45, 0, 0);
+	CHILD.setPosition(10, 5, 0, 0);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x000000);
+	CHILD.createChild(widget0, 5, int9);
+	int9 = int9 + 1;
+	CHILD.setSize(15, 15, 0, 0);
+	CHILD.setPosition(15, 13, 0, 0);
+	CHILD.setSprite(1094);
+	CHILD.createChild(widget0, 4, int9);
+	int9 = int9 + 1;
+	CHILD.setSize(int8 - 40, 45, 0, 0);
+	CHILD.setPosition(40, 10, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(0, 0, 14);
+	CHILD.setFont(1445);
+	CHILD.setText("Limited-time offers will appear with a red badge with the amount remaining.");
+	int10 = 120;
+	int11 = int8 / 2;
+	int12 = (int8 - int11 * 3) / 2;
+	int13 = int11 - 20;
+	int14 = 110;
+	int15 = 0;
+	int16 = 6;
+	int17 = 70;
+	int18 = 0;
+	int19 = 0;
+	int20 = 0;
+	int21 = 0;
+	int22 = getItemContainerLength(1000);
+	item23 = getItemIdInSlot(1000, int15);
+	int24 = 0;
+	int25 = 0;
+	int26 = getItemAmtInSlot(1000, int15);
+	int27 = getItemAmtInSlot(1002, int15);
+	int28 = getItemAmtInSlot(1003, int15);
+	int29 = getItemAmtInSlot(1004, int15);
+	while (int15 < int22 && item23 != null) {
+		int9, int21 = script_12561(int9, int15, int16, int17, int13, int14, item23, int26, int27, int29, int24, int28, VARC[989]);
+		if (int20 == 1) {
+			int20 = 0;
+			int19 = int19 + 1;
+		} else {
+			int20 = int20 + 1;
+		}
+		int16 = 6 + int20 * int11;
+		int17 = 70 + int19 * int10;
+		int15 = int15 + 1;
+		int18 = int18 + 1;
+		item23 = getItemIdInSlot(1000, int15);
+		int26 = getItemAmtInSlot(1000, int15);
+		int27 = getItemAmtInSlot(1002, int15);
+		int29 = getItemAmtInSlot(1004, int15);
+		int28 = getItemAmtInSlot(1000, int15);
+	}
+	if (int17 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int17);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget0.setScrollPos(0, 0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

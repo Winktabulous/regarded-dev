@@ -1,0 +1,19 @@
+# Django retrievable items
+[enum]
+inherit=708
+default=0
+
+[enum.values]
+clear=true
+0=9921
+1=9922
+2=9923
+3=9924
+4=9925
+5=30102
+6=30103
+7=30104
+8=30105
+9=30116
+10=30131
+11=23108

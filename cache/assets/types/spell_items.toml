@@ -1,0 +1,65 @@
+# Custom spellbook teleport names
+
+[[item]]
+inherit = [3286, 4631, 9111, 20409]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Training Teleports"
+602 = "Opens the teleport interface in the Training category."
+
+[[item]]
+inherit = [3289, 4634, 20759, 20410]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Skilling Teleports"
+602 = "Opens the teleport interface in the Skilling category."
+
+[[item]]
+inherit = [3292, 4637, 9114, 20411]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Minigames Teleports"
+602 = "Opens the teleport interface in the Minigames category."
+
+[[item]]
+inherit = [3296, 4640, 9117, 20412]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Wilderness Teleports"
+602 = "Opens the teleport interface in the Wilderness category."
+
+[[item]]
+inherit = [3301, 4643, 9120, 20413]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Bosses Teleports"
+602 = "Opens the teleport interface in the Bosses category."
+
+[[item]]
+inherit = [3306, 4646, 9127, 20414]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Dungeons Teleports"
+602 = "Opens the teleport interface in the Dungeons category."
+
+[[item]]
+inherit = [3312, 4649, 9129, 20419]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Cities Teleports"
+602 = "Opens the teleport interface in the Cities category."
+
+[[item]]
+inherit = [21836, 4652, 9131, 20420]
+
+[item.parameters]
+remove = [365, 367, 369, 606, 366, 368, 370, 607]
+601 = "Misc Teleports"
+602 = "Opens the teleport interface in the Misc category."

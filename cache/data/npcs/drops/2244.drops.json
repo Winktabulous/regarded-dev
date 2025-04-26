@@ -1,0 +1,155 @@
+{
+  "npcId": 2244,
+  "drops": [
+    {
+      "itemId": 563,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 20415
+    },
+    {
+      "itemId": 559,
+      "minAmount": 25,
+      "maxAmount": 25,
+      "rate": 20645
+    },
+    {
+      "itemId": 559,
+      "minAmount": 35,
+      "maxAmount": 35,
+      "rate": 20645
+    },
+    {
+      "itemId": 4696,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 23124
+    },
+    {
+      "itemId": 554,
+      "minAmount": 50,
+      "maxAmount": 50,
+      "rate": 23212
+    },
+    {
+      "itemId": 554,
+      "minAmount": 65,
+      "maxAmount": 65,
+      "rate": 23212
+    },
+    {
+      "itemId": 558,
+      "minAmount": 50,
+      "maxAmount": 50,
+      "rate": 23417
+    },
+    {
+      "itemId": 176,
+      "minAmount": 5,
+      "maxAmount": 5,
+      "rate": 24003
+    },
+    {
+      "itemId": 565,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 29527
+    },
+    {
+      "itemId": 4698,
+      "minAmount": 20,
+      "maxAmount": 20,
+      "rate": 33576
+    },
+    {
+      "itemId": 9075,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 34385
+    },
+    {
+      "itemId": 562,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 38276
+    },
+    {
+      "itemId": 562,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 38276
+    },
+    {
+      "itemId": 562,
+      "minAmount": 20,
+      "maxAmount": 20,
+      "rate": 38276
+    },
+    {
+      "itemId": 562,
+      "minAmount": 25,
+      "maxAmount": 25,
+      "rate": 38276
+    },
+    {
+      "itemId": 4695,
+      "minAmount": 20,
+      "maxAmount": 20,
+      "rate": 38285
+    },
+    {
+      "itemId": 560,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 39644
+    },
+    {
+      "itemId": 555,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 61493
+    },
+    {
+      "itemId": 555,
+      "minAmount": 30,
+      "maxAmount": 30,
+      "rate": 61493
+    },
+    {
+      "itemId": 555,
+      "minAmount": 50,
+      "maxAmount": 50,
+      "rate": 61493
+    },
+    {
+      "itemId": 561,
+      "minAmount": 18,
+      "maxAmount": 18,
+      "rate": 62096
+    },
+    {
+      "itemId": 561,
+      "minAmount": 25,
+      "maxAmount": 25,
+      "rate": 62096
+    },
+    {
+      "itemId": 7937,
+      "minAmount": 90,
+      "maxAmount": 90,
+      "rate": 64986
+    },
+    {
+      "itemId": 556,
+      "minAmount": 30,
+      "maxAmount": 30,
+      "rate": 77104
+    },
+    {
+      "itemId": 556,
+      "minAmount": 50,
+      "maxAmount": 50,
+      "rate": 77104
+    }
+  ]
+}

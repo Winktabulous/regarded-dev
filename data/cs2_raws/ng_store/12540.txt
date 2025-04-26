@@ -1,0 +1,46 @@
+int, int script_12540(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, Widget widget6, string string7) {
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int8 = arg3 - 12;
+	int9 = getLineCount(string7, int8, 495) * 12 + 5;
+	int10 = getLineCount(string7, int8, 495) * 12 + 5;
+	int11 = 6 + int9 + 3 + 21 + 3 + int10 + 6;
+	int12 = -1;
+	int13 = -1;
+	int14 = -1;
+	int15 = -1;
+	if (_CHILD.setChild(widget6, arg5) == true) {
+		_CHILD.setSize(arg3, int11, 0, 0);
+		_CHILD.setPosition(arg1, arg2, 0, 0);
+		_CHILD.setContextMenuOption(1, string7);
+		CHILD.createChild(widget6, 3, arg0);
+		int12 = arg0;
+		arg0 = arg0 + 1;
+		CHILD.setSize(arg3, int11, 0, 0);
+		CHILD.setPosition(arg1, arg2, 0, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		CHILD.setTrans(228);
+		CHILD.createChild(widget6, 4, arg0);
+		arg0 = arg0 + 1;
+		CHILD.setSize(int8, int9, 0, 0);
+		CHILD.setPosition(arg1 + 6, arg2 + 6, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(1447);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(string7);
+		CHILD.createChild(widget6, 5, arg0);
+		int15 = arg0;
+		arg0 = arg0 + 1;
+		CHILD.setSize(13, 13, 0, 0);
+		CHILD.setPosition(arg1 + (arg3 - arg4) / 2 + 6, arg2 + 6 + int9 + 3 + 4, 0, 0);
+	}
+	return arg0, int11;
+}

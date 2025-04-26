@@ -1,0 +1,6 @@
+string script_34037(int arg0) {
+	if (arg0 >= 1000) {
+		return arg0 / 1000 + "." + substr(str(arg0 % 1000), 0, 1) + "B";
+	}
+	return arg0 + "M";
+}

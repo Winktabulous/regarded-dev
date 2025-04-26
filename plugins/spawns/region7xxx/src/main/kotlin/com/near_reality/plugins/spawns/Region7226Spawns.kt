@@ -1,0 +1,60 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region7226Spawns : NPCSpawnsScript() {
+    init {
+        MAN_6987(1792, 3730, 0, SOUTH, 4)
+        MAN_6989(1792, 3747, 0, SOUTH, 5)
+        6788(1793, 3739, 0, SOUTH, 3)
+        ROBERT_OREILLY(1794, 3758, 0, SOUTH, 2)
+        PIRATE_6993(1795, 3748, 0, SOUTH, 5)
+        WOMAN_6991(1800, 3719, 0, SOUTH, 5)
+        PIRATE_6994(1801, 3729, 0, SOUTH, 2)
+        RAT_2855(1803, 3738, 0, SOUTH, 3)
+        POOR_LOOKING_WOMAN_7923(1803, 3742, 0, SOUTH, 2)
+        RAT_2854(1803, 3747, 0, SOUTH, 14)
+        RAT_2854(1806, 3755, 0, SOUTH, 14)
+        LEENZ(1807, 3723, 0, SOUTH, 2)
+        RAT_2854(1807, 3753, 0, SOUTH, 14)
+        PIRATE_6995(1812, 3748, 0, SOUTH, 2)
+        RAT_2855(1812, 3756, 0, SOUTH, 3)
+        RAT_2854(1813, 3743, 0, SOUTH, 14)
+        RAT_2855(1813, 3755, 0, SOUTH, 3)
+        RAT_2855(1814, 3757, 0, SOUTH, 3)
+        SWARM(1815, 3750, 0, SOUTH, 6)
+        FISHERMAN_6981(1823, 3769, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_6825(1826, 3770, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_6825(1827, 3770, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_6825(1833, 3769, 0, SOUTH, 0)
+        SWARM(1803, 3767, 0, SOUTH, 6)
+        DOCK_WORKER_6968(1809, 3715, 0, SOUTH, 4)
+        RAT_2854(1815, 3715, 0, SOUTH, 14)
+        DOCK_WORKER(1816, 3726, 0, SOUTH, 0)
+        SPIDER_3019(1817, 3748, 0, SOUTH, 8)
+        DOCKMASTER(1821, 3740, 0, SOUTH, 2)
+        SWARM(1825, 3722, 0, SOUTH, 6)
+        PIRATE_6994(1826, 3714, 0, SOUTH, 2)
+        DOCK_WORKER_6968(1826, 3748, 0, SOUTH, 4)
+        FRANKIE(1831, 3719, 0, SOUTH, 2)
+        DOCK_WORKER(1831, 3737, 0, SOUTH, 0)
+        DOCK_WORKER(1833, 3758, 0, SOUTH, 0)
+        RAT_2854(1834, 3747, 0, SOUTH, 14)
+        MUGGER_6996(1835, 3730, 0, SOUTH, 8)
+        RAT_2855(1836, 3742, 0, SOUTH, 3)
+        PIRATE_6993(1840, 3739, 0, SOUTH, 5)
+        PIRATE_6994(1840, 3755, 0, SOUTH, 2)
+        SPIDER_3019(1842, 3753, 0, SOUTH, 8)
+        PIRATE_6993(1845, 3739, 0, SOUTH, 5)
+        MAN_6989(1846, 3757, 0, SOUTH, 5)
+        RAT_2854(1847, 3724, 0, SOUTH, 14)
+        7928(1847, 3734, 0, SOUTH, 0)
+        6764(1846, 3752, 0, SOUTH, 3)
+        DOCK_WORKER_6968(1848, 3722, 0, SOUTH, 4)
+        SPIDER_3019(1848, 3748, 0, SOUTH, 8)
+        MAN_6988(1849, 3742, 0, SOUTH, 4)
+    }
+}

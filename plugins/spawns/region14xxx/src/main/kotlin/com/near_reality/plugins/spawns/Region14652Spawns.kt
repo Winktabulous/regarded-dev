@@ -1,0 +1,60 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14652Spawns : NPCSpawnsScript() {
+    init {
+        GULL(3651, 3884, 0, SOUTH, 7)
+        GULL(3653, 3845, 0, SOUTH, 7)
+        FOSSIL_ROCK(3656, 3878, 0, SOUTH, 2)
+        GULL(3657, 3860, 0, SOUTH, 7)
+        FOSSIL_ROCK(3657, 3872, 0, SOUTH, 2)
+        CRAB_1553(3657, 3876, 0, SOUTH, 4)
+        FOSSIL_ROCK(3658, 3875, 0, SOUTH, 2)
+        GULL(3660, 3893, 0, SOUTH, 7)
+        7498(3661, 3849, 0, SOUTH, 5)
+        7494(3662, 3848, 0, SOUTH, 5)
+        471(3673, 3858, 0, SOUTH, 5)
+        471(3674, 3878, 0, SOUTH, 5)
+        GULL(3675, 3899, 0, SOUTH, 7)
+        471(3677, 3850, 0, SOUTH, 5)
+        471(3678, 3846, 0, SOUTH, 5)
+        471(3678, 3867, 0, SOUTH, 5)
+        471(3679, 3857, 0, SOUTH, 5)
+        7839(3681, 3865, 0, SOUTH, 0)
+        471(3682, 3848, 0, SOUTH, 5)
+        7838(3683, 3870, 0, SOUTH, 0)
+        471(3685, 3858, 0, SOUTH, 5)
+        471(3685, 3867, 0, SOUTH, 5)
+        471(3685, 3890, 0, SOUTH, 5)
+        7826(3686, 3882, 0, SOUTH, 0)
+        7823(3686, 3883, 0, SOUTH, 0)
+        7825(3686, 3884, 0, SOUTH, 0)
+        7829(3688, 3880, 0, SOUTH, 0)
+        471(3689, 3845, 0, SOUTH, 5)
+        471(3689, 3857, 0, SOUTH, 5)
+        IRENE(3690, 3878, 0, SOUTH, 4)
+        7830(3690, 3880, 0, SOUTH, 0)
+        471(3692, 3868, 0, SOUTH, 5)
+        7828(3692, 3882, 0, SOUTH, 0)
+        7824(3692, 3883, 0, SOUTH, 0)
+        7827(3692, 3884, 0, SOUTH, 0)
+        GULL(3692, 3902, 0, SOUTH, 7)
+        471(3693, 3847, 0, SOUTH, 5)
+        471(3694, 3853, 0, SOUTH, 5)
+        471(3696, 3859, 0, SOUTH, 5)
+        471(3697, 3864, 0, SOUTH, 5)
+        7835(3697, 3876, 0, SOUTH, 0)
+        471(3697, 3890, 0, SOUTH, 5)
+        471(3698, 3846, 0, SOUTH, 5)
+        CRAB_1553(3700, 3900, 0, SOUTH, 4)
+        MAZ(3703, 3852, 0, SOUTH, 5)
+        471(3703, 3872, 0, SOUTH, 5)
+        FOSSIL_ROCK(3707, 3898, 0, SOUTH, 2)
+        GULL(3709, 3902, 0, SOUTH, 7)
+        7834(3710, 3883, 0, SOUTH, 0)
+    }
+}

@@ -1,0 +1,9 @@
+// 32041
+[clientscript,script32041](int $int0, component $component1, int $int2, int $int3, int $int4, enum $enum5, enum $enum6)
+if (cc_find($component1, 4) = ^true & $enum5 ! null) {
+	cc_settext(enum(int, string, $enum5, $int2));
+}
+if (cc_find($component1, 5) = ^true & $enum6 ! null) {
+	cc_setgraphic(enum(int, graphic, $enum6, $int2));
+}
+~script6245($int4, $int3, $component1);

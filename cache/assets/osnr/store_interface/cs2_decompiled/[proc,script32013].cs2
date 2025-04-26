@@ -1,0 +1,16 @@
+// 32013
+[proc,script32013](int $int0, component $component1, component $component2, component $component3)
+if ($int0 = 0) {
+	~script32034($component1, $component2);
+	if_setoninvtransmit(null, $component1);
+} else {
+	if ($int0 = 1) {
+		~script32009($component1, $component2);
+		if_setoninvtransmit("script32011($component1, $component2){inv_1000}", $component1);
+	} else {
+		if ($int0 = 2) {
+			~script32018($component1, $component2, $component3);
+			if_setoninvtransmit("script32027($component1, $component2, $component3){inv_1001}", $component1);
+		}
+	}
+}

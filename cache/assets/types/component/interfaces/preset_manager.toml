@@ -1,0 +1,583 @@
+id = 1711
+name = "preset_manager"
+
+# Universe
+[[component]]
+name = "universe"
+type = "layer"
+xmode = 1
+ymode = 1
+width = 488
+height = 301
+
+# Layout
+[[component]]
+name = "layout"
+type = "layer"
+layer = "universe"
+widthmode = 1
+heightmode = 1
+
+# Main container
+[[component]]
+name = "main_container"
+type = "layer"
+layer = "universe"
+width = 12
+height = 260
+widthmode = 1
+x = 6
+y = 35
+
+# Presets container
+[[component]]
+name = "presets_container"
+type = "layer"
+layer = "main_container"
+x = 5
+y = 5
+width = 111
+height = 201
+onload = [714, "component:self"]
+
+# Presets background
+[[component]]
+type = "graphic"
+layer = "presets_container"
+sprite = 897
+spritetiling = true
+xmode = 1
+ymode = 1
+widthmode = 1
+heightmode = 1
+
+# Preset title layer
+[[component]]
+name = "title_container"
+type = "layer"
+layer = "presets_container"
+clickmask = 2
+widthmode = 1
+height = 24
+onload = [714, "component:self"]
+
+# Preset title text
+[[component]]
+type = "text"
+layer = "title_container"
+font = 496
+text = "Presets"
+xallignment = 1
+yallignment = 1
+widthmode = 1
+heightmode = 1
+
+[[component]]
+layer = "title_container"
+
+# Presets body
+[[component]]
+type = "layer"
+layer = "presets_container"
+x = 2
+y = 24
+widthmode = 1
+heightmode = 1
+width = 4
+height = 26
+
+# Presets scrollbar
+[[component]]
+type = "layer"
+layer = "presets_container"
+xmode = 2
+x = 2
+y = 25
+heightmode = 1
+width = 16
+height = 27
+
+# Equipment container
+[[component]]
+name = "equipment_container"
+type = "layer"
+layer = "main_container"
+x = 120
+y = 5
+width = 140
+height = 201
+onload = [714, "component:self"]
+
+# Equipment container background
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 897
+spritetiling = true
+xmode = 1
+ymode = 1
+widthmode = 1
+heightmode = 1
+
+# Bar 1
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 172
+xmode = 1
+ymode = 1
+heightmode = 1
+width = 36
+height = 72
+
+# Bar 2
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 173
+xmode = 1
+y = 42
+widthmode = 1
+width = 92
+height = 36
+
+# Bar 3
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 173
+xmode = 1
+y = 81
+widthmode = 1
+width = 72
+height = 36
+
+# Bar 4
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 172
+y = 118
+width = 36
+height = 46
+
+# Bar 5
+[[component]]
+type = "graphic"
+layer = "equipment_container"
+sprite = 172
+xmode = 2
+y = 118
+width = 36
+height = 46
+
+# Helm
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 1
+y = 2
+width = 36
+height = 36
+
+# Cape
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+x = 10
+y = 43
+width = 36
+height = 36
+
+# Amulet
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 1
+y = 43
+width = 36
+height = 36
+
+# Weapon
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+x = 2
+y = 82
+width = 36
+height = 36
+
+# Body
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 1
+y = 82
+width = 36
+height = 36
+
+# Shield
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 2
+x = 2
+y = 82
+width = 36
+height = 36
+
+# Legs
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 1
+y = 122
+width = 36
+height = 36
+
+# Hands
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+ymode = 2
+x = 2
+y = 2
+width = 36
+height = 36
+
+# Feet
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 1
+ymode = 2
+y = 2
+width = 36
+height = 36
+
+# Ring
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 2
+ymode = 2
+x = 2
+y = 2
+width = 36
+height = 36
+
+# Ammunition
+[[component]]
+type = "layer"
+layer = "equipment_container"
+clickmask = 1024
+xmode = 2
+x = 10
+y = 43
+width = 36
+height = 36
+
+# Inventory container
+[[component]]
+name = "inventory_container"
+type = "layer"
+layer = "main_container"
+xmode = 2
+x = 5
+y = 5
+heightmode = 1
+width = 150
+height = 10
+
+# Inventory container background
+[[component]]
+type = "graphic"
+layer = "inventory_container"
+sprite = 897
+spritetiling = true
+xmode = 1
+ymode = 1
+widthmode = 1
+heightmode = 1
+
+# Inventory container layout
+[[component]]
+type = "layer"
+layer = "inventory_container"
+widthmode = 1
+heightmode = 1
+onload = [714, "component:self"]
+
+# Spellbook container
+[[component]]
+name = "spellbook_container"
+type = "layer"
+layer = "main_container"
+x = 161
+y = 209
+width = 157
+height = 46
+onload = [714, "component:self"]
+
+# Spellbook container background
+[[component]]
+type = "graphic"
+layer = "spellbook_container"
+sprite = 897
+spritetiling = true
+xmode = 1
+ymode = 1
+widthmode = 1
+heightmode = 1
+
+# Normal spellbook
+[[component]]
+type = "graphic"
+layer = "spellbook_container"
+sprite = 780
+clickmask = 2
+op1 = "<col=ff981f>Select</col>"
+opbase = "Normal Spellbook"
+xmode = 1
+ymode = 1
+x = -50
+width = 33
+height = 36
+
+# Ancient spellbook
+[[component]]
+type = "graphic"
+layer = "spellbook_container"
+sprite = 1580
+clickmask = 2
+op1 = "<col=ff981f>Select</col>"
+opbase = "Ancient Spellbook"
+xmode = 1
+ymode = 1
+x = -16
+width = 33
+height = 36
+
+# Lunar spellbook
+[[component]]
+type = "graphic"
+layer = "spellbook_container"
+sprite = 1581
+clickmask = 2
+op1 = "<col=ff981f>Select</col>"
+opbase = "Lunar Spellbook"
+xmode = 1
+ymode = 1
+x = 16
+width = 33
+height = 36
+
+# Arceuus spellbook
+[[component]]
+type = "graphic"
+layer = "spellbook_container"
+sprite = 1708
+clickmask = 2
+op1 = "<col=ff981f>Select</col>"
+opbase = "Arceuus Spellbook"
+xmode = 1
+ymode = 1
+x = 50
+width = 33
+height = 36
+
+# Buttons container
+[[component]]
+name = "buttons_container"
+type = "layer"
+layer = "main_container"
+x = 5
+y = 209
+width = 153
+height = 46
+onload = [714, "component:self"]
+
+# Buttons container background
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 897
+spritetiling = true
+xmode = 1
+ymode = 1
+widthmode = 1
+heightmode = 1
+
+# Create button
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 195
+clickmask = 2
+op1 = "Create"
+x = 4
+y = 11
+width = 25
+height = 25
+
+# Create text
+[[component]]
+type = "text"
+layer = "buttons_container"
+font = 645
+text = "+"
+x = 10
+y = 9
+width = 24
+height = 24
+
+# Load button
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 195
+clickmask = 2
+op1 = "Load"
+x = 34
+y = 11
+width = 25
+height = 25
+
+# Load button sprite
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 1195
+x = 38
+y = 16
+width = 16
+height = 16
+
+# Rename button
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 195
+clickmask = 2
+op1 = "Rename"
+x = 64
+y = 11
+width = 25
+height = 25
+
+# Rename button sprite
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 1083
+x = 64
+y = 11
+width = 36
+height = 32
+
+# Delete button
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 195
+clickmask = 2
+op1 = "Delete"
+x = 94
+y = 11
+width = 25
+height = 25
+
+# Delete button sprite
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 1235
+x = 94
+y = 13
+width = 24
+height = 21
+
+# Placeholder button
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 195
+clickmask = 2
+op1 = "Placeholder"
+x = 124
+y = 11
+width = 25
+height = 25
+onvartransmit = [10903, "component:self"]
+vartransmittriggers = [3755]
+
+# Placeholder button sprite
+[[component]]
+type = "graphic"
+layer = "buttons_container"
+sprite = 1342
+x = 122
+y = 13
+width = 27
+height = 19
+
+# Bank button
+[[component]]
+type = "layer"
+layer = "universe"
+op1 = "Bank"
+clickmask = 2
+x = 35
+y = 7
+width = 61
+height = 20
+onload = [540, "component:self", "Bank"]
+
+# Move up button layer
+[[component]]
+layer = "title_container"
+type = "layer"
+name = "up_button"
+x = 1
+y = 1
+width = 20
+height = 20
+clickmask = 2
+op1 = "Move up"
+
+# Move down button layer
+[[component]]
+layer = "title_container"
+type = "layer"
+name = "down_button"
+x = 1
+y = 1
+width = 20
+height = 20
+clickmask = 2
+xmode = 2
+op1 = "Move down"
+
+[[component]]
+layer = "universe"
+inherit = "12:5"
+[[component]]
+layer = "universe"
+inherit = "12:6"
+[[component]]
+layer = "universe"
+name = "size_tooltip_layer"
+inherit = "12:7"
+[[component]]
+layer = "size_tooltip_layer"
+inherit = "12:8"

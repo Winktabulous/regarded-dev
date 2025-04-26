@@ -1,0 +1,6 @@
+define void script_34010(boolean, boolean, Widget, string, Widget) 34010
+
+void script_34009(boolean arg0, boolean arg1, Widget widget2, string string3, Widget arg4) {
+	script_34010(arg0, arg1, widget2, string3, arg4);
+	return;
+}

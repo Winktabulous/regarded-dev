@@ -1,0 +1,72 @@
+# Website icon
+[[sprite]]
+id=10002
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/website_icon.png"
+
+# Forums icon
+[[sprite]]
+id=10003
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/forums_icon.png"
+
+# Discord icon
+[[sprite]]
+id=10004
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/discord_icon.png"
+
+# Store icon
+[[sprite]]
+id=10005
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/store_icon.png"
+
+# Game settings icon
+[[sprite]]
+id=10006
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/game_settings_icon.png"
+
+# Daily challenges icon
+[[sprite]]
+id=10001
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/daily_challenges_icon.png"
+
+# Toggles
+[[sprite]]
+id=10036
+width=16
+height=16
+
+[sprite.images]
+0="game_noticeboard/toggles.png"
+
+# Summary icon
+[[sprite]]
+id=10037
+width=13
+height=13
+
+[sprite.images]
+0="/compcape.png"
+

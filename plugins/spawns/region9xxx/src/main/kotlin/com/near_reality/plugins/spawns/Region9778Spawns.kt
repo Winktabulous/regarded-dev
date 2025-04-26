@@ -1,0 +1,50 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region9778Spawns : NPCSpawnsScript() {
+    init {
+        HILL_GIANT_2101(2438, 3208, 0, SOUTH, 3)
+        HILL_GIANT(2438, 3218, 0, SOUTH, 3)
+        HILL_GIANT_2100(2439, 3212, 0, SOUTH, 3)
+        HILL_GIANT_2099(2441, 3217, 0, SOUTH, 3)
+        HILL_GIANT_2102(2443, 3211, 0, SOUTH, 3)
+        HILL_GIANT_2103(2445, 3209, 0, SOUTH, 3)
+        RED_SALAMANDER(2448, 3225, 0, SOUTH, 3)
+        RED_SALAMANDER(2449, 3224, 0, SOUTH, 3)
+        RED_SALAMANDER(2449, 3226, 0, SOUTH, 3)
+        RED_SALAMANDER(2453, 3221, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_528(2454, 3247, 0, SOUTH, 5)
+        MAGE_OF_ZAMORAK_7425(2455, 3232, 0, SOUTH, 2)
+        MONK_OF_ZAMORAK_528(2455, 3240, 0, SOUTH, 5)
+        BLACK_BEAR(2460, 3200, 0, SOUTH, 8)
+        GHOST_5370(2460, 3223, 0, SOUTH, 5)
+        GHOST_5370(2464, 3223, 0, SOUTH, 5)
+        RED_SALAMANDER(2464, 3251, 0, SOUTH, 3)
+        GHOST_5370(2465, 3220, 0, SOUTH, 5)
+        SPIRIT_OF_SCORPIUS(2465, 3227, 0, SOUTH, 2)
+        GRAVE_SCORPION(2465, 3229, 0, SOUTH, 4)
+        MONK_OF_ZAMORAK_528(2465, 3248, 0, SOUTH, 5)
+        GRAVE_SCORPION(2467, 3228, 0, SOUTH, 4)
+        GHOST_5370(2468, 3221, 0, SOUTH, 5)
+        RED_SALAMANDER(2468, 3242, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_528(2468, 3243, 0, SOUTH, 5)
+        GHOST_5370(2469, 3226, 0, SOUTH, 5)
+        GRAVE_SCORPION(2470, 3230, 0, SOUTH, 4)
+        MONK_OF_ZAMORAK_528(2470, 3243, 0, SOUTH, 5)
+        GRAVE_SCORPION(2471, 3222, 0, SOUTH, 4)
+        GRAVE_SCORPION(2472, 3224, 0, SOUTH, 4)
+        RED_SALAMANDER(2472, 3239, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_528(2473, 3241, 0, SOUTH, 5)
+        RED_SALAMANDER(2474, 3237, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_528(2474, 3248, 0, SOUTH, 5)
+        GHOST_5370(2476, 3223, 0, SOUTH, 5)
+        RED_SALAMANDER(2476, 3236, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_528(2477, 3238, 0, SOUTH, 5)
+        MONK_OF_ZAMORAK_528(2477, 3244, 0, SOUTH, 5)
+        BLACK_BEAR(2478, 3200, 0, SOUTH, 8)
+    }
+}

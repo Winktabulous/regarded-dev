@@ -1,0 +1,116 @@
+int, int script_12561(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, Item item6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12) {
+	Widget widget13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	Color color21;
+	int int22;
+	int int23;
+	int int24;
+	string str25;
+	string str26;
+	string str27;
+	widget13 = widget(5006, 18);
+	int14 = 494;
+	int15 = 0;
+	if (arg10 == 0) {
+		int15 = 1;
+	}
+	int16 = 8;
+	int17 = 0;
+	if (int15 == 1) {
+		int17 = 20;
+	}
+	int18 = 0;
+	int19 = 897;
+	int20 = 1040;
+	color21 = 0x726451;
+	if (arg12 == 1) {
+		color21 = 0x2E2B22;
+	}
+	int22 = arg0;
+	arg0 = script_5288(widget13, arg0, arg2, arg3, arg4, arg5, 3712, color21);
+	CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 12099970, -1));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, color21, -1));
+	if (CHILD.setChild(widget13, int22) == true) {
+		CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 11965282));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 7496785));
+	}
+	CHILD.createChild(widget13, 4, arg0);
+	arg0 = arg0 + 1;
+	CHILD.setSize(arg4 - 18, arg5, 0, 0);
+	CHILD.setPosition(arg2 + 9, arg3 + int17 + 12, 0, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(1442);
+	CHILD.setTextAlignment(1, 0, 14);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(script_4193(getItemName(item6), arg4 - 18, 1442));
+	int17 = int17 / 2;
+	CHILD.createChild(widget13, 5, arg0);
+	arg0 = arg0 + 1;
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(arg2 + (arg4 - 36) / 2, arg3 + (arg5 - 32) / 2 + 4 + int17, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setItem(item6, arg7);
+	str25 = script_46(arg8, ",");
+	int23 = getMaxLineWidth(removeTags(str25), arg4, 494);
+	CHILD.createChild(widget13, 4, arg0);
+	arg0 = arg0 + 1;
+	if (arg9 != 1) {
+		str26 = "<str><col=9f9f9f>" + str25 + "</col></str>";
+		str26 = concat(str26, " " + script_46(arg9, ","));
+		str25 = str26;
+	} else {
+		int23 = int23 + 16;
+	}
+	CHILD.setSize(arg4, 12, 0, 0);
+	CHILD.setPosition(arg2, arg3 + (arg5 - 17), 0, 0);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setText(str25);
+	CHILD.createChild(widget13, 5, arg0);
+	arg0 = arg0 + 1;
+	CHILD.setSize(15, 15, 0, 0);
+	CHILD.setPosition(arg2 + (arg4 / 2 - int23), arg3 + (arg5 - 20), 0, 0);
+	CHILD.setSprite(5261);
+	if (int15 == 1) {
+		if (arg1 != 0) {
+			arg10 = 8;
+		}
+		if (arg10 == 0) {
+			CHILD.createChild(widget13, 3, arg0);
+			arg0 = arg0 + 1;
+			CHILD.setSize(arg4 - 1, arg5 - 1, 0, 0);
+			CHILD.setPosition(arg2 + 1, arg3 + 1, 0, 0);
+			CHILD.setFilled(true);
+			CHILD.setRGB(0x000000);
+			CHILD.setTrans(128);
+		}
+		str27 = "" + arg10 + " left";
+		int24 = getMaxLineWidth(str27, arg4, 1442);
+		CHILD.createChild(widget13, 3, arg0);
+		arg0 = arg0 + 1;
+		CHILD.setSize(int24 + 12, 16, 0, 0);
+		CHILD.setPosition(arg2, arg3 + 15, 0, 0);
+		CHILD.setFilled(true);
+		CHILD.setRGB(0xFF0000);
+		CHILD.setTrans(128);
+		CHILD.createChild(widget13, 4, arg0);
+		arg0 = arg0 + 1;
+		CHILD.setSize(int24 + 12, 16, 0, 0);
+		CHILD.setPosition(arg2, arg3 + 15, 0, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFont(1442);
+		CHILD.setTextAlignment(1, 1, 11);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str27);
+	}
+	return arg0, 1;
+}

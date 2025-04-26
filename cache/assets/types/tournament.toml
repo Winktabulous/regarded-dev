@@ -1,0 +1,55 @@
+# Rune Pouch
+[[item]]
+id=30006
+inherit=12791
+name="Tournament Rune Pouch"
+
+# Tournament Guard
+[[npc]]
+id=16011
+inherit=3434
+name="Tournament Guard"
+combatlevel=0
+op2=""
+op3="Spectate"
+
+# Tournament Guard
+[[npc]]
+id=16012
+inherit=3434
+name="Tournament Guard"
+combatlevel=0
+op2="Trade"
+op3="View Tournaments"
+
+# Tournament Portal
+[[object]]
+inherit=12355
+name="Tournament Portal"
+op1="View Tournaments"
+
+# Tournament Barrier
+[[object]]
+id=35005
+inherit=32457
+name="Tournament Barrier"
+
+# Tournament Supplies (North-East)
+[[object]]
+id=35006
+inherit=31583
+name="Tournament Supplies"
+models=[55005]
+op1="View"
+offsetx=-78
+offsety=-78
+
+# Tournament Supplies (North-West)
+[[object]]
+id = 35007
+inherit = 31583
+name = "Tournament Supplies"
+models = [55005]
+op1 = "View"
+offsety = -78
+offsetx = -43

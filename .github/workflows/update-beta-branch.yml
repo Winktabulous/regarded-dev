@@ -1,0 +1,29 @@
+name: Update beta branch
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the beta branch
+  push:
+    branches: [ dev ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-beta:
+    runs-on: self-hosted
+    defaults:
+      run:
+        working-directory: /home/beta/server-beta/
+    steps:
+      - name: Pull changes from remote beta branch
+        run: git pull
+      - name: Fetch remote dev branch
+        run: git fetch dev dev
+      - name: Merge remote dev branch into local beta branch
+        run: git merge dev/dev
+      - name: Push merge commit
+        run: git push
+
+
+

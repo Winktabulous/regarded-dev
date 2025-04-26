@@ -1,0 +1,10 @@
+package com.near_reality.game.content.wilderness
+//
+//BIG_BONES(2956, 3814, 0, 50)
+//BIG_BONES(2953, 3815, 0, 50)
+//BIG_BONES(2956, 3811, 0, 50)
+//BIG_BONES(2965, 3819, 0, 50)
+//BIG_BONES(2960, 3823, 0, 50)
+//BIG_BONES(2956, 3827, 0, 50)
+//BIG_BONES(2954, 3825, 0, 50)
+//BIG_BONES(2950, 3827, 0, 50)

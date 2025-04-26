@@ -1,0 +1,11 @@
+define void script_34006(Widget, int, int, string) 34006
+define void script_34008(int, Widget, string, Widget) 34008
+void script_34007(int arg0, Widget widget1, string string2, Widget arg3) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_34006(widget1, 1, arg3, string2);
+	widget1.hookFrame(&script_34008(getClientCycle() + 40, widget1, string2, arg3));
+	return;
+}

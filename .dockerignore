@@ -1,0 +1,10 @@
+*
+!app/build/install/
+!data/
+!cache/data/cache/
+!cache/data/objects/
+!cache/data/npcs/
+!cache/data/grandexchange/
+
+cache/data/cache/patches
+data/logs/player\ logs/

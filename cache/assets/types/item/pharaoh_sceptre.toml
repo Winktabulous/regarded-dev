@@ -1,0 +1,60 @@
+# Pharaoh's Sceptre
+[[item]]
+inherit=9050
+op4="Enakhra's Temple"
+
+# Pharaoh's Sceptre 1
+[[item]]
+inherit=9048
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 2
+[[item]]
+inherit=9046
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 3
+[[item]]
+inherit=9044
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 4
+[[item]]
+inherit=13078
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 5
+[[item]]
+inherit=13077
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 6
+[[item]]
+inherit=13076
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 7
+[[item]]
+inherit=13075
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"
+
+# Pharaoh's Sceptre 8
+[[item]]
+inherit=13074
+op4="Enakhra's Temple"
+[item.parameters]
+453="Enakhra's Temple"

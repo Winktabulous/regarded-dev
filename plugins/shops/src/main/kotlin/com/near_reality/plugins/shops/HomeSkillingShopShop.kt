@@ -1,0 +1,96 @@
+package com.near_reality.plugins.shops
+
+import com.near_reality.scripts.shops.ShopScript
+import com.zenyte.game.model.shop.*
+import com.zenyte.game.model.shop.ShopPolicy
+import com.zenyte.game.model.shop.ShopPolicy.*
+import com.zenyte.game.model.shop.ShopCurrency
+import com.zenyte.game.model.shop.ShopCurrency.*
+import com.zenyte.game.item.ItemId
+import com.zenyte.game.item.ItemId.*
+import com.near_reality.game.content.universalshop.*
+import com.near_reality.game.content.universalshop.UnivShopItem
+import com.near_reality.game.content.universalshop.UnivShopItem.*
+
+class HomeSkillingShopShop : ShopScript() {
+    init {
+        "Tools Store"(1008, ShopCurrency.COINS, STOCK_ONLY) {
+            UnivShopItem(2347, buyPrice=25).invoke()
+            UnivShopItem(946, buyPrice=25).invoke()
+            UnivShopItem(1755, buyPrice=25).invoke()
+            UnivShopItem(590, buyPrice=25).invoke()
+            UnivShopItem(303, buyPrice=25).invoke()
+            UnivShopItem(305, buyPrice=75).invoke()
+            UnivShopItem(307, buyPrice=50).invoke()
+            UnivShopItem(309, buyPrice=50).invoke()
+            UnivShopItem(311, buyPrice=75).invoke()
+            UnivShopItem(313, buyPrice=75).invoke()
+            UnivShopItem(11323, buyPrice=80).invoke()
+            UnivShopItem(1585, buyPrice=180).invoke()
+            UnivShopItem(952, buyPrice=25).invoke()
+            UnivShopItem(5323, buyPrice=25).invoke()
+            UnivShopItem(5343, buyPrice=25).invoke()
+            UnivShopItem(5329, buyPrice=6).invoke()
+            UnivShopItem(5340, buyPrice=10).invoke()
+            UnivShopItem(5341, buyPrice=10).invoke()
+            UnivShopItem(11883, buyPrice=450).invoke()
+            UnivShopItem(314, buyPrice=3).invoke()
+            UnivShopItem(11881, buyPrice=450).invoke()
+            UnivShopItem(233, buyPrice=25).invoke()
+            UnivShopItem(1351, buyPrice=15).invoke()
+            UnivShopItem(1349, buyPrice=43).invoke()
+            UnivShopItem(1353, buyPrice=112).invoke()
+            UnivShopItem(1355, buyPrice=822).invoke()
+            UnivShopItem(1357, buyPrice=12833).invoke()
+            UnivShopItem(1359, buyPrice=25630).invoke()
+            UnivShopItem(1265, buyPrice=15).invoke()
+            UnivShopItem(1267, buyPrice=33).invoke()
+            UnivShopItem(1269, buyPrice=212).invoke()
+            UnivShopItem(1273, buyPrice=3542).invoke()
+            UnivShopItem(1271, buyPrice=15469).invoke()
+            UnivShopItem(1275, buyPrice=21345).invoke()
+            UnivShopItem(10006, buyPrice=53).invoke()
+            UnivShopItem(10008, buyPrice=63).invoke()
+            UnivShopItem(229, buyPrice=3).invoke()
+            UnivShopItem(11877, buyPrice=450).invoke()
+            UnivShopItem(227, buyPrice=12).invoke()
+            UnivShopItem(11879, buyPrice=1250).invoke()
+            UnivShopItem(954, buyPrice=346).invoke()
+            UnivShopItem(1592, buyPrice=346).invoke()
+            UnivShopItem(1595, buyPrice=346).invoke()
+            UnivShopItem(1597, buyPrice=346).invoke()
+            UnivShopItem(11065, buyPrice=346).invoke()
+            UnivShopItem(5523, buyPrice=346).invoke()
+            UnivShopItem(4, buyPrice=346).invoke()
+            UnivShopItem(1785, buyPrice=256).invoke()
+            UnivShopItem(1733, buyPrice=1).invoke()
+            UnivShopItem(1734, buyPrice=1).invoke()
+            UnivShopItem(1438, buyPrice=10).invoke()
+            UnivShopItem(1440, buyPrice=10).invoke()
+            UnivShopItem(1442, buyPrice=10).invoke()
+            UnivShopItem(1444, buyPrice=10).invoke()
+            UnivShopItem(1446, buyPrice=10).invoke()
+            UnivShopItem(1448, buyPrice=10).invoke()
+            UnivShopItem(7650, buyPrice=334).invoke()
+            UnivShopItem(3695, buyPrice=215).invoke()
+            UnivShopItem(2961, buyPrice=135).invoke()
+            UnivShopItem(2963, buyPrice=1895).invoke()
+            UnivShopItem(1523, buyPrice=20).invoke()
+            UnivShopItem(3188, buyPrice=354).invoke()
+            UnivShopItem(8792, buyPrice=10255).invoke()
+            UnivShopItem(2574, buyPrice=1).invoke()
+            UnivShopItem(2575, buyPrice=1).invoke()
+            UnivShopItem(2576, buyPrice=1).invoke()
+            UnivShopItem(10125, buyPrice=680).invoke()
+            UnivShopItem(10127, buyPrice=1760).invoke()
+            UnivShopItem(3470, buyPrice=1444).invoke()
+            UnivShopItem(3157, buyPrice=2222).invoke()
+            UnivShopItem(1925, buyPrice=5).invoke()
+            UnivShopItem(11260, buyPrice=500).invoke()
+            UnivShopItem(8794, buyPrice=13).invoke()
+            UnivShopItem(4548, buyPrice=630).invoke()
+            UnivShopItem(10010, buyPrice=24).invoke()
+            UnivShopItem(20742, buyPrice=500).invoke()
+        }
+    }
+}

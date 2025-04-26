@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11059Spawns : NPCSpawnsScript() {
+    init {
+        FISHING_SPOT_1514(2789, 3273, 0, SOUTH, 5)
+        FISHING_SPOT_1514(2790, 3273, 0, SOUTH, 5)
+        KENT(2793, 3321, 0, SOUTH, 5)
+        FISHING_SPOT_1514(2794, 3283, 0, SOUTH, 5)
+        FISHING_SPOT_1514(2795, 3279, 0, SOUTH, 5)
+        HOLGART_5069(2799, 3320, 0, SOUTH, 5)
+        SEA_SLUG_5061(2763, 3284, 0, SOUTH, 5)
+        BAILEY(2765, 3276, 0, SOUTH, 5)
+        SEA_SLUG_5061(2768, 3274, 0, SOUTH, 5)
+        6251(2768, 3286, 0, SOUTH, 5)
+        SEA_SLUG_5061(2768, 3288, 0, SOUTH, 5)
+        SEA_SLUG_5061(2770, 3277, 0, SOUTH, 5)
+        FISHERMAN_5076(2770, 3284, 0, SOUTH, 5)
+        SEA_SLUG_5061(2770, 3290, 0, SOUTH, 5)
+        SEA_SLUG_5061(2771, 3279, 0, SOUTH, 5)
+        FISHERMAN_5075(2774, 3273, 0, SOUTH, 5)
+        SEA_SLUG_5061(2774, 3291, 0, SOUTH, 5)
+        FISHERMAN_5075(2775, 3284, 0, SOUTH, 5)
+        6251(2777, 3278, 0, SOUTH, 5)
+        SEA_SLUG_5061(2778, 3285, 0, SOUTH, 5)
+        FISHERMAN_5077(2778, 3291, 0, SOUTH, 5)
+        SEA_SLUG_5061(2781, 3278, 0, SOUTH, 5)
+        SEA_SLUG_5061(2781, 3285, 0, SOUTH, 5)
+        6241(2782, 3276, 0, SOUTH, 5)
+        SEA_SLUG_5061(2783, 3275, 0, SOUTH, 5)
+        6251(2783, 3289, 0, SOUTH, 5)
+        6251(2784, 3277, 0, SOUTH, 5)
+        SEA_SLUG_5061(2784, 3279, 0, SOUTH, 5)
+        SEA_SLUG_5061(2785, 3276, 0, SOUTH, 5)
+        SEA_SLUG_5061(2785, 3287, 0, SOUTH, 5)
+        SEA_SLUG_5061(2788, 3274, 0, SOUTH, 5)
+        SEA_SLUG_5061(2793, 3275, 0, SOUTH, 5)
+        SEA_SLUG_5061(2793, 3280, 0, SOUTH, 5)
+        FISHERMAN_5076(2794, 3279, 0, SOUTH, 5)
+        5065(2766, 3288, 1, SOUTH, 5)
+        SEA_SLUG_5061(2768, 3282, 1, SOUTH, 5)
+        FISHERMAN_5076(2768, 3285, 1, SOUTH, 5)
+        6251(2768, 3289, 1, SOUTH, 5)
+        SEA_SLUG_5061(2770, 3282, 1, SOUTH, 5)
+        FISHERMAN_5077(2773, 3282, 1, SOUTH, 5)
+        SEA_SLUG_5061(2773, 3291, 1, SOUTH, 5)
+        SEA_SLUG_5061(2780, 3283, 1, SOUTH, 5)
+        6251(2780, 3288, 1, SOUTH, 5)
+        SEA_SLUG_5061(2780, 3290, 1, SOUTH, 5)
+        FISHERMAN_5075(2781, 3290, 1, SOUTH, 5)
+        SEA_SLUG_5061(2783, 3286, 1, SOUTH, 5)
+        FISHERMAN_5076(2784, 3277, 1, SOUTH, 5)
+        SEA_SLUG_5061(2784, 3279, 1, SOUTH, 5)
+        SEA_SLUG_5061(2785, 3282, 1, SOUTH, 5)
+        FISHERMAN_5075(2785, 3284, 1, SOUTH, 5)
+        FISHERMAN_5077(2787, 3280, 1, SOUTH, 5)
+    }
+}

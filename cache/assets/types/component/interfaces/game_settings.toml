@@ -1,0 +1,108 @@
+id=1702
+name="game_settings"
+
+# Universe
+[[component]]
+name="universe"
+type="layer"
+width=190
+height=261
+onload=[31, "component:scroll_bar", "component:scroll_layer", 792, 789, 790, 791, 773, 788]
+
+# Main container
+[[component]]
+name="main_container"
+type="layer"
+layer="universe"
+x=3
+y=26
+width=184
+height=229
+
+# Layout
+[[component]]
+name="layout"
+type="layer"
+layer="universe"
+x=3
+y=26
+width=184
+height=229
+onload=[712, "component:self", 0]
+
+# Background
+[[component]]
+type="rectangle"
+layer="main_container"
+widthmode=1
+heightmode=1
+color="170801"
+opacity=166
+filled=true
+
+# Game settings icon
+[[component]]
+type="graphic"
+layer="universe"
+sprite=10006
+x=28
+y=6
+width=13
+height=13
+
+# Title header
+[[component]]
+type="text"
+layer="universe"
+text="Game Settings"
+font=496
+xallignment=1
+yalllignment=1
+y=4
+widthmode=1
+height=18
+
+# Close button
+[[component]]
+type="graphic"
+layer="universe"
+sprite=831
+op1="Close"
+clickmask=2
+x=165
+y=5
+width=16
+height=16
+onop=[29]
+onmouseover=[44, "component:self", 832]
+onmouseleave=[44, "component:self", 831]
+
+# Scroll layer
+[[component]]
+name="scroll_layer"
+type="layer"
+layer="main_container"
+x=5
+y=5
+width=157
+height=12
+heightmode=1
+scrollheight=506
+
+# Scroll bar
+[[component]]
+name="scroll_bar"
+type="layer"
+layer="main_container"
+x=162
+y=5
+width=16
+height=218
+
+# Tooltip
+[[component]]
+name="tooltip"
+type="layer"
+layer="universe"
+width=1
+height=1

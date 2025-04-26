@@ -1,0 +1,260 @@
+# Infinity Set
+[[item]]
+inherit=2724
+name="Infinity set"
+op2=""
+
+# Void Knight Set
+[[item]]
+inherit=2726
+name="Void knight set"
+op2=""
+
+# Elite Void Knight Set
+[[item]]
+inherit=2728
+name="Elite void knight set"
+op2=""
+
+# 3rd Age Range Set
+[[item]]
+inherit=2730
+name="3rd age range set"
+op2=""
+
+# 3rd Age Melee Set
+[[item]]
+inherit=2732
+name="3rd age melee set"
+op2=""
+
+# 3rd Age Mage Set
+[[item]]
+inherit=2734
+name="3rd age mage set"
+op2=""
+
+# 3rd age druidic Set
+[[item]]
+inherit=2736
+name="3rd age druidic set"
+op2=""
+
+# Corrupted Set
+[[item]]
+inherit=2738
+name="Corrupted set"
+op2=""
+
+# Rangers' Set
+[[item]]
+inherit=2740
+name="Rangers' set"
+op2=""
+
+# Santa Set
+[[item]]
+inherit=2742
+name="Santa set"
+op2=""
+
+# Easter bunny outfit
+[[item]]
+inherit=2744
+name="Bunny set"
+op2=""
+
+# White Ankou Set
+[[item]]
+inherit=2746
+name="White ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2748
+name="Green ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2749
+name="Black-green ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2750
+name="Black-purple ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2751
+name="Black-white ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2752
+name="Black-yellow ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2753
+name="Gilded ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2754
+name="Green-black ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2755
+name="Purple-black ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2756
+name="Red-black ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2757
+name="White-blue ankou set"
+op2=""
+
+# Green Ankou Set
+[[item]]
+inherit=2758
+name="White-purple ankou set"
+op2=""
+
+# Blue Ankou Set
+[[item]]
+inherit=2721
+name="Blue ankou set"
+op2=""
+stackable=0
+
+# Gold Ankou Set
+[[item]]
+inherit=2720
+name="Gold ankou set"
+op2=""
+
+# Black Ankou Set
+[[item]]
+inherit=2717
+name="Black ankou set"
+op2=""
+
+# Purple Ankou Set
+[[item]]
+inherit=2718
+name="Purple ankou set"
+op2=""
+stackable=0
+
+# Robes of ruin Set
+[[item]]
+inherit=2715
+name="Robes of ruin set"
+op2=""
+stackable=0
+
+# Inverted Santa Hat
+[[item]]
+inherit=13344
+op1="Wear"
+op2=""
+op5="Drop"
+grandexchange=true
+
+# Xeric's Wisdom
+[[item]]
+inherit=10485
+id=19782
+name="Xeric's Wisdom"
+originalcolours=[5563]
+replacementcolours=[6433]
+grandexchange=true
+op1="Read"
+
+# Cute creature
+[[item]]
+id=30000
+inherit=1561
+name="Cute creature"
+invmodel=55004
+placeholderid=-1
+zoom=583
+modelroll=130
+modelpitch=200
+modelyaw=9
+offsetx=0
+offsety=-9
+
+[[npc]]
+id=16013
+inherit=1257
+name="Cute creature"
+combatlevel=0
+ops=["", "", "Pick-up", "", ""]
+filteredops=["", "", "Pick-up", "", ""]
+minimapvisible=true
+familiar=true
+
+# Stray dog
+[[item]]
+id=30001
+inherit=1561
+name="Stray dog"
+invmodel=55003
+placeholderid=-1
+zoom=440
+modelroll=183
+modelpitch=96
+modelyaw=0
+offsetx=0
+offsety=-3
+
+[[npc]]
+id=16014
+inherit=2922
+name="Stray dog"
+combatlevel=0
+ops=["", "", "Pick-up", "", ""]
+filteredops=["", "", "Pick-up", "", ""]
+minimapvisible=true
+familiar=true
+
+# Evil creature
+[[item]]
+id=30002
+inherit=1561
+name="Evil creature"
+invmodel=55002
+placeholderid=-1
+zoom=635
+modelroll=165
+modelpitch=165
+modelyaw=9
+offsetx=0
+offsety=-10
+
+[[npc]]
+id=16015
+inherit=1258
+name="Evil creature"
+combatlevel=0
+ops=["", "", "Pick-up", "", ""]
+filteredops=["", "", "Pick-up", "", ""]
+minimapvisible=true
+familiar=true

@@ -1,0 +1,63 @@
+worlds:
+  localhost:
+    number: 69
+    host: "127.0.0.1"
+    port: 43594
+    activity: "Near-Reality Local Host"
+    private: false
+    visibility: DEVELOPER
+    verifyPasswords: true
+    location: UNITED_STATES_OF_AMERICA
+    logback: "logback-dev"
+    types:
+      - MEMBERS
+    api:
+      enabled: false
+      scheme: "http"
+      host: "0.0.0.0"
+      port: 8080
+      token: "REPLACE_WITH_TOKEN"
+  beta:
+    number: 2
+    host: "beta.near-reality.com"
+    port: 43594
+    activity: "Near-Reality Beta"
+    private: false
+    visibility: BETA
+    verifyPasswords: true
+    location: UNITED_STATES_OF_AMERICA
+    logback: "logback-beta"
+    types:
+      - MEMBERS
+  main:
+    number: 1
+    host: "play.near-reality.com"
+    port: 43594
+    activity: "Near-Reality"
+    private: false
+    visibility: PUBLIC
+    verifyPasswords: true
+    location: UNITED_STATES_OF_AMERICA
+    logback: "logback-live"
+    types:
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "http"
+      host: "api.near-reality.com"
+      port: 8080
+      token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im5yIn0.PiRogJKucduOHXblOnm2FFBJpjrq3kue-JSweI_qvV4"
+    logsDatabase:
+      enabled: true
+      databaseUrl: "jdbc:postgresql://51.81.27.5"
+      databasePort: 5432
+      databaseName: "nr_game_logs"
+      databaseUser: "nr"
+      databasePassword: "SQ6UMey4YwFNcqLsdbDkXmp9"
+    mainDatabase:
+      enabled: true
+      databaseUrl: "jdbc:postgresql://51.81.27.5"
+      databasePort: 5432
+      databaseName: "nr"
+      databaseUser: "nr"
+      databasePassword: "SQ6UMey4YwFNcqLsdbDkXmp9"

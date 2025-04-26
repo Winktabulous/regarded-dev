@@ -1,0 +1,138 @@
+{
+  "type": "array",
+  "title": "Rewards Array",
+  "items": [
+    {
+      "type": "object",
+      "title": "Rewards Table",
+      "uniqueItems": true,
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Reward Name",
+          "description": "The rewards name is the name of the rewards, for example 'wilderness-key-loot', please always separate spaces with a - and all lowercase, no numbers."
+        },
+        "rewards": {
+          "type": "array",
+          "title": "Reward Rolls",
+          "items": [
+            {
+              "type": "object",
+              "title": "Reward Roll",
+              "uniqueItems": true,
+              "properties": {
+                "percent": {
+                  "type": "number"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "STOP_ROLL",
+                    "ALWAYS_ROLL"
+                  ]
+                },
+                "entries": {
+                  "type": "array",
+                  "title": "Item Entries",
+                  "items": [
+                    {
+                      "type": "object",
+                      "title": "Game Item",
+                      "properties": {
+                        "itemId": {
+                          "type": "integer",
+                          "title": "Item Id"
+                        },
+                        "minAmount": {
+                          "type": "integer",
+                          "title": "Minimum Amount"
+                        },
+                        "maxAmount": {
+                          "type": "integer",
+                          "title": "Maximum Amount"
+                        }
+                      },
+                      "required": [
+                        "itemId",
+                        "minAmount",
+                        "maxAmount"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "percent",
+                "type",
+                "entries"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "percent": {
+                  "type": "integer"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "entries": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "itemId": {
+                          "type": "integer"
+                        },
+                        "minAmount": {
+                          "type": "integer"
+                        },
+                        "maxAmount": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "itemId",
+                        "minAmount",
+                        "maxAmount"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "itemId": {
+                          "type": "integer"
+                        },
+                        "minAmount": {
+                          "type": "integer"
+                        },
+                        "maxAmount": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "itemId",
+                        "minAmount",
+                        "maxAmount"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "percent",
+                "type",
+                "entries"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "rewards"
+      ]
+    }
+  ]
+}

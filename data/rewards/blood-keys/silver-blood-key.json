@@ -1,0 +1,166 @@
+[
+  {
+    "name": "silver-blood-key",
+    "rewards": [
+      {
+        "percent": 100,
+        "type": "ALWAYS_ROLL",
+        "entries": [
+          {
+            "itemId": 63004, // PKP
+            "minAmount": 1000,
+            "maxAmount": 2500
+          }
+        ]
+      },
+      {
+        "percent": 25,
+        "type": "ALWAYS_ROLL",
+        "selectType": "ALL_ENTRIES",
+        "entries": [
+          {
+            "itemId": 565, // Blood rune
+            "minAmount": 500,
+            "maxAmount": 1000
+          },
+          {
+            "itemId": 560, // Death rune
+            "minAmount": 1000,
+            "maxAmount": 1500
+          },
+          {
+            "itemId": 555, // Water rune
+            "minAmount": 4000,
+            "maxAmount": 10000
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // Coins
+            "minAmount": 10000000,
+            "maxAmount": 50000000
+          },
+          {
+            "itemId": 6914, // Master wand
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15657, // Mithril whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15658, // Adamant whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15659, // Rune whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6889, // Mages book
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6920, // Infinity boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6918, // Infinity hat
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6916, // Infinity top
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6924, // Infinity bottoms
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6585, // Amulet of fury
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4151, // Abyssal whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 2451, // Zamorak brew
+            "minAmount": 25,
+            "maxAmount": 50
+          },
+          {
+            "itemId": 10926, // Sanfew serum
+            "minAmount": 50,
+            "maxAmount": 100
+          },
+          {
+            "itemId": 15650, // Green whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15651, // Pink whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15652, // Iron whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15653, // Steel whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15654, // White whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15655, // Black whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11849, // Barrows - dharoks set
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11857, // Barrows - veracs set
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11853, // Barrows - karils set
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11847, // Barrows - ahrims set
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

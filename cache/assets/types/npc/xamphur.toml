@@ -1,0 +1,111 @@
+# Xamphur
+[[npc]]
+inherit=10951
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10953
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10954
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10955
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10956
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10957
+resizex=200
+resizey=200
+resizez=200
+# Xamphur
+[[npc]]
+inherit=10958
+resizex=200
+resizey=200
+resizez=200
+
+# Xamphur
+[[npc]]
+id=10959
+inherit=10956
+resizex=50
+resizey=50
+resizez=50
+combatlevel=0
+name="Pet xamphur"
+op1="Talk-to"
+op2="Pick-up"
+op3=""
+size=1
+minimapvisible=false
+familiar=true
+headIconArchiveIds=[]
+headIconSpriteIndex=[]
+
+# Pet Xamphur
+[[item]]
+id=32083
+inherit=11995
+name="Pet xamphur"
+examine="Xamphur, but little."
+invmodel=42538
+#primarymalemodel=60053
+#primaryfemalemodel=60053
+zoom=4000
+modelroll=0
+modelpitch=0
+modelyaw=0
+offsetx=-7
+offsety=-3
+placeholderid=32085
+stackable=0
+notedid=-1
+grandexchange=false
+price=8000000
+
+# Pet Xamphur (placeholder)
+[[item]]
+id=32085
+inherit=11995
+name="Pet xamphur"
+examine="Xamphur, but little."
+placeholderid=32083
+placeholdertemplate=14401
+invmodel=42543
+#primarymalemodel=60053
+#primaryfemalemodel=60053
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+[[graphics]]
+id=2092
+inherit=1915
+originalcolours=[28374]
+replacementcolours=[[255, 0, 0]]
+
+[[graphics]]
+id=2093
+inherit=1915
+originalcolours=[28374]
+replacementcolours=[[43, 245, 0]]

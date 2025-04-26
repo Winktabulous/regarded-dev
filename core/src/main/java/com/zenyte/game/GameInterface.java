@@ -1,0 +1,321 @@
+package com.zenyte.game;
+
+import com.zenyte.game.model.ui.Interface;
+import com.zenyte.game.model.ui.InterfacePosition;
+import com.zenyte.game.model.ui.NewInterfaceHandler;
+import com.zenyte.game.world.entity.player.LogLevel;
+import com.zenyte.game.world.entity.player.Player;
+import mgi.utilities.CollectionUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Optional;
+
+import static com.zenyte.game.model.ui.InterfacePosition.*;
+
+
+/**
+ * @author Kris | 11. juuli 2018 : 23:53:40
+ * @see <a href="https://www.rune-server.ee/members/kris/">Rune-Server profile</a>
+ */
+public enum GameInterface {
+
+    TOB_REWARDS(23),
+    TOB_PARTY_INFORMATION(50),
+    TOB_STATS(363),
+    TOB_PARTIES_OVERVIEW(364),
+    TOB_PARTY(28, OVERLAY),
+    TOB_CHEST_SUPPLIES(405),
+    TOB_PERFORMANCE_DETAILS(459),
+
+    WILDERNESS_VAULT_HUD(1609, OVERLAY),
+    WILDERNESS_VAULT_REWARDS(1608),
+    HISCORES(1614),
+
+    NEX_STATS(732),
+    STONE_TEXT_INTERFACE(35),
+    PYRAMID_PLUNDER(428, MINIGAME_OVERLAY),
+    WHEEL_OF_FORTUNE(1710),
+    SKOTIZO_OVERLAY(308, OVERLAY),
+    MASTER_SCROLL_BOOK(597),
+    CUSTOM_FUR_CLOTHING(477),
+    TREASURE_TRAIL_STATISTICS(220),
+    ITEM_SETS(451),
+    ITEM_SETS_INVENTORY_INTERFACE(430, SINGLE_TAB),
+    SEXTANT(365),
+    NIEVE_GRAVESTONE(221),
+    GRAND_EXCHANGE_OFFERS_VIEWER(1709),
+    MYCELIUM_TELEPORTATION(608),
+    TOURNAMENT_VIEWER(1708, SINGLE_TAB),
+    DIANGO_ITEM_RETRIEVAL(78),
+    STASH_UNIT(493),
+    PRESET_MANAGER(1711),
+    TOURNAMENT_OVERLAY(1706, MINIGAME_OVERLAY),
+    TOURNAMENT_PRESETS(1707),
+    TOURNAMENT_SPECTATING(154),
+    TOURNAMENT_SHOP(1619),
+    BATTLESTAFF_ENCHANTMENT(332),
+    JOURNAL_HEADER_TAB(629, JOURNAL_TAB_HEADER),
+
+    GIM_CHAT_CHANNELS(727, CHAT_TAB_HEADER),
+    DEFAULT_GIM_TAB(721, CHAT_TAB_HEADER),
+    FORM_GIM_TAB(723, CHAT_TAB_HEADER),
+    ACTIVE_GIM_TAB(726, CHAT_TAB_HEADER),
+    SETTINGS_GIM(730),
+    SETTINGS_GIM_OPTIONS(744),
+    SETTINGS_GIM_RAFFLE(74),
+    SETTINGS_GIM_STORAGE(743),
+    SETTINGS_GIM_LEAVE(289),
+    STORAGE_GIM(724),
+    STORAGE_GIM_INVENTORY(725, SINGLE_TAB),
+
+    CHALLENGES(1612),
+    CHALLENGES_SOLO(1723),
+
+
+    REGULAR_CHAT_CHANNELS(707, CHAT_TAB_HEADER),
+    CHAT_CHANNEL_TAB(7, CHAT_TAB_HEADER),
+    YOUR_CLAN_TAB(701, CHAT_TAB_HEADER),
+    ANOTHER_CLAN_TAB(702, CHAT_TAB_HEADER),
+    GROUPING_TAB(76, CHAT_TAB_HEADER),
+
+    DAILY_CHALLENGES_OVERVIEW(1600),
+    JOSSIKS_SALVAGED_GODBOOKS(302),
+    PUZZLE_BOX(306),
+    LIGHT_BOX(322),
+    RUNE_POUCH(190),
+    RAID_OVERLAY(513, OVERLAY),
+    RAID_PARTY_TAB(500, CHAT_TAB_HEADER),
+
+    WILDERNESS_LOOT_KEY(742),
+    RAIDING_PARTIES(499),
+    FURNITURE_CREATION(458),
+    RAIDING_PARTY(507),
+    RAID_REWARDS(539),
+    RAIDS_SCOREBOARD(21),
+    EQUIPMENT_INVENTORY(85, InterfacePosition.SINGLE_TAB),
+    SILVER_JEWELLERY_INTERFACE(6),
+    GOLD_JEWELLERY_INTERFACE(446),
+    DROP_VIEWER(1704),
+    MOTHERLODE_MINE(382, OVERLAY),
+    DUEL_OVERLAY(1616, MINIGAME_OVERLAY),
+    BLAST_FURNACE_TEMPERATURE(30, CENTRAL),
+    BLAST_FURNACE_COFFER(474, MINIGAME_OVERLAY),
+    WINTERTODT(396, MINIGAME_OVERLAY),
+    TUTORIAL_MAKE_OVER(269),
+    AVAS_DEVICES(67),
+    DECANTING(582, InterfacePosition.DIALOGUE),
+    BOUNTY_HUNTER_STORE(178),
+    PARTY_DROP_CHEST(265),
+    PARTY_DROP_CHEST_INVENTORY(266, SINGLE_TAB),
+    GNOME_GLIDER(138),
+    TRADE_STAGE1(335),
+    TRADE_STAGE2(334),
+    SLAYER_REWARDS(426),
+    CLUE_SCROLL(203),
+    PRICE_CHECKER(464),
+    PRICE_CHECKER_INVENTORY(238, SINGLE_TAB),
+    SKILLS_TAB(320, InterfacePosition.SKILLS_TAB),
+    INVENTORY_TAB(149, InterfacePosition.INVENTORY_TAB),
+    EQUIPMENT_TAB(387, InterfacePosition.EQUIPMENT_TAB),
+    PRAYER_TAB_INTERFACE(541, InterfacePosition.PRAYER_TAB),
+    WILDERNESS_OVERLAY(90, InterfacePosition.WILDERNESS_OVERLAY),
+    BOUNTY_HUNTER_CUSTOM(1722, InterfacePosition.BH_OVERLAY),
+    TRADE_INVENTORY(336, InterfacePosition.SINGLE_TAB),
+    LOOTING_BAG(81, InterfacePosition.SINGLE_TAB),
+    LOGOUT(182, InterfacePosition.LOGOUT_TAB),
+    ACCOUNT_MANAGEMENT(109, InterfacePosition.ACCOUNT_MANAGEMENT),
+    SEED_BOX(128, InterfacePosition.SINGLE_TAB),
+    PET_INSURANCE(148),
+    TELEPORT_MENU(1700),
+    GAME_NOTICEBOARD(1701, JOURNAL_TAB_HEADER),
+    GAME_SETTINGS(1702, InterfacePosition.ACCOUNT_MANAGEMENT),
+    EXPERIENCE_TRACKER(137),
+    EXPERIENCE_DROPS_WINDOW(122, XP_TRACKER),
+    GAME_MODE_SETUP(1606),
+    EXPERIENCE_LAMP(240),
+    HOUSE_OPTIONS_TAB(370, InterfacePosition.SINGLE_TAB),
+    UNMORPH_TAB(136, InterfacePosition.SINGLE_TAB),
+    FARMING_STORAGE(125),
+    REGULAR_LECTERN(79),
+    ARCEUUS_LECTERN(403),
+    FARMING_STORAGE_INVENTORY(126, SINGLE_TAB),
+    LOBBY(378),
+    MAKEOVER(205),
+    MONSTER_EXAMINE(522, SPELLBOOK_TAB),
+    HAIRDRESSER(82),
+    COLLECTION_LOG(621),
+    SPELLBOOK(218, SPELLBOOK_TAB),
+    PEST_CONTROL_LANDER_OVERLAY(407, MINIGAME_OVERLAY),
+    PEST_CONTROL_GAME_OVERLAY(408, MINIGAME_OVERLAY),
+    VOID_KNIGHT_REWARDS(243),
+    GRAND_EXCHANGE_HISTORY(383),
+    GRAND_EXCHANGE_COLLECTION_BOX(402),
+    ORBS(160, InterfacePosition.ORBS),
+    MINIMIZED_ORBS(311, InterfacePosition.ORBS),
+    WORLD_MAP(595, InterfacePosition.WORLD_MAP),
+    COLOUR_PICKER(288, InterfacePosition.COLOUR_PICKER),
+    DUEL_WINNINGS(108),
+    DUEL_STAKING(1999),
+    DUEL_STAKING_INVENTORY(1998, SINGLE_TAB),
+    DUEL_SETTINGS(2000),
+    DUEL_CONFIRMATION(476),
+    DUEL_SCOREBOARD(108),
+    CHAT(162, CHATBOX),
+    ITEMS_KEPT_ON_DEATH(4),
+    GRAVESTONE_RECLAIM(672, CENTRAL),
+    DEATHS_OFFICE_RETRIEVAL(669),
+    DEATHS_OFFICE_SACRIFICE(670),
+    DEATHS_OFFICE_SACRIFICE_INV(671, SINGLE_TAB),
+    DEATHS_OFFICE_ENTER_OVERLAY(634, OVERLAY),
+    STORAGE_ROOM(675),
+    STORAGE_ROOM_INV(674, SINGLE_TAB),
+    BANK(12),
+    BANK_PIN_SETTINGS(14),
+    BANK_PIN_VERIFICATION(213),
+    SHOP(300),
+    BARROWS_OVERLAY(24, InterfacePosition.OVERLAY),
+    CHARACTER_DESIGN(679),
+    BUG_REPORT_FORM(156),
+    SHOP_INVENTORY(301, SINGLE_TAB),
+    THESSALIA_MAKEOVER(591),
+    BANK_INVENTORY(15, SINGLE_TAB),
+    BANK_DEPOSIT_INTERFACE(192),
+    AUTOCAST_TAB(201, InterfacePosition.COMBAT_TAB),
+    COMBAT_TAB(593, InterfacePosition.COMBAT_TAB),
+    SETTINGS(116, InterfacePosition.SETTINGS_TAB),
+    KOUREND_FAVOUR_TAB(245, InterfacePosition.JOURNAL_TAB_HEADER),
+    ACHIEVEMENT_DIARY_TAB(259, InterfacePosition.JOURNAL_TAB_HEADER),
+    QUEST_TAB(399, InterfacePosition.JOURNAL_TAB_HEADER),
+    CHARACTER_SUMMARY(712, InterfacePosition.JOURNAL_TAB_HEADER),
+    SERVER_EVENTS(1611, InterfacePosition.JOURNAL_TAB_HEADER),
+    EMOTE_TAB(216, InterfacePosition.EMOTE_TAB),
+    FRIEND_LIST_TAB(429, FRIENDS_TAB),
+    IGNORE_LIST_TAB(432, FRIENDS_TAB),
+    GNOME_COCKTAIL(436),
+    ITEM_RETRIEVAL_SERVICE(602),
+    ADVANCED_SETTINGS(134, InterfacePosition.WORLD_MAP),
+    BARROWS_PUZZLE(25),
+    BARROWS_REWARDS(155),
+    RAIDS_PRIVATE_STORAGE(271),
+    QUEST_COMPLETED(153),
+    RAIDS_SHARED_STORAGE(550),
+    RAIDS_STORAGE_INVENTORY_INTERFACE(551, SINGLE_TAB),
+    MUSIC_TAB(239, InterfacePosition.MUSIC_TAB),
+    BOOK(26),
+    CANOE_SHAPE(416),
+    CANOE_SELECTION(57),
+    WORLD_SWITCHER(69, LOGOUT_TAB),
+    SHIP_DESTINATION_CHART(72),
+    CLUE_SCROLL_REWARD(73),
+    QUICK_PRAYERS(77, PRAYER_TAB),
+    TELETAB_CREATION(79),
+    EQUIPMENT_STATS(84),
+    CLAN_CHAT_SETUP(94),
+    FIXED_PANE(548),
+    RESIZABLE_PANE(161),
+    MOBILE_PANE(601),
+    SIDE_PANELS_RESIZABLE_PANE(164),
+    CASTLE_WARS_LOBBY_OVERLAY(131, InterfacePosition.OVERLAY),
+    CASTLE_WARS_OVERLAY(58, InterfacePosition.OVERLAY),
+    CASTLE_WARS_CATAPULT(54, InterfacePosition.CENTRAL),
+    PURO_PURO_IMPLING_OVERLAY(157, MINIGAME_OVERLAY),
+    IMPLING_TRACKER(180),
+    ELNOCKS_EXCHANGE(540),
+    EXPLORER_RING_ALCH(483, SPELLBOOK_TAB),
+    EASTER_NOTICEBOARD(1713),
+    SEED_VAULT(631),
+    SEED_VAULT_INVENTORY(630, SINGLE_TAB),
+    MAGIC_STORAGE(592),
+    TELEPORTS(1601, CENTRAL),
+    NOTIFICATION(660, NOTIFICATION_POS),
+    MIDDLE_MAN_REQUEST(1602),
+    MIDDLE_MAN_OFFER(1603),
+    MIDDLE_MAN_OFFER_INVENTORY(1613, SINGLE_TAB),
+    MIDDLE_MAN_MONITORING(1604),
+    MIDDLE_MAN_HISTORY(1605),
+    SMITHING_INTERFACE(312),
+    HP_HUD(303, HP_HUD_POS),
+    GAUNTLET_SCOREBOARD(639),
+    MYSTERY_BOX(1607),
+    ADVENT_CALENDAR(1615),
+    NIGHTMARE_TOTEMS(413, NIGHTMARE_TOTEMS_POS),
+    NIGHTMARE_STATISTICS(530),
+    CA_BOSS(713),
+    CA_REWARDS(714),
+    CA_TASKS(715),
+    CA_BOSS_OVERVIEW(716),
+    CA_OVERVIEW(717),
+
+    COMP_SELECTION(1617),
+    COMP_PROGRESS(1618),
+
+    PVPW_PRICES(1620),
+    PVPW_PERKS(866),
+    REMNANT_EXCHANGE(5004),
+    REMNANT_INVENTORY(5005, SINGLE_TAB),
+    UNIVERSAL_SHOP(5003),
+    UNIVERSAL_SHOP_INVENTORY(5007, SINGLE_TAB),
+    TOA_LOOT(771),
+    TOA_PARTY_OVERVIEW(772),
+    TOA_PARTY(773),
+    TOA_PARTY_MANAGEMENT(774),
+    TOA_STATISTICS(775),
+    TOA_INVOCATION_INFO(776),
+    TOA_SUPPLIES_SHOP(777),
+    TOA_SUPPLIES_INV(778, SINGLE_TAB),
+    TOA_REWARD_POTENTIAL(289),
+    TOA_SCOREBOARD(482),
+    VOTE(5100),
+    CREDIT_STORE(5101),
+    CREDIT_PACKAGES(5102),
+
+    TOURNAMENT_SUPPLIES(100),
+    PVM_ARENA_HUD(208, MINIGAME_OVERLAY),
+    ;
+
+    @java.lang.SuppressWarnings("all")
+    private static final Logger log = LoggerFactory.getLogger(GameInterface.class);
+    public static final GameInterface[] values = values();
+    private final int id;
+    private final InterfacePosition position;
+
+    GameInterface(final int id) {
+        this(id, CENTRAL);
+    }
+
+    GameInterface(final int id, final InterfacePosition position) {
+        this.id = id;
+        this.position = position;
+    }
+
+    public static Optional<GameInterface> get(final int id) {
+        final GameInterface field = CollectionUtils.findMatching(values, value -> value.id == id);
+        if (field == null) return Optional.empty();
+        return Optional.of(field);
+    }
+
+    public final void open(final Player player) {
+        player.log(LogLevel.INFO, "Opening interface: " + this);
+        final Interface plugin = NewInterfaceHandler.getInterface(id);
+        if (plugin != null) {
+            plugin.open(player);
+        } else {
+            player.getInterfaceHandler().sendInterface(this);
+        }
+    }
+
+    public final Optional<Interface> getPlugin() {
+        final Interface plugin = NewInterfaceHandler.getInterface(id);
+        if (plugin == null) return Optional.empty();
+        return Optional.of(plugin);
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public InterfacePosition getPosition() {
+        return position;
+    }
+}

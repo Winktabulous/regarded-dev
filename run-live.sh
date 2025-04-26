@@ -1,0 +1,2 @@
+#java -Xmx60g -Xms24g -XX:+UseZGC -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.time=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED -jar app/build/libs/shadow.jar main
+screen ./gradlew runProduction

@@ -1,0 +1,3 @@
+// 32021
+[clientscript,script32021](int $int0, component $component1, component $component2, component $component3)
+~script32013($int0, $component1, $component2, $component3);

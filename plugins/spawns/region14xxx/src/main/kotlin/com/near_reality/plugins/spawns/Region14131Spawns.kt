@@ -1,0 +1,55 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14131Spawns : NPCSpawnsScript() {
+    init {
+        CYREG_PADDLEHORN(3522, 3284, 0, SOUTH, 2)
+        STRANGE_OLD_MAN(3564, 3288, 0, SOUTH, 0)
+        
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        DHAROK_THE_WRETCHED(3575, 3298, 0, SOUTH, 4)
+        //verac
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        VERAC_THE_DEFILED(3556, 3297, 0, SOUTH, 4)
+        //ahrim
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        AHRIM_THE_BLIGHTED(3565, 3289, 0, SOUTH, 4)
+        //guthan
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        GUTHAN_THE_INFESTED(3576, 3283, 0, SOUTH, 4)
+        //karil
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        KARIL_THE_TAINTED(3565, 3276, 0, SOUTH, 4)
+        
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+        TORAG_THE_CORRUPTED(3554, 3282, 0, SOUTH, 4)
+    }
+}

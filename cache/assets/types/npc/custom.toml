@@ -1,0 +1,218 @@
+# Gethin
+[[npc]]
+id=16031
+inherit=1482
+op1=""
+op3="Trade"
+
+# Sigmund
+[[npc]]
+id=16032
+inherit=3894
+op1=""
+op3="Trade"
+
+# Tarik
+[[npc]]
+id=16033
+inherit=1781
+op1=""
+op3="Trade"
+
+# Primula
+[[npc]]
+id=16034
+inherit=7953
+op1=""
+op3="Trade"
+name="Herblore Store"
+
+# Angel of Death
+[[npc]]
+id=16041
+inherit=7852
+models=[60164]
+size=4
+combatlevel=490
+name="Angel of Death"
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+# Angel of Death
+[[npc]]
+id=16042
+inherit=2205
+models=[60165]
+combatlevel=112
+size=1
+name="Stone Angel"
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+# Angel of Death
+[[npc]]
+id=16043
+inherit=2205
+models=[60165]
+combatlevel=112
+size=1
+name="Stone Angel"
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+
+# Angel of Death soulsplit
+[[npc]]
+id=16044
+inherit=7852
+models=[60164]
+size=4
+combatlevel=490
+headIconArchiveIds=[440]
+headIconSpriteIndex=[11]
+name="Angel of Death"
+ops=["", "", "Attack", "", ""]
+filteredops=["", "", "Attack", "", ""]
+
+# Angel of Death Pet
+[[npc]]
+inherit=7852
+id=10960
+models=[60164]
+resizex=32
+resizey=32
+resizez=32
+combatlevel=0
+name="Pet Angel of Death"
+op1="Talk-to"
+op2="Pick-up"
+op3=""
+size=1
+minimapvisible=false
+familiar=true
+
+# RDI mage of Zamorak
+[[npc]]
+id=16051
+inherit=2581
+
+#RDI Bonfire
+[[object]]
+id=29300
+inherit=29300
+op1="Add-logs"
+
+[[item]]
+id=25104
+inherit=25104
+op2=""
+grandexchange=false
+
+#ahrims
+[[npc]]
+id=16052
+inherit=1672
+
+#dharok
+[[npc]]
+id=16053
+inherit=1673
+
+#guthan
+[[npc]]
+id=16054
+inherit=1674
+
+#Karil
+[[npc]]
+id=16055
+inherit=1675
+
+#Torag
+[[npc]]
+id=16056
+inherit=1676
+
+#Verac
+[[npc]]
+id=16057
+inherit=1677
+
+#Strange old man
+[[npc]]
+id=16058
+inherit=1671
+
+# Tarik
+[[npc]]
+id=16059
+inherit=1781
+op1=""
+op3="Trade"
+
+# Squire
+[[npc]]
+id=16060
+inherit=4737
+name="Teleport Manager"
+
+# Sumona
+[[npc]]
+id=16064
+inherit=3891
+op1="Talk-to"
+op2="Assignment"
+op3="Trade"
+op4="Rewards"
+name="Sumona"
+
+# Hans
+[[npc]]
+inherit=3105
+id=16065
+op1="Talk-to"
+op3=""
+models=[217, 246, 292, 162, 176, 254, 185, 320, 60273]
+
+#toapets
+[[npc]]
+inherit=11652
+op2="Transform"
+[[npc]]
+inherit=11653
+op2="Transform"
+[[npc]]
+inherit=11844
+op2="Transform"
+[[npc]]
+inherit=11845
+op2="Transform"
+[[npc]]
+inherit=11840
+op2="Transform"
+[[npc]]
+inherit=11841
+op2="Transform"
+[[npc]]
+inherit=11842
+op2="Transform"
+[[npc]]
+inherit=11843
+op2="Transform"
+
+# Tormented Demon
+[[npc]]
+inherit=13602 # what we're copying
+id=13602 # New id to copy to
+name="Smoldering Demon"
+models=[53285] # Models that makup the NPC
+combatlevel=0
+resizex=32 # Resize Width
+resizey=32 # Resize Length
+resizez=32 # Resize Height
+size=1 # 1x1 NPC size
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true

@@ -1,0 +1,4 @@
+# Bank layout
+[component]
+inherit="192:1"
+onload=[227, "component:self", "The Bank of %SERVER_NAME% - Deposit Box"]

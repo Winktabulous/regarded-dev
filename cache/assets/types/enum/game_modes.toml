@@ -1,0 +1,64 @@
+# All Game Modes
+
+#normie
+[[enum]]
+id=10012
+keytype="int"
+valuetype="string"
+default=""
+
+[enum.values]
+0="150x Combat XP | 80x Skilling XP | 0% Drop Rate Bonus"
+1="80x Combat XP | 50x Skilling XP | 0% Drop Rate Bonus"
+2="10x Combat XP | 10x Skilling XP | 5% Drop Rate Bonus"
+3="5x Combat XP | 5x Skilling XP | 8% Drop Rate Bonus"
+
+#ironman
+[[enum]]
+id=10013
+keytype="int"
+valuetype="string"
+default=""
+
+[enum.values]
+0="80x Combat XP | 80x Skilling XP | 0% Drop Rate Bonus"
+1="20x Combat XP | 20x Skilling XP | 2% Drop Rate Bonus"
+2="10x Combat XP | 10x Skilling XP | 5% Drop Rate Bonus"
+3="5x Combat XP | 5x Skilling XP | 10% Drop Rate Bonus"
+
+#hcim
+[[enum]]
+id=10014
+keytype="int"
+valuetype="string"
+default=""
+
+[enum.values]
+0="80x Combat XP | 80x Skilling XP | 5% Drop Rate Bonus"
+1="20x Combat XP | 20x Skilling XP | 7% Drop Rate Bonus"
+2="10x Combat XP | 10x Skilling XP | 10% Drop Rate Bonus"
+3="5x Combat XP | 5x Skilling XP | 17% Drop Rate Bonus"
+
+#uim
+[[enum]]
+id=10015
+keytype="int"
+valuetype="string"
+default=""
+
+[enum.values]
+0="80x Combat XP | 80x Skilling XP | 0% Drop Rate Bonus"
+1="20x Combat XP | 20x Skilling XP | 2% Drop Rate Bonus"
+2="10x Combat XP | 10x Skilling XP | 5% Drop Rate Bonus"
+3="5x Combat XP | 5x Skilling XP | 10% Drop Rate Bonus"
+
+#gim
+[[enum]]
+id=10016
+keytype="int"
+valuetype="string"
+default=""
+
+[enum.values]
+0="20x Combat XP | 20x Skilling XP | 0% Drop Rate Bonus"
+

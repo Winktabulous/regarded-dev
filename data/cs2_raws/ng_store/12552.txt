@@ -1,0 +1,12 @@
+int script_12552(Widget widget0) {
+	int int1;
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(200);
+	int1 = script_715(widget0, 1);
+	return int1;
+}

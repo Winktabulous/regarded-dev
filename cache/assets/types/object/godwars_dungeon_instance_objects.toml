@@ -1,0 +1,56 @@
+# Crevice
+[[object]]
+inherit=26769
+id=35013
+ambient=25
+contrast=500
+mapsceneid=-1
+
+# Zaros portal
+[[object]]
+inherit=26738
+id=50083
+name="Private portal"
+op1="Use"
+mapsceneid=64
+
+# Bandos portal
+[[object]]
+inherit=9368
+id=35014
+name="Private portal"
+op1="Use"
+mapsceneid=64
+
+# Armadyl portal
+[[object]]
+inherit=20843
+id=35016
+name="Private portal"
+op1="Use"
+mapsceneid=64
+
+# Saradomin portal
+[[object]]
+inherit=26740
+id=35017
+name="Private portal"
+op1="Use"
+mapsceneid=64
+
+# Saradomin stepping stone
+[[object]]
+inherit=21120
+id=35018
+op1="Jump"
+
+# Danger warning | For examine override
+[[object]]
+inherit=23708
+id=35019
+
+# Nex red portal
+[[object]]
+inherit=42941
+op1="Pass"
+op3="Peek"

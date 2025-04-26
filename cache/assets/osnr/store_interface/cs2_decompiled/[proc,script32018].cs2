@@ -1,0 +1,196 @@
+// 32018
+[proc,script32018](component $component0, component $component1, component $component2)
+def_int $height3 = if_getscrollheight($component0);
+cc_deleteall($component0);
+cc_deleteall($component1);
+cc_deleteall(interface_5101:19);
+cc_deleteall(interface_5101:24);
+if_sethide(false, $component1);
+if_sethide(false, $component2);
+if_sethide(false, interface_5101:19);
+if_sethide(false, interface_5101:24);
+if_sethide(true, interface_5101:7);
+if_sethide(true, interface_5101:10);
+if_sethide(true, interface_5101:58);
+if_sethide(false, interface_5101:12);
+if_setposition(125, 62, ^setpos_abs_left, ^setpos_abs_top, $component0);
+if_setsize(324, 178, ^setsize_abs, ^setsize_abs, $component0);
+if_setposition(452, 40, ^setpos_abs_left, ^setpos_abs_top, $component1);
+if_setsize(16, 242, ^setsize_abs, ^setsize_abs, $component1);
+def_int $int4 = 0;
+def_int $int5 = 0;
+$int4 = ~thinstonebox($component0, $int4);
+cc_create(interface_5101:24, ^iftype_text, $int5);
+$int5 = calc($int5 + 1);
+cc_setsize(220, 20, ^setsize_abs, ^setsize_abs);
+cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
+cc_setcolour(0xff981f);
+cc_settextfont(verdana_11pt_regular);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
+cc_settextshadow(true);
+cc_settext("Item");
+def_int $height6 = 0;
+cc_create(interface_5101:24, ^iftype_text, $int5);
+$int5 = calc($int5 + 1);
+cc_setsize(100, 20, ^setsize_abs, ^setsize_abs);
+cc_setposition(222, 0, ^setpos_abs_left, ^setpos_abs_top);
+cc_setcolour(0xff981f);
+cc_settextfont(verdana_11pt_regular);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
+cc_settextshadow(true);
+cc_settext("Price");
+def_int $width7 = if_getwidth($component0);
+def_int $height8 = if_getheight($component0);
+def_int $int9 = 0;
+def_int $size10 = inv_size(inv_1001);
+def_obj $obj11 = inv_getobj(inv_1001, $int9);
+def_int $num12 = inv_getnum(inv_1006, $int9);
+def_int $int13 = 48;
+def_int $int14 = calc(($int13 - 32) / 2);
+def_int $int15 = 0;
+while ($int9 < $size10 & $obj11 ! null) {
+	cc_create($component0, ^iftype_rectangle, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(0, $int13, ^setsize_minus, ^setsize_abs);
+	cc_setposition(0, $height6, ^setpos_abs_centre, ^setpos_abs_top);
+	cc_setfill(true);
+	cc_setcolour(^white);
+	cc_setop(1, "Remove-1");
+	cc_setop(2, "Remove-5");
+	cc_setop(3, "Remove-10");
+	cc_setop(4, "Remove-50");
+	cc_setop(10, "Examine");
+	cc_setopbase("<col=ff981f><oc_name($obj11)></col>");
+	if (calc($int9 % 2) = 0) {
+		cc_settrans(240);
+		cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 220, -1)");
+		cc_setonmouseleave("cc_settrans(event_com, event_comsubid, 240, -1)");
+	} else {
+		cc_settrans(255);
+		cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 220, -1)");
+		cc_setonmouseleave("cc_settrans(event_com, event_comsubid, 255, -1)");
+	}
+	cc_create($component0, ^iftype_graphic, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);
+	cc_setposition(6, calc($height6 + $int14), ^setpos_abs_left, ^setpos_abs_top);
+	cc_setoutline(1);
+	cc_setgraphicshadow(0x333333);
+	cc_setobject_nonum($obj11, 5000);
+	def_int $num16 = inv_getnum(inv_1001, $int9);
+	cc_create($component0, ^iftype_text, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(176, $int13, ^setsize_minus, ^setsize_abs);
+	cc_setposition(48, $height6, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0xff981f);
+	cc_settextfont(verdana_13pt_regular);
+	cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
+	cc_settextshadow(true);
+	cc_settext("<oc_name($obj11)> x <~tostring_spacer($num16, ",")>");
+	def_int $int17 = calc($num16 * $num12);
+	cc_create($component0, ^iftype_text, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(100, $int13, ^setsize_abs, ^setsize_abs);
+	cc_setposition(220, $height6, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0xff981f);
+	cc_settextfont(verdana_13pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
+	cc_settextshadow(true);
+	cc_settext(~tostring_spacer($int17, ","));
+	$height6 = calc($height6 + $int13);
+	$int9 = calc($int9 + 1);
+	$int15 = calc($int15 + $int17);
+	$obj11 = inv_getobj(inv_1001, $int9);
+	$num12 = inv_getnum(inv_1006, $int9);
+}
+if ($int9 = 0) {
+	cc_create($component0, ^iftype_text, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(0, 16, ^setsize_minus, ^setsize_abs);
+	cc_setposition(0, 38, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0xff981f);
+	cc_settextfont(verdana_15pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 15);
+	cc_settextshadow(true);
+	cc_settext("No items in cart");
+	def_string $string0 = "Right-click the desired item(s) and quantity you wish to purchase. To complete your purchase, you may checkout using the button below.";
+	def_int $height18 = paraheight($string0, $width7, verdana_11pt_regular);
+	cc_create($component0, ^iftype_text, $int4);
+	$int4 = calc($int4 + 1);
+	cc_setsize(20, $height8, ^setsize_minus, ^setsize_abs);
+	cc_setposition(10, 0, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0xff981f);
+	cc_settextfont(verdana_11pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 12);
+	cc_settextshadow(true);
+	cc_settext($string0);
+	def_int $comsubid21 = 0;
+	def_component $component22 = interface_5101:12;
+	$comsubid21 = ~v2_stone_button_in_filled($component22);
+	if_setposition(136, 246, ^setpos_abs_left, ^setpos_abs_top, $component22);
+	cc_create($component22, ^iftype_text, $comsubid21);
+	cc_setsize(0, 0, ^setsize_minus, ^setsize_minus);
+	cc_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_centre);
+	cc_settext("Checkout");
+	cc_settextfont(verdana_11pt_regular);
+	cc_settextshadow(true);
+	cc_setcolour(0x9f9f9f);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+} else {
+	$comsubid21 = 0;
+	$component22 = interface_5101:12;
+	def_int $comsubid23 = $comsubid21;
+	$comsubid21 = ~v2_stone_button_out_filled($component22);
+	if (cc_find($component22, $comsubid23) = ^true) {
+		cc_setop(1, "Checkout");
+		cc_setopbase("<col=ff981f>Cart</col>");
+	}
+	if_setonmouseover("v2_stone_button_change_in($component22, 0)", $component22);
+	if_setonmouseleave("v2_stone_button_change_out($component22, 0)", $component22);
+	if_setposition(136, 248, ^setpos_abs_left, ^setpos_abs_top, $component22);
+	cc_create($component22, ^iftype_text, $comsubid21);
+	cc_setsize(0, 0, ^setsize_minus, ^setsize_minus);
+	cc_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_centre);
+	cc_settext("Checkout");
+	cc_settextfont(verdana_11pt_regular);
+	cc_settextshadow(true);
+	cc_setcolour(0xff981f);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+	def_int $int24 = 0;
+	cc_create(interface_5101:19, ^iftype_graphic, $int24);
+	$int24 = calc($int24 + 1);
+	cc_setsize(2, 2, ^setsize_minus, ^setsize_minus);
+	cc_setposition(1, 1, ^setpos_abs_left, ^setpos_abs_top);
+	cc_settiling(true);
+	cc_setgraphic("tradebacking_dark");
+	cc_create(interface_5101:19, ^iftype_rectangle, $int24);
+	$int24 = calc($int24 + 1);
+	cc_setsize(0, 0, ^setsize_minus, ^setsize_minus);
+	cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0x383023);
+	cc_create(interface_5101:19, ^iftype_rectangle, $int24);
+	$int24 = calc($int24 + 1);
+	cc_setsize(2, 2, ^setsize_minus, ^setsize_minus);
+	cc_setposition(1, 1, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(0x5a5245);
+	cc_create(interface_5101:19, ^iftype_text, $int24);
+	$int24 = calc($int24 + 1);
+	cc_setsize(2, 2, ^setsize_minus, ^setsize_minus);
+	cc_setposition(1, 1, ^setpos_abs_left, ^setpos_abs_top);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+	cc_settextfont(verdana_15pt_regular);
+	cc_settextshadow(true);
+	cc_settext(~tostring_spacer($int15, ","));
+	if ($int15 = 0) {
+		cc_setcolour(0x9f9f9f);
+	} else {
+		cc_setcolour(0xff981f);
+	}
+}
+if ($height6 > if_getheight($component0)) {
+	if_setscrollsize(0, $height6, $component0);
+} else {
+	if_setscrollsize(0, 0, $component0);
+}
+if_setscrollpos(0, 0, $component0);
+~scrollbar_vertical($component1, $component0, 792, 789, 790, 791, 773, 788);

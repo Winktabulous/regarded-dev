@@ -1,0 +1,6 @@
+# Stone options
+[enum]
+inherit=1141
+
+[enum.values]
+8="Game Noticeboard"

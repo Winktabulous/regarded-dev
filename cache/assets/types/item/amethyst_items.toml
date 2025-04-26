@@ -1,0 +1,44 @@
+# Amethyst broad bolts
+[[item]]
+inherit=[21316]
+price=240
+
+# Amethyst arrows
+[[item]]
+inherit=[21326, 21332, 21334, 21336]
+price=490
+
+# Amethyst bolt tips
+[[item]]
+inherit=21338
+price=160
+
+# Amethyst arrowtips
+[[item]]
+inherit=21350
+price=245
+
+# Amethyst
+[[item]]
+inherit=[21347, 21348]
+price=3900
+
+# Amethyst javelin heads
+[[item]]
+inherit=21352
+price=1520
+
+# Amethyst javelins
+[[item]]
+inherit=[21318, 21320, 21322, 21324]
+price=420
+
+# Amethyst dart tip
+[[item]]
+inherit=25853
+price=200
+
+# Amethyst Darts
+[[item]]
+inherit=[25849, 25851, 25855, 25857]
+value=400

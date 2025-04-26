@@ -1,0 +1,35 @@
+# Banks with collect
+[[object]]
+inherit=[3194, 6084, 10355, 10517, 10583, 11338, 12798, 14367, 16642, 16700, 18491, 20127, 20325, 22819, 24101, 24347,
+		 25808, 27718, 27719, 27720, 27721, 28430, 28431, 28432, 28433, 28546, 28547, 28548, 28549, 29321, 31582, 32666,
+		 36559, 39238]
+op1="Bank"
+op2="Collect"
+op3="Presets"
+op4="Last-preset"
+
+# Banks with deposit box
+[[object]]
+inherit=[10356, 10357, 10584, 27253, 27254, 27259, 27260, 27262, 27263, 27264, 27265, 27266, 27267, 27291, 27292, 30390,
+		 34810]
+op1="Bank"
+op2="Collect"
+op3="Deposit-box"
+op4="Presets"
+op5="Last-preset"
+
+# Banks
+[[object]]
+inherit=[42834, 42837]
+op1="Bank"
+op2="Presets"
+op3="Last-preset"
+
+# Bank chests
+[[object]]
+inherit=[2693, 26707, 30087]
+op3="Last-preset"
+
+[[object]]
+inherit=[46223]
+op5="Last-preset"

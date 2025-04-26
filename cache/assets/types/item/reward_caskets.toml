@@ -1,0 +1,43 @@
+# Beginner reward casket
+[[item]]
+inherit=23245
+originalcolours=[13248]
+replacementcolours=[103]
+
+# Easy reward casket
+[[item]]
+inherit=20546
+originalcolours=[13248]
+replacementcolours=[22305]
+
+# Medium reward casket
+[[item]]
+inherit=20545
+originalcolours=[13248]
+replacementcolours=[-32320]
+
+# Hard reward casket
+[[item]]
+inherit=20544
+originalcolours=[13248]
+replacementcolours=[-13641]
+
+# Elite reward casket
+[[item]]
+inherit=20543
+originalcolours=[13248]
+replacementcolours=[9156]
+
+# Master reward casket
+[[item]]
+inherit=19836
+originalcolours=[13248]
+replacementcolours=[821]
+
+# Slayer casket
+[[item]]
+inherit=7956
+name="Slayer casket"
+stackable=1
+grandexchange=false
+members=true

@@ -1,0 +1,1051 @@
+[[item]]
+inherit=20107
+id=32455  # 32405 + 50
+name="Black-green ankou socks"
+originalcolours=[960,14554,12500,13541]
+replacementcolours=[22459,4,3,6]
+placeholderid=32457  # 32407 + 50
+stackable=0
+notedid=32456  # 32406 + 50
+
+[[item]]
+inherit=20108
+id=32456  # 32406 + 50
+name="Black-green ankou socks"
+notedid=32455  # 32405 + 50
+
+[[item]]
+inherit=20109
+id=32457  # 32407 + 50
+placeholderid=32455  # 32405 + 50
+
+[[item]]
+inherit=20107
+id=32458  # 32455 + 3
+name="Black-green ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[22459, 6, 5]
+placeholderid=32460  # 32457 + 3
+stackable=0
+notedid=32459  # 32456 + 3
+
+[[item]]
+inherit=20108
+id=32459  # 32456 + 3
+name="Black-green ankou gloves"
+notedid=32458  # 32455 + 3
+
+[[item]]
+inherit=20109
+id=32460  # 32457 + 3
+placeholderid=32458  # 32455 + 3
+
+[[item]]
+inherit=20107
+id=32461  # 32458 + 3
+name="Black-green ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[22459, 4, 3, 6]
+placeholderid=32463  # 32460 + 3
+stackable=0
+notedid=32462  # 32459 + 3
+
+[[item]]
+inherit=20108
+id=32462  # 32459 + 3
+name="Black-green ankou leggings"
+notedid=32461  # 32458 + 3
+
+[[item]]
+inherit=20109
+id=32463  # 32460 + 3
+placeholderid=32461  # 32458 + 3
+
+[[item]]
+inherit=20107
+id=32464  # 32461 + 3
+name="Black-green ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[22459, 4, 3, 2, 6, 1, 5, 7, 0]
+placeholderid=32466  # 32463 + 3
+stackable=0
+notedid=32465  # 32462 + 3
+
+[[item]]
+inherit=20108
+id=32465  # 32462 + 3
+name="Black-green ankou mask"
+notedid=32464  # 32461 + 3
+
+[[item]]
+inherit=20109
+id=32466  # 32463 + 3
+placeholderid=32464  # 32461 + 3
+
+[[item]]
+inherit=20107
+id=32467  # 32464 + 3
+name="Black-green ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[22459, 4, 3, 6]
+placeholderid=32469  # 32466 + 3
+stackable=0
+notedid=32468  # 32465 + 3
+
+[[item]]
+inherit=20108
+id=32468  # 32465 + 3
+name="Black-green ankou top"
+notedid=32467  # 32464 + 3
+
+[[item]]
+inherit=20109
+id=32469  # 32466 + 3
+placeholderid=32467  # 32464 + 3
+
+[[item]]
+inherit=20107
+id=32470  # 32467 + 3
+name="Black-purple ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[53060, 4, 3, 6]
+placeholderid=32472  # 32469 + 3
+stackable=0
+notedid=32471  # 32468 + 3
+
+[[item]]
+inherit=20108
+id=32471  # 32468 + 3
+name="Black-purple ankou socks"
+notedid=32470  # 32467 + 3
+
+[[item]]
+inherit=20109
+id=32472  # 32469 + 3
+placeholderid=32470  # 32467 + 3
+
+[[item]]
+inherit=20107
+id=32473  # 32470 + 3
+name="Black-purple ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[53060, 6, 5]
+placeholderid=32475  # 32472 + 3
+stackable=0
+notedid=32474  # 32471 + 3
+
+[[item]]
+inherit=20108
+id=32474  # 32471 + 3
+name="Black-purple ankou gloves"
+notedid=32473  # 32470 + 3
+
+[[item]]
+inherit=20109
+id=32475  # 32472 + 3
+placeholderid=32473  # 32470 + 3
+
+[[item]]
+inherit=20107
+id=32476  # 32473 + 3
+name="Black-purple ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[53060, 4, 3, 6]
+placeholderid=32478  # 32475 + 3
+stackable=0
+notedid=32477  # 32474 + 3
+
+[[item]]
+inherit=20108
+id=32477  # 32474 + 3
+name="Black-purple ankou leggings"
+notedid=32476  # 32473 + 3
+
+[[item]]
+inherit=20109
+id=32478  # 32475 + 3
+placeholderid=32476  # 32473 + 3
+
+[[item]]
+inherit=20107
+id=32479  # 32476 + 3
+name="Black-purple ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[53060, 4, 3, 2, 6, 1, 5, 7, 0]
+placeholderid=32481  # 32478 + 3
+stackable=0
+notedid=32480  # 32477 + 3
+
+[[item]]
+inherit=20108
+id=32480  # 32477 + 3
+name="Black-purple ankou mask"
+notedid=32479  # 32476 + 3
+
+[[item]]
+inherit=20109
+id=32481  # 32478 + 3
+placeholderid=32479  # 32476 + 3
+
+[[item]]
+inherit=20107
+id=32482  # 32479 + 3
+name="Black-purple ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[53060, 4, 3, 6]
+placeholderid=32484  # 32481 + 3
+stackable=0
+notedid=32483  # 32480 + 3
+
+[[item]]
+inherit=20108
+id=32483  # 32480 + 3
+name="Black-purple ankou top"
+notedid=32482  # 32479 + 3
+
+[[item]]
+inherit=20109
+id=32484  # 32481 + 3
+placeholderid=32482  # 32479 + 3
+
+[[item]]
+inherit=20107
+id=32485  # 32482 + 3
+name="Black-white ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[127, 4, 3, 6]
+placeholderid=32487  # 32484 + 3
+stackable=0
+notedid=32486  # 32483 + 3
+
+[[item]]
+inherit=20108
+id=32486  # 32483 + 3
+name="Black-white ankou socks"
+notedid=32485  # 32482 + 3
+
+[[item]]
+inherit=20109
+id=32487  # 32484 + 3
+placeholderid=32485  # 32482 + 3
+
+[[item]]
+inherit=20107
+id=32488  # 32485 + 3
+name="Black-white ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[127, 6, 5]
+placeholderid=32490  # 32487 + 3
+stackable=0
+notedid=32489  # 32486 + 3
+
+[[item]]
+inherit=20108
+id=32489  # 32486 + 3
+name="Black-white ankou gloves"
+notedid=32488  # 32485 + 3
+
+[[item]]
+inherit=20109
+id=32490  # 32487 + 3
+placeholderid=32488  # 32485 + 3
+
+[[item]]
+inherit=20107
+id=32491  # 32488 + 3
+name="Black-white ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[127, 4, 3, 6]
+placeholderid=32493  # 32490 + 3
+stackable=0
+notedid=32492  # 32489 + 3
+
+[[item]]
+inherit=20108
+id=32492  # 32489 + 3
+name="Black-white ankou leggings"
+notedid=32491  # 32488 + 3
+
+[[item]]
+inherit=20109
+id=32493  # 32490 + 3
+placeholderid=32491  # 32488 + 3
+
+[[item]]
+inherit=20107
+id=32494  # 32491 + 3
+name="Black-white ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[127, 4, 3, 2, 6, 1, 5, 7, 0]
+placeholderid=32496  # 32493 + 3
+stackable=0
+notedid=32495  # 32492 + 3
+
+[[item]]
+inherit=20108
+id=32495  # 32492 + 3
+name="Black-white ankou mask"
+notedid=32494  # 32491 + 3
+
+[[item]]
+inherit=20109
+id=32496  # 32493 + 3
+placeholderid=32494  # 32491 + 3
+
+[[item]]
+inherit=20107
+id=32497  # 32494 + 3
+name="Black-white ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[127, 4, 3, 6]
+placeholderid=32499  # 32496 + 3
+stackable=0
+notedid=32498  # 32495 + 3
+
+[[item]]
+inherit=20108
+id=32498  # 32495 + 3
+name="Black-white ankou top"
+notedid=32497  # 32494 + 3
+
+[[item]]
+inherit=20109
+id=32499  # 32496 + 3
+placeholderid=32497  # 32494 + 3
+
+[[item]]
+inherit=20107
+id=32500  # 32497 + 3
+name="Black-yellow ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[11210, 4, 3, 6]
+placeholderid=32502  # 32499 + 3
+stackable=0
+notedid=32501  # 32498 + 3
+
+[[item]]
+inherit=20108
+id=32501  # 32498 + 3
+name="Black-yellow ankou socks"
+notedid=32500  # 32497 + 3
+
+[[item]]
+inherit=20109
+id=32502  # 32499 + 3
+placeholderid=32500  # 32497 + 3
+
+[[item]]
+inherit=20107
+id=32503  # 32500 + 3
+name="Black-yellow ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[11210, 6, 5]
+placeholderid=32505  # 32502 + 3
+stackable=0
+notedid=32504  # 32501 + 3
+
+[[item]]
+inherit=20108
+id=32504  # 32501 + 3
+name="Black-yellow ankou gloves"
+notedid=32503  # 32500 + 3
+
+[[item]]
+inherit=20109
+id=32505  # 32502 + 3
+placeholderid=32503  # 32500 + 3
+
+[[item]]
+inherit=20107
+id=32506  # 32503 + 3
+name="Black-yellow ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[11210, 4, 3, 6]
+placeholderid=32508  # 32505 + 3
+stackable=0
+notedid=32507  # 32504 + 3
+
+[[item]]
+inherit=20108
+id=32507  # 32504 + 3
+name="Black-yellow ankou leggings"
+notedid=32506  # 32503 + 3
+
+[[item]]
+inherit=20109
+id=32508  # 32505 + 3
+placeholderid=32506  # 32503 + 3
+
+[[item]]
+inherit=20107
+id=32509  # 32506 + 3
+name="Black-yellow ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[11210, 4, 3, 2, 6, 1, 5, 7, 0]
+placeholderid=32511  # 32508 + 3
+stackable=0
+notedid=32510  # 32507 + 3
+
+[[item]]
+inherit=20108
+id=32510  # 32507 + 3
+name="Black-yellow ankou mask"
+notedid=32509  # 32506 + 3
+
+[[item]]
+inherit=20109
+id=32511  # 32508 + 3
+placeholderid=32509  # 32506 + 3
+
+[[item]]
+inherit=20107
+id=32512  # 32509 + 3
+name="Black-yellow ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[11210, 4, 3, 6]
+placeholderid=32514  # 32511 + 3
+stackable=0
+notedid=32513  # 32510 + 3
+
+[[item]]
+inherit=20108
+id=32513  # 32510 + 3
+name="Black-yellow ankou top"
+notedid=32512  # 32509 + 3
+
+[[item]]
+inherit=20109
+id=32514  # 32511 + 3
+placeholderid=32512  # 32509 + 3
+
+[[item]]
+inherit=20107
+id=32515  # 32512 + 3
+name="Gilded ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[7109, 7150, 7145, 7160]
+placeholderid=32517  # 32514 + 3
+stackable=0
+notedid=32516  # 32513 + 3
+
+[[item]]
+inherit=20108
+id=32516  # 32513 + 3
+name="Gilded ankou socks"
+notedid=32515  # 32512 + 3
+
+[[item]]
+inherit=20109
+id=32517  # 32514 + 3
+placeholderid=32515  # 32512 + 3
+
+[[item]]
+inherit=20107
+id=32518  # 32515 + 3
+name="Gilded ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[7109, 7160, 7155]
+placeholderid=32520  # 32517 + 3
+stackable=0
+notedid=32519  # 32516 + 3
+
+[[item]]
+inherit=20108
+id=32519  # 32516 + 3
+name="Gilded ankou gloves"
+notedid=32518  # 32515 + 3
+
+[[item]]
+inherit=20109
+id=32520  # 32517 + 3
+placeholderid=32518  # 32515 + 3
+
+[[item]]
+inherit=20107
+id=32521  # 32518 + 3
+name="Gilded ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[7109, 7150, 7145, 7160]
+placeholderid=32523  # 32520 + 3
+stackable=0
+notedid=32522  # 32519 + 3
+
+[[item]]
+inherit=20108
+id=32522  # 32519 + 3
+name="Gilded ankou leggings"
+notedid=32521  # 32518 + 3
+
+[[item]]
+inherit=20109
+id=32523  # 32520 + 3
+placeholderid=32521  # 32518 + 3
+
+[[item]]
+inherit=20107
+id=32524  # 32521 + 3
+name="Gilded ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[7109, 7150, 7145, 7140, 7160, 7135, 7155, 7165, 7130]
+placeholderid=32526  # 32523 + 3
+stackable=0
+notedid=32525  # 32522 + 3
+
+[[item]]
+inherit=20108
+id=32525  # 32522 + 3
+name="Gilded ankou mask"
+notedid=32524  # 32521 + 3
+
+[[item]]
+inherit=20109
+id=32526  # 32523 + 3
+placeholderid=32524  # 32521 + 3
+
+[[item]]
+inherit=20107
+id=32527  # 32524 + 3
+name="Gilded ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[7109, 7150, 7145, 7160]
+placeholderid=32529  # 32526 + 3
+stackable=0
+notedid=32528  # 32525 + 3
+
+[[item]]
+inherit=20108
+id=32528  # 32525 + 3
+name="Gilded ankou top"
+notedid=32527  # 32524 + 3
+
+[[item]]
+inherit=20109
+id=32529  # 32526 + 3
+placeholderid=32527  # 32524 + 3
+
+[[item]]
+inherit=20107
+id=32530  # 32527 + 3
+name="Green-black ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 22450, 22445, 22460]
+placeholderid=32532  # 32529 + 3
+stackable=0
+notedid=32531  # 32528 + 3
+
+[[item]]
+inherit=20108
+id=32531  # 32528 + 3
+name="Green-black ankou socks"
+notedid=32530  # 32527 + 3
+
+[[item]]
+inherit=20109
+id=32532  # 32529 + 3
+placeholderid=32530  # 32527 + 3
+
+[[item]]
+inherit=20107
+id=32533  # 32530 + 3
+name="Green-black ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[0, 22460, 22455]
+placeholderid=32535  # 32532 + 3
+stackable=0
+notedid=32534  # 32531 + 3
+
+[[item]]
+inherit=20108
+id=32534  # 32531 + 3
+name="Green-black ankou gloves"
+notedid=32533  # 32530 + 3
+
+[[item]]
+inherit=20109
+id=32535  # 32532 + 3
+placeholderid=32533  # 32530 + 3
+
+[[item]]
+inherit=20107
+id=32536  # 32533 + 3
+name="Green-black ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 22450, 22445, 22460]
+placeholderid=32538  # 32535 + 3
+stackable=0
+notedid=32537  # 32534 + 3
+
+[[item]]
+inherit=20108
+id=32537  # 32534 + 3
+name="Green-black ankou leggings"
+notedid=32536  # 32533 + 3
+
+[[item]]
+inherit=20109
+id=32538  # 32535 + 3
+placeholderid=32536  # 32533 + 3
+
+[[item]]
+inherit=20107
+id=32539  # 32536 + 3
+name="Green-black ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[0, 22450, 22445, 22440, 22460, 22435, 22455, 22465, 22430]
+placeholderid=32541  # 32538 + 3
+stackable=0
+notedid=32540  # 32537 + 3
+
+[[item]]
+inherit=20108
+id=32540  # 32537 + 3
+name="Green-black ankou mask"
+notedid=32539  # 32536 + 3
+
+[[item]]
+inherit=20109
+id=32541  # 32538 + 3
+placeholderid=32539  # 32536 + 3
+
+[[item]]
+inherit=20107
+id=32542  # 32539 + 3
+name="Green-black ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 22450, 22445, 22460]
+placeholderid=32544  # 32541 + 3
+stackable=0
+notedid=32543  # 32540 + 3
+
+[[item]]
+inherit=20108
+id=32543  # 32540 + 3
+name="Green-black ankou top"
+notedid=32542  # 32539 + 3
+
+[[item]]
+inherit=20109
+id=32544  # 32541 + 3
+placeholderid=32542  # 32539 + 3
+
+[[item]]
+inherit=20107
+id=32545  # 32542 + 3
+name="Purple-black ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 53050, 53045, 53060]
+placeholderid=32547  # 32544 + 3
+stackable=0
+notedid=32546  # 32543 + 3
+
+[[item]]
+inherit=20108
+id=32546  # 32543 + 3
+name="Purple-black ankou socks"
+notedid=32545  # 32542 + 3
+
+[[item]]
+inherit=20109
+id=32547  # 32544 + 3
+placeholderid=32545  # 32542 + 3
+
+[[item]]
+inherit=20107
+id=32548  # 32545 + 3
+name="Purple-black ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[0, 53060, 53055]
+placeholderid=32550  # 32547 + 3
+stackable=0
+notedid=32549  # 32546 + 3
+
+[[item]]
+inherit=20108
+id=32549  # 32546 + 3
+name="Purple-black ankou gloves"
+notedid=32548  # 32545 + 3
+
+[[item]]
+inherit=20109
+id=32550  # 32547 + 3
+placeholderid=32548  # 32545 + 3
+
+[[item]]
+inherit=20107
+id=32551  # 32548 + 3
+name="Purple-black ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 53050, 53045, 53060]
+placeholderid=32553  # 32550 + 3
+stackable=0
+notedid=32552  # 32549 + 3
+
+[[item]]
+inherit=20108
+id=32552  # 32549 + 3
+name="Purple-black ankou leggings"
+notedid=32551  # 32548 + 3
+
+[[item]]
+inherit=20109
+id=32553  # 32550 + 3
+placeholderid=32551  # 32548 + 3
+
+[[item]]
+inherit=20107
+id=32554  # 32551 + 3
+name="Purple-black ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[0, 53050, 53045, 53040, 53060, 53035, 53055, 53065, 53030]
+placeholderid=32556  # 32553 + 3
+stackable=0
+notedid=32555  # 32552 + 3
+
+[[item]]
+inherit=20108
+id=32555  # 32552 + 3
+name="Purple-black ankou mask"
+notedid=32554  # 32551 + 3
+
+[[item]]
+inherit=20109
+id=32556  # 32553 + 3
+placeholderid=32554  # 32551 + 3
+
+[[item]]
+inherit=20107
+id=32557  # 32554 + 3
+name="Purple-black ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 53050, 53045, 53060]
+placeholderid=32559  # 32556 + 3
+stackable=0
+notedid=32558  # 32555 + 3
+
+[[item]]
+inherit=20108
+id=32558  # 32555 + 3
+name="Purple-black ankou top"
+notedid=32557  # 32554 + 3
+
+[[item]]
+inherit=20109
+id=32559  # 32556 + 3
+placeholderid=32557  # 32554 + 3
+
+[[item]]
+inherit=20107
+id=32560  # 32557 + 3
+name="Red-black ankou socks"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 950, 945, 960]
+placeholderid=32562  # 32559 + 3
+stackable=0
+notedid=32561  # 32558 + 3
+
+[[item]]
+inherit=20108
+id=32561  # 32558 + 3
+name="Red-black ankou socks"
+notedid=32560  # 32557 + 3
+
+[[item]]
+inherit=20109
+id=32562  # 32559 + 3
+placeholderid=32560  # 32557 + 3
+
+[[item]]
+inherit=20107
+id=32563  # 32560 + 3
+name="Red-black ankou gloves"
+originalcolours=[960, 13541, 13532]
+replacementcolours=[0, 960, 955]
+placeholderid=32565  # 32562 + 3
+stackable=0
+notedid=32564  # 32561 + 3
+
+[[item]]
+inherit=20108
+id=32564  # 32561 + 3
+name="Red-black ankou gloves"
+notedid=32563  # 32560 + 3
+
+[[item]]
+inherit=20109
+id=32565  # 32562 + 3
+placeholderid=32563  # 32560 + 3
+
+[[item]]
+inherit=20107
+id=32566  # 32563 + 3
+name="Red-black ankou leggings"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 950, 945, 960]
+placeholderid=32568  # 32565 + 3
+stackable=0
+notedid=32567  # 32564 + 3
+
+[[item]]
+inherit=20108
+id=32567  # 32564 + 3
+name="Red-black ankou leggings"
+notedid=32566  # 32563 + 3
+
+[[item]]
+inherit=20109
+id=32568  # 32565 + 3
+placeholderid=32566  # 32563 + 3
+
+[[item]]
+inherit=20107
+id=32569  # 32566 + 3
+name="Red-black ankou mask"
+originalcolours=[960, 14554, 12500, 12492, 13541, 14532, 13532, 13545, 10411]
+replacementcolours=[0, 950, 945, 940, 960, 935, 955, 965, 930]
+placeholderid=32571  # 32568 + 3
+stackable=0
+notedid=32570  # 32567 + 3
+
+[[item]]
+inherit=20108
+id=32570  # 32567 + 3
+name="Red-black ankou mask"
+notedid=32569  # 32566 + 3
+
+[[item]]
+inherit=20109
+id=32571  # 32568 + 3
+placeholderid=32569  # 32566 + 3
+
+[[item]]
+inherit=20107
+id=32572  # 32569 + 3
+name="Red-black ankou top"
+originalcolours=[960, 14554, 12500, 13541]
+replacementcolours=[0, 950, 945, 960]
+placeholderid=32574  # 32571 + 3
+stackable=0
+notedid=32573  # 32570 + 3
+
+[[item]]
+inherit=20108
+id=32573  # 32570 + 3
+name="Red-black ankou top"
+notedid=32572  # 32569 + 3
+
+[[item]]
+inherit=20109
+id=32574  # 32571 + 3
+placeholderid=32572  # 32569 + 3
+
+[[item]]
+inherit=20107
+id=32575  # 32572 + 3
+name="White-blue ankou socks"
+originalcolours=[960]
+replacementcolours=[43968]
+placeholderid=32577  # 32574 + 3
+stackable=0
+notedid=32576  # 32573 + 3
+
+[[item]]
+inherit=20108
+id=32576  # 32573 + 3
+name="White-blue ankou socks"
+notedid=32575  # 32572 + 3
+
+[[item]]
+inherit=20109
+id=32577  # 32574 + 3
+placeholderid=32575  # 32572 + 3
+
+[[item]]
+inherit=20107
+id=32578  # 32575 + 3
+name="White-blue ankou gloves"
+originalcolours=[960]
+replacementcolours=[43968]
+placeholderid=32580  # 32577 + 3
+stackable=0
+notedid=32579  # 32576 + 3
+
+[[item]]
+inherit=20108
+id=32579  # 32576 + 3
+name="White-blue ankou gloves"
+notedid=32578  # 32575 + 3
+
+[[item]]
+inherit=20109
+id=32580  # 32577 + 3
+placeholderid=32578  # 32575 + 3
+
+[[item]]
+inherit=20107
+id=32581  # 32578 + 3
+name="White-blue ankou leggings"
+originalcolours=[960]
+replacementcolours=[43968]
+placeholderid=32583  # 32580 + 3
+stackable=0
+notedid=32582  # 32579 + 3
+
+[[item]]
+inherit=20108
+id=32582  # 32579 + 3
+name="White-blue ankou leggings"
+notedid=32581  # 32578 + 3
+
+[[item]]
+inherit=20109
+id=32583  # 32580 + 3
+placeholderid=32581  # 32578 + 3
+
+[[item]]
+inherit=20107
+id=32584  # Using the ID from the incorrect top item
+name="White-blue ankou mask"
+originalcolours=[960]
+replacementcolours=[43968]
+placeholderid=32586  # 32584 + 2
+stackable=0
+notedid=32585  # 32584 + 1
+
+[[item]]
+inherit=20108
+id=32585  # 32584 + 1
+name="White-blue ankou mask"
+notedid=32584  # Using the original ID
+
+[[item]]
+inherit=20109
+id=32586  # 32584 + 2
+placeholderid=32584  # Using the original ID
+
+[[item]]
+inherit=20107
+id=32587
+name="White-blue ankou top"
+originalcolours=[960]
+replacementcolours=[43968]
+placeholderid=32589  # 32587 + 2
+stackable=0
+notedid=32588  # 32587 + 1
+
+[[item]]
+inherit=20108
+id=32588
+name="White-blue ankou top"
+notedid=32587  # Starting ID
+
+[[item]]
+inherit=20109
+id=32589
+placeholderid=32587  # Starting ID
+
+[[item]]
+inherit=20107
+id=32590  # Continuing from previous item ID sequence
+name="White-purple ankou socks"
+originalcolours=[960]
+replacementcolours=[51136]
+placeholderid=32592  # 32590 + 2
+stackable=0
+notedid=32591  # 32590 + 1
+
+[[item]]
+inherit=20108
+id=32591
+name="White-purple ankou socks"
+notedid=32590  # Starting ID
+
+[[item]]
+inherit=20109
+id=32592
+placeholderid=32590  # Starting ID
+
+[[item]]
+inherit=20107
+id=32593  # Continuing from previous item ID sequence
+name="White-purple ankou gloves"
+originalcolours=[960]
+replacementcolours=[51136]
+placeholderid=32595  # 32593 + 2
+stackable=0
+notedid=32594  # 32593 + 1
+
+[[item]]
+inherit=20108
+id=32594
+name="White-purple ankou gloves"
+notedid=32593  # Starting ID
+
+[[item]]
+inherit=20109
+id=32595
+placeholderid=32593  # Starting ID
+
+[[item]]
+inherit=20107
+id=32596  # Continuing from previous item ID sequence
+name="White-purple ankou leggings"
+originalcolours=[960]
+replacementcolours=[51136]
+placeholderid=32598  # 32596 + 2
+stackable=0
+notedid=32597  # 32596 + 1
+
+[[item]]
+inherit=20108
+id=32597
+name="White-purple ankou leggings"
+notedid=32596  # Starting ID
+
+[[item]]
+inherit=20109
+id=32598
+placeholderid=32596  # Starting ID
+
+[[item]]
+inherit=20107
+id=32599  # Continuing from previous item ID sequence
+name="White-purple ankou mask"
+originalcolours=[960]
+replacementcolours=[51136]
+placeholderid=32601  # 32599 + 2
+stackable=0
+notedid=32600  # 32599 + 1
+
+[[item]]
+inherit=20108
+id=32600
+name="White-purple ankou mask"
+notedid=32599  # Starting ID
+
+[[item]]
+inherit=20109
+id=32601
+placeholderid=32599  # Starting ID
+
+[[item]]
+inherit=20107
+id=32602  # Continuing from previous item ID sequence
+name="White-purple ankou top"
+originalcolours=[960]
+replacementcolours=[51136]
+placeholderid=32604  # 32602 + 2
+stackable=0
+notedid=32603  # 32602 + 1
+
+[[item]]
+inherit=20108
+id=32603
+name="White-purple ankou top"
+notedid=32602  # Starting ID
+
+[[item]]
+inherit=20109
+id=32604
+placeholderid=32602  # Starting ID
+
+

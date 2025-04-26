@@ -1,0 +1,81 @@
+{
+  "id": 459,
+  "hitpoints": 25,
+  "attackSpeed": 6,
+  "slayerLevel": 22,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "statDefinitions": {
+    "combatStats": [
+      20,
+      22,
+      20,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      5,
+      15,
+      15,
+      0,
+      5
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "CRUSH",
+    "maxHit": 3,
+    "animation": {
+      "id": 2776,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 605,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 2777,
+      "delay": 0
+    },
+    "sound": {
+      "id": 607,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 2778,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 606,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

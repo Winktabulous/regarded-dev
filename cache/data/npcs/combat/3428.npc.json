@@ -1,0 +1,96 @@
+{
+  "id": 3428,
+  "hitpoints": 105,
+  "attackSpeed": 5,
+  "slayerLevel": 1,
+  "attackDistance": 8,
+  "aggressionDistance": 8,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "statDefinitions": {
+    "combatStats": [
+      10,
+      10,
+      80,
+      1,
+      90
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      50,
+      50,
+      50,
+      60,
+      70
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "RANGED",
+    "maxHit": 12,
+    "animation": {
+      "id": 426,
+      "delay": 0
+    },
+    "startSound": {
+      "id": 1352,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    },
+    "projectile": {
+      "graphicsId": 249,
+      "startHeight": 40,
+      "endHeight": 36,
+      "angle": 21,
+      "distanceOffset": 11,
+      "multiplier": 5,
+      "delay": 41,
+      "duration": 5
+    },
+    "drawbackGraphics": {
+      "id": 250,
+      "delay": 0,
+      "height": 96
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 425,
+      "delay": 0
+    },
+    "sound": {
+      "id": 1345,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 836,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "deathSound": {
+      "id": 426,
+      "delay": 0,
+      "radius": 10,
+      "repetitions": 1
+    }
+  }
+}

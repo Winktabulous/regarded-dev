@@ -1,0 +1,42 @@
+define void script_34032(Widget, int, int, int) 34032
+
+void script_34035(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	string str5;
+	int3 = 0;
+	str5 = (string)osrs_m6516(VARP[261], 5008);
+	widget0.clearChildren();
+	if (length(str5) > 0) {
+		int4 = 1;
+		CHILD.createChild(widget0, 3, 0);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTrans(200);
+		CHILD.setFilled(true);
+		int4, int3 = script_34032(widget0, (int)osrs_m6516(VARP[261], 5003), int4, int3);
+		int4, int3 = script_34032(widget0, (int)osrs_m6516(VARP[261], 5004), int4, int3);
+		int4, int3 = script_34032(widget0, (int)osrs_m6516(VARP[261], 5005), int4, int3);
+	} else {
+		str5 = "Challenges";
+		CHILD.createChild(widget0, 4, 0);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setText("Currently there are no challenges.");
+		CHILD.setTextAlignment(1, 1, 15);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+	}
+	if (CHILD.setChild(widget2, 1) == true) {
+		CHILD.setText(str5);
+	}
+	widget0.setScrollPos(0, 0);
+	if (int3 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int3);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

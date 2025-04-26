@@ -1,0 +1,41 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11408Spawns : NPCSpawnsScript() {
+    init {
+        STONE_GUARDIAN_8066(2819, 9258, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2820, 9228, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2820, 9273, 0, SOUTH, 2)
+        STONE_GUARDIAN(2826, 9231, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2828, 9240, 0, SOUTH, 2)
+        STONE_GUARDIAN(2828, 9252, 0, SOUTH, 2)
+        STONE_GUARDIAN(2829, 9275, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2831, 9219, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2832, 9247, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2839, 9267, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2840, 9251, 0, SOUTH, 2)
+        STONE_GUARDIAN(2841, 9239, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2843, 9260, 0, SOUTH, 2)
+        STONE_GUARDIAN(2844, 9223, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2848, 9235, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2850, 9220, 0, SOUTH, 2)
+        STONE_GUARDIAN(2851, 9264, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2856, 9267, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2856, 9274, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2858, 9251, 0, SOUTH, 2)
+        STONE_GUARDIAN(2859, 9244, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2860, 9256, 0, SOUTH, 2)
+        STONE_GUARDIAN(2863, 9223, 0, SOUTH, 2)
+        STONE_GUARDIAN(2864, 9274, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2868, 9241, 0, SOUTH, 2)
+        STONE_GUARDIAN_8065(2870, 9263, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2874, 9275, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2875, 9221, 0, SOUTH, 2)
+        STONE_GUARDIAN_8066(2875, 9234, 0, SOUTH, 2)
+        STONE_GUARDIAN(2875, 9255, 0, SOUTH, 2)
+    }
+}

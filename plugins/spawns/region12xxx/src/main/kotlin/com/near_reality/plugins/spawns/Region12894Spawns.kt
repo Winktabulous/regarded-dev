@@ -1,0 +1,63 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region12894Spawns : NPCSpawnsScript() {
+    init {
+        RABBIT_3420(3206, 6033, 0, SOUTH, 4)
+        RABBIT_3421(3207, 6029, 0, SOUTH, 3)
+        RABBIT_3420(3207, 6031, 0, SOUTH, 4)
+        RABBIT_3420(3208, 6028, 0, SOUTH, 4)
+        RABBIT_3422(3208, 6032, 0, SOUTH, 3)
+        RABBIT_3420(3209, 6031, 0, SOUTH, 4)
+        RABBIT_3422(3210, 6032, 0, SOUTH, 3)
+        RABBIT_3420(3210, 6033, 0, SOUTH, 4)
+        GUARD_9182(3210, 6077, 0, SOUTH, 5)
+        RABBIT_3420(3212, 6029, 0, SOUTH, 4)
+        ALWYN(3218, 6058, 0, SOUTH, 5)
+        IDRIL(3221, 6056, 0, SOUTH, 5)
+        LADY_KELYN_ITHELL_9121(3221, 6064, 0, SOUTH, 5)
+        NIA(3222, 6074, 0, SOUTH, 5)
+        GUINEVERE(3228, 6055, 0, SOUTH, 5)
+        ELUNED_9145(3229, 6062, 0, SOUTH, 5)
+        INGWION(3230, 6049, 0, SOUTH, 5)
+        LLIANN(3230, 6068, 0, SOUTH, 5)
+        MITHRELLAS(3231, 6076, 0, SOUTH, 5)
+        THINGOL(3237, 6041, 0, SOUTH, 5)
+        9147(3237, 6072, 0, SOUTH, 5)
+        9240(3238, 6066, 0, SOUTH, 5)
+        FEANOR(3240, 6056, 0, SOUTH, 5)
+        CLEDDYF(3243, 6049, 0, SOUTH, 5)
+        LINDIR(3243, 6070, 0, SOUTH, 5)
+        RHYFEL(3244, 6050, 0, SOUTH, 5)
+        GWYL(3244, 6051, 0, SOUTH, 5)
+        SAETH(3245, 6048, 0, SOUTH, 5)
+        GLADIATOR(3246, 6051, 0, SOUTH, 5)
+        ENILLY(3246, 6053, 0, SOUTH, 5)
+        YSBEID(3246, 6054, 0, SOUTH, 5)
+        GLADIATOR_9144(3247, 6050, 0, SOUTH, 5)
+        FFONI(3247, 6053, 0, SOUTH, 5)
+        GELMIR(3247, 6078, 0, SOUTH, 5)
+        LORD_IESTIN_IORWERTH(3248, 6040, 0, SOUTH, 5)
+        DIOL(3248, 6048, 0, SOUTH, 5)
+        SADWRN(3249, 6050, 0, SOUTH, 5)
+        YMLADD(3249, 6051, 0, SOUTH, 5)
+        ERESTOR(3250, 6066, 0, SOUTH, 5)
+        ANEIRIN(3252, 6060, 0, SOUTH, 5)
+        ELENWE(3258, 6051, 0, SOUTH, 5)
+        CELYN(3258, 6058, 0, SOUTH, 5)
+        GUARD_9186(3261, 6026, 0, SOUTH, 5)
+        9242(3262, 6020, 0, SOUTH, 5)
+        9475(3262, 6076, 0, SOUTH, 5)
+        OROPHIN(3263, 6043, 0, SOUTH, 5)
+        ENELYE(3227, 6058, 2, SOUTH, 5)
+        GUARD_9186(3233, 6052, 2, SOUTH, 5)
+        GALATHIL(3236, 6055, 2, SOUTH, 5)
+        NERDANEL(3242, 6045, 2, SOUTH, 5)
+        GUARD_9187(3252, 6071, 2, SOUTH, 5)
+        9475(3259, 6078, 2, SOUTH, 5)
+    }
+}

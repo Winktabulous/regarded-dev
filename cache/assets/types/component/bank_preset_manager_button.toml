@@ -1,0 +1,28 @@
+# Button background
+[[component]]
+id = 12
+parentid = 1
+generatecomponentid = true
+type = "graphic"
+sprite = 185
+clickmask = 2
+op1 = "Preset Manager"
+width = 36
+height = 31
+x = 420
+y = 6
+onmouseover = [273, "component:self", 75]
+onmouseleave = [273, "component:self", 0]
+onop = [292, "component:self", 186, 185, -2147483644]
+
+# Preset icon
+[[component]]
+id = 12
+parentid = 1
+generatecomponentid = true
+type = "graphic"
+sprite = 10000
+width = 29
+height = 19
+x = 423
+y = 7

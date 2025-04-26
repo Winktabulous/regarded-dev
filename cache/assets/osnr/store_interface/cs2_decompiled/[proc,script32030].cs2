@@ -1,0 +1,87 @@
+// 32030
+[proc,script32030](component $component0, int $int1, string $string2, int $int3, int $int4, string $text0, string $text1, string $text2, int $int5)
+cc_deleteall($component0);
+def_int $int6 = 0;
+def_int $int7 = 140;
+def_int $int8 = 110;
+def_int $int9 = 7496785;
+if ($int5 = 1) {
+	$int9 = 12099970;
+}
+def_int $width10 = if_getwidth($component0);
+def_int $height11 = if_getheight($component0);
+def_int $x12 = calc(($width10 - $int3) / 2);
+def_int $int13 = calc(($height11 - $int4) / 2);
+def_int $comsubid14 = $int6;
+if_setop(1, "Buy", $component0);
+if_setopbase("<col=FF981F><$text0></col>", $component0);
+if_setonclick("script32077($int1)", $component0);
+$int6 = ~script5288($component0, $int6, 0, 0, $int7, calc(if_getheight($component0) - 4), 3712, $int9);
+if ($int5 = 0) {
+	cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 12099970)");
+	cc_setonmouseleave("cc_settrans(event_com, event_comsubid, $int9)");
+	if (cc_find($component0, $comsubid14) = ^true) {
+		cc_setonmouserepeat("cc_colour_swapper(event_com, event_comsubid, 11965282)");
+		cc_setonmouseleave("cc_colour_swapper(event_com, event_comsubid, 7496785)");
+	}
+}
+cc_create($component0, ^iftype_graphic, $int6);
+$int6 = calc($int6 + 1);
+cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
+cc_setsize(4, 4, ^setsize_minus, ^setsize_minus);
+cc_setgraphic("tradebacking_dark");
+cc_settiling(true);
+cc_settrans(255);
+cc_create($component0, ^iftype_rectangle, $int6);
+$int6 = calc($int6 + 1);
+cc_setposition(2, 2, ^setpos_abs_left, ^setpos_abs_top);
+cc_setsize(4, 4, ^setsize_minus, ^setsize_minus);
+cc_setcolour(0x2e2b22);
+cc_setfill(true);
+_1125(2);
+_1124(255);
+cc_settrans(128);
+def_int $y15 = 0;
+def_int $int16 = 0;
+if ($int4 > 50) {
+	$y15 = 4;
+	$int16 = 1;
+} else {
+	$y15 = calc((9 + $height11 - 65 - $int4) / 2);
+}
+cc_create($component0, ^iftype_graphic, $int6);
+$int6 = calc($int6 + 1);
+cc_setsize($int3, $int4, ^setsize_abs, ^setsize_abs);
+cc_setposition($x12, $y15, ^setpos_abs_left, ^setpos_abs_top);
+cc_setgraphic($string2);
+def_int $y17 = 20;
+if ($int16 = 1) {
+	$y17 = 16;
+}
+cc_create($component0, ^iftype_text, $int6);
+$int6 = calc($int6 + 1);
+cc_setposition(0, $y17, ^setpos_abs_left, ^setpos_abs_bottom);
+cc_setsize(0, 54, ^setsize_minus, ^setsize_abs);
+cc_settextfont(verdana_15pt_regular);
+cc_setcolour(0xff981f);
+cc_settextshadow(true);
+cc_settext($text0);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 16);
+cc_create($component0, ^iftype_text, $int6);
+$int6 = calc($int6 + 1);
+cc_setposition(0, 20, ^setpos_abs_left, ^setpos_abs_bottom);
+cc_setsize(0, 24, ^setsize_minus, ^setsize_abs);
+cc_settextfont(verdana_11pt_regular);
+cc_setcolour(0x8f9a68);
+cc_settextshadow(true);
+cc_settext($text1);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 12);
+cc_create($component0, ^iftype_text, $int6);
+$int6 = calc($int6 + 1);
+cc_setposition(0, 12, ^setpos_abs_left, ^setpos_abs_bottom);
+cc_setsize(0, 14, ^setsize_minus, ^setsize_abs);
+cc_settextfont(verdana_13pt_regular);
+cc_setcolour(0x9f9f9f);
+cc_settextshadow(true);
+cc_settext($text2);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);

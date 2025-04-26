@@ -1,0 +1,9 @@
+[[object]]
+inherit=36084
+op3="Normal-NoPrep"
+op4="Corrupted-NoPrep"
+
+[[object]]
+inherit=36080
+op1="Pass"
+op2="Quick-Pass"

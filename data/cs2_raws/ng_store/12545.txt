@@ -1,0 +1,13 @@
+void script_12545(int arg0) {
+	string str1;
+	_CHILD.setSprite(null);
+	if (arg0 > 0) {
+		str1 = script_46(arg0, ",");
+		CHILD.setText(str1);
+		_CHILD.setPosition(0 - ((13 + getMaxLineWidth(str1, 512, 496)) / 2 + 6), 0, 1, 1);
+	} else {
+		CHILD.setText("0");
+		CHILD.setRGB(0x9F9F9F);
+	}
+	return;
+}

@@ -1,0 +1,6 @@
+void script_10103() {
+	if (VARP[281] == 0 && CHILD.setChild(widget(215, 30)) == true) {
+    	CHILD.setHidden(false);
+    }
+    return;
+}

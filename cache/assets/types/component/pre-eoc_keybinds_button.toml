@@ -1,0 +1,16 @@
+[[component]]
+inherit="121:104"
+componentid=113
+op1="Pre-EOC Layout"
+y=180
+
+[[component]]
+inherit="121:105"
+componentid=114
+parentid=113
+
+[[component]]
+inherit="121:106"
+componentid=115
+parentid=113
+text="Pre-EOC Layout"

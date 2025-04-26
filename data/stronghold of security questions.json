@@ -1,0 +1,868 @@
+[
+  {
+    "question": {
+      "strings": [
+        "What is the best way to secure your account?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "A long and complicated password because I have good memory.",
+        "message": [
+          "Incorrect! While a strong password is recommended, the authenticator and 2FA add extra levels of security."
+        ]
+      },
+      {
+        "option": "Authenticator and two-step login on my registered email.",
+        "message": [
+          "Correct! Using each of these features will maximise your account security!"
+        ]
+      },
+      {
+        "option": "With Saradomin's blessing, my account will always be safe.",
+        "message": [
+          "Incorrect! Make sure to take advantage of the authenticator and 2FA to maximize your account security!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "A player starts asking you about very specific details linked to your account, such as when you created your account, your birthday date, internet provider etc. How should you",
+        "react?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Be friendly and answer the questions.",
+        "message": [
+          "Incorrect! These details can be used within the account recovery system and possibly compromise your account."
+        ]
+      },
+      {
+        "option": "Don't share your information and report the player.",
+        "message": [
+          "Correct! These details could've been used within the account recovery system and possibly compromise your account."
+        ]
+      },
+      {
+        "option": "Answer the questions and ask the player back for their details.",
+        "message": [
+          "Incorrect! These details can be used within the account recovery system and possibly compromise your account. If you're asking the player back, you're unknowingly committing the same offence."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "You are part way through the Stronghold of Security when you have to answer another question. After you answer the question, you should..."
+      ]
+    },
+    "answers": [
+      {
+        "option": "Click through the text as fast as possible to get your reward sooner.",
+        "message": [
+          "Incorrect! You should read the text and follow the advice to keep your account as secure as possible."
+        ]
+      },
+      {
+        "option": "Read the text, but forget the info moments later.",
+        "message": [
+          "Incorrect! You should always remember this info so your account is as safe as possible."
+        ]
+      },
+      {
+        "option": "Read the text and follow the advice given.",
+        "message": [
+          "Correct! As tempting as it is to click through all the text and get your reward as soon as possible, it's important to know these security tips."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Who is it ok to share your account with?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "My friends.",
+        "message": [
+          "Wrong! Your account may only be used by you."
+        ]
+      },
+      {
+        "option": "Relatives.",
+        "message": [
+          "Wrong! Your account may only be used by you."
+        ]
+      },
+      {
+        "option": "Nobody.",
+        "message": [
+          "Correct! Your account may only be used by you."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "You have been offered an opportunity to check out a free giveaway via social media or stream. What should you do?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Respond quickly so as not to miss the offer.",
+        "message": [
+          "Wrong! %SERVER_NAME% staff will NEVER make offers like this - it is an attempt to obtain your account details. Please report the incident using the appropriate forum section."
+        ]
+      },
+      {
+        "option": "Report the incident and do not click any links.",
+        "message": [
+          "Correct! This is an attempt to obtain your account details and should be reported on the official forums."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Who can I give my password to?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "My friends.",
+        "message": [
+          "Wrong! Your password should be kept secret from everyone. You should *never* give it out under any circumstances."
+        ]
+      },
+      {
+        "option": "My brother or sister.",
+        "message": [
+          "Wrong! Your password should be kept secret from everyone. You should *never* give it out under any circumstances."
+        ]
+      },
+      {
+        "option": "Nobody.",
+        "message": [
+          "Correct! Your password should be kept secret from everyone. You should *never* give it out under any circumstances."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Is it OK to buy or sell a %SERVER_NAME% account?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Yes if it is from someone you know.",
+        "message": [
+          "Wrong! If you buy an account, it will be permanently banned!"
+        ]
+      },
+      {
+        "option": "Only if you pay for it with GP.",
+        "message": [
+          "Wrong! If you buy an account, it will be permanently banned!"
+        ]
+      },
+      {
+        "option": "No, you should never buy a %SERVER_NAME% account.",
+        "message": [
+          "Correct! Buying accounts is against the rules and you could lose the account at any time if you get caught."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What is an example of a good bank PIN?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Your real life bank PIN.",
+        "message": [
+          "This is a bad idea as if someone happens to find out your bank PIN on %SERVER_NAME%, they then have your real life bank PIN! Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Your birthday.",
+        "message": [
+          "Not a good idea because you know how many presents you get for your birthday. So you can imagine how many people know this date. Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Random numbers that you will write down somewhere.",
+        "message": [
+          "Well done! Unless you tell someone, they are unlikely to guess who or what you have chosen, and you can always look it up. Never use personal details for passwords or bank PINs!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Is it safe to pay someone to level your account?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Yes as long as you change your password when they have finished.",
+        "message": [
+          "Wrong! If you allow someone to level your account they may steal it from you which may end up with your account being banned."
+        ]
+      },
+      {
+        "option": "Yes, but only if they raise the account by a few levels.",
+        "message": [
+          "Wrong! If you allow someone to level your account they may steal it from you which may end up with your account being banned."
+        ]
+      },
+      {
+        "option": "No, you should never allow anyone to level your account.",
+        "message": [
+          "Correct! Allowing someone else to level your account means they may steal your account get banned."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "If someone is interested, I'm allowed to sell my items for real money."
+      ]
+    },
+    "answers": [
+      {
+        "option": "Of course, i'll get a new car!.",
+        "message": [
+          "Wrong! Real world trading is against the game rules and you could get scammed."
+        ]
+      },
+      {
+        "option": "Only if I've known him for a while.",
+        "message": [
+          "Wrong! Real world trading is against the game rules and you will not be refunded if you get scammed."
+        ]
+      },
+      {
+        "option": "Never!",
+        "message": [
+          "Correct! Please read our game rules frequently to make sure you're always up to date."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "The best way to appeal an infraction is by spamming a staff member until they reply."
+      ]
+    },
+    "answers": [
+      {
+        "option": "Yes, maybe they missed my message the first time",
+        "message": [
+          "Wrong! You can only appeal your offence in the appropriate forum section."
+        ]
+      },
+      {
+        "option": "That's the only way to get customer service.",
+        "message": [
+          "Wrong! You can only appeal your offence in the appropriate forum section."
+        ]
+      },
+      {
+        "option": "Of course not.",
+        "message": [
+          "Correct! Offences are only appealable in the appropriate forum section."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Psst! Adventurer! I've got a special offer for you, but you're going to have to trust me. If you give me some gold coins, I'll give you back twice whatever you gave me! How does",
+        "that sound?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "No way! You'll just take my gold for your own! Reported!",
+        "message": [
+          "Correct! If it sounds too good to be true, it probably is! Be wary of these types of scams."
+        ]
+      },
+      {
+        "option": "I'm not so sure... but giving a little bit of gold to test it out won't hurt.",
+        "message": [
+          "Incorrect! Do not trust players asking for gold offering to return a higher amount."
+        ]
+      },
+      {
+        "option": "Wow! You're so generous door, thank you. Here's all my gold.",
+        "message": [
+          "Incorrect! Do not trust players asking for gold offering to return a higher amount."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Someone claims they can make you a moderator. What should you do?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Nothing.",
+        "message": [
+          "This is one solution, however someone will fall for this scam sooner or later. Remember that moderators are hand picked by %SERVER_NAME% admins and contact is made through"
+        ]
+      },
+      {
+        "option": "Give them my password.",
+        "message": [
+          "Wrong! This will almost certainly lead to your account being hijacked. No one can make you a moderator as they are hand picked by %SERVER_NAME% admins."
+        ]
+      },
+      {
+        "option": "Inform %SERVER_NAME% staff members by reporting the player on the forums",
+        "message": [
+          "Correct! By informing us we can have the site taken down so that other players won't have their accounts hijacked by this scam. Remember that Moderators are hand picked by %SERVER_NAME% admins. Make sure you don't",
+          " give out any personal details or passwords."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What do you do if someone asks you for your password or bank PIN to donate for you?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Give them the information they asked for.",
+        "message": [
+          "Wrong! You will get your account stolen from you. Never give your account details to anyone. Report them on forums and fill in the offending player's name."
+        ]
+      },
+      {
+        "option": "Don't tell them anything and ignore them.",
+        "message": [
+          "Quite good. But we should try to stop scammers. So please report them using the report section on the website."
+        ]
+      },
+      {
+        "option": "Don't tell them anything and report them",
+        "message": [
+          "Correct! Reporting scammers will make %SERVER_NAME% a better game!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "You're watching a stream by someone claiming to be offering double xp. What do you do?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Click the link! I love double xp!",
+        "message": [
+          "Incorrect! This is a common phishing method and puts your account at risk!"
+        ]
+      },
+      {
+        "option": "Report the stream as a scam. %SERVER_NAME% never has double xp",
+        "message": [
+          "Correct! This is a common phishing method and puts your account at risk!"
+        ]
+      },
+      {
+        "option": "Ignore it.",
+        "message": [
+          "Incorrect! Well done for avoiding the phishing attempt but make sure to report these wherever possible to help other players."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What do I do if a moderator asks me for my account details?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Tell them whatever they want to know.",
+        "message": [
+          "Wrong! Never give your account details to anyone! This includes things like account creation details, contact details and passwords. Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Politely tell them no.",
+        "message": [
+          "Ok! Don't tell them the details. But reporting the incident would help. Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Politely tell them no and then use the 'Report Abuse' button.",
+        "message": [
+          "Correct! Report any attempt to gain your account details as it is a very serious breach of %SERVER_NAME%'s rules. Never use personal details for passwords or bank PINs!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Will %SERVER_NAME% prevent me from saying my PIN in game?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Yes.",
+        "message": [
+          "Wrong! %SERVER_NAME% does NOT block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "No.",
+        "message": [
+          "Correct! %SERVER_NAME% will not block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What do I do if I think I have a keylogger or virus?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Virus scan my device then change my password.",
+        "message": [
+          "Correct! Removing the keylogger must be the priority, otherwise anything you type can be given away. Remember to change your password and bank PIN afterwards."
+        ]
+      },
+      {
+        "option": "Change my password then virus scan my device.",
+        "message": [
+          "Wrong! If you change your password while you still have the keylogger, it will still be insecure. Remove the keylogger first. Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Nothing, it will go away on its own.",
+        "message": [
+          "Wrong! This could mean your account may be accessed by someone else. Remove the keylogger then change your password. Never use personal details for passwords or bank PINs!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What should I do if I receive an email asking me to verify my identity or Account defails due to suspicious activity?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Do as the email says!",
+        "message": [
+          "Wrong! %SERVER_NAME% will NEVER email to ask for account details. Please report the email on the forums."
+        ]
+      },
+      {
+        "option": "Respond quickly so that they can unlock your account.",
+        "message": [
+          "Wrong! %SERVER_NAME% will NEVER email to ask for account details. Please report the email on the forums."
+        ]
+      },
+      {
+        "option": "Don't click any links, report the email address.",
+        "message": [
+          "Correct! %SERVER_NAME% will NEVER email you unless you've used the website to change your account. Account details can only be verified through using the forums on the official website, NOT",
+          "through responding to emails."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "A player tells you to search for a video online, click the link in the description and comment on the forum post to win a cash prize. What do you do?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Do what they ask you, using the provided link in the video description.",
+        "message": [
+          "Incorrect! Don't trust these types of link even if they look similar to the %SERVER_NAME%'s website."
+        ]
+      },
+      {
+        "option": "Report the player for phishing.",
+        "message": [
+          "Correct! Always be wary of these links and double check you are on the official %SERVER_NAME% website before entering your login details!"
+        ]
+      },
+      {
+        "option": "Tell your friends so they can get free gold too.",
+        "message": [
+          "Incorrect! Don't trust these types of link even if they look similar to the official website."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What do I do if my account is compromised?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Post on social media about it.",
+        "message": [
+          "Wrong! Social media will often not solve the problem directly and will only succeed in directing you to the %SERVER_NAME% website to regain access to your account."
+        ]
+      },
+      {
+        "option": "Secure my device and reset my %SERVER_NAME% password.",
+        "message": [
+          "Correct! Securing your systems with virus and malware scans is important before resetting your account password to ensure your details are not compromised again. Don't forget to secure your email account too!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "How do I set up two-factor authentication for my %SERVER_NAME% account?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Through account settings on %SERVER_WEBSITE_URL%.",
+        "message": [
+          "Correct! Visiting %SERVER_WEBSITE_URL% and using the Support link at the top of the page will allow you to set up two-factor authentication."
+        ]
+      },
+      {
+        "option": "By messaging moderators.",
+        "message": [
+          "Wrong! Visiting %SERVER_WEBSITE_URL% and using the account settings at the top of the page will allow you to set up two-factor authentication."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "How do I set a bank PIN?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Talk to any banker in %SERVER_NAME%.",
+        "message": [
+          "Correct! Simply talking to a banker will give you the option to set a bank PIN. Never use personal details for passwords or bank PINs!"
+        ]
+      },
+      {
+        "option": "Use the account management section on the website.",
+        "message": [
+          "Wrong! Your password can be changed from the account management section, but you must talk to a banker to set a bank PIN. Never use personal details for passwords or bank PINs!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "My friend asks me for my password so that he can do a difficult boss for me. Do I give it to them?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Yes. He is my best friend and I already spent ages trying this boss.",
+        "message": [
+          "Wrong! Don't give your password to anyone otherwise you can lose everything you have worked so hard for."
+        ]
+      },
+      {
+        "option": "Don't give them my password.",
+        "message": [
+          "Correct! You can make it alone and the success will taste even better. Don't forget you can ask people for advice too!"
+        ]
+      },
+      {
+        "option": "Let them kill the boss, but in the same room the whole time.",
+        "message": [
+          "Wrong! Never let anyone use your account for any reason. It only takes a few seconds to change your password."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What is the best security step you can take to keep your registered email secure?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Set up 2 step authentication with my email provider.",
+        "message": [
+          "Correct! Enabling 2 step authentication on your email means that nobody apart from you can access your email account."
+        ]
+      },
+      {
+        "option": "Have a complicated password set to my email.",
+        "message": [
+          "Wrong! Complicated passwords are always a good idea but they are not the very best security step you can take to keep your email secure."
+        ]
+      },
+      {
+        "option": "Use an email address just for %SERVER_NAME%.",
+        "message": [
+          "Wrong! Even if you don't use your email address elsewhere there is still a risk that somebody could access it."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "A player says that %SERVER_NAME% prevents you from saying your password backwards in game. What do you do?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Type my password in backwards.",
+        "message": [
+          "Incorrect! %SERVER_NAME% will not prevent this - never say your password in game in any form."
+        ]
+      },
+      {
+        "option": "Don't type in my password backwards and report the player.",
+        "message": [
+          "Correct! %SERVER_NAME% won't prevent you saying your password backwards in game - doing so could compromise your account!"
+        ]
+      },
+      {
+        "option": "1drowssaP.",
+        "message": [
+          "Incorrect! %SERVER_NAME% will not prevent this - never say your password in game in any form."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What should you do if your real-life friend asks for your password so he can check your stats?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Give them your password since they're a friend in real life.",
+        "message": [
+          "Incorrect! Don't trust anybody with your account login details!"
+        ]
+      },
+      {
+        "option": "Don't give out your password to anyone. Not even close friends.",
+        "message": [
+          "Correct! Doing so could result in losing your items and gold and puts your account at risk."
+        ]
+      },
+      {
+        "option": "Log in for your friend and let them play.",
+        "message": [
+          "Incorrect! Never allow anybody else to access your account."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Hey adventurer! You've been randomly selected for a prize of 1 year of free membership! I'm just going to need some of your account details so I can put it on your account!"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Wowee! Let me just write those down for you.",
+        "message": [
+          "Incorrect! Do not trust anybody claiming you have won a prize and asking for your account details."
+        ]
+      },
+      {
+        "option": "No way! I'm reporting you!",
+        "message": [
+          "Correct! Make sure to report anybody asking for your account login details."
+        ]
+      },
+      {
+        "option": "I'm not sure about this... let me get back to you on it.",
+        "message": [
+          "Incorrect! Well done for declining to offer but make sure to report players asking for your account details."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What should you do if another player messages you recommending a website to purchase items and/or gold?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Check out the website, it never hurts to look around!",
+        "message": [
+          "Incorrect! Websites offering these services should not be trusted!"
+        ]
+      },
+      {
+        "option": "Visit the website in a private browser for added security.",
+        "message": [
+          "Incorrect! Websites offering these services should not be trusted!"
+        ]
+      },
+      {
+        "option": "Do not visit the website and report the player who messaged you.",
+        "message": [
+          "Correct! Buying and selling items and gold is against the rules and results in a permanent ban!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "A player trades you some valuable items, provides you a bond, and then asks if you want to share your account so he can help you make a large amount of progress. How do you",
+        "respond?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Decline the offer and report that player.",
+        "message": [
+          "Correct! Never share your login details with another player."
+        ]
+      },
+      {
+        "option": "Give the player access since they are a higher level.",
+        "message": [
+          "Incorrect! Never share your login details with another player."
+        ]
+      },
+      {
+        "option": "Tell them you'll trade your account info for theirs.",
+        "message": [
+          "Incorrect! This option still puts your account and items at risk!"
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "What do you do if someone asks you for your password or bank PIN to make you a player moderator?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Don't give them the information and report the player.",
+        "message": [
+          "Correct! Report them on the correct forum section."
+        ]
+      },
+      {
+        "option": "Don't tell them anything and ignore them.",
+        "message": [
+          "Quite good. But we should try to stop scammers. So please report them on the forums."
+        ]
+      },
+      {
+        "option": "Give them the information they asked for.",
+        "message": [
+          "Wrong! Jagex never ask for your account information - especially to become a player moderator. Report them in the proper forums section."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Whose responsibility is it to keep your account secure?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "Me.",
+        "message": [
+          "Correct! Make sure to use the tools %SERVER_NAME% recommend such as the authenticator to do so!"
+        ]
+      },
+      {
+        "option": "%SERVER_NAME%.",
+        "message": [
+          "Incorrect! %SERVER_NAME% offer tools such as the authenticator to help, but you must make sure to keep your info safe!"
+        ]
+      },
+      {
+        "option": "My internet provider.",
+        "message": [
+          "Incorrect! Your internet service provider may offer security advice but use the tips on the %SERVER_NAME% website to stay secure."
+        ]
+      }
+    ]
+  },
+  {
+    "question": {
+      "strings": [
+        "Where is it safe to use my %SERVER_NAME% password?"
+      ]
+    },
+    "answers": [
+      {
+        "option": "On %SERVER_NAME% and all fansites.",
+        "message": [
+          "Wrong! Always use a unique password purely for your %SERVER_NAME% account."
+        ]
+      },
+      {
+        "option": "Only on %SERVER_NAME% websites.",
+        "message": [
+          "Correct! Always make sure you are entering your password only on the %SERVER_NAME% website as other sites may try to steal it."
+        ]
+      },
+      {
+        "option": "On all websites I visit.",
+        "message": [
+          "Wrong! This is very insecure and will may lead to your account being stolen."
+        ]
+      }
+    ]
+  }
+]

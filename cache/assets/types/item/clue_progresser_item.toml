@@ -1,0 +1,113 @@
+# Clue progresser item single
+[[item]]
+id=30210
+inherit=892
+name="Sherlock's notes"
+invmodel=57577
+op2=""
+op4="Info"
+op5="Drop"
+stackable=1
+price=1000
+stackids=[30211, 30212, 30213, 30214, 0, 0, 0, 0, 0, 0]
+stackamounts=[2, 3, 4, 5, 0, 0, 0, 0, 0, 0]
+zoom=1744
+modelpitch=500
+modelroll=1799
+offsetx=3
+offsety=1
+resizex=32
+resizey=32
+resizez=32
+grandexchange=true
+originalcolours=[-30271]
+replacementcolours=[36290]
+placeholderid=30217
+placeholdertemplate=-1
+
+# Clue progresser item 2
+[[item]]
+id=30211
+inherit=936
+name="null"
+invmodel=57578
+op5="Drop"
+stackable=1
+price=1
+zoom=1744
+modelpitch=500
+modelroll=1799
+offsetx=3
+offsety=1
+resizex=32
+resizey=32
+resizez=32
+originalcolours=[-30271, -30257]
+replacementcolours=[36290, 36304]
+
+# Clue progresser item 3
+[[item]]
+id=30212
+inherit=935
+name="null"
+invmodel=57579
+op5="Drop"
+stackable=1
+price=1
+zoom=1744
+modelpitch=500
+modelroll=1799
+offsetx=3
+offsety=1
+resizex=32
+resizey=32
+resizez=32
+originalcolours=[-30278, -30271, -30257]
+replacementcolours=[36283, 36290, 36304]
+
+# Clue progresser item 4
+[[item]]
+id=30213
+inherit=934
+name="null"
+invmodel=57580
+op5="Drop"
+stackable=1
+price=1
+zoom=1744
+modelpitch=500
+modelroll=1799
+offsetx=3
+offsety=1
+resizex=32
+resizey=32
+resizez=32
+originalcolours=[-30278, -30257, -30271]
+replacementcolours=[36283, 36304, 36290]
+
+# Clue progresser item 5
+[[item]]
+id=30214
+inherit=937
+name="null"
+invmodel=57581
+op5="Drop"
+stackable=1
+price=1
+zoom=1744
+modelpitch=500
+modelroll=1799
+offsetx=3
+offsety=1
+resizex=32
+resizey=32
+resizez=32
+originalcolours=[-29248, -30257, -29222, -30271]
+replacementcolours=[36289, 36304, 36315, 36290]
+
+#Placeholder
+[[item]]
+id=30217
+inherit=14577
+placeholdertemplate=14401
+placeholderid=30210

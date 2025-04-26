@@ -1,0 +1,63 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region12946Spawns : NPCSpawnsScript() {
+    init {
+        FIRE_ELEMENTAL(3205, 9348, 0, SOUTH, 3)
+        FIRE_ELEMENTAL(3206, 9361, 0, SOUTH, 3)
+        FIRE_ELEMENTAL(3206, 9396, 0, SOUTH, 3)
+        DUST_DEVIL(3209, 9361, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3209, 9376, 0, SOUTH, 3)
+        FIRE_ELEMENTAL(3209, 9394, 0, SOUTH, 3)
+        FIRE_ELEMENTAL(3212, 9350, 0, SOUTH, 3)
+        FIRE_ELEMENTAL(3212, 9379, 0, SOUTH, 3)
+        DUST_DEVIL(3213, 9361, 0, SOUTH, 6)
+        DUST_DEVIL(3215, 9355, 0, SOUTH, 6)
+        DUST_DEVIL(3216, 9351, 0, SOUTH, 6)
+        DUST_DEVIL(3217, 9400, 0, SOUTH, 6)
+        DUST_DEVIL(3218, 9365, 0, SOUTH, 6)
+        DUST_DEVIL(3218, 9373, 0, SOUTH, 6)
+        DUST_DEVIL(3220, 9347, 0, SOUTH, 6)
+        DUST_DEVIL(3220, 9380, 0, SOUTH, 6)
+        DUST_DEVIL(3221, 9383, 0, SOUTH, 6)
+        DUST_DEVIL(3224, 9396, 0, SOUTH, 6)
+        DUST_DEVIL(3224, 9400, 0, SOUTH, 6)
+        DUST_DEVIL(3226, 9352, 0, SOUTH, 6)
+        DUST_DEVIL(3226, 9385, 0, SOUTH, 6)
+        DUST_DEVIL(3229, 9375, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3230, 9355, 0, SOUTH, 3)
+        DUST_DEVIL(3230, 9368, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3230, 9373, 0, SOUTH, 3)
+        DUST_DEVIL(3230, 9395, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3231, 9358, 0, SOUTH, 3)
+        DUST_DEVIL(3233, 9398, 0, SOUTH, 6)
+        DUST_DEVIL(3234, 9364, 0, SOUTH, 6)
+        DUST_DEVIL(3234, 9369, 0, SOUTH, 6)
+        DUST_DEVIL(3235, 9374, 0, SOUTH, 6)
+        DUST_DEVIL(3236, 9402, 0, SOUTH, 6)
+        DUST_DEVIL(3237, 9377, 0, SOUTH, 6)
+        DUST_DEVIL(3239, 9383, 0, SOUTH, 6)
+        DUST_DEVIL(3241, 9400, 0, SOUTH, 6)
+        DUST_DEVIL(3243, 9383, 0, SOUTH, 6)
+        FIRE_GIANT_2078(3244, 9356, 0, SOUTH, 6)
+        FIRE_GIANT_2080(3244, 9369, 0, SOUTH, 4)
+        DUST_DEVIL(3245, 9349, 0, SOUTH, 6)
+        DUST_DEVIL(3245, 9400, 0, SOUTH, 6)
+        PYREFIEND(3248, 9374, 0, SOUTH, 4)
+        PYREFIEND(3249, 9355, 0, SOUTH, 4)
+        DUST_DEVIL(3250, 9349, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3250, 9402, 0, SOUTH, 3)
+        FIRE_GIANT_2079(3252, 9359, 0, SOUTH, 2)
+        FIRE_GIANT_2078(3252, 9370, 0, SOUTH, 6)
+        PYREFIEND(3253, 9363, 0, SOUTH, 4)
+        FIRE_ELEMENTAL(3257, 9349, 0, SOUTH, 3)
+        DUST_DEVIL(3259, 9372, 0, SOUTH, 6)
+        FIRE_ELEMENTAL(3259, 9390, 0, SOUTH, 3)
+        DUST_DEVIL(3261, 9399, 0, SOUTH, 6)
+        PYREFIEND_434(3263, 9398, 0, SOUTH, 4)
+    }
+}

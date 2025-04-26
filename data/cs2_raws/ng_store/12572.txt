@@ -1,0 +1,13 @@
+int script_12572(int arg0, int arg1) {
+	int int2;
+	int int3;
+	int2 = arg1 / 2;
+	int3 = arg1 / 3;
+	if (arg0 < int2) {
+		return 0;
+	}
+	if (arg0 < int3) {
+		return 2;
+	}
+	return 4;
+}

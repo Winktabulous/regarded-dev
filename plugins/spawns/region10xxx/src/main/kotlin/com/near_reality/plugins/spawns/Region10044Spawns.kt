@@ -1,0 +1,59 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10044Spawns : NPCSpawnsScript() {
+    init {
+        PENGUIN_2063(2499, 3893, 0, SOUTH, 3)
+        PENGUIN_2063(2499, 3896, 0, SOUTH, 3)
+        PENGUIN_2063(2500, 3895, 0, SOUTH, 3)
+        EINAR(2501, 3868, 0, SOUTH, 4)
+        PENGUIN_2063(2501, 3896, 0, SOUTH, 3)
+        PENGUIN_2063(2501, 3897, 0, SOUTH, 3)
+        THORHILD(2502, 3852, 0, SOUTH, 5)
+        PENGUIN_2063(2503, 3898, 0, SOUTH, 3)
+        PENGUIN_2063(2505, 3897, 0, SOUTH, 3)
+        PENGUIN_2063(2505, 3899, 0, SOUTH, 3)
+        GUARD_1099(2509, 3848, 0, SOUTH, 0)
+        VALGERD(2511, 3854, 0, SOUTH, 4)
+        THORA_3682(2511, 3871, 0, SOUTH, 2)
+        CHICKEN_3661(2512, 3862, 0, SOUTH, 4)
+        CHICKEN_3661(2512, 3867, 0, SOUTH, 4)
+        BRODDI(2512, 3871, 0, SOUTH, 2)
+        RANNVEIG(2513, 3865, 0, SOUTH, 4)
+        SKRAELING_3684(2513, 3866, 0, SOUTH, 5)
+        ALRIK(2514, 3855, 0, SOUTH, 2)
+        CHICKEN_3662(2514, 3859, 0, SOUTH, 5)
+        FLOWER_GIRL(2514, 3866, 0, SOUTH, 5)
+        SKRAELING_3686(2515, 3863, 0, SOUTH, 5)
+        GREENGROCER_3689(2516, 3864, 0, SOUTH, 2)
+        CHICKEN_3662(2516, 3865, 0, SOUTH, 5)
+        RAGNAR_3674(2518, 3859, 0, SOUTH, 5)
+        ROOSTER_3663(2518, 3865, 0, SOUTH, 5)
+        FISHMONGER_3688(2518, 3866, 0, SOUTH, 2)
+        RAGNVALD(2518, 3867, 0, SOUTH, 5)
+        MINER_MAGNUS(2526, 3893, 0, WEST, 0)
+        GARDENER_GUNNHILD(2527, 3855, 0, SOUTH, 0)
+        CHICKEN_3661(2537, 3892, 0, SOUTH, 4)
+        FARMER_3672(2538, 3852, 0, SOUTH, 4)
+        CHICKEN_3661(2539, 3893, 0, SOUTH, 4)
+        HALLA_3678(2541, 3896, 0, SOUTH, 2)
+        RABBIT_3665(2545, 3869, 0, SOUTH, 4)
+        CHICKEN_3661(2545, 3893, 0, SOUTH, 4)
+        CHICKEN_3661(2547, 3893, 0, SOUTH, 4)
+        RABBIT_3664(2549, 3869, 0, SOUTH, 5)
+        LUMBERJACK_LEIF(2550, 3869, 0, SOUTH, 0)
+        DERRIK(2551, 3897, 0, SOUTH, 2)
+        RABBIT_3664(2552, 3866, 0, SOUTH, 5)
+        RABBIT_3665(2554, 3871, 0, SOUTH, 4)
+        3670(2499, 3857, 1, EAST, 0)
+        KING_VARGAS(2501, 3859, 1, EAST, 0)
+        PRINCE_BRAND(2502, 3852, 1, SOUTH, 2)
+        PRINCESS_ASTRID(2502, 3868, 1, SOUTH, 2)
+        GUARD_3669(2505, 3856, 1, NORTH_EAST, 0)
+        GUARD_3669(2505, 3864, 1, NORTH_EAST, 0)
+    }
+}

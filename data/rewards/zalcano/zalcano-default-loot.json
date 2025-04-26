@@ -1,0 +1,125 @@
+[
+  {
+    "name": "zalcano-default-loot",
+    "rewards": [
+      {
+        "percent": 35,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 565, // Blood rune
+            "minAmount": 64,
+            "maxAmount": 480
+          },
+          {
+            "itemId": 560, // Death rune
+            "minAmount": 201,
+            "maxAmount": 831
+          },
+          {
+            "itemId": 564, // Cosmic rune
+            "minAmount": 295,
+            "maxAmount": 926
+          },
+          {
+            "itemId": 563, // Law Rune
+            "minAmount": 166,
+            "maxAmount": 770
+          },
+          {
+            "itemId": 566, // Soul Rune
+            "minAmount": 57,
+            "maxAmount": 388
+          },
+          {
+            "itemId": 561, // nature Rune
+            "minAmount": 1,
+            "maxAmount": 842
+          },
+          {
+            "itemId": 454, // Coal
+            "minAmount": 169,
+            "maxAmount": 926
+          },
+          {
+            "itemId": 7937, // pure essence
+            "minAmount": 784,
+            "maxAmount": 5500
+          }
+        ]
+      },
+      {
+        "percent": 10,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 448, // mith ore
+            "minAmount": 240,
+            "maxAmount": 1608
+          },
+          {
+            "itemId": 450, // adamanite ore
+            "minAmount": 135,
+            "maxAmount": 725
+          },
+          {
+            "itemId": 452, // runite ore
+            "minAmount": 5,
+            "maxAmount": 40
+          },
+          {
+            "itemId": 2362, // adam bar
+            "minAmount": 42,
+            "maxAmount": 275
+          },
+          {
+            "itemId": 2364, // rune bar
+            "minAmount": 10,
+            "maxAmount": 70
+          },
+          {
+            "itemId": 1618, // uncut diamond
+            "minAmount": 7,
+            "maxAmount": 58
+          },
+          {
+            "itemId": 1632, // uncut dragonstone
+            "minAmount": 4,
+            "maxAmount": 34
+          },
+          {
+            "itemId": 9194, // uncut onyx bolt tips
+            "minAmount": 4,
+            "maxAmount": 44
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 443, // silver ore
+            "minAmount": 86,
+            "maxAmount": 800
+          },
+          {
+            "itemId": 445, // gold ore
+            "minAmount": 86,
+            "maxAmount": 721
+          },
+          {
+            "itemId": 2354, // steel bar
+            "minAmount": 78,
+            "maxAmount": 534
+          },
+          {
+            "itemId": 2360, // mith bar
+            "minAmount": 54,
+            "maxAmount": 459
+          }
+        ]
+      }
+    ]
+  }
+]

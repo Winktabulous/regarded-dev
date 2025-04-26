@@ -1,0 +1,50 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14639Spawns : NPCSpawnsScript() {
+    init {
+        JUNGLE_HORROR_1046(3657, 3010, 0, SOUTH, 10)
+        CRAB(3658, 3054, 0, SOUTH, 5)
+        MONKEY_1038(3667, 3009, 0, SOUTH, 8)
+        MONKEY_1038(3668, 3018, 0, SOUTH, 8)
+        JUNGLE_HORROR(3670, 3021, 0, SOUTH, 10)
+        CRAB(3670, 3051, 0, SOUTH, 5)
+        CRAB(3672, 3060, 0, SOUTH, 5)
+        GIANT_MOSQUITO(3674, 3044, 0, SOUTH, 6)
+        GIANT_MOSQUITO(3675, 3042, 0, SOUTH, 6)
+        JUNGLE_HORROR_1043(3676, 3021, 0, SOUTH, 12)
+        JUNGLE_HORROR_1043(3676, 3030, 0, SOUTH, 12)
+        GIANT_MOSQUITO(3676, 3045, 0, SOUTH, 6)
+        GIANT_MOSQUITO(3677, 3042, 0, SOUTH, 6)
+        JUNGLE_HORROR(3681, 3012, 0, SOUTH, 10)
+        GIANT_MOSQUITO(3683, 3044, 0, SOUTH, 6)
+        JUNGLE_HORROR_1043(3684, 3032, 0, SOUTH, 12)
+        GIANT_MOSQUITO(3685, 3044, 0, SOUTH, 6)
+        GIANT_MOSQUITO(3685, 3046, 0, SOUTH, 6)
+        CRAB(3685, 3055, 0, SOUTH, 5)
+        JUNGLE_HORROR_1044(3686, 3030, 0, SOUTH, 11)
+        JUNGLE_HORROR_1046(3686, 3039, 0, SOUTH, 10)
+        JUNGLE_HORROR_1046(3687, 3020, 0, SOUTH, 10)
+        GIANT_MOSQUITO(3687, 3052, 0, SOUTH, 6)
+        GIANT_MOSQUITO(3688, 3051, 0, SOUTH, 6)
+        SNAKE(3689, 3018, 0, SOUTH, 4)
+        CRAB(3689, 3046, 0, SOUTH, 5)
+        GIANT_MOSQUITO(3691, 3052, 0, SOUTH, 6)
+        MONKEY_1038(3693, 3036, 0, SOUTH, 8)
+        GIANT_MOSQUITO(3693, 3048, 0, SOUTH, 6)
+        CRAB(3694, 3056, 0, SOUTH, 5)
+        JUNGLE_HORROR(3696, 3043, 0, SOUTH, 10)
+        JUNGLE_HORROR_1043(3697, 3011, 0, SOUTH, 12)
+        CRAB(3697, 3062, 0, SOUTH, 5)
+        JUNGLE_HORROR_1044(3698, 3024, 0, SOUTH, 11)
+        JUNGLE_HORROR_1045(3701, 3021, 0, SOUTH, 12)
+        MONKEY_1038(3702, 3038, 0, SOUTH, 8)
+        JUNGLE_HORROR_1046(3703, 3011, 0, SOUTH, 10)
+        JUNGLE_HORROR_1044(3708, 3030, 0, SOUTH, 11)
+        CRAB(3710, 3057, 0, SOUTH, 5)
+    }
+}

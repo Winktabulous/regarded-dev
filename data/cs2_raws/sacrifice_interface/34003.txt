@@ -1,0 +1,8 @@
+define void script_34004(Widget, Widget, Widget, Widget, Widget, Widget) 34004
+
+void script_34003(Widget widget0, int arg1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		script_34004(widget0, widget3, widget4, widget5, widget6, widget7);
+	}
+	return;
+}

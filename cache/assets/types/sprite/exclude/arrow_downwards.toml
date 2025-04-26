@@ -1,0 +1,8 @@
+# Arrow downstairs
+[sprite]
+id=2523
+width=26
+height=16
+
+[sprite.images]
+0="arrow4.png"

@@ -1,0 +1,59 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region9287Spawns : NPCSpawnsScript() {
+    init {
+        RABBIT_3420(2304, 4587, 0, SOUTH, 4)
+        RABBIT_3422(2305, 4583, 0, SOUTH, 3)
+        RABBIT_3422(2305, 4584, 0, SOUTH, 3)
+        RABBIT_3420(2306, 4585, 0, SOUTH, 4)
+        RABBIT_3422(2307, 4582, 0, SOUTH, 3)
+        RABBIT_3420(2307, 4583, 0, SOUTH, 4)
+        RABBIT_3422(2307, 4584, 0, SOUTH, 3)
+        RABBIT_3422(2307, 4587, 0, SOUTH, 3)
+        BUTTERFLY_235(2308, 4581, 0, SOUTH, 7)
+        RABBIT_3421(2308, 4583, 0, SOUTH, 3)
+        RABBIT_3420(2309, 4582, 0, SOUTH, 4)
+        RABBIT_3420(2309, 4584, 0, SOUTH, 4)
+        TYRAS_GUARD(2312, 4556, 0, SOUTH, 5)
+        CHICKEN(2312, 4560, 0, SOUTH, 2)
+        CHICKEN_1174(2313, 4560, 0, SOUTH, 4)
+        TYRAS_GUARD(2314, 4556, 0, SOUTH, 5)
+        CHICKEN(2314, 4561, 0, SOUTH, 2)
+        TYRAS_GUARD(2316, 4556, 0, SOUTH, 5)
+        BUTTERFLY_236(2318, 4588, 0, SOUTH, 9)
+        BUTTERFLY_235(2321, 4595, 0, SOUTH, 7)
+        BUTTERFLY_238(2322, 4566, 0, SOUTH, 0)
+        BUTTERFLY_235(2324, 4592, 0, SOUTH, 7)
+        BUTTERFLY(2324, 4599, 0, SOUTH, 7)
+        BUTTERFLY(2325, 4597, 0, SOUTH, 7)
+        BUTTERFLY(2326, 4589, 0, SOUTH, 7)
+        BUTTERFLY(2326, 4595, 0, SOUTH, 7)
+        BUTTERFLY(2327, 4591, 0, SOUTH, 7)
+        BUTTERFLY(2327, 4595, 0, SOUTH, 7)
+        BUTTERFLY_235(2328, 4589, 0, SOUTH, 7)
+        BUTTERFLY(2328, 4593, 0, SOUTH, 7)
+        BUTTERFLY_235(2328, 4596, 0, SOUTH, 7)
+        BUTTERFLY(2329, 4593, 0, SOUTH, 7)
+        BUTTERFLY_235(2331, 4597, 0, SOUTH, 7)
+        BUTTERFLY(2332, 4588, 0, SOUTH, 7)
+        RABBIT_3422(2334, 4604, 0, SOUTH, 3)
+        RABBIT_3420(2334, 4606, 0, SOUTH, 4)
+        RABBIT_3420(2336, 4603, 0, SOUTH, 4)
+        GRIZZLY_BEAR_3423(2343, 4579, 0, SOUTH, 11)
+        BUTTERFLY_238(2344, 4596, 0, SOUTH, 0)
+        GRIZZLY_BEAR_CUB(2345, 4579, 0, SOUTH, 8)
+        BUTTERFLY_238(2345, 4598, 0, SOUTH, 0)
+        BUTTERFLY_238(2348, 4566, 0, SOUTH, 0)
+        BUTTERFLY_238(2350, 4549, 0, SOUTH, 0)
+        BUTTERFLY_238(2357, 4546, 0, SOUTH, 0)
+        BUTTERFLY_238(2359, 4589, 0, SOUTH, 0)
+        RABBIT_3420(2362, 4577, 0, SOUTH, 4)
+        BUTTERFLY_238(2364, 4563, 0, SOUTH, 0)
+        RABBIT_3420(2364, 4573, 0, SOUTH, 4)
+    }
+}

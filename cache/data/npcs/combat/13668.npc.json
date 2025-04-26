@@ -1,0 +1,64 @@
+{
+  "id": 13668,
+  "hitpoints": 1020,
+  "attackSpeed": 6,
+  "slayerLevel": 92,
+  "attackDistance": 10,
+  "aggressionDistance": 64,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "AGGRESSIVE",
+  "statDefinitions": {
+    "combatStats": [
+      320,
+      320,
+      135,
+      190,
+      210
+    ],
+    "aggressiveStats": [
+      218,
+      10,
+      260,
+      283,
+      0
+    ],
+    "defensiveStats": [
+      160,
+      75,
+      15,
+      237,
+      218
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MELEE",
+    "maxHit": 38,
+    "animation": {
+      "id": 11480,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": -1,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 21,
+    "deathAnimation": {
+      "id": 11481,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": 11482,
+      "delay": 0
+    }
+  }
+}

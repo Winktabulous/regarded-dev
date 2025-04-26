@@ -1,0 +1,10 @@
+void script_34002() {
+	if (VARP[19450] > 1) {
+		CHILD.setText("Points: " + "<col=ffffff>" + script_46(VARP[19450], ",") + "</col>" + " points");
+	} else if (VARP[19450] == 1) {
+		CHILD.setText("Points: " + "<col=ffffff>" + "1" + "</col>" + " point");
+	} else {
+		CHILD.setText("Points: " + "<col=ffffff>" + "None" + "</col>");
+	}
+	return;
+}

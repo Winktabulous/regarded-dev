@@ -1,0 +1,5 @@
+// 32028
+[proc,script32028](component $component0, enum $enum1, int $int2)
+if (cc_find($component0, 4) = ^true) {
+	cc_settext(enum(int, string, $enum1, $int2));
+}

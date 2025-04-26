@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region13151Spawns : NPCSpawnsScript() {
+    init {
+        GUARD_9185(3266, 6133, 0, SOUTH, 5)
+        SALGANT(3269, 6114, 0, SOUTH, 5)
+        CELEBRIAN(3269, 6125, 0, SOUTH, 5)
+        9475(3271, 6083, 0, SOUTH, 5)
+        DERWEN_9154(3274, 6103, 0, SOUTH, 5)
+        GUARD_9184(3275, 6098, 0, SOUTH, 5)
+        ELENA_9148(3276, 6118, 0, SOUTH, 5)
+        CAERWYN(3277, 6093, 0, SOUTH, 5)
+        GLENDA(3277, 6101, 0, SOUTH, 5)
+        GUARD_9188(3279, 6094, 0, SOUTH, 5)
+        GUARD_9185(3279, 6100, 0, SOUTH, 5)
+        LADY_FFION_MEILYR_9124(3279, 6125, 0, SOUTH, 5)
+        GUARD_9185(3281, 6082, 0, SOUTH, 5)
+        ANWEN(3281, 6093, 0, SOUTH, 5)
+        OSIAN(3282, 6099, 0, SOUTH, 5)
+        OROPHER(3282, 6110, 0, SOUTH, 5)
+        LLIO(3287, 6118, 0, SOUTH, 5)
+        IMIN(3288, 6133, 0, SOUTH, 5)
+        RABBIT_3421(3291, 6125, 0, SOUTH, 3)
+        OSWALLT(3292, 6101, 0, SOUTH, 5)
+        9241(3292, 6120, 0, SOUTH, 5)
+        TOOL_LEPRECHAUN(3295, 6105, 0, SOUTH, 0)
+        BRANWEN(3296, 6088, 0, SOUTH, 5)
+        MAEGLIN(3297, 6082, 0, SOUTH, 5)
+        NELLAS(3297, 6096, 0, SOUTH, 5)
+        RABBIT_3421(3297, 6117, 0, SOUTH, 3)
+        EDRAHIL(3298, 6099, 0, SOUTH, 5)
+        CHICKEN_1174(3299, 6106, 0, SOUTH, 4)
+        CHICKEN(3300, 6108, 0, SOUTH, 2)
+        SQUIRREL_1417(3300, 6117, 0, SOUTH, 9)
+        RABBIT_3421(3300, 6128, 0, SOUTH, 3)
+        RABBIT_3421(3300, 6130, 0, SOUTH, 3)
+        LORD_PIQUAN_CRWYS_9123(3305, 6100, 0, SOUTH, 5)
+        CHICKEN_1174(3305, 6104, 0, SOUTH, 4)
+        RABBIT_3421(3306, 6122, 0, SOUTH, 3)
+        RABBIT_3421(3308, 6123, 0, SOUTH, 3)
+        CHICKEN(3310, 6104, 0, SOUTH, 2)
+        RABBIT_3421(3310, 6110, 0, SOUTH, 3)
+        SQUIRREL_1417(3313, 6117, 0, SOUTH, 9)
+        RABBIT_3421(3314, 6121, 0, SOUTH, 3)
+        SAWMILL_OPERATOR_9140(3315, 6116, 0, SOUTH, 5)
+        FINGON(3316, 6103, 0, SOUTH, 5)
+        GUARD_9183(3318, 6082, 0, SOUTH, 5)
+        9242(3323, 6081, 0, SOUTH, 5)
+        MOSS_GIANT_2093(3325, 6133, 0, SOUTH, 4)
+        9475(3268, 6083, 2, SOUTH, 5)
+        GUARD_9189(3275, 6094, 2, SOUTH, 5)
+        NIMLOTH(3286, 6120, 2, SOUTH, 5)
+        LENWE(3288, 6107, 2, SOUTH, 5)
+        GUARD_9182(3294, 6113, 2, SOUTH, 5)
+        ENEL(3306, 6104, 2, SOUTH, 5)
+    }
+}

@@ -1,0 +1,34 @@
+void script_12554(Widget widget0, string string1, int arg2) {
+	int int3;
+	string str4;
+	widget0.clearChildren();
+	int3 = 0;
+	if (arg2 == 0) {
+		int3 = script_5820(widget0, int3, 0, 0, widget0.getWidth(), widget0.getHeight(), 3927);
+	} else {
+		int3 = script_5820(widget0, int3, 0, 0, widget0.getWidth(), widget0.getHeight(), 3929);
+	}
+	str4 = string1;
+	CHILD.createChild(widget0, 4, int3);
+	CHILD.setPosition(1, 2, 0, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setFont(496);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setText(str4);
+	int3 = int3 + 1;
+	CHILD.createChild(widget0, 4, int3);
+	CHILD.setPosition(0, 1, 0, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setFont(496);
+	CHILD.setRGB(0x000000);
+	CHILD.setText(str4);
+	int3 = int3 + 1;
+	widget0.hookMouseEnter(&script_12555(widget0, string1, 1));
+	widget0.hookMouseExit(&script_12555(widget0, string1, 0));
+	widget0.setContextMenuOption(1, string1);
+	return;
+}

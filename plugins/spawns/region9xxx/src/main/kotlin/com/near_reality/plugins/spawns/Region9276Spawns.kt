@@ -1,0 +1,43 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region9276Spawns : NPCSpawnsScript() {
+    init {
+        ICEBERG_5818(2311, 3866, 0, SOUTH, 0)
+        ICEBERG(2317, 3870, 0, SOUTH, 0)
+        ICE_TROLL_FEMALE_5830(2318, 3891, 0, SOUTH, 16)
+        ICE_TROLL_MALE_5829(2320, 3889, 0, SOUTH, 13)
+        ICE_TROLL_RUNT_5828(2321, 3891, 0, SOUTH, 9)
+        ICE_TROLL_FEMALE_5830(2321, 3894, 0, SOUTH, 16)
+        ICE_TROLL_GRUNT_5831(2323, 3892, 0, SOUTH, 14)
+        ICE_TROLL_MALE_5829(2324, 3860, 0, SOUTH, 13)
+        ICE_TROLL_RUNT_5828(2325, 3862, 0, SOUTH, 9)
+        ICE_TROLL_FEMALE_5830(2327, 3858, 0, SOUTH, 16)
+        ICEBERG(2327, 3879, 0, SOUTH, 0)
+        ICEBERG_5818(2334, 3875, 0, SOUTH, 0)
+        ICEBERG(2337, 3868, 0, SOUTH, 0)
+        ICE_TROLL_RUNT_5828(2340, 3892, 0, SOUTH, 9)
+        ICE_TROLL_RUNT_5828(2341, 3862, 0, SOUTH, 9)
+        ICE_TROLL_GRUNT_5831(2341, 3890, 0, SOUTH, 14)
+        ICEBERG(2342, 3881, 0, SOUTH, 0)
+        ICE_TROLL_FEMALE_5830(2342, 3894, 0, SOUTH, 16)
+        ICE_TROLL_MALE_5829(2343, 3861, 0, SOUTH, 13)
+        ICE_TROLL_FEMALE_5830(2343, 3890, 0, SOUTH, 16)
+        ICE_TROLL_MALE_5829(2344, 3893, 0, SOUTH, 13)
+        ICE_TROLL_FEMALE_5830(2346, 3863, 0, SOUTH, 16)
+        ICE_TROLL_MALE_5829(2351, 3865, 0, SOUTH, 13)
+        ICE_TROLL_RUNT_5828(2354, 3863, 0, SOUTH, 9)
+        ICE_TROLL_FEMALE_5830(2355, 3865, 0, SOUTH, 16)
+        ICEBERG_5818(2356, 3879, 0, SOUTH, 0)
+        ICE_TROLL_MALE_5829(2359, 3892, 0, SOUTH, 13)
+        ICE_TROLL_FEMALE_5830(2361, 3894, 0, SOUTH, 16)
+        ICE_TROLL_FEMALE_5830(2362, 3890, 0, SOUTH, 16)
+        ICE_TROLL_RUNT_5828(2362, 3892, 0, SOUTH, 9)
+        ICE_TROLL_GRUNT_5831(2364, 3891, 0, SOUTH, 14)
+        ICEBERG(2366, 3877, 0, SOUTH, 0)
+    }
+}

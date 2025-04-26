@@ -1,0 +1,652 @@
+id=1710
+name="wheel_of_fortune"
+
+# Universe
+[[component]]
+name="universe"
+type="layer"
+xmode=1
+ymode=1
+width=488
+height=301
+
+# Layout
+[[component]]
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+
+# Main container
+[[component]]
+name="main_container"
+type="layer"
+layer="universe"
+width=12
+height=260
+widthmode=1
+x=6
+y=35
+
+# Header text
+[[component]]
+type="text"
+layer="main_container"
+text="Get ready to test your luck with our wheel of fortune! Click on the 'Spin' button when you're ready. <br><br>If you wish to skip the rolling, you can click on the 'Spin' button again.<br><br><col=ffff00>Will you walk away with riches... or with rubbish? Good luck!"
+font=495
+xallignment=1
+yallignment=1
+x=10
+width=240
+height=185
+
+# Spinner layout
+[[component]]
+type="layer"
+layer="main_container"
+width=50
+height=50
+widthmode=1
+xmode=1
+y=190
+onload=[10043, "component:self", "color:4e453a"]
+
+# Spinner container
+[[component]]
+name="spinner_container"
+type="layer"
+layer="main_container"
+width=50
+height=50
+widthmode=1
+xmode=1
+y=190
+
+# Reward highlight
+[[component]]
+type="graphic"
+layer="spinner_container"
+sprite=2524
+x=191
+width=40
+heightmode=1
+ontimer=[811, "component:self", -1, 0, 100, 250]
+
+# Item container
+[[component]]
+name="item_container"
+type="layer"
+layer="spinner_container"
+width=8
+height=8
+widthmode=1
+heightmode=1
+xmode=1
+ymode=1
+
+# Reward container
+[[component]]
+name="reward_container"
+type="layer"
+layer="spinner_container"
+x=191
+width=40
+heightmode=1
+
+# Black outline
+[[component]]
+type="rectangle"
+layer="reward_container"
+widthmode=1
+heightmode=1
+
+# Grey outline
+[[component]]
+type="rectangle"
+layer="reward_container"
+color="4e453a"
+x=1
+y=1
+width=2
+height=2
+widthmode=1
+heightmode=1
+
+# Gold outline
+[[component]]
+type="rectangle"
+layer="reward_container"
+color="f7b600"
+x=2
+y=2
+width=4
+height=4
+widthmode=1
+heightmode=1
+
+# Reward highlight
+[[component]]
+type="graphic"
+layer="main_container"
+sprite=2523
+width=26
+height=16
+x=223
+y=181
+
+# Buttons layout
+[[component]]
+type="layer"
+layer="main_container"
+width=190
+height=115
+xmode=2
+x=25
+y=26
+onload=[10043, "component:self", "color:4e453a"]
+
+# Buttons container
+[[component]]
+name="buttons_container"
+type="layer"
+layer="main_container"
+width=190
+height=115
+xmode=2
+x=25
+y=26
+
+# Remaining spins
+[[component]]
+type="text"
+layer="buttons_container"
+font=496
+color="ffffff"
+xallignment=1
+yallignment=1
+widthmode=1
+height=20
+y=12
+onvartransmit=[10047]
+vartransmittriggers=[3622]
+
+# Spin now container
+[[component]]
+name="spin_now_container"
+type="layer"
+layer="buttons_container"
+op1="Spin Now"
+clickmask=2
+width=115
+height=45
+x=38
+y=44
+onop=[10036]
+
+# Spin now layout
+[[component]]
+type="layer"
+layer="spin_now_container"
+widthmode=1
+heightmode=1
+onload=[10044, "component:self", 2517]
+onmouserepeat=[10044, "component:self", 2518]
+onmouseleave=[10044, "component:self", 2517]
+
+# Spin now text
+[[component]]
+type="text"
+layer="spin_now_container"
+font=645
+text="Spin Now"
+color="ffffff"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+y=-3
+
+# Skip container
+[[component]]
+name="skip_container"
+type="layer"
+layer="buttons_container"
+hidden=true
+op1="Skip"
+clickmask=2
+width=115
+height=45
+x=38
+y=44
+onop=[10038, 1]
+
+# Skip layout
+[[component]]
+type="layer"
+layer="skip_container"
+widthmode=1
+heightmode=1
+onload=[10044, "component:self", 2517]
+onmouserepeat=[10044, "component:self", 2518]
+onmouseleave=[10044, "component:self", 2517]
+
+# Skip text
+[[component]]
+type="text"
+layer="skip_container"
+font=645
+text="Skip"
+color="ffffff"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+y=-3
+
+# Claim container
+[[component]]
+name="claim_container"
+type="layer"
+layer="buttons_container"
+hidden=true
+width=75
+height=45
+x=11
+y=44
+onload=[10046, "component:self", "Claim"]
+
+# Claim layout
+[[component]]
+type="layer"
+layer="claim_container"
+widthmode=1
+heightmode=1
+onload=[10044, "component:self", 2517]
+onmouserepeat=[10044, "component:self", 2518]
+onmouseleave=[10044, "component:self", 2517]
+
+# Claim text
+[[component]]
+type="text"
+layer="claim_container"
+font=645
+text="Claim"
+color="ffffff"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+y=-3
+
+# Deposit to bank container
+[[component]]
+name="deposit_to_bank_container"
+type="layer"
+layer="buttons_container"
+hidden=true
+width=85
+height=45
+x=93
+y=44
+onload=[10046, "component:self", "Deposit to bank"]
+
+# Deposit to bank layout
+[[component]]
+type="layer"
+layer="deposit_to_bank_container"
+widthmode=1
+heightmode=1
+onload=[10044, "component:self", 2517]
+onmouserepeat=[10044, "component:self", 2518]
+onmouseleave=[10044, "component:self", 2517]
+
+# Deposit to bank text
+[[component]]
+type="text"
+layer="deposit_to_bank_container"
+font=495
+text="Deposit to bank"
+color="ffffff"
+lineheight=15
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+
+# Claim later container
+[[component]]
+name="claim_later_container"
+type="layer"
+layer="buttons_container"
+hidden=true
+width=90
+height=37
+x=11
+y=100
+onload=[10046, "component:self", "Claim later"]
+
+# Claim later layout
+[[component]]
+type="layer"
+layer="claim_later_container"
+widthmode=1
+heightmode=1
+onload=[92, "component:self"]
+onmouserepeat=[94, "component:self"]
+onmouseleave=[92, "component:self"]
+
+# Claim later text
+[[component]]
+type="text"
+layer="claim_later_container"
+font=495
+text="Claim later"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+
+# Discard container
+[[component]]
+name="discard_container"
+type="layer"
+layer="buttons_container"
+hidden=true
+width=70
+height=37
+x=108
+y=100
+onload=[10046, "component:self", "Discard"]
+
+# Discard layout
+[[component]]
+type="layer"
+layer="discard_container"
+widthmode=1
+heightmode=1
+onload=[92, "component:self"]
+onmouserepeat=[94, "component:self"]
+onmouseleave=[92, "component:self"]
+
+# Discard text
+[[component]]
+type="text"
+layer="discard_container"
+font=495
+text="Discard"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+
+# Prize layout
+[[component]]
+type="layer"
+layer="main_container"
+hidden=true
+x=25
+y=11
+width=210
+height=165
+onload=[10043, "component:self", "color:4e453a"]
+
+# Prize container
+[[component]]
+name="prize_container"
+type="layer"
+layer="main_container"
+hidden=true
+x=25
+y=11
+width=210
+height=165
+
+# Congratulations text
+[[component]]
+type="text"
+layer="prize_container"
+text="Congratulations!"
+font=645
+xallignment=1
+yallignment=1
+widthmode=1
+height=60
+
+# Item container
+[[component]]
+name="item_container"
+type="layer"
+layer="prize_container"
+x=25
+y=60
+width=40
+height=36
+
+# Background 1
+[[component]]
+type="graphic"
+layer="item_container"
+sprite=1120
+widthmode=1
+heightmode=1
+
+# Background glow
+[[component]]
+type="graphic"
+layer="item_container"
+sprite=1121
+widthmode=1
+heightmode=1
+ontimer=[811, "component:self", -1, 0, 100, 250]
+
+# Item placeholder
+[[component]]
+type="graphic"
+layer="item_container"
+bordertype=1
+shadowcolor="333333"
+x=4
+y=2
+width=36
+height=32
+
+# Item name
+[[component]]
+type="text"
+layer="prize_container"
+text="item_name"
+color="ffffff"
+font=496
+xallignment=1
+yallignment=1
+width=130
+height=30
+x=70
+y=62
+
+# Item examine
+[[component]]
+type="text"
+layer="prize_container"
+text="item_examine"
+color="ffffff"
+font=495
+xallignment=1
+yallignment=1
+widthmode=1
+height=63
+y=100
+
+# Discard body
+[[component]]
+name="discard_body"
+type="layer"
+layer="main_container"
+hidden=true
+widthmode=1
+heightmode=1
+
+# Darkened background
+[[component]]
+type="rectangle"
+layer="discard_body"
+opacity=128
+filled=true
+widthmode=1
+heightmode=1
+
+# Discard layout
+[[component]]
+type="layer"
+layer="discard_body"
+xmode=1
+ymode=1
+width=210
+height=165
+onload=[10045, "component:self"]
+
+# Discard content
+[[component]]
+name="discard_content"
+type="layer"
+layer="discard_body"
+xmode=1
+ymode=1
+width=210
+height=165
+
+# Warning text
+[[component]]
+type="text"
+layer="discard_content"
+font=495
+text="Are you sure you wish to discard this?"
+color="ffffff"
+xallignment=1
+yallignment=1
+lineheight=20
+widthmode=1
+height=50
+y=5
+
+# Item container
+[[component]]
+name="discarded_item_container"
+type="layer"
+layer="discard_content"
+x=20
+y=59
+width=40
+height=36
+
+# Background 1
+[[component]]
+type="graphic"
+layer="discarded_item_container"
+sprite=1120
+widthmode=1
+heightmode=1
+
+# Background glow
+[[component]]
+type="graphic"
+layer="discarded_item_container"
+sprite=1121
+widthmode=1
+heightmode=1
+ontimer=[811, "component:self", -1, 0, 100, 250]
+
+# Reward item
+[[component]]
+type="graphic"
+layer="discarded_item_container"
+bordertype=1
+shadowcolor="333333"
+x=4
+y=2
+width=36
+height=32
+
+# Item name
+[[component]]
+type="text"
+layer="discard_content"
+font=496
+color="ffffff"
+xallignment=1
+yallignment=1
+x=65
+y=52
+width=135
+height=50
+
+# Yes container
+[[component]]
+name="yes_container"
+type="layer"
+layer="discard_content"
+op1="Yes"
+clickmask=2
+width=70
+height=37
+xmode=1
+x=-45
+y=110
+
+# Yes layout
+[[component]]
+type="layer"
+layer="yes_container"
+widthmode=1
+heightmode=1
+onload=[92, "component:self"]
+onmouserepeat=[94, "component:self"]
+onmouseleave=[92, "component:self"]
+
+# Yes text
+[[component]]
+type="text"
+layer="yes_container"
+font=495
+text="Yes"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+
+# No container
+[[component]]
+name="no_container"
+type="layer"
+layer="discard_content"
+op1="No"
+clickmask=2
+width=70
+height=37
+xmode=1
+x=45
+y=110
+onop=[10042, 0]
+
+# No layout
+[[component]]
+type="layer"
+layer="no_container"
+widthmode=1
+heightmode=1
+onload=[92, "component:self"]
+onmouserepeat=[94, "component:self"]
+onmouseleave=[92, "component:self"]
+
+# No text
+[[component]]
+type="text"
+layer="no_container"
+font=495
+text="No"
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1
+
+

@@ -1,0 +1,12 @@
+define void script_34010(int, int, Widget, string, int) 34010
+void script_34006(Widget widget0, string string1, int arg2, int arg3) {
+	if (arg2 == 1) {
+		script_34010(1, 1, widget0, string1, arg3);
+	} else {
+		script_34010(0, 0, widget0, string1, arg3);
+	}
+	widget0.hookMouseHover(null);
+	widget0.hookMouseExit(null);
+	widget0.hookOptionClick(null);
+	return;
+}

@@ -1,0 +1,55 @@
+[[item]]
+id=32363
+inherit=24131
+name="Remnant Voucher (1 pt)"
+stackable=1
+value=50
+grandexchange=true
+
+[[item]]
+id=32364
+inherit=24131
+name="Remnant Voucher (5 pts)"
+stackable=1
+tradeable=1
+grandexchange=true
+
+
+[[item]]
+id=32365
+inherit=24131
+name="Remnant Voucher (10 pts)"
+stackable=1
+tradeable=1
+grandexchange=true
+
+
+[[item]]
+id=32366
+inherit=10486
+name="Wildy Sack"
+op1="Open"
+op2=""
+op3=""
+stackable=1
+tradeable=0
+
+[[item]]
+id=32367
+inherit=24329
+name="Wildy Crate"
+op1="Open"
+op2=""
+op3=""
+stackable=1
+tradeable=0
+
+#[[item]]
+#id=32368
+#inherit=28098
+#name="Wildy Hoard"
+#op1="Open"
+#op2=""
+#op3=""
+#stackable=1
+#tradeable=0

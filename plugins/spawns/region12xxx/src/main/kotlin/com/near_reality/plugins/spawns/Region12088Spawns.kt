@@ -1,0 +1,57 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region12088Spawns : NPCSpawnsScript() {
+    init {
+        SKELETON_71(3008, 3595, 0, SOUTH, 7)
+        SKELETON(3011, 3590, 0, SOUTH, 7)
+        SKELETON_73(3012, 3597, 0, SOUTH, 8)
+        SKELETON_72(3013, 3586, 0, SOUTH, 8)
+        SKELETON_72(3013, 3602, 0, SOUTH, 8)
+        SKELETON(3016, 3596, 0, SOUTH, 7)
+        SKELETON_71(3018, 3584, 0, SOUTH, 7)
+        SKELETON_73(3018, 3592, 0, SOUTH, 8)
+        SKELETON_73(3018, 3599, 0, SOUTH, 8)
+        DARK_WARRIOR_6606(3020, 3623, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3021, 3638, 0, SOUTH, 6)
+        SKELETON(3022, 3586, 0, SOUTH, 7)
+        SKELETON_71(3022, 3595, 0, SOUTH, 7)
+        DARK_WARRIOR(3022, 3624, 0, SOUTH, 5)
+        DARK_WARRIOR_6606(3022, 3626, 0, SOUTH, 6)
+        DARK_WARRIOR(3022, 3639, 0, SOUTH, 5)
+        DARK_WARRIOR_6606(3023, 3623, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3023, 3629, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3023, 3632, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3023, 3638, 0, SOUTH, 6)
+        SKELETON_73(3025, 3590, 0, SOUTH, 8)
+        SKELETON_72(3025, 3597, 0, SOUTH, 8)
+        DARK_WARRIOR_6606(3025, 3637, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3026, 3626, 0, SOUTH, 6)
+        DARK_WARRIOR(3029, 3638, 0, SOUTH, 5)
+        DARK_WARRIOR(3030, 3626, 0, SOUTH, 5)
+        DARK_WARRIOR_6606(3030, 3638, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3032, 3626, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3035, 3623, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3035, 3625, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3035, 3629, 0, SOUTH, 6)
+        DARK_WARRIOR(3035, 3632, 0, SOUTH, 5)
+        DARK_WARRIOR_6606(3035, 3634, 0, SOUTH, 6)
+        DARK_WARRIOR(3036, 3624, 0, SOUTH, 5)
+        DARK_WARRIOR(3036, 3639, 0, SOUTH, 5)
+        DARK_WARRIOR_6606(3037, 3637, 0, SOUTH, 6)
+        DARK_WARRIOR_6606(3037, 3639, 0, SOUTH, 6)
+        SAM(3046, 3628, 0, SOUTH, 3)
+        DARK_WARRIOR(3022, 3624, 1, SOUTH, 5)
+        DARK_WARRIOR(3022, 3639, 1, SOUTH, 5)
+        DARK_WARRIOR(3023, 3632, 1, SOUTH, 5)
+        DARK_WARRIOR(3028, 3626, 1, SOUTH, 5)
+        DARK_WARRIOR(3029, 3637, 1, SOUTH, 5)
+        DARK_WARRIOR(3035, 3631, 1, SOUTH, 5)
+        DARK_WARRIOR(3036, 3624, 1, SOUTH, 5)
+        DARK_WARRIOR(3036, 3639, 1, SOUTH, 5)
+    }
+}

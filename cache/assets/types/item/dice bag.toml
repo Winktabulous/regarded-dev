@@ -1,0 +1,20 @@
+# Dice bag
+[item]
+inherit=8007
+id=30050
+name="Dice (up to 100)"
+op1="Private-roll"
+op2="Clan-roll"
+op3=""
+op4=""
+op5="Destroy"
+zoom=1104
+modelpitch=215
+modelroll=94
+offsetx=1
+offsety=0
+stackamounts=[]
+stackids=[]
+stackable=0
+grandexchange=false
+invmodel=57576

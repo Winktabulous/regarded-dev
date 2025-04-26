@@ -1,0 +1,7 @@
+// 32074
+[clientscript,script32074](??? $???0)
+def_int $count1 = enum_getoutputcount(enum_11000);
+if (%varbit17007 >= $count1) {
+	%varbit17007 = calc($count1 - 1);
+}
+~script32017(interface_5101:24, enum_11000, enum_11001, interface_5101:56, interface_5101:50, interface_5101:52, interface_5101:57, interface_5101:1, %varbit17007);

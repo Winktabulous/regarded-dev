@@ -1,0 +1,53 @@
+{
+  "npcId": 7684,
+  "drops": [
+    {
+      "itemId": 1623,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 4604
+    },
+    {
+      "itemId": 1619,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 4754
+    },
+    {
+      "itemId": 1935,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 62469
+    },
+    {
+      "itemId": 1931,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63803
+    },
+    {
+      "itemId": 1755,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63851
+    },
+    {
+      "itemId": 6529,
+      "minAmount": 1,
+      "maxAmount": 16,
+      "rate": 64629
+    },
+    {
+      "itemId": 946,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 76181
+    },
+    {
+      "itemId": 2347,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 76661
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+# $1 Bond
+[[item]]
+id=30060
+inherit=13190
+name="$1 Bond"
+placeholderid=30061
+price=500000
+grandexchange=false
+stackable=1
+op1=""
+op3=""
+
+# $1 Bond (placeholder)
+[[item]]
+id=30061
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30060
+
+
+# $10 Scroll
+[[item]]
+id=30051
+inherit=13190
+name="$10 Donator Scroll"
+invmodel=29209
+placeholderid=30052
+price=500000
+grandexchange=false
+op1="Redeem"
+op3=""
+
+# $10 Scroll (placeholder)
+[[item]]
+id=30052
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30051
+invmodel=29209
+
+# $50 Scroll
+[[item]]
+inherit=13190
+name="$50 Donator Scroll"
+price=500000
+grandexchange=false
+op1="Redeem"
+op3=""
+
+# $100 Scroll
+[[item]]
+id=30017
+inherit=13190
+name="$100 Donator Scroll"
+invmodel=55000
+placeholderid=30025
+grandexchange=false
+price=500000
+op1="Redeem"
+op3=""
+
+# $100 Scroll (placeholder)
+[[item]]
+id=30025
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30017
+invmodel=55000
+
+# $200 Scroll
+[[item]]
+id=30018
+inherit=13190
+name="$200 Donator Scroll"
+invmodel=55001
+grandexchange=false
+placeholderid=30026
+price=500000
+op1="Redeem"
+op3=""
+
+# $200 Scroll (placeholder)
+[[item]]
+id=30026
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30018
+invmodel=55001
+

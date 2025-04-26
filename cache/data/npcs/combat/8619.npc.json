@@ -1,0 +1,71 @@
+{
+  "id": 8619,
+  "hitpoints": 1100,
+  "attackSpeed": 6,
+  "slayerLevel": 95,
+  "attackDistance": 16,
+  "aggressionDistance": 16,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "immunityTypes": [
+    "POISON",
+    "VENOM"
+  ],
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "DRAGONBANE_WEAPONS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      100,
+      100,
+      100,
+      260,
+      260
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      45,
+      45
+    ],
+    "defensiveStats": [
+      75,
+      150,
+      150,
+      150,
+      45
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      20
+    ]
+  },
+  "attackDefinitions": {
+    "type": "RANGED",
+    "maxHit": 26,
+    "animation": {
+      "id": -1,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": -1,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": -1,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

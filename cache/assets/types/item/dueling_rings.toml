@@ -1,0 +1,5 @@
+[[item]]
+inherit=[2552, 2554, 2556, 2558, 2560, 2562, 2564, 2566]
+
+[item.parameters]
+451="Duel Arena"

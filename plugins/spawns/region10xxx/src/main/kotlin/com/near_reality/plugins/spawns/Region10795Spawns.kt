@@ -1,0 +1,51 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10795Spawns : NPCSpawnsScript() {
+    init {
+        1450(2693, 2784, 0, SOUTH, 2)
+        BIRD_5241(2694, 2761, 0, SOUTH, 26)
+        BIRD_5241(2698, 2788, 0, SOUTH, 26)
+        JUNGLE_SPIDER_5243(2700, 2776, 0, SOUTH, 4)
+        SNAKE_5244(2701, 2762, 0, SOUTH, 4)
+        SNAKE_5244(2702, 2780, 0, SOUTH, 4)
+        SNAKE_5244(2703, 2769, 0, SOUTH, 4)
+        JUNGLE_SPIDER_5243(2704, 2769, 0, SOUTH, 4)
+        JUNGLE_SPIDER_5243(2705, 2785, 0, SOUTH, 4)
+        7198(2711, 2802, 0, SOUTH, 2)
+        MONKEY_ARCHER_6813(2712, 2756, 0, SOUTH, 2)
+        7197(2712, 2792, 0, SOUTH, 2)
+        MONKEY_ARCHER_5273(2713, 2753, 0, SOUTH, 0)
+        MONKEY_ARCHER_5273(2713, 2755, 0, SOUTH, 0)
+        MONKEY_ARCHER_5273(2713, 2757, 0, SOUTH, 0)
+        MONKEY_ARCHER_6813(2713, 2759, 0, SOUTH, 2)
+        MONKEY_ARCHER_5273(2713, 2761, 0, SOUTH, 0)
+        JUNGLE_SPIDER_5243(2714, 2781, 0, SOUTH, 4)
+        MONKEY_ARCHER_5273(2715, 2763, 0, SOUTH, 0)
+        SNAKE_5244(2715, 2782, 0, SOUTH, 4)
+        JUNGLE_SPIDER_5243(2722, 2790, 0, SOUTH, 4)
+        BIRD_5241(2723, 2805, 0, SOUTH, 26)
+        SNAKE_5244(2724, 2787, 0, SOUTH, 4)
+        7175(2726, 2765, 0, SOUTH, 4)
+        7177(2726, 2766, 0, SOUTH, 2)
+        MONKEY_ARCHER_5273(2727, 2763, 0, SOUTH, 0)
+        SNAKE_5244(2727, 2791, 0, SOUTH, 4)
+        MONKEY_ARCHER_5273(2729, 2753, 0, SOUTH, 0)
+        MONKEY_ARCHER_5273(2729, 2755, 0, SOUTH, 0)
+        MONKEY_ARCHER_5273(2729, 2757, 0, SOUTH, 0)
+        MONKEY_ARCHER_6813(2729, 2759, 0, SOUTH, 2)
+        MONKEY_ARCHER_6813(2729, 2761, 0, SOUTH, 2)
+        MONKEY_ARCHER_6813(2730, 2756, 0, SOUTH, 2)
+        THE_MONKEYS_AUNT(2738, 2794, 0, SOUTH, 5)
+        MONKEY_CHILD(2743, 2795, 0, SOUTH, 2)
+        SPIDER_5238(2734, 2792, 1, SOUTH, 3)
+        THE_MONKEYS_UNCLE(2737, 2793, 1, SOUTH, 0)
+        6808(2721, 2766, 2, SOUTH, 5)
+        SPIDER_5238(2749, 2768, 2, SOUTH, 3)
+        6807(2750, 2797, 2, SOUTH, 0)
+    }
+}

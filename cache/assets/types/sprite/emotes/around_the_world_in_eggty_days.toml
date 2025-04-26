@@ -1,0 +1,17 @@
+# Around the world in eggty days lit
+[[sprite]]
+id=10017
+width=48
+height=48
+
+[sprite.images]
+0="emotes/around_the_world_in_eggty_days_lit.png"
+
+# Around the world in eggty days unlit
+[[sprite]]
+id=10018
+width=48
+height=48
+
+[sprite.images]
+0="emotes/around_the_world_in_eggty_days_unlit.png"

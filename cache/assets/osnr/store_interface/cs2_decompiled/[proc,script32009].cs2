@@ -1,0 +1,87 @@
+// 32009
+[proc,script32009](component $component0, component $component1)
+def_int $y2 = if_getscrolly($component0);
+cc_deleteall($component0);
+cc_deleteall($component1);
+def_int $int3 = 0;
+if_sethide(false, $component1);
+if_sethide(true, interface_5101:19);
+if_sethide(true, interface_5101:12);
+if_sethide(true, interface_5101:10);
+if_sethide(true, interface_5101:7);
+if_sethide(true, interface_5101:58);
+if_setposition(134, 80, ^setpos_abs_left, ^setpos_abs_top, $component0);
+if_setsize(312, 200, ^setsize_abs, ^setsize_abs, $component0);
+if_setposition(452, 65, ^setpos_abs_left, ^setpos_abs_top, $component1);
+if_setsize(16, 218, ^setsize_abs, ^setsize_abs, $component1);
+~script32017(interface_5101:24, enum_11000, enum_11001, interface_5101:56, interface_5101:50, interface_5101:52, interface_5101:57, interface_5101:1, %varbit17007);
+def_int $width4 = if_getwidth($component0);
+cc_create($component0, ^iftype_graphic, $int3);
+$int3 = calc($int3 + 1);
+cc_setsize(calc($width4 - 20), 45, ^setsize_abs, ^setsize_abs);
+cc_setposition(10, 5, ^setpos_abs_left, ^setpos_abs_top);
+cc_setgraphic("tradebacking_light");
+cc_create($component0, ^iftype_rectangle, $int3);
+$int3 = calc($int3 + 1);
+cc_setsize(calc($width4 - 20), 45, ^setsize_abs, ^setsize_abs);
+cc_setposition(10, 5, ^setpos_abs_left, ^setpos_abs_top);
+cc_setfill(false);
+cc_setcolour(^black);
+cc_create($component0, ^iftype_graphic, $int3);
+$int3 = calc($int3 + 1);
+cc_setsize(15, 15, ^setsize_abs, ^setsize_abs);
+cc_setposition(15, 13, ^setpos_abs_left, ^setpos_abs_top);
+cc_setgraphic("mapfunction_infoicon");
+cc_create($component0, ^iftype_text, $int3);
+$int3 = calc($int3 + 1);
+cc_setsize(calc($width4 - 40), 45, ^setsize_abs, ^setsize_abs);
+cc_setposition(40, 10, ^setpos_abs_left, ^setpos_abs_top);
+cc_settextshadow(true);
+cc_setcolour(0xff981f);
+cc_settextalign(^settextalign_left, ^settextalign_top, 14);
+cc_settextfont(verdana_13pt_regular);
+cc_settext("Limited-time offers will appear with a red badge with the amount remaining.");
+def_int $int5 = 120;
+def_int $int6 = calc($width4 / 2);
+def_int $int7 = calc(($width4 - $int6 * 3) / 2);
+def_int $int8 = calc($int6 - 20);
+def_int $int9 = 110;
+def_int $size10 = 0;
+def_int $int11 = 6;
+def_int $height12 = 70;
+def_int $int13 = 0;
+def_int $int14 = 0;
+def_int $int15 = 0;
+def_int $int16 = 0;
+def_int $size17 = inv_size(inv_1000);
+def_obj $obj18 = inv_getobj(inv_1000, $size10);
+def_int $int19 = 0;
+def_int $num20 = inv_getnum(inv_1000, $size10);
+def_int $num21 = inv_getnum(inv_1002, $size10);
+def_int $num22 = inv_getnum(inv_1003, $size10);
+def_int $num23 = inv_getnum(inv_1004, $size10);
+while ($size10 < $size17 & $obj18 ! null) {
+	$int3, $int16 = ~script32031($int3, $size10, $int11, $height12, $int8, $int9, $obj18, $num20, $num21, $num23, 0, $num22, %varcint989);
+	if ($int15 = 1) {
+		$int15 = 0;
+		$int14 = calc($int14 + 1);
+	} else {
+		$int15 = calc($int15 + 1);
+	}
+	$int11 = calc(6 + $int15 * $int6);
+	$height12 = calc(70 + $int14 * $int5);
+	$size10 = calc($size10 + 1);
+	$int13 = calc($int13 + 1);
+	$obj18 = inv_getobj(inv_1000, $size10);
+	$num20 = inv_getnum(inv_1000, $size10);
+	$num21 = inv_getnum(inv_1002, $size10);
+	$num23 = inv_getnum(inv_1004, $size10);
+	$num22 = inv_getnum(inv_1003, $size10);
+}
+if ($height12 > if_getheight($component0)) {
+	if_setscrollsize(0, $height12, $component0);
+} else {
+	if_setscrollsize(0, 0, $component0);
+}
+if_setscrollpos(0, 0, $component0);
+~scrollbar_vertical($component1, $component0, 792, 789, 790, 791, 773, 788);

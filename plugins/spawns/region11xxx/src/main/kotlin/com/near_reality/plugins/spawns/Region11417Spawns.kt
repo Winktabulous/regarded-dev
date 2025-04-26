@@ -1,0 +1,52 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11417Spawns : NPCSpawnsScript() {
+    init {
+        MONK_OF_ZAMORAK_529(2825, 9810, 0, SOUTH, 5)
+        MONK_OF_ZAMORAK_529(2828, 9805, 0, SOUTH, 5)
+        MONK_OF_ZAMORAK_529(2829, 9808, 0, SOUTH, 5)
+        MONK_OF_ZAMORAK_529(2829, 9812, 0, SOUTH, 5)
+        BLACK_DRAGON_253(2829, 9826, 0, SOUTH, 2)
+        BLACK_DEMON_2050(2833, 9795, 0, SOUTH, 3)
+        MONK_OF_ZAMORAK_529(2833, 9808, 0, SOUTH, 5)
+        MONK_OF_ZAMORAK_529(2834, 9814, 0, SOUTH, 5)
+        BLACK_DRAGON(2835, 9824, 0, SOUTH, 6)
+        BLACK_DEMON_2051(2837, 9797, 0, SOUTH, 3)
+        BLACK_DEMON_2048(2840, 9792, 0, SOUTH, 7)
+        BLACK_DEMON_2048(2842, 9801, 0, SOUTH, 7)
+        BLACK_DEMON_2049(2845, 9795, 0, SOUTH, 6)
+        POISON_SPIDER(2850, 9808, 0, SOUTH, 11)
+        HELLHOUND(2851, 9849, 0, SOUTH, 7)
+        HELLHOUND(2855, 9837, 0, SOUTH, 7)
+        HELLHOUND(2856, 9847, 0, SOUTH, 7)
+        POISON_SPIDER(2857, 9822, 0, SOUTH, 11)
+        HELLHOUND(2857, 9841, 0, SOUTH, 7)
+        POISON_SPIDER(2859, 9802, 0, SOUTH, 11)
+        POISON_SPIDER(2859, 9814, 0, SOUTH, 11)
+        HELLHOUND(2859, 9852, 0, SOUTH, 7)
+        HELLHOUND(2861, 9837, 0, SOUTH, 7)
+        POISON_SPIDER(2864, 9819, 0, SOUTH, 11)
+        HELLHOUND(2864, 9851, 0, SOUTH, 7)
+        HELLHOUND(2867, 9840, 0, SOUTH, 7)
+        HELLHOUND(2868, 9833, 0, SOUTH, 7)
+        HELLHOUND(2869, 9829, 0, SOUTH, 7)
+        POISON_SPIDER(2870, 9799, 0, SOUTH, 11)
+        HELLHOUND(2870, 9826, 0, SOUTH, 7)
+        POISON_SPIDER(2871, 9792, 0, SOUTH, 11)
+        HELLHOUND(2871, 9819, 0, SOUTH, 7)
+        HELLHOUND(2871, 9822, 0, SOUTH, 7)
+        POISON_SPIDER(2876, 9806, 0, SOUTH, 11)
+        KHARID_SCORPION(2877, 9796, 0, SOUTH, 3)
+        BABY_BLACK_DRAGON_1872(2817, 9818, 1, SOUTH, 5)
+        BABY_BLACK_DRAGON_1872(2820, 9819, 1, SOUTH, 5)
+        BABY_BLACK_DRAGON_1872(2824, 9818, 1, SOUTH, 5)
+        BABY_BLACK_DRAGON_1872(2858, 9828, 1, SOUTH, 5)
+        BABY_BLACK_DRAGON_1872(2862, 9826, 1, SOUTH, 5)
+        SLIEVE(2874, 9828, 1, SOUTH, 5)
+    }
+}

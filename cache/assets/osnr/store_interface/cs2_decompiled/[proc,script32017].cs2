@@ -1,0 +1,51 @@
+// 32017
+[proc,script32017](component $component0, enum $enum1, enum $enum2, component $component3, component $component4, component $component5, component $component6, component $layer7, int $count8)
+cc_deleteall($component0);
+def_string $string0 = enum(int, string, $enum1, $count8);
+def_int $int9 = 0;
+cc_create($component0, ^iftype_graphic, $int9);
+$int9 = calc($int9 + 1);
+cc_setsize(0, 20, ^setsize_minus, ^setsize_abs);
+cc_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_bottom);
+cc_setgraphic("tradebacking");
+cc_settiling(true);
+cc_setonclick("script32019($component0, $component3, $component4, $component5, $component6, $layer7, $enum1, $enum2)");
+cc_create($component0, ^iftype_rectangle, $int9);
+$int9 = calc($int9 + 1);
+cc_setsize(0, 20, ^setsize_minus, ^setsize_abs);
+cc_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_bottom);
+cc_setfill(false);
+cc_setcolour(0x0e0e0c);
+cc_create($component0, ^iftype_rectangle, $int9);
+$int9 = calc($int9 + 1);
+cc_setsize(2, 18, ^setsize_minus, ^setsize_abs);
+cc_setposition(0, 1, ^setpos_abs_centre, ^setpos_abs_bottom);
+cc_setfill(false);
+cc_setcolour(0x474745);
+cc_create($component0, ^iftype_graphic, $int9);
+$int9 = calc($int9 + 1);
+cc_setsize(16, 16, ^setsize_abs, ^setsize_abs);
+cc_setposition(2, 2, ^setpos_abs_right, ^setpos_abs_bottom);
+cc_create($component0, ^iftype_text, $int9);
+$int9 = calc($int9 + 1);
+cc_setsize(20, 16, ^setsize_minus, ^setsize_abs);
+cc_setposition(8, 2, ^setpos_abs_left, ^setpos_abs_bottom);
+cc_settextfont(verdana_13pt_regular);
+cc_settextshadow(true);
+cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
+cc_settext($string0);
+def_int $int10 = calc(parawidth($string0, 512, verdana_11pt_regular) + 6);
+if ($enum2 ! null) {
+	.cc_create($component0, ^iftype_graphic, $int9);
+	$int9 = calc($int9 + 1);
+	.cc_setsize(13, 13, ^setsize_abs, ^setsize_abs);
+	.cc_setposition(5, 4, ^setpos_abs_left, ^setpos_abs_bottom);
+	.cc_setgraphic(enum(int, graphic, $enum2, $count8));
+	cc_setsize(0, 16, ^setsize_minus, ^setsize_abs);
+	cc_setposition(22, 2, ^setpos_abs_left, ^setpos_abs_bottom);
+} else {
+	cc_create($component0, ^iftype_graphic, $int9);
+	$int9 = calc($int9 + 1);
+	cc_sethide(true);
+}
+~xpdrops_setup_display_hoveroff($component0);

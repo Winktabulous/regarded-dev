@@ -1,0 +1,89 @@
+define void script_34005(Widget, string, Widget) 34005
+define void script_34006(Widget, string, int, int) 34006
+
+void script_34004(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	Item item6;
+	int int7;
+	int int8;
+	string str9;
+	str9 = ",";
+	item6 = null;
+	int7 = 0;
+	int8 = 0;
+	if (VARP[19451] >= 0 && VARP[19451] < getItemContainerLength(93)) {
+		item6 = getItemIdInSlot(93, VARP[19451]);
+	}
+	if (item6 != null) {
+		CHILD.setText(getItemName(item6));
+		if (VARP[19452] > 0) {
+			int7 = script_1046(VARP[19452], getItemAmtInContainer(93, item6));
+			if (VARP[19453] > 0) {
+				if (int7 > 1) {
+					_CHILD.setText(script_46(int7, str9) + " x " + script_46(VARP[19453], str9) + " points");
+				} else {
+					_CHILD.setText(script_46(VARP[19453], str9) + " points");
+				}
+				if (2147483647 / VARP[19453] < int7) {
+					script_34005(widget5, "Many points", widget5);
+				} else {
+					script_34005(widget5, script_46(int7 * VARP[19453], str9) + " points", widget5);
+				}
+			} else {
+				if (int7 > 1) {
+					_CHILD.setText(script_46(int7, str9) + " x " + "<col=ff0000>" + script_46(VARP[19453], str9) + " points" + "</col>");
+				} else {
+					_CHILD.setText("<col=ff0000>" + script_46(VARP[19453], str9) + " points" + "</col>");
+				}
+				script_34005(widget5, "Unacceptable item", widget5);
+			}
+		} else {
+			_CHILD.setText("Select a quantity...");
+			script_34006(widget5, "", 0, widget5);
+			widget5.hookFrame(null);
+		}
+		switch (VARP[19452]) {
+			case 1:
+				script_34006(widget1, "1", 1, widget5);
+				widget1.hookFrame(null);
+				script_34005(widget2, "5", widget5);
+				script_34005(widget3, "X", widget5);
+				script_34005(widget4, "All", widget5);
+				break;
+			case 5:
+				script_34005(widget1, "1", widget5);
+				script_34006(widget2, "5", 1, widget5);
+				widget2.hookFrame(null);
+				script_34005(widget3, "X", widget5);
+				script_34005(widget4, "All", widget5);
+				break;
+			case 2147483647:
+				script_34005(widget1, "1", widget5);
+				script_34005(widget2, "5", widget5);
+				script_34005(widget3, "X", widget5);
+				script_34006(widget4, "All", 1, widget5);
+				widget4.hookFrame(null);
+				break;
+			default:
+				script_34005(widget1, "1", widget5);
+				script_34005(widget2, "5", widget5);
+				script_34006(widget3, "X", 1, widget5);
+				widget3.hookFrame(null);
+				script_34005(widget4, "All", widget5);
+				break;
+		}
+	} else {
+		CHILD.setText("Select an item...");
+		_CHILD.setText("---");
+		script_34006(widget1, "1", 0, widget5);
+		widget1.hookFrame(null);
+		script_34006(widget2, "5", 0, widget5);
+		widget2.hookFrame(null);
+		script_34006(widget3, "X", 0, widget5);
+		widget3.hookFrame(null);
+		script_34006(widget4, "All", 0, widget5);
+		widget4.hookFrame(null);
+		script_34006(widget5, "", 0, widget5);
+		widget5.hookFrame(null);
+	}
+	return;
+}

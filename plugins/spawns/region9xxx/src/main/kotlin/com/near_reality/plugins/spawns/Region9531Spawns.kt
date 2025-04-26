@@ -1,0 +1,56 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region9531Spawns : NPCSpawnsScript() {
+    init {
+        ICE_TROLL_RUNT_5828(2370, 3833, 0, SOUTH, 9)
+        ICE_TROLL_FEMALE_5830(2372, 3833, 0, SOUTH, 16)
+        GUARD_1950(2387, 3797, 0, SOUTH, 0)
+        GUARD_1950(2387, 3800, 0, SOUTH, 0)
+        FREYGERD(2390, 3801, 0, SOUTH, 4)
+        MINER_1993(2392, 3800, 0, SOUTH, 5)
+        6712(2393, 3801, 0, SOUTH, 8)
+        SKULI_MYRKA(2394, 3805, 0, SOUTH, 2)
+        RAUM_URDASTEIN(2396, 3798, 0, SOUTH, 2)
+        HRING_HRING(2398, 3798, 0, SOUTH, 2)
+        GRUVA_PATRULL(2398, 3814, 0, WEST, 0)
+        FISHING_SPOT_5820(2401, 3781, 0, SOUTH, 0)
+        SASSILIK(2402, 3802, 0, SOUTH, 5)
+        FISHING_SPOT_5821(2403, 3778, 0, SOUTH, 0)
+        ERIC_1997(2403, 3809, 0, SOUTH, 5)
+        VANLIGGA_GASTFRIHET(2404, 3813, 0, SOUTH, 2)
+        6712(2405, 3808, 0, SOUTH, 8)
+        GRUNDT(2406, 3816, 0, SOUTH, 2)
+        KING_GJUKI_SORVOTT_IV(2407, 3802, 0, SOUTH, 2)
+        HRH_HRAFN(2408, 3802, 0, SOUTH, 2)
+        GUARD_1949(2408, 3806, 0, SOUTH, 2)
+        BRENDT(2408, 3815, 0, SOUTH, 2)
+        FISHING_SPOT_5821(2409, 3780, 0, SOUTH, 0)
+        FISHING_SPOT_5821(2409, 3783, 0, SOUTH, 0)
+        THORKEL_SILKBEARD(2409, 3804, 0, SOUTH, 2)
+        MINER_1993(2409, 3820, 0, SOUTH, 5)
+        GUARD_1950(2411, 3795, 0, SOUTH, 0)
+        MINER_1993(2412, 3801, 0, SOUTH, 5)
+        LENSA(2412, 3808, 0, SOUTH, 7)
+        6712(2413, 3803, 0, SOUTH, 8)
+        6712(2413, 3819, 0, SOUTH, 8)
+        FISHING_SPOT_5820(2414, 3780, 0, SOUTH, 0)
+        FISHING_SPOT_5820(2414, 3783, 0, SOUTH, 0)
+        GUARD_1950(2414, 3795, 0, SOUTH, 0)
+        GUARD_1950(2414, 3824, 0, SOUTH, 0)
+        1946(2416, 3799, 0, SOUTH, 2)
+        KEEPA_KETTILON(2417, 3817, 0, SOUTH, 2)
+        GUARD_1950(2417, 3824, 0, SOUTH, 0)
+        FLOSI_DALKSSON(2418, 3813, 0, NORTH, 0)
+        FISHING_SPOT_5821(2419, 3783, 0, SOUTH, 0)
+        FISHING_SPOT_5820(2419, 3789, 0, SOUTH, 0)
+        FISHING_SPOT_5821(2422, 3789, 0, SOUTH, 0)
+        FISHING_SPOT_5820(2424, 3782, 0, SOUTH, 0)
+        MORD_GUNNARS_1940(2421, 3781, 0, NORTH, 0)
+        GUARD_1947(2372, 3801, 2, SOUTH, 0)
+    }
+}

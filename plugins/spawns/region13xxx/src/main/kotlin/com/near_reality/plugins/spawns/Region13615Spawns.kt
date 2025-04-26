@@ -1,0 +1,53 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region13615Spawns : NPCSpawnsScript() {
+    init {
+        DESERT_SNAKE(3396, 3029, 0, SOUTH, 3)
+        DESERT_SNAKE(3397, 3044, 0, SOUTH, 3)
+        DESERT_SNAKE(3398, 3038, 0, SOUTH, 3)
+        SMALL_LIZARD_463(3400, 3032, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3402, 3061, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3404, 3060, 0, SOUTH, 4)
+        LIZARD(3404, 3062, 0, SOUTH, 8)
+        DESERT_LIZARD_460(3405, 3059, 0, SOUTH, 6)
+        JACKAL(3406, 3014, 0, SOUTH, 11)
+        SMALL_LIZARD_463(3407, 3067, 0, SOUTH, 4)
+        JACKAL(3408, 3013, 0, SOUTH, 11)
+        JACKAL(3408, 3016, 0, SOUTH, 11)
+        SMALL_LIZARD_463(3408, 3060, 0, SOUTH, 4)
+        JACKAL(3410, 3015, 0, SOUTH, 11)
+        DESERT_LIZARD_460(3411, 3034, 0, SOUTH, 6)
+        SMALL_LIZARD_463(3411, 3065, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3412, 3032, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3412, 3049, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3414, 3029, 0, SOUTH, 4)
+        DESERT_LIZARD_461(3414, 3032, 0, SOUTH, 2)
+        SMALL_LIZARD_463(3417, 3036, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3418, 3032, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3419, 3034, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3422, 3058, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3424, 3059, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3435, 3057, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3435, 3062, 0, SOUTH, 4)
+        DESERT_LIZARD(3438, 3060, 0, SOUTH, 8)
+        SMALL_LIZARD_463(3439, 3013, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3439, 3065, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3440, 3016, 0, SOUTH, 4)
+        SMALL_LIZARD(3441, 3059, 0, SOUTH, 5)
+        LIZARD(3441, 3061, 0, SOUTH, 8)
+        SMALL_LIZARD_463(3443, 3012, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3443, 3017, 0, SOUTH, 4)
+        SMALL_LIZARD(3443, 3033, 0, SOUTH, 5)
+        SMALL_LIZARD_463(3443, 3034, 0, SOUTH, 4)
+        SMALL_LIZARD_463(3443, 3047, 0, SOUTH, 4)
+        SMALL_LIZARD(3443, 3059, 0, SOUTH, 5)
+        DESERT_LIZARD_460(3445, 3031, 0, SOUTH, 6)
+        LIZARD(3445, 3034, 0, SOUTH, 8)
+        SMALL_LIZARD_463(3446, 3014, 0, SOUTH, 4)
+    }
+}

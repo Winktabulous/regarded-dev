@@ -1,0 +1,16 @@
+# Emote scroll
+[[item]]
+id=2678
+inherit=11349
+name="Emote scroll"
+op1="Read"
+placeholderid=30027
+
+# Emote scroll (placeholder)
+[[item]]
+id=30027
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2678
+invmodel=26671

@@ -1,0 +1,10 @@
+void script_12543(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4, Widget widget5, Widget widget6, Widget widget7) {
+	if (VARPBIT[17006] == 0) {
+		script_12564(widget0, widget1, widget2, arg3, arg4, widget5, widget6, widget7);
+	} else if (VARPBIT[17006] == 1) {
+		script_12539(widget0, widget1, widget2, arg3, arg4, widget5, widget6, widget7);
+	} else if (VARPBIT[17006] == 2) {
+		script_12548(widget0, widget1, widget2, arg3, arg4, widget5, widget6, widget7);
+	}
+	return;
+}

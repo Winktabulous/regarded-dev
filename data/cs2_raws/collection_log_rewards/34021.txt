@@ -1,0 +1,78 @@
+void script_34021(int arg0, boolean isClaimed, Item item1, int arg2, Item item3, int arg4, Item item5, int arg6, Item item7, int arg8) {
+	Widget widget9;
+	Widget widget10;
+	if (arg0 == 1) {
+		if(isClaimed == true) {
+			widget10 = widget(621, 90);
+			widget10.clearChildren();
+			CHILD.createChild(widget10, 4, 0);
+			CHILD.setSize(45, 25, 0, 0);
+			CHILD.setPosition(5, 5, 2, 2);
+			CHILD.setTextAlignment(1, 0, 12);
+			CHILD.setText("Claimed");
+			CHILD.setRGB(0x006000);
+			CHILD.setFont(494);
+		} else {
+			widget10 = widget(621, 90);
+			widget10.clearChildren();
+			widget10.setContextMenuOption(1, "Claim Reward");
+			CHILD.createChild(widget10, 4, 0);
+			CHILD.setSize(45, 25, 0, 0);
+			CHILD.setPosition(5, 5, 2, 2);
+			CHILD.setTextAlignment(1, 0, 12);
+			CHILD.setText("Claim<br>Reward");
+			CHILD.setRGB(0xB3801A);
+			CHILD.setFont(494);
+		}
+		
+
+	} else {
+		widget10 = widget(621, 90);
+		widget10.clearChildren();
+		widget10.setContextMenuOption(1, "Locked");
+		CHILD.createChild(widget10, 5, 0);
+		CHILD.setSize(19, 19, 0, 0);
+		CHILD.setPosition(0, 3, 1, 0);
+		CHILD.setSprite(940);
+		CHILD.createChild(widget10, 4, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 0, 2);
+		CHILD.setTextAlignment(1, 2, 8);
+		CHILD.setText("Locked");
+		CHILD.setRGB(0x670000);
+		CHILD.setFont(494);
+	}
+	widget9 = widget(621, 86);
+	widget9.clearChildren();
+	if (item1 != null) {
+		CHILD.createChild(widget9, 5, 0);
+		CHILD.setItem(item1, arg2);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+	}
+	widget9 = widget(621, 87);
+	widget9.clearChildren();
+	if (item3 != null) {
+		CHILD.createChild(widget9, 5, 0);
+		CHILD.setItem(item3, arg4);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+	}
+	widget9 = widget(621, 88);
+	widget9.clearChildren();
+	if (item5 != null) {
+		CHILD.createChild(widget9, 5, 0);
+		CHILD.setItem(item5, arg6);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+	}
+	widget9 = widget(621, 89);
+	widget9.clearChildren();
+	if (item7 != null) {
+		CHILD.createChild(widget9, 5, 0);
+		CHILD.setItem(item7, arg8);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+	}
+	return;
+}

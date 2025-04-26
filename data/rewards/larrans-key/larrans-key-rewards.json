@@ -1,0 +1,342 @@
+[
+  {
+    "name": "larrans-large-chest-reward",
+    "rewards": [
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 5300, // snapdragon
+            "minAmount": 8,
+            "maxAmount": 20
+          },
+          {
+            "itemId": 22869, // celastrus seed
+            "minAmount": 4,
+            "maxAmount": 15
+          },
+          {
+            "itemId": 5316, // magic seed
+            "minAmount": 4,
+            "maxAmount": 14
+          },
+          {
+            "itemId": 5304, // torstal seed
+            "minAmount": 4,
+            "maxAmount": 12
+          },
+          {
+            "itemId": 5295, // rannar seed
+            "minAmount": 8,
+            "maxAmount": 22
+          }
+        ]
+      },
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 11232, // dragon dart tip
+            "minAmount": 200,
+            "maxAmount": 900
+          },
+          {
+            "itemId": 2354, // steel bar
+            "minAmount": 300,
+            "maxAmount": 600
+          },
+          {
+            "itemId": 1514, // magic logs
+            "minAmount": 150,
+            "maxAmount": 300
+          },
+          {
+            "itemId": 452, // runite ore
+            "minAmount": 23,
+            "maxAmount": 75
+          },
+          {
+            "itemId": 3025, // super restore
+            "minAmount": 20,
+            "maxAmount": 80
+          },
+          {
+            "itemId": 6686, // saradomin brew
+            "minAmount": 20,
+            "maxAmount": 80
+          },
+          {
+            "itemId": 12696, // super combat
+            "minAmount": 20,
+            "maxAmount": 60
+          },
+          {
+            "itemId": 13440, // raw anglerfish (noted)
+            "minAmount": 75,
+            "maxAmount": 250
+          },
+          {
+            "itemId": 11935, // raw dark crab (noted)
+            "minAmount": 100,
+            "maxAmount": 350
+          }
+        ]
+      },
+      {
+        "percent": "21/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // coins
+            "minAmount": 450000,
+            "maxAmount": 2400000
+          },
+          {
+            "itemId": 1128, // rune platebody
+            "minAmount": 6,
+            "maxAmount": 14
+          },
+          {
+            "itemId": 1080, // rune platelegs
+            "minAmount": 6,
+            "maxAmount": 16
+          },
+          {
+            "itemId": 1164, // rune full helm
+            "minAmount": 8,
+            "maxAmount": 18
+          },
+          {
+            "itemId": 441, // iron ore
+            "minAmount": 500,
+            "maxAmount": 800
+          },
+          {
+            "itemId": 7937, // pure essence
+            "minAmount": 2000,
+            "maxAmount": 8000
+          },
+          {
+            "itemId": 390, // raw manta
+            "minAmount": 75,
+            "maxAmount": 225
+          }
+        ]
+      },
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 11237, // dragon arrowtips
+            "minAmount": 100,
+            "maxAmount": 700
+          },
+          {
+            "itemId": 1618, // uncut diamond
+            "minAmount": 35,
+            "maxAmount": 90
+          },
+          {
+            "itemId": 445, // gold ore
+            "minAmount": 250,
+            "maxAmount": 4050
+          },
+          {
+            "itemId": 22636, // morg jav
+            "minAmount": 20,
+            "maxAmount": 40
+          },
+          {
+            "itemId": 22634, // morg throwing axe
+            "minAmount": 20,
+            "maxAmount": 40
+          }
+        ]
+      },
+      {
+        "percent": "15/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 454, // Coal
+            "minAmount": 500,
+            "maxAmount": 1000
+          },
+          {
+            "itemId": 1618, // uncut diamond
+            "minAmount": 70,
+            "maxAmount": 180
+          },
+          {
+            "itemId": 11232, // dragon dart tip
+            "minAmount": 65,
+            "maxAmount": 170
+          },
+          {
+            "itemId": 1620, // uncut ruby
+            "minAmount": 70,
+            "maxAmount": 180
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "larrans-small-chest-reward",
+    "rewards": [
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 22877, // dragonfruit tree seed
+            "minAmount": 1,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 5300, // snapdragon
+            "minAmount": 2,
+            "maxAmount": 7
+          },
+          {
+            "itemId": 22869, // celastrus seed
+            "minAmount": 1,
+            "maxAmount": 5
+          },
+          {
+            "itemId": 5316, // magic seed
+            "minAmount": 1,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 5304, // torstal seed
+            "minAmount": 2,
+            "maxAmount": 5
+          },
+          {
+            "itemId": 5289, // palm tree seed
+            "minAmount": 1,
+            "maxAmount": 5
+          },
+          {
+            "itemId": 22871, // redwood seed
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 5295, // rannar seed
+            "minAmount": 2,
+            "maxAmount": 5
+          }
+        ]
+      },
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 11232, // dragon dart tip
+            "minAmount": 31,
+            "maxAmount": 149
+          },
+          {
+            "itemId": 2354, // steel bar
+            "minAmount": 75,
+            "maxAmount": 200
+          },
+          {
+            "itemId": 1514, // magic logs
+            "minAmount": 80,
+            "maxAmount": 120
+          },
+          {
+            "itemId": 452, // runite ore
+            "minAmount": 5,
+            "maxAmount": 10
+          }
+        ]
+      },
+      {
+        "percent": "21/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // coins
+            "minAmount": 40534,
+            "maxAmount": 114792
+          },
+          {
+            "itemId": 1128, // rune platebody
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 1080, // rune platelegs
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 1164, // rune full helm
+            "minAmount": 1,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 441, // iron ore
+            "minAmount": 125,
+            "maxAmount": 300
+          },
+          {
+            "itemId": 7937, // pure essence
+            "minAmount": 1500,
+            "maxAmount": 2500
+          },
+          {
+            "itemId": 390, // raw manta
+            "minAmount": 71,
+            "maxAmount": 160
+          }
+        ]
+      },
+      {
+        "percent": "8/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 11237, // dragon arrowtips
+            "minAmount": 41,
+            "maxAmount": 128
+          },
+          {
+            "itemId": 445, // gold ore
+            "minAmount": 60,
+            "maxAmount": 90
+          }
+        ]
+      },
+      {
+        "percent": "15/60",
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 454, // Coal
+            "minAmount": 282,
+            "maxAmount": 480
+          },
+          {
+            "itemId": 1618, // uncut diamond
+            "minAmount": 15,
+            "maxAmount": 25
+          },
+          {
+            "itemId": 1620, // uncut ruby
+            "minAmount": 20,
+            "maxAmount": 30
+          }
+        ]
+      }
+    ]
+  }
+]

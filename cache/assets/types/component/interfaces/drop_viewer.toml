@@ -1,0 +1,420 @@
+id=1704
+name="drop_viewer"
+
+# Universe
+[[component]]
+name="universe"
+type="layer"
+widthmode=1
+heightmode=1
+
+# Layout
+[[component]]
+name="layout"
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+xmode=1
+ymode=1
+
+# Main container
+[[component]]
+name="main_container"
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+onload=[10102, "component:search_input_bar", "component:results_scroll_layer", "component:rarity_display_toggle"]
+
+# Search box
+[[component]]
+name="search_box"
+type="layer"
+layer="main_container"
+x=8
+y=36
+width=137
+height=45
+
+# Black outline
+[[component]]
+type="rectangle"
+layer="search_box"
+color="000000"
+opacity=100
+widthmode=1
+heightmode=1
+
+# Orange outline
+[[component]]
+type="rectangle"
+layer="search_box"
+color="ff981f"
+opacity=200
+x=1
+y=1
+widthmode=1
+heightmode=1
+width=2
+height=2
+
+# Search box background
+[[component]]
+type="rectangle"
+layer="search_box"
+color="4e453a"
+filled=true
+x=2
+y=2
+widthmode=1
+heightmode=1
+width=4
+height=4
+
+# Search input box
+[[component]]
+name="search_input_box"
+type="layer"
+layer="search_box"
+width=129
+height=20
+x=4
+y=4
+onload=[10110, "component:self"]
+
+# Search input box background
+[[component]]
+type="rectangle"
+layer="search_input_box"
+color="675f55"
+filled=true
+widthmode=1
+heightmode=1
+
+# Search input bar
+[[component]]
+name="search_input_bar"
+type="layer"
+layer="search_input_box"
+width=124
+height=14
+x=4
+y=4
+onload=[1905, "component:self"]
+
+# Search button
+[[component]]
+type="graphic"
+layer="search_input_box"
+sprite=1113
+opacity=100
+op1="Search..."
+clickmask=2
+width=18
+height=16
+x=110
+y=1
+onclick=[10117]
+onmouseover=[273, "component:self", 0]
+onmouseleave=[273, "component:self", 100]
+
+# Select npc
+[[component]]
+type="graphic"
+layer="search_box"
+sprite=699
+op1="Select"
+clickmask=2
+width=17
+height=17
+x=6
+y=25
+onclick=[10118, 1]
+
+[[component]]
+type="text"
+layer="search_box"
+text="NPC"
+color="ffffff"
+font=495
+xallignment=1
+yallignment=1
+width=27
+height=11
+x=24
+y=30
+
+# Select item
+[[component]]
+type="graphic"
+layer="search_box"
+sprite=697
+op1="Select"
+clickmask=2
+width=17
+height=17
+x=86
+y=25
+onclick=[10118, 0]
+
+[[component]]
+type="text"
+layer="search_box"
+text="Item"
+color="ffffff"
+font=495
+xallignment=1
+yallignment=1
+width=27
+height=11
+x=106
+y=30
+
+# Search results
+[[component]]
+name="search_results"
+type="layer"
+layer="main_container"
+x=8
+y=83
+width=137
+height=94
+heightmode=1
+
+# Black outline
+[[component]]
+type="rectangle"
+layer="search_results"
+color="000000"
+opacity=100
+widthmode=1
+heightmode=1
+
+# Orange outline
+[[component]]
+type="rectangle"
+layer="search_results"
+color="ff981f"
+opacity=200
+x=1
+y=1
+widthmode=1
+heightmode=1
+width=2
+height=2
+
+# Search results background
+[[component]]
+type="rectangle"
+layer="search_results"
+color="4e453a"
+filled=true
+x=2
+y=2
+widthmode=1
+heightmode=1
+width=4
+height=4
+
+# Search results scroll layer
+[[component]]
+name="results_scroll_layer"
+type="layer"
+layer="main_container"
+x=8
+y=85
+width=119
+height=101
+heightmode=1
+
+# Search results scroll bar
+[[component]]
+type="layer"
+layer="main_container"
+x=127
+y=85
+width=16
+height=99
+heightmode=1
+
+# Drop results
+[[component]]
+name="drop_results"
+type="layer"
+layer="main_container"
+x=147
+y=36
+width=354
+height=47
+heightmode=1
+
+# Black outline
+[[component]]
+type="rectangle"
+layer="drop_results"
+color="000000"
+opacity=100
+widthmode=1
+heightmode=1
+
+# Orange outline
+[[component]]
+type="rectangle"
+layer="drop_results"
+color="ff981f"
+opacity=200
+x=1
+y=1
+widthmode=1
+heightmode=1
+width=2
+height=2
+
+# Drop results background
+[[component]]
+type="rectangle"
+layer="drop_results"
+color="4e453a"
+filled=true
+x=2
+y=2
+widthmode=1
+heightmode=1
+width=4
+height=4
+
+# Row header
+[[component]]
+name="row_header"
+layer="drop_results"
+widthmode=1
+height=22
+
+# Black outline
+[[component]]
+type="rectangle"
+layer="row_header"
+color="000000"
+opacity=100
+widthmode=1
+heightmode=1
+
+# Orange outline
+[[component]]
+type="rectangle"
+layer="row_header"
+color="ff981f"
+opacity=200
+x=1
+y=1
+widthmode=1
+heightmode=1
+width=2
+height=2
+
+# 1st column to the left
+[[component]]
+type="text"
+layer="row_header"
+text=""
+color="ffffff"
+font=494
+xallignment=1
+yallignment=1
+width=27
+height=16
+x=105
+y=4
+
+# Quantity column
+[[component]]
+type="text"
+layer="row_header"
+text="Quantity"
+color="ffffff"
+font=494
+xallignment=1
+yallignment=1
+width=46
+height=16
+x=194
+y=4
+
+# Rarity column
+[[component]]
+type="text"
+layer="row_header"
+text="Rarity"
+color="ffffff"
+font=494
+xallignment=1
+yallignment=1
+width=41
+height=16
+x=262
+y=4
+
+# Rarity display toggle
+[[component]]
+name="rarity_display_toggle"
+type="graphic"
+layer="row_header"
+sprite=942
+op1="<col=ff981f>Switch to</col>"
+clickmask=2
+x=300
+y=1
+width=18
+height=18
+onclick=[10116, "component:self"]
+onmouseover=[273, "component:self", 100]
+onmouseleave=[273, "component:self", 0]
+
+# Response message
+[[component]]
+type="text"
+layer="drop_results"
+hidden=true
+text=""
+color="ffffff"
+font=494
+xallignment=1
+yallignment=1
+width=325
+height=0
+heightmode=1
+x=5
+
+# Drop results scroll layer
+[[component]]
+name="drop_results_scroll_layer"
+type="layer"
+layer="drop_results"
+widthmode=1
+heightmode=1
+y=22
+width=2
+height=24
+
+# Drop results scroll bar
+[[component]]
+type="layer"
+layer="drop_results"
+x=336
+y=23
+width=16
+height=25
+heightmode=1
+
+# Tooltip
+[[component]]
+name="tooltip"
+type="layer"
+layer="universe"
+width=1
+height=1
+
+
+
+

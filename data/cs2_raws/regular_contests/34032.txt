@@ -1,0 +1,42 @@
+define int,int script_34031(string, int, int, Widget) 34031
+define void script_34034(Widget, Widget, int) 34034
+define int script_34036(int) 34036
+
+int, int script_34032(Widget widget0, int arg1, int arg2, int arg3) {
+	Enum enum4;
+	int int5;
+	int int6;
+	int int7;
+	Color color8;
+	if (arg1 != -1) {
+		arg2, arg3 = script_34031((string)osrs_m6516(arg1, 5007), arg2, arg3, widget0);
+		enum4 = (Enum)osrs_m6516(arg1, 5006);
+		if (enum4 != null) {
+			int5 = enumSize(enum4);
+			int6 = 0;
+			int7 = -1;
+			color8 = 0x000000;
+			while (int6 < int5) {
+				int7 = enum('i', 'i', enum4, int6);
+				color8 = color(script_34036(int7));
+				CHILD.createChild(widget0, 4, arg2);
+				CHILD.setPosition(0, arg3, 1, 0);
+				CHILD.setSize(0, 11, 1, 0);
+				CHILD.setFont(494);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setTextAlignment(0, 1, 11);
+				CHILD.setRGB(color8);
+				CHILD.setText((string)osrs_m6516(int7, 5009));
+				CHILD.setSize(0, 11 * getLineCount(CHILD.getText(), CHILD.getWidth(), 494) + 5, 1, 0);
+				CHILD.hookMouseEnter(&script_85(widget(CTX_WIDGET), CTX_WIDGET_CHILD, 16777215));
+				CHILD.hookMouseExit(&script_85(widget(CTX_WIDGET), CTX_WIDGET_CHILD, color8));
+				CHILD.setContextMenuOption(1, "Select");
+				CHILD.hookOptionClick(&script_34034(widget(CTX_WIDGET), CTX_WIDGET_CHILD, int7));
+				arg3 = arg3 + CHILD.getHeight();
+				arg2 = arg2 + 1;
+				int6 = int6 + 1;
+			}
+		}
+	}
+	return arg2, arg3;
+}

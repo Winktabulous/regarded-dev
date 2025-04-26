@@ -1,0 +1,71 @@
+{
+  "id": 7286,
+  "hitpoints": 450,
+  "attackSpeed": 6,
+  "slayerLevel": 1,
+  "attackDistance": 8,
+  "aggressionDistance": 128,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "immunityTypes": [
+    "POISON",
+    "VENOM"
+  ],
+  "aggressionType": "AGGRESSIVE",
+  "weaknesses": [
+    "DEMONBANE_WEAPONS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      240,
+      250,
+      200,
+      280,
+      1
+    ],
+    "aggressiveStats": [
+      160,
+      31,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      80,
+      80,
+      80,
+      130,
+      130
+    ],
+    "otherBonuses": [
+      31,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MAGIC",
+    "maxHit": 38,
+    "animation": {
+      "id": 64,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 65,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 67,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

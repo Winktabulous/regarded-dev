@@ -1,0 +1,5 @@
+# XP Multiplier option
+[component]
+inherit="160:5"
+op3="XP Multiplier"
+clickmask=14

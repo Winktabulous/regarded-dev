@@ -1,0 +1,59 @@
+# Barrows Teleport Scroll
+[[item]]
+inherit=12100
+name="Barrows teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""
+
+# Godwars Teleport Scroll
+[[item]]
+inherit=12101
+name="Godwars teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""
+
+# Zulrah Teleport Scroll
+[[item]]
+inherit=12102
+name="Zulrah teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""
+
+# Kraken Teleport Scroll
+[[item]]
+inherit=12103
+name="Kraken teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""
+
+# Cerberus Teleport Scroll
+[[item]]
+inherit=12104
+name="Cerberus teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""
+
+# Dagannoth Kings Teleport Scroll
+[[item]]
+inherit=12105
+name="Dagannoth kings teleport scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=true
+op2=""

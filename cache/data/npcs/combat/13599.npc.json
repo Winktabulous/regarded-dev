@@ -1,0 +1,67 @@
+{
+  "id": 13599,
+  "hitpoints": 600,
+  "attackSpeed": 6,
+  "slayerLevel": 0,
+  "attackDistance": 8,
+  "aggressionDistance": 8,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "aggressionType": "PASSIVE",
+  "weaknesses": [
+    "DEMONBANE_WEAPONS"
+  ],
+  "statDefinitions": {
+    "combatStats": [
+      255,
+      255,
+      150,
+      255,
+      255
+    ],
+    "aggressiveStats": [
+      400,
+      10,
+      300,
+      300,
+      0
+    ],
+    "defensiveStats": [
+      75,
+      175,
+      68,
+      5,
+      150
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MAGIC",
+    "maxHit": 31,
+    "animation": {
+      "id": 11388,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 11393,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 21,
+    "deathAnimation": {
+      "id": 11394,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[[sprite]]
+id=10019
+width=14
+height=13
+
+[sprite.images]
+0 = "challenges/10.png"
+
+[[sprite]]
+id=10020
+width=14
+height=13
+
+[sprite.images]
+0 = "challenges/25.png"
+
+[[sprite]]
+id=10021
+width=14
+height=13
+
+[sprite.images]
+0 = "challenges/50.png"
+
+[[sprite]]
+id=10022
+width=14
+height=13
+
+[sprite.images]
+0 = "challenges/100.png"
+
+[[sprite]]
+id=10023
+width=13
+height=13
+
+[sprite.images]
+0 = "challenges/osgp.png"
+
+[[sprite]]
+id=10024
+width=14
+height=13
+
+[sprite.images]
+0 = "challenges/umbox.png"

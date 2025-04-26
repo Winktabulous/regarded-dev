@@ -1,0 +1,17 @@
+// 32020
+[proc,script32020](int $int0, component $component1, component $component2, component $component3, component $component4, component $component5)
+if_sethide(true, interface_5101:10);
+if ($int0 = 1) {
+	if_sethide(false, $component1);
+} else {
+	if_sethide(true, $component1);
+}
+if ($int0 = 2) {
+	if_sethide(false, $component5);
+}
+~script32013(%varbit17006, $component3, $component4, $component5);
+def_int $int6 = 0;
+$int6 = ~script32023(0, $component2, $int6, 38, 3, 0x726451, "Perks", verdana_13pt_regular, 0xff981f, 3018, 26, 26);
+$int6 = ~script32023(1, $component2, $int6, 38, 3, 0x726451, "Shop", verdana_13pt_regular, 0xff981f, 1652, 32, 36);
+$int6 = ~script32023(2, $component2, $int6, 38, 3, 0x726451, "Checkout", verdana_13pt_regular, 0xff981f, 1651, 32, 36);
+~script32024(interface_5101:11, "Buy Credits", 0);

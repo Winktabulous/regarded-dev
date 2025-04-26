@@ -1,0 +1,7 @@
+void script_12569(Widget widget0) {
+	widget0.setText(script_46(VARP[4204], ","));
+	VARC[1155] = getClientCycle();
+	VARC[1156] = VARC[1155] + 100;
+	widget0.hookFrame(&script_12556(CTX_WIDGET));
+	return;
+}

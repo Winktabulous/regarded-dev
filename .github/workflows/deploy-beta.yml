@@ -1,0 +1,98 @@
+name: Update beta branch
+
+on:
+  push:
+    branches: [ rebirth-beta ]
+  workflow_dispatch:
+
+concurrency: beta_deployment
+
+jobs:
+  update-prod-repo:
+    runs-on: beta
+    defaults:
+      run:
+        working-directory: /home/world/server-production
+    steps:
+      - name: Fetch changes from remote
+        run: git fetch
+      - name: Check for updates in 'cache' directory
+        id: check-cache-updates
+        run: |
+          if git diff --quiet HEAD origin/rebirth-beta -- cache; then
+            echo "Cache directory not updated"
+            echo "::set-output name=cache-updated::false"
+          else
+            echo "Cache directory updated"
+            echo "::set-output name=cache-updated::true"
+          fi
+      - name: Pull changes from remote beta branch
+        run: git pull
+      - name: Update submodules
+        run: git submodule update
+      - name: Run gradle task -> generateCache if cache updated
+        run: |
+          if [[ "${{ steps.check-cache-updates.outputs.cache-updated }}" == "true" ]]; then
+            ./gradlew generateCache
+          fi
+      - name: Run gradle task -> runPluginScanner
+        run: ./gradlew runPluginScanner
+      - name: Set failure flag
+        id: set-failure-flag
+        run: echo "::set-output name=failure::true"
+        continue-on-error: true
+
+  start-game-updater:
+    needs: update-prod-repo
+    runs-on: beta
+    steps:
+      - name: Check for "game" screen session
+        run: |
+          if screen -list | grep -q "game"; then
+            echo "Game screen session found, starting updater..."
+          
+            # Attempt to send update command and check for success
+            if echo "update 10" | nc localhost 9090; then
+              echo "Update command sent successfully."
+            else
+              echo "Failed to send update command. Ignoring update" >&2
+            fi
+
+            # Wait for port 43594 to become free, indicating the service has stopped.
+            echo "Waiting for the service on port 43594 to stop..."
+            if sh -c "until ! nc -z localhost 43594; do sleep 0.1; done"; then
+              echo "Service on port 43594 has stopped successfully."
+            else
+              echo "Timeout or error waiting for the service on port 43594 to stop. Server probably offline, skipping..." >&2
+            fi
+          
+          else
+            echo "Game screen session not found, skipping updater..."
+          fi
+
+  start-game:
+    runs-on: beta
+    needs: [
+      update-prod-repo,
+      start-game-updater
+    ]
+    if: ${{ always() && !cancelled() && needs.update-prod-repo.result == 'success' }}
+    defaults:
+      run:
+        working-directory: /home/world/server-production
+    steps:
+      - name: Wipe dead screen sessions
+        run: |
+          screen -wipe
+      - name: Stop existing "game" screen session
+        run: |
+          if screen -list | grep -q "game"; then
+            echo "Stopping existing game screen session..."
+            screen -S game -X quit
+          else
+            echo "No existing game screen session found..."
+          fi
+
+      - name: Create and execute "game" screen session
+        run: |
+          RUNNER_TRACKING_ID="" && ci/start-screen.sh

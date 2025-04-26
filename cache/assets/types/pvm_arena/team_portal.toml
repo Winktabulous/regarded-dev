@@ -1,0 +1,10 @@
+[[object]]
+inherit=43765
+name="<col=0000ff>Team portal blue</col>"
+op1="Enter"
+
+[[object]]
+inherit=43767
+name="<col=ff0000>Team portal red</col>"
+op1="Enter"
+replacementcolours=[-3377, -1232, 639]

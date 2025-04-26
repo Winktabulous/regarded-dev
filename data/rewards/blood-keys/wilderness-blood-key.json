@@ -1,0 +1,34 @@
+[
+  {
+    "name": "wilderness-blood-key",
+    "rewards": [
+      {
+        "percent": 100,
+        "type": "ALWAYS_ROLL",
+        "entries": [
+          {
+            "itemId": 995,
+            "minAmount": 5000,
+            "maxAmount": 10000
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995,
+            "minAmount": 200000000,
+            "maxAmount": 500000000
+          },
+          {
+            "itemId": 41926,
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

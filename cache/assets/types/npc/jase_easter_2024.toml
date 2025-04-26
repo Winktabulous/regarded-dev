@@ -1,0 +1,6 @@
+[[npc]]
+id=16066
+inherit=10372
+name="Jase"
+op1="Talk-to"
+op2="Trade"

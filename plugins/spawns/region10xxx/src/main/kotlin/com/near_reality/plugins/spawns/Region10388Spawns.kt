@@ -1,0 +1,56 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10388Spawns : NPCSpawnsScript() {
+    init {
+        SKELETON_82(2562, 9506, 0, SOUTH, 7)
+        SKELETON_82(2564, 9504, 0, SOUTH, 7)
+        SKELETON_82(2564, 9509, 0, SOUTH, 7)
+        SKELETON_82(2565, 9507, 0, SOUTH, 7)
+        SKELETON_82(2567, 9506, 0, SOUTH, 7)
+        SKELETON_82(2568, 9509, 0, SOUTH, 7)
+        GIANT_BAT(2569, 9530, 0, SOUTH, 11)
+        GIANT_BAT(2571, 9525, 0, SOUTH, 11)
+        GIANT_BAT(2575, 9525, 0, SOUTH, 11)
+        CHAOS_DRUID_WARRIOR(2576, 9501, 0, SOUTH, 5)
+        CHAOS_DRUID_WARRIOR(2578, 9500, 0, SOUTH, 5)
+        CHAOS_DRUID_WARRIOR(2579, 9508, 0, SOUTH, 5)
+        CHAOS_DRUID_WARRIOR(2580, 9497, 0, SOUTH, 5)
+        CHAOS_DRUID_WARRIOR(2580, 9502, 0, SOUTH, 5)
+        ZOMBIE_49(2583, 9493, 0, SOUTH, 4)
+        CHAOS_DRUID_WARRIOR(2583, 9499, 0, SOUTH, 5)
+        ZOMBIE_50(2584, 9491, 0, SOUTH, 3)
+        ZOMBIE_51(2587, 9492, 0, SOUTH, 4)
+        WIZARD_FRUMSCONE(2588, 9489, 0, SOUTH, 2)
+        CHAOS_DRUID_WARRIOR(2588, 9498, 0, SOUTH, 5)
+        ZOMBIE_51(2590, 9491, 0, SOUTH, 4)
+        ZOMBIE_49(2590, 9493, 0, SOUTH, 4)
+        ZOMBIE_50(2591, 9492, 0, SOUTH, 3)
+        ZOMBIE_50(2593, 9491, 0, SOUTH, 3)
+        ZOMBIE_49(2593, 9492, 0, SOUTH, 4)
+        CHAOS_DRUID_WARRIOR(2594, 9498, 0, SOUTH, 5)
+        CHAOS_DRUID_WARRIOR(2598, 9497, 0, SOUTH, 5)
+        GIANT_BAT(2599, 9485, 0, SOUTH, 11)
+        GIANT_BAT(2600, 9480, 0, SOUTH, 11)
+        GIANT_BAT(2601, 9478, 0, SOUTH, 11)
+        GIANT_BAT(2602, 9484, 0, SOUTH, 11)
+        GIANT_BAT(2607, 9485, 0, SOUTH, 11)
+        CHAOS_DRUID(2611, 9483, 0, SOUTH, 8)
+        CHAOS_DRUID(2611, 9487, 0, SOUTH, 8)
+        CHAOS_DRUID(2612, 9488, 0, SOUTH, 8)
+        CHAOS_DRUID(2613, 9482, 0, SOUTH, 8)
+        SIGBERT_THE_ADVENTURER(2613, 9506, 0, SOUTH, 5)
+        CHAOS_DRUID(2613, 9521, 0, SOUTH, 8)
+        SALARIN_THE_TWISTED(2613, 9523, 0, SOUTH, 3)
+        CHAOS_DRUID(2614, 9483, 0, SOUTH, 8)
+        CHAOS_DRUID(2614, 9521, 0, SOUTH, 8)
+        CHAOS_DRUID(2614, 9525, 0, SOUTH, 8)
+        CHAOS_DRUID(2615, 9487, 0, SOUTH, 8)
+        CHAOS_DRUID(2616, 9484, 0, SOUTH, 8)
+        CHAOS_DRUID(2616, 9522, 0, SOUTH, 8)
+    }
+}

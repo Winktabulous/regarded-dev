@@ -1,0 +1,45 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10285Spawns : NPCSpawnsScript() {
+    init {
+        SPINED_LARUPIA(2563, 2888, 0, SOUTH, 7)
+        BLACK_WARLOCK(2563, 2920, 0, SOUTH, 9)
+        BARBTAILED_KEBBIT(2565, 2903, 0, SOUTH, 3)
+        BLACK_WARLOCK(2566, 2886, 0, SOUTH, 9)
+        BARBTAILED_KEBBIT(2567, 2903, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2572, 2929, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2572, 2931, 0, SOUTH, 3)
+        SPINED_LARUPIA(2573, 2883, 0, SOUTH, 7)
+        BARBTAILED_KEBBIT(2573, 2896, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2573, 2898, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2574, 2909, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2574, 2911, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2575, 2916, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2575, 2926, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2577, 2926, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2581, 2884, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2581, 2886, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2584, 2912, 0, SOUTH, 3)
+        BARBTAILED_KEBBIT(2584, 2914, 0, SOUTH, 3)
+        CRIMSON_SWIFT(2585, 2884, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2588, 2886, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2591, 2881, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2604, 2916, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2605, 2922, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2606, 2893, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2607, 2929, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2609, 2897, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2609, 2918, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2610, 2934, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2612, 2893, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2612, 2900, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2612, 2925, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2614, 2938, 0, SOUTH, 6)
+        CRIMSON_SWIFT(2615, 2933, 0, SOUTH, 6)
+    }
+}

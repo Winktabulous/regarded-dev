@@ -1,0 +1,27 @@
+void script_12538(Widget widget0, Widget widget1, int arg2, int arg3, Widget widget4, int arg5, int arg6, int arg7, int arg8, int arg9) {
+	int int10;
+	string str11;
+	string str12;
+	widget(5006, 2).clearChildren();
+	str11 = "Near-Reality Store";
+	int10 = script_228(widget(5006, 2), str11, 0);
+	widget(5006, 40).setIsHidden(true);
+	widget(5006, 25).setIsHidden(true);
+	widget(5006, 7).setIsHidden(true);
+	widget(5006, 10).setIsHidden(true);
+	int10 = script_134(widget0);
+	widget0.hookMouseEnter(&script_3242(widget0, 0));
+	widget0.hookMouseExit(&script_3240(widget0, 0));
+	str12 = "Open D-Pin Manager";
+	CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(0, 24, 1, 0);
+	CHILD.setFont(1442);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(1, 1, 12);
+	CHILD.setText(str12);
+	script_12550(widget1, widget4);
+	return;
+}

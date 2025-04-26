@@ -1,0 +1,63 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region10288Spawns : NPCSpawnsScript() {
+    init {
+        FRENITA(2566, 3098, 0, SOUTH, 4)
+        LEON(2567, 3085, 0, SOUTH, 2)
+        ALECK(2568, 3082, 0, SOUTH, 3)
+        TOOL_LEPRECHAUN(2573, 3108, 0, SOUTH, 0)
+        6706(2575, 3090, 0, SOUTH, 5)
+        SELENA(2578, 3101, 0, SOUTH, 4)
+        COW(2580, 3117, 0, SOUTH, 3)
+        COW(2582, 3122, 0, SOUTH, 3)
+        1172(2585, 3122, 0, SOUTH, 0)
+        ZAVISTIC_RARVE(2588, 3087, 0, SOUTH, 2)
+        WIZARD_3257(2588, 3090, 0, SOUTH, 9)
+        COW(2588, 3119, 0, SOUTH, 3)
+        WIZARD_3257(2589, 3084, 0, SOUTH, 9)
+        PROFESSOR_IMBLEWYN(2590, 3092, 0, SOUTH, 4)
+        3248(2594, 3089, 0, SOUTH, 3)
+        IMP_5007(2595, 3131, 0, SOUTH, 100)
+        MAN_3106(2596, 3104, 0, SOUTH, 5)
+        MAN_3108(2596, 3106, 0, SOUTH, 11)
+        IMP_5007(2597, 3120, 0, SOUTH, 100)
+        6706(2599, 3087, 0, SOUTH, 5)
+        COW(2604, 3114, 0, SOUTH, 3)
+        TRAMP_383(2606, 3100, 0, SOUTH, 3)
+        IMP_5007(2606, 3126, 0, SOUTH, 100)
+        DOMINIC_ONION(2608, 3116, 0, SOUTH, 0)
+        IMP_5007(2608, 3134, 0, SOUTH, 100)
+        6706(2612, 3092, 0, SOUTH, 5)
+        6706(2614, 3104, 0, SOUTH, 5)
+        IMP_5007(2614, 3116, 0, SOUTH, 100)
+        BANKER_1618(2615, 3091, 0, WEST, 0)
+        BANKER_1613(2615, 3092, 0, WEST, 0)
+        6528(2615, 3094, 0, WEST, 0)
+        IMP_5007(2616, 3126, 0, SOUTH, 100)
+        IMP_5007(2621, 3133, 0, SOUTH, 100)
+        IMP_5007(2622, 3118, 0, SOUTH, 100)
+        SOLDIER_5421(2567, 3109, 1, SOUTH, 5)
+        SOLDIER_5421(2572, 3109, 1, SOUTH, 5)
+        WIZARD_3257(2586, 3089, 1, SOUTH, 9)
+        WIZARD_3257(2593, 3084, 1, SOUTH, 9)
+        SOLDIER_5421(2595, 3073, 1, SOUTH, 5)
+        WIZARD_AKUTHA(2595, 3087, 1, SOUTH, 2)
+        WIZARD_SININA(2595, 3088, 1, SOUTH, 2)
+        WIZARD_3257(2595, 3090, 1, SOUTH, 9)
+        SOLDIER_5421(2600, 3109, 1, SOUTH, 5)
+        SOLDIER_5421(2609, 3073, 1, SOUTH, 5)
+        SOLDIER_5421(2610, 3107, 1, SOUTH, 5)
+        SOLDIER_5421(2615, 3073, 1, SOUTH, 5)
+        SOLDIER_5421(2618, 3099, 1, SOUTH, 5)
+        SOLDIER_5421(2620, 3077, 1, SOUTH, 5)
+        SOLDIER_5421(2620, 3095, 1, SOUTH, 5)
+        WIZARD_3257(2586, 3088, 2, SOUTH, 9)
+        WIZARD_3257(2589, 3085, 2, SOUTH, 9)
+        WIZARD_3257(2593, 3090, 2, SOUTH, 9)
+    }
+}

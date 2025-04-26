@@ -1,0 +1,7 @@
+# Hagavik
+[[npc]]
+id=16024
+inherit=8402
+name="Hagavik"
+op1="Talk-to"
+op2="Collect"

@@ -1,0 +1,12 @@
+void script_12566(Widget widget0, int arg1, Widget widget2, int arg3, Widget widget4, int arg5, Widget widget6, int arg7, Widget widget8, int arg9, Widget widget10, int arg11, Widget widget12, Widget widget13, int arg14) {
+	widget0.clearChildren();
+	_ = script_228(widget0, "Near-Reality Credit Packages", 0);
+	script_12560(arg1, widget2, "500 Credits", "", "$4.99 USD");
+	script_12560(arg3, widget4, "1,000 Credits", "+5 bonus credits", "$9.99 USD");
+	script_12560(arg5, widget6, "2,000 Credits", "+10 bonus credits", "$19.99 USD");
+	script_12560(arg7, widget8, "5,000 Credits", "+20 bonus credits", "$49.99 USD");
+	script_12560(arg9, widget10, "10,000 Credits", "+50 bonus credits", "$99.99 USD");
+	script_12560(arg11, widget12, "25,000 Credits", "+100 bonus credits", "$249.99 USD");
+	script_12567(widget13, arg14);
+	return;
+}

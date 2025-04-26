@@ -1,0 +1,9 @@
+# Silverlight
+[item]
+inherit=2402
+op1=""
+op2="Wear"
+op3="Check"
+
+[item.parameters]
+451="Check"

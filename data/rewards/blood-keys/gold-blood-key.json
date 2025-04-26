@@ -1,0 +1,169 @@
+[
+  {
+    "name": "gold-blood-key",
+    "rewards": [
+      {
+        "percent": 100,
+        "type": "ALWAYS_ROLL",
+        "entries": [
+          {
+            "itemId": 63004, // PKP
+            "minAmount": 2500,
+            "maxAmount": 5000
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // coins
+            "minAmount": 50000000,
+            "maxAmount": 150000000
+          },
+          {
+            "itemId": 43442, // Anglerfish
+            "minAmount": 100,
+            "maxAmount": 250
+          },
+          {
+            "itemId": 2451, // Zamorak brew
+            "minAmount": 100,
+            "maxAmount": 250
+          },
+          {
+            "itemId": 10926, // Sanfew serum
+            "minAmount": 150,
+            "maxAmount": 250
+          },
+          {
+            "itemId": 15273, // Rocktail
+            "minAmount": 250,
+            "maxAmount": 500
+          },
+          {
+            "itemId": 4152, // Abyssal whip
+            "minAmount": 1,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 6586, // Amulet of fury
+            "minAmount": 1,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 6915, // Master wand
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 6890, // Mages book
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 6921, // Infinity boots
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 6919, // Infinity hat
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 6917, // Infinity top
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 6925, // Infinity bottoms
+            "minAmount": 1,
+            "maxAmount": 2
+          },
+          {
+            "itemId": 14876, // Ancient statuette
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 14877, // Seren statuette
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 42006, // Abyssal tentacle
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15656, // Elemental whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15660, // Dragon whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 15661, // Barrows whip
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6737, // Berserker ring
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6731, // Seers ring
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6733, // Archers ring
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 6735, // Warrior ring
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 11849, // Barrows - dharoks set
+            "minAmount": 3,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 11857, // Barrows - veracs set
+            "minAmount": 3,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 11853, // Barrows - karils set
+            "minAmount": 3,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 11847, // Barrows - ahrims set
+            "minAmount": 3,
+            "maxAmount": 3
+          },
+          {
+            "itemId": 42853, // Amulet of the damned
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4447, // Antique lamp
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

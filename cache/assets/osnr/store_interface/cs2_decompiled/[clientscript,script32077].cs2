@@ -1,0 +1,8 @@
+// 32077
+[clientscript,script32077](int $int0)
+if (%varcint1110 = $int0) {
+	%varcint1110 = 0;
+} else {
+	%varcint1110 = $int0;
+}
+~script32078(interface_5102:7, interface_5102:8, interface_5102:9, interface_5102:10, interface_5102:11, interface_5102:12, interface_5102:21);

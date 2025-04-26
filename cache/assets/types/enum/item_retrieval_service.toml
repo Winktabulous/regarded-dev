@@ -1,0 +1,29 @@
+# Item retrieval service names
+[[enum]]
+inherit=1753
+
+[enum.values]
+100="Dying Knight's salvage"
+101="Dying Knight's salvage"
+102="Hagavik's Item Retrieval Service"
+103="Hagavik's Item Retrieval Service"
+104="Rots Item Retrieval Service"
+105="Rots Item Retrieval Service"
+
+# Item retrieval service currency
+[[enum]]
+inherit=1756
+
+[enum.values]
+100=995
+102=995
+104=995
+
+# Item retrieval service cost
+[[enum]]
+inherit=1757
+
+[enum.values]
+100=200000
+102=100000
+104=100000

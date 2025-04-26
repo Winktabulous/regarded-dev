@@ -1,0 +1,15 @@
+[[enum]]
+id=1953
+keytype="obj"
+valuetype="int"
+default=-1
+
+[enum.values]
+12625=1
+2434=1
+6685=2
+3024=2
+7058=1
+385=1
+397=1
+391=1

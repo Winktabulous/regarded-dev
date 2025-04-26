@@ -1,0 +1,126 @@
+int script_34038(int arg0, int arg1, int arg2, int arg3, string string4, int arg5) {
+	int int6;
+	Sprite sprite7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	Color color14;
+	int int15;
+	string str16;
+	int6 = 245;
+	if (arg2 % 2 == 1) {
+		int6 = 230;
+	}
+	CHILD.createChild(widget(1723, 18), 3, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(0, 21, 1, 0);
+	CHILD.setPosition(0, arg3, 0, 0);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.setTrans(int6);
+	CHILD.createChild(widget(1723, 18), 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(20, 21, 1, 0);
+	CHILD.setPosition(10, arg3, 0, 0);
+	CHILD.setText(string4);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	sprite7 = null;
+	int8 = 0;
+	switch (arg2) {
+		case 0:
+			sprite7 = (Sprite)osrs_m6516(arg0, 5010);
+			int8 = (int)osrs_m6516(arg0, 5015);
+			break;
+		case 1:
+			sprite7 = (Sprite)osrs_m6516(arg0, 5012);
+			int8 = (int)osrs_m6516(arg0, 5016);
+			break;
+		case 2:
+			sprite7 = (Sprite)osrs_m6516(arg0, 5013);
+			int8 = (int)osrs_m6516(arg0, 5017);
+			break;
+	}
+	if (sprite7 != null) {
+		str16 = "";
+		if (arg2 == 9999) {
+			sprite7 = null;
+			str16 = "PS5";
+		} else if(arg2 == 9998) {
+			str16 = "$500";
+		} else if(arg2 == 9997) {
+			str16 = "$200";
+		} else if(arg2 == 9996) {
+			str16 = "$100";
+		} else {
+			str16 = "x" + int8;
+		}
+		int9 = getMaxLineWidth(str16, 512, 494);
+		CHILD.createChild(widget(1723, 18), 4, arg1);
+		arg1 = arg1 + 1;
+		CHILD.setSize(int9, 21, 0, 0);
+		CHILD.setPosition(3, arg3 - 3, 2, 0);
+		CHILD.setText(str16);
+		CHILD.setTextAlignment(2, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.createChild(widget(1723, 18), 5, arg1);
+		arg1 = arg1 + 1;
+		if (sprite7 == 10023) {
+			CHILD.setSize(13, 13, 0, 0);
+		} else {
+			CHILD.setSize(14, 13, 0, 0);
+		}
+		CHILD.setPosition(3 + int9, arg3 + 4, 2, 0);
+
+	}
+	if (arg5 != -1) {
+		int10 = (int)osrs_m6516(arg0, 5011);
+		int11 = int10 / 2;
+		int12 = 0;
+		int13 = 0;
+		if (int10 > 0) {
+			if (arg5 <= int11) {
+				int12 = 150;
+				int13 = interpolate(0, arg5, 0, int11, 150);
+			} else if (int10 == arg5) {
+				int12 = 0;
+				int13 = 150;
+			} else {
+				int12 = 150 - interpolate(0, arg5 - int11, 0, int11, 150);
+				int13 = 150;
+			}
+		}
+		color14 = script_246(int12, int13, 0);
+		_CHILD.createChild(widget(1723, 18), 3, arg1);
+		arg1 = arg1 + 1;
+		_CHILD.setSize(arg5 * 110 / int10, 17, 0, 0);
+		_CHILD.setPosition((widget(1723, 18).getWidth() - 110) / 2 + 18, arg3 + 2, 0, 0);
+		_CHILD.setRGB(color14);
+		_CHILD.setFilled(true);
+		CHILD.createChild(widget(1723, 18), 3, arg1);
+		arg1 = arg1 + 1;
+		CHILD.setSize(110, 17, 0, 0);
+		CHILD.setPosition(_CHILD.getX(), _CHILD.getY(), 0, 0);
+		CHILD.createChild(widget(1723, 18), 4, arg1);
+		arg1 = arg1 + 1;
+		CHILD.setSize(108, 15, 0, 0);
+		CHILD.setPosition(_CHILD.getX() + 4, _CHILD.getY() + 2, 0, 0);
+		int15 = arg5 * 100 / int10;
+		if (int15 == 0 && arg5 > 0) {
+			int15 = 1;
+		}
+		CHILD.setText(int15 + "%");
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+	}
+	return arg1;
+}

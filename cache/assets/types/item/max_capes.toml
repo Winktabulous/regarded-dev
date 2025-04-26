@@ -1,0 +1,124 @@
+# Fire Max Cape
+[[item]]
+inherit=13329
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Saradomin Max Cape
+[[item]]
+inherit=13331
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Zamorak Max Cape
+[[item]]
+inherit=13333
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Guthix Max Cape
+[[item]]
+inherit=13335
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Accumulator max cape
+[[item]]
+inherit=13337
+op1="Wear"
+op2="Teleports"
+op4="Commune"
+op5="Features"
+
+# Ardougne max cape
+[[item]]
+inherit=20760
+op1="Wear"
+op2="Teleports"
+op3="Monastery Teleport"
+op4="Farm Teleport"
+op5="Features"
+
+
+# Infernal max cape
+[[item]]
+inherit=21285
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Imbued Sara max cape
+[[item]]
+inherit=21776
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Imbued Zam max cape
+[[item]]
+inherit=21780
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Imbued Guth max cape
+[[item]]
+inherit=21784
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Assembler max cape
+[[item]]
+inherit=21898
+op1="Wear"
+op2="Teleports"
+op4="Commune"
+op5="Features"
+
+# Infernal Max Cape (l)
+[[item]]
+inherit=24133
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# fire Max Cape (l)
+[[item]]
+inherit=24134
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Assembler Max Cape (l)
+[[item]]
+inherit=[24135]
+op1="Wear"
+op2="Teleports"
+op4="Commune"
+op5="Features"
+
+# Imbued sara Max Cape (l)
+[[item]]
+inherit=24232
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Imbued zammy Max Cape (l)
+[[item]]
+inherit=24233
+op1="Wear"
+op2="Teleports"
+op4="Features"
+
+# Imbued guthix Max Cape (l)
+[[item]]
+inherit=24234
+op1="Wear"
+op2="Teleports"
+op4="Features"

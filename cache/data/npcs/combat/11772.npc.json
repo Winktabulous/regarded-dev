@@ -1,0 +1,61 @@
+{
+  "id": 11772,
+  "hitpoints": 1,
+  "attackSpeed": 1,
+  "slayerLevel": 0,
+  "aggressionDistance": 1,
+  "attackDistance": 1,
+  "maximumDistance": 64,
+  "targetType": "PLAYER",
+  "immunityTypes": [
+    "POISON",
+    "VENOM"
+  ],
+  "aggressionType": "ALWAYS_AGGRESSIVE",
+  "statDefinitions": {
+    "combatStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      -900,
+      -900,
+      -900,
+      -900,
+      -900
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MELEE",
+    "maxHit": 1
+  },
+  "blockDefinitions": {
+    "sound": {
+      "id": 6591,
+      "delay": 0,
+      "radius": 9,
+      "repetitions": 1
+    }
+  },
+  "spawnDefinitions": {
+    "deathAnimation": {
+      "id": -1,
+      "delay": 1
+    }
+  }
+}

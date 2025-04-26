@@ -1,0 +1,35 @@
+# Grimy snake weed(noted)
+[[item]]
+inherit=1525
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=1525
+id=2679
+
+# Snake weed(noted)
+[[item]]
+inherit=1526
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=1526
+id=2680
+
+# Grimy snake weed
+[[item]]
+inherit=1525
+notedid=2679
+
+# Snake weed
+[[item]]
+inherit=1526
+notedid=2680

@@ -1,0 +1,58 @@
+// 32078
+[clientscript,script32078](int $int0, int $int1, int $int2, int $int3, int $int4, int $int5, int $int6)
+def_int $int7 = 0;
+if (%varcint1110 = 0) {
+	$int7 = ~script32076($int6, $int7, "---", "", 1445, 10461087);
+} else {
+	$int7 = ~script32076($int6, $int7, "Checkout", "Credits", 1445, 16750623);
+}
+def_int $int8 = 0;
+while ($int8 < 6) {
+	def_int $int9 = -1;
+	def_struct $struct10 = null;
+	def_string $string0 = "";
+	def_string $string1 = "";
+	def_string $string2 = "";
+	def_int $int11 = 0;
+	def_int $int12 = 0;
+	def_string $string13 = -1;
+	switch_int ($int8) {
+		case 5 :
+			$int11 = 101;
+			$int12 = 54;
+			$int9 = $int5;
+			$struct10 = struct_12005;
+		case 4 :
+			$int11 = 77;
+			$int12 = 44;
+			$int9 = $int4;
+			$struct10 = struct_12004;
+		case 3 :
+			$int11 = 51;
+			$int12 = 44;
+			$int9 = $int3;
+			$struct10 = struct_12003;
+		case 2 :
+			$int11 = 65;
+			$int12 = 57;
+			$int9 = $int2;
+			$struct10 = struct_12002;
+		case 1 :
+			$int11 = 67;
+			$int12 = 45;
+			$int9 = $int1;
+			$struct10 = struct_12001;
+		case 0 :
+			$int11 = 40;
+			$int12 = 32;
+			$int9 = $int0;
+			$struct10 = struct_12000;
+	}
+	$string0 = struct_param($struct10, param_10000);
+	$string1 = struct_param($struct10, param_10001);
+	$string2 = struct_param($struct10, param_10002);
+	$string13 = struct_param($struct10, param_10003);
+	def_int $int14 = calc($int8 + 1);
+	~script32030($int9, $int14, $string13, $int11, $int12, $string0, $string1, $string2, ~script5808(%varcint1110, $int14));
+	$int8 = calc($int8 + 1);
+}

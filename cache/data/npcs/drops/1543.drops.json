@@ -1,0 +1,119 @@
+{
+  "npcId": 1543,
+  "drops": [
+    {
+      "itemId": 1373,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 3836
+    },
+    {
+      "itemId": 1079,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 4773
+    },
+    {
+      "itemId": 4129,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 4830
+    },
+    {
+      "itemId": 1319,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 20502
+    },
+    {
+      "itemId": 451,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 20953
+    },
+    {
+      "itemId": 560,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 24107
+    },
+    {
+      "itemId": 1073,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 28338
+    },
+    {
+      "itemId": 2358,
+      "minAmount": 10,
+      "maxAmount": 15,
+      "rate": 30901
+    },
+    {
+      "itemId": 1163,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 32116
+    },
+    {
+      "itemId": 995,
+      "minAmount": 10000,
+      "maxAmount": 10000,
+      "rate": 38110
+    },
+    {
+      "itemId": 2360,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 39116
+    },
+    {
+      "itemId": 562,
+      "minAmount": 30,
+      "maxAmount": 30,
+      "rate": 64494
+    },
+    {
+      "itemId": 445,
+      "minAmount": 10,
+      "maxAmount": 20,
+      "rate": 64524
+    },
+    {
+      "itemId": 554,
+      "minAmount": 75,
+      "maxAmount": 75,
+      "rate": 67653
+    },
+    {
+      "itemId": 554,
+      "minAmount": 150,
+      "maxAmount": 150,
+      "rate": 67797
+    },
+    {
+      "itemId": 995,
+      "minAmount": 500,
+      "maxAmount": 1000,
+      "rate": 69071
+    },
+    {
+      "itemId": 995,
+      "minAmount": 8000,
+      "maxAmount": 16000,
+      "rate": 69072
+    },
+    {
+      "itemId": 2354,
+      "minAmount": 15,
+      "maxAmount": 15,
+      "rate": 71326
+    },
+    {
+      "itemId": 7937,
+      "minAmount": 150,
+      "maxAmount": 150,
+      "rate": 77883
+    }
+  ]
+}

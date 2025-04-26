@@ -1,0 +1,107 @@
+# Ahrim
+[[npc]]
+id=16035
+inherit=1672
+
+# Dharok
+[[npc]]
+id=16036
+inherit=1673
+
+# Guthan
+[[npc]]
+id=16037
+inherit=1674
+
+# Karil
+[[npc]]
+id=16038
+inherit=1675
+
+# Torag
+[[npc]]
+id=16039
+inherit=1676
+
+# Verac
+[[npc]]
+id=16040
+inherit=1677
+
+# Ahrim pet
+[[npc]]
+inherit=1672
+name="Ahrim the Bobbled"
+id=16045
+models=[60181]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true
+
+# Dharok pet
+[[npc]]
+inherit=1673
+name="Dharok the Bobbled"
+id=16046
+models=[60182]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true
+
+# Guthan pet
+[[npc]]
+inherit=1674
+name="Guthan the Bobbled"
+id=16047
+models=[60183]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true
+
+# Karil pet
+[[npc]]
+inherit=1675
+name="Karil the Bobbled"
+id=16048
+models=[60184]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true
+
+# Torag pet
+[[npc]]
+inherit=1676
+name="Torag the Bobbled"
+id=16049
+models=[60185]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true
+
+# Verac pet
+[[npc]]
+inherit=1677
+name="Verac the Bobbled"
+id=16050
+models=[60186]
+combatlevel=0
+op1=""
+op2="Pick-up"
+op3=""
+minimapvisible=false
+familiar=true

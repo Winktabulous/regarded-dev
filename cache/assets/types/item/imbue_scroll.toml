@@ -1,0 +1,10 @@
+# Royal Seed Pod
+[[item]]
+inherit=11681
+name="Imbue scroll"
+grandexchange=true
+
+# Actual scroll of imbuing
+[[item]]
+inherit=26706
+grandexchange=true

@@ -1,0 +1,23 @@
+# Rare drop table
+[[item]]
+inherit=1615
+id=2689
+name="Rare drop table"
+op1=""
+notedid=-1
+notedtemplate=-1
+invmodel=52523
+originalcolours=[60, 9023]
+replacementcolours=[-14425, -22467]
+
+# Gem drop table
+[[item]]
+inherit=1615
+id=2690
+name="Gem drop table"
+op1=""
+notedid=-1
+notedtemplate=-1
+invmodel=52523
+originalcolours=[60, 9023]
+replacementcolours=[-14425, -22467]

@@ -1,0 +1,14 @@
+[[component]]
+inherit="161:64"
+op3="*"
+clickmask=14
+
+[[component]]
+inherit="164:57"
+op3="*"
+clickmask=14
+
+[[component]]
+inherit="548:68"
+op3="*"
+clickmask=14

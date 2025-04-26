@@ -1,0 +1,4 @@
+// 32032
+[clientscript,script32032](int $int0, component $component1, component $component2, component $component3)
+%varbit17006 = $int0;
+~script32020(%varbit17006, interface_5101:22, interface_5101:9, $component1, $component2, $component3);

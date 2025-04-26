@@ -1,0 +1,119 @@
+// 32034
+[proc,script32034](component $component0, component $component1)
+def_int $y2 = if_getscrolly($component0);
+cc_deleteall($component0);
+cc_deleteall($component1);
+if_sethide(false, $component1);
+if_sethide(true, interface_5101:19);
+if_sethide(true, interface_5101:7);
+if_sethide(true, interface_5101:12);
+if_sethide(true, interface_5101:24);
+if_sethide(false, interface_5101:58);
+if_setposition(126, 40, ^setpos_abs_left, ^setpos_abs_top, $component0);
+if_setsize(324, 225, ^setsize_abs, ^setsize_abs, $component0);
+if_setposition(452, 40, ^setpos_abs_left, ^setpos_abs_top, $component1);
+if_setsize(16, 228, ^setsize_abs, ^setsize_abs, $component1);
+if_setposition(125, 270, ^setpos_abs_left, ^setpos_abs_top, interface_5101:58);
+if_setsize(342, 16, ^setsize_abs, ^setsize_abs, interface_5101:58);
+if_sethide(true, interface_5101:10);
+def_int $count3 = enum_getoutputcount(enum_11002);
+def_int $int4 = 90;
+def_int $height5 = 0;
+def_int $width6 = calc($int4 * ($count3 + 1));
+def_int $int7 = 0;
+$int7 = ~thinstonebox($component0, $int7);
+def_int $int8 = 0;
+def_int $int9 = 20;
+def_int $count10 = 0;
+def_int $count11 = 0;
+def_int $int12 = 6;
+def_int $int13 = 64;
+def_int $count14 = enum_getoutputcount(enum_11003);
+while ($count10 < $count14) {
+	cc_create($component0, ^iftype_graphic, $int7);
+	$int7 = calc($int7 + 1);
+	cc_setposition(2, calc(26 + $count10 * $int13), ^setpos_abs_left, ^setpos_abs_top);
+	cc_setsize(4, $int13, ^setsize_minus, ^setsize_abs);
+	if (calc($count10 % 2) = 0) {
+		cc_setgraphic("tradebacking_light");
+	}
+	def_int $y15 = calc(24 + $count10 * $int13);
+	def_string $text0 = enum(int, string, enum_11003, $count10);
+	cc_create($component0, ^iftype_text, $int7);
+	$int7 = calc($int7 + 1);
+	cc_setposition(6, $y15, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setsize(90, $int13, ^setsize_abs, ^setsize_abs);
+	cc_settextfont(verdana_13pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+	cc_settext($text0);
+	cc_setcolour(0xff981f);
+	cc_settextshadow(true);
+	$count10 = calc($count10 + 1);
+	$height5 = $y15;
+}
+$count10 = 0;
+$int12 = 90;
+while ($count10 < $count3) {
+	def_int $colour16 = enum(int, int, enum_11004, $count10);
+	def_string $string1 = enum(int, string, enum_11002, $count10);
+	def_graphic $graphic17 = enum(int, graphic, enum_11013, $count10);
+	cc_create($component0, ^iftype_text, $int7);
+	$int7 = calc($int7 + 1);
+	cc_setposition($int12, 0, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setsize(90, 24, ^setsize_abs, ^setsize_abs);
+	cc_settextfont(verdana_13pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+	cc_settext($string1);
+	cc_setcolour($colour16);
+	cc_settextshadow(true);
+	def_int $int18 = calc((90 - parawidth($string1, 90, verdana_13pt_regular)) / 2);
+	cc_create($component0, ^iftype_graphic, $int7);
+	$int7 = calc($int7 + 1);
+	cc_setposition(calc($int12 + $int18 - 16), 6, ^setpos_abs_left, ^setpos_abs_top);
+	cc_setsize(13, 13, ^setsize_abs, ^setsize_abs);
+	cc_settextfont(verdana_13pt_regular);
+	cc_setgraphic($graphic17);
+	def_enum $enum19 = enum(int, enum, enum_11005, $count10);
+	$count14 = enum_getoutputcount($enum19);
+	$count11 = 0;
+	while ($count11 < $count14) {
+		def_int $int20 = calc(24 + $count11 * $int13);
+		def_string $string2 = enum(int, string, $enum19, $count11);
+		if (compare($string2, "%yes%") = 0 | compare($string2, "%no%") = 0) {
+			cc_create($component0, ^iftype_graphic, $int7);
+			$int7 = calc($int7 + 1);
+			if (compare($string2, "%yes%") = 0) {
+				cc_setposition(calc($int12 + 38), calc($int20 + ($int13 - 13) / 2), ^setpos_abs_left, ^setpos_abs_top);
+				cc_setsize(13, 13, ^setsize_abs, ^setsize_abs);
+				cc_setgraphic("graphic_2264");
+			} else {
+				cc_setposition(calc($int12 + 37), calc($int20 + ($int13 - 16) / 2), ^setpos_abs_left, ^setpos_abs_top);
+				cc_setsize(16, 16, ^setsize_abs, ^setsize_abs);
+				cc_setgraphic("clickcross,4");
+			}
+		} else {
+			cc_create($component0, ^iftype_text, $int7);
+			$int7 = calc($int7 + 1);
+			cc_setposition($int12, $int20, ^setpos_abs_left, ^setpos_abs_top);
+			cc_setsize(90, $int13, ^setsize_abs, ^setsize_abs);
+			cc_settextfont(verdana_13pt_regular);
+			cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
+			cc_settext($string2);
+			cc_setcolour($colour16);
+			cc_settextshadow(true);
+		}
+		$count11 = calc($count11 + 1);
+	}
+	$count10 = calc($count10 + 1);
+	$int12 = calc($int12 + $int4 + 1);
+}
+$height5 = calc($height5 + $int13 + 4);
+if ($height5 > if_getheight($component0) | $width6 > if_getwidth($component0)) {
+	if_setscrollsize($width6, $height5, $component0);
+} else {
+	if_setscrollsize(0, 0, $component0);
+}
+if_setscrollpos(0, $y2, $component0);
+~script6156(334299194, $component0, 4538, 4537, 4536, 4535, 4533, 4534);
+~script6157(334299194, $component0);
+~scrollbar_vertical($component1, $component0, 792, 789, 790, 791, 773, 788);

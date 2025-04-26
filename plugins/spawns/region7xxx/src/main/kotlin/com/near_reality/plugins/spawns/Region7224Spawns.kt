@@ -1,0 +1,51 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region7224Spawns : NPCSpawnsScript() {
+    init {
+        MAN_6987(1792, 3607, 0, SOUTH, 4)
+        UNICORN(1792, 3617, 0, SOUTH, 15)
+        GIANT_RAT_2862(1792, 3638, 0, SOUTH, 6)
+        UNICORN_FOAL(1793, 3624, 0, SOUTH, 7)
+        WOMAN_6991(1796, 3603, 0, SOUTH, 5)
+        UNICORN_FOAL(1798, 3619, 0, SOUTH, 7)
+        CORMORANT(1800, 3635, 0, SOUTH, 0)
+        HOBGOBLIN_3286(1808, 3627, 0, SOUTH, 10)
+        CORMORANT(1813, 3607, 0, SOUTH, 0)
+        GULL(1813, 3616, 0, SOUTH, 7)
+        GULL(1817, 3588, 0, SOUTH, 7)
+        FISHING_SPOT_7155(1819, 3603, 0, SOUTH, 0)
+        FISHING_SPOT_7155(1827, 3605, 0, SOUTH, 0)
+        FISHING_SPOT_7155(1828, 3614, 0, SOUTH, 0)
+        FISHING_SPOT_7200(1829, 3610, 0, SOUTH, 0)
+        FISHING_SPOT_7200(1830, 3618, 0, SOUTH, 0)
+        HOBGOBLIN_3286(1832, 3599, 0, SOUTH, 10)
+        HOBGOBLIN_3289(1832, 3608, 0, SOUTH, 7)
+        HOBGOBLIN_3289(1832, 3618, 0, SOUTH, 7)
+        HOBGOBLIN_3289(1832, 3624, 0, SOUTH, 7)
+        HOBGOBLIN_3286(1833, 3605, 0, SOUTH, 10)
+        HOBGOBLIN_3286(1833, 3628, 0, SOUTH, 10)
+        HOBGOBLIN_3286(1834, 3615, 0, SOUTH, 10)
+        HOBGOBLIN_3289(1835, 3621, 0, SOUTH, 7)
+        HOBGOBLIN_3286(1836, 3608, 0, SOUTH, 10)
+        HOBGOBLIN_3286(1836, 3612, 0, SOUTH, 10)
+        HOBGOBLIN_3286(1836, 3631, 0, SOUTH, 10)
+        HOBGOBLIN_3289(1836, 3635, 0, SOUTH, 7)
+        HOBGOBLIN_3289(1837, 3628, 0, SOUTH, 7)
+        HOBGOBLIN_3287(1838, 3614, 0, SOUTH, 8)
+        HOBGOBLIN_3289(1838, 3617, 0, SOUTH, 7)
+        HOBGOBLIN_3287(1838, 3640, 0, SOUTH, 8)
+        FISHING_SPOT_7155(1840, 3595, 0, SOUTH, 0)
+        HOBGOBLIN_3286(1840, 3636, 0, SOUTH, 10)
+        HOBGOBLIN_3289(1840, 3642, 0, SOUTH, 7)
+        FISHING_SPOT_7199(1841, 3627, 0, SOUTH, 0)
+        HOBGOBLIN_3286(1841, 3633, 0, SOUTH, 10)
+        FISHING_SPOT_7199(1842, 3619, 0, SOUTH, 0)
+        HOBGOBLIN_3289(1842, 3638, 0, SOUTH, 7)
+        HOBGOBLIN_3289(1842, 3641, 0, SOUTH, 7)
+    }
+}

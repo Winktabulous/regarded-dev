@@ -1,0 +1,23 @@
+// 32008
+[clientscript,script32008](component $component0, component $component1, component $component2, component $component3, component $component4, int $int5, component $component6, int $int7)
+cc_deleteall(interface_5101:2);
+def_string $string0 = "Near-Reality Store";
+def_int $int8 = ~steelborder(334299138, $string0, 0);
+if_sethide(true, interface_5101:40);
+if_sethide(true, interface_5101:25);
+if_sethide(true, interface_5101:7);
+if_sethide(true, interface_5101:10);
+$int8 = ~v2_stone_button_filled($component0);
+if_setonmouseover("v2_stone_button_change_in($component0, 0)", $component0);
+if_setonmouseleave("v2_stone_button_change_out($component0, 0)", $component0);
+def_string $text1 = "D-Pin Manager";
+cc_create($component0, ^iftype_text, $int8);
+$int8 = calc($int8 + 1);
+cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
+cc_setsize(0, 24, ^setsize_minus, ^setsize_abs);
+cc_settextfont(verdana_11pt_regular);
+cc_settextshadow(true);
+cc_setcolour(0xff981f);
+cc_settextalign(^settextalign_centre, ^settextalign_centre, 12);
+cc_settext($text1);
+~script32020(%varbit17006, $component1, $component2, $component3, $component4, $component6);

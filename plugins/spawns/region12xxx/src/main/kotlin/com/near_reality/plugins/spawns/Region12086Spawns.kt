@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region12086Spawns : NPCSpawnsScript() {
+    init {
+        FORTRESS_GUARD_4773(3008, 3517, 0, SOUTH, 2)
+        DWARF_1407(3009, 3458, 0, SOUTH, 5)
+        ORACLE(3013, 3501, 0, SOUTH, 2)
+        FORTRESS_GUARD_4774(3013, 3515, 0, SOUTH, 3)
+        GUARD_5185(3015, 3459, 0, SOUTH, 4)
+        FORTRESS_GUARD_4775(3015, 3514, 0, SOUTH, 3)
+        FORTRESS_GUARD_4776(3016, 3513, 0, SOUTH, 4)
+        BLACK_KNIGHT_4331(3016, 3516, 0, SOUTH, 2)
+        FORTRESS_GUARD_4774(3017, 3514, 0, SOUTH, 3)
+        GUARD_5185(3018, 3456, 0, SOUTH, 4)
+        FORTRESS_GUARD_4775(3018, 3516, 0, SOUTH, 3)
+        BLACK_KNIGHT_517(3022, 3513, 0, SOUTH, 6)
+        DWARF_1408(3023, 3458, 0, SOUTH, 3)
+        BLACK_KNIGHT_517(3023, 3517, 0, SOUTH, 6)
+        DWARF_1405(3024, 3463, 0, SOUTH, 6)
+        GUARD_5185(3027, 3457, 0, SOUTH, 4)
+        WITCH_4778(3027, 3506, 0, SOUTH, 3)
+        7749(3027, 3509, 0, SOUTH, 0)
+        BLACK_KNIGHT_517(3027, 3512, 0, SOUTH, 6)
+        BLACK_CAT(3028, 3505, 0, SOUTH, 2)
+        BLACK_KNIGHT_CAPTAIN(3028, 3508, 0, SOUTH, 2)
+        BLACK_KNIGHT_517(3028, 3514, 0, SOUTH, 6)
+        BLACK_KNIGHT_517(3029, 3517, 0, SOUTH, 6)
+        DWARF_1406(3030, 3464, 0, SOUTH, 3)
+        BLACK_KNIGHT_517(3030, 3502, 0, SOUTH, 6)
+        GRELDO(3030, 3505, 0, SOUTH, 2)
+        BLACK_KNIGHT_517(3031, 3502, 0, SOUTH, 6)
+        BLACK_KNIGHT_517(3032, 3503, 0, SOUTH, 6)
+        MONK_2579(3045, 3484, 0, SOUTH, 3)
+        MONK_2579(3045, 3497, 0, SOUTH, 3)
+        BROTHER_ALTHRIC(3049, 3507, 0, SOUTH, 2)
+        MONK_2579(3050, 3491, 0, SOUTH, 3)
+        SHEEP_2789(3050, 3518, 0, SOUTH, 3)
+        RAM_1265(3052, 3516, 0, SOUTH, 2)
+        SHEEP_2788(3052, 3519, 0, SOUTH, 3)
+        MONK_2579(3054, 3491, 0, SOUTH, 3)
+        SHEEP_2789(3054, 3517, 0, SOUTH, 3)
+        ABBOT_LANGLEY(3058, 3484, 0, SOUTH, 3)
+        //OZIACH(3069, 3517, 0, SOUTH, 2)
+        BLACK_KNIGHT_517(3015, 3515, 1, SOUTH, 6)
+        BLACK_KNIGHT_517(3023, 3512, 1, SOUTH, 6)
+        BLACK_KNIGHT_517(3023, 3516, 1, SOUTH, 6)
+        BLACK_KNIGHT_517(3024, 3510, 1, SOUTH, 6)
+        MONK_2579(3045, 3492, 1, SOUTH, 3)
+        BROTHER_JERED(3046, 3488, 1, SOUTH, 2)
+        6109(3052, 3496, 1, SOUTH, 2)
+        MONK_2579(3056, 3497, 1, SOUTH, 3)
+        KHARID_SCORPION_5230(3058, 3488, 1, SOUTH, 2)
+        BLACK_KNIGHT_517(3014, 3516, 2, SOUTH, 6)
+        BLACK_KNIGHT_517(3023, 3514, 2, SOUTH, 6)
+        BLACK_KNIGHT_517(3026, 3507, 2, SOUTH, 6)
+    }
+}

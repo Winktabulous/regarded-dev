@@ -1,0 +1,304 @@
+[[item]]
+inherit=6570
+id=32243
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32244
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[-21691, -21582, 4184, 113]
+
+[[item]]
+inherit=16551
+id=32244
+placeholderid=32243
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32245
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32246
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[113, 4184, -21728, -22740]
+
+[[item]]
+inherit=16551
+id=32246
+placeholderid=32245
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32247
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32248
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[26, 15, 1943, 928]
+
+[[item]]
+inherit=16551
+id=32248
+placeholderid=32247
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32249
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32250
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[943, 933, 3, 9]
+
+[[item]]
+inherit=16551
+id=32250
+placeholderid=32249
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32251
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32252
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[19243, 20259, 29460, 29470]
+
+[[item]]
+inherit=16551
+id=32252
+placeholderid=32251
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32253
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32254
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[19243, 20259, 29460, 29470]
+
+[[item]]
+inherit=16551
+id=32254
+placeholderid=32253
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32255
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32256
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[19243, 20259, 29460, 29470]
+
+[[item]]
+inherit=16551
+id=32256
+placeholderid=32255
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32257
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32258
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[-29225, -29374, -29394, -29384]
+
+[[item]]
+inherit=16551
+id=32258
+placeholderid=32257
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32259
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32260
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+originalcolours=[573, 559, 402, 545]
+replacementcolours=[-18750, -18895, -20341, -19306]
+
+[[item]]
+inherit=16551
+id=32260
+placeholderid=32259
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32261
+name="Completionist cape (Tier 1)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32262
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+
+[[item]]
+inherit=16551
+id=32262
+placeholderid=32261
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32263
+name="Completionist cape (Tier 2)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32264
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+
+[[item]]
+inherit=16551
+id=32264
+placeholderid=32263
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=6570
+id=32265
+name="Completionist cape (Tier 3)"
+invmodel=60272
+primarymalemodel=60273
+primaryfemalemodel=60274
+placeholderid=32266
+stackable=0
+notedid=-1
+zoom=1800
+modelroll=43
+modelpitch=391
+modelyaw=43
+offsetx=3
+offsety=7
+
+[[item]]
+inherit=16551
+id=32266
+placeholderid=32265
+placeholdertemplate=14401

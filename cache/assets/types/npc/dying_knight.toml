@@ -1,0 +1,8 @@
+# Dying knight non-collectable
+[[npc]]
+id=16023
+inherit=5929
+op1="Talk-to"
+op2="Collect"
+op3=""
+direction=32

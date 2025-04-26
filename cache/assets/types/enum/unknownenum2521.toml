@@ -1,0 +1,15 @@
+# Tournament supplies
+[[enum]]
+id=2521
+keytype="int"
+valuetype="component"
+default=-1
+
+[enum.values]
+0=46333977
+1=46333978
+2=46333979
+3=46333980
+4=46333981
+5=46333982
+6=46333983

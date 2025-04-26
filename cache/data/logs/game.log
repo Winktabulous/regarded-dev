@@ -1,0 +1,8 @@
+02:37:47.815 [main] INFO  mgi.tools.parser.TypeParser - Finished packing 59 types.
+02:37:49.133 [main] INFO  m.types.config.items.ItemDefinitions - Overlapping an item in cachepacking: 4083
+02:37:49.153 [main] INFO  mgi.tools.parser.TypeParser - Finished packing 616 types.
+02:37:54.844 [main] INFO  mgi.tools.parser.TypeParser - Cache repack took 11135 milliseconds
+02:51:40.786 [main] INFO  mgi.tools.parser.TypeParser - Finished packing 59 types.
+02:51:42.172 [main] INFO  m.types.config.items.ItemDefinitions - Overlapping an item in cachepacking: 4083
+02:51:42.200 [main] INFO  mgi.tools.parser.TypeParser - Finished packing 616 types.
+02:51:47.460 [main] INFO  mgi.tools.parser.TypeParser - Cache repack took 10395 milliseconds

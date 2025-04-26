@@ -1,0 +1,61 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11671Spawns : NPCSpawnsScript() {
+    init {
+        BLACK_KNIGHT(2891, 9693, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2891, 9701, 0, SOUTH, 6)
+        BLACK_KNIGHT(2892, 9678, 0, SOUTH, 5)
+        LORD_DAQUARIUS(2892, 9680, 0, NORTH, 0)
+        BLACK_KNIGHT(2892, 9682, 0, SOUTH, 5)
+        BLACK_KNIGHT(2892, 9696, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2892, 9710, 0, SOUTH, 6)
+        BLACK_KNIGHT(2893, 9702, 0, SOUTH, 5)
+        BLACK_KNIGHT(2895, 9711, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2897, 9675, 0, SOUTH, 6)
+        BLACK_KNIGHT_517(2898, 9688, 0, SOUTH, 6)
+        BLACK_KNIGHT(2899, 9682, 0, SOUTH, 5)
+        BLACK_KNIGHT(2899, 9705, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2899, 9709, 0, SOUTH, 6)
+        BLACK_KNIGHT(2900, 9678, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2900, 9701, 0, SOUTH, 6)
+        BLACK_KNIGHT(2901, 9711, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2902, 9693, 0, SOUTH, 6)
+        BLACK_KNIGHT(2904, 9690, 0, SOUTH, 5)
+        BLACK_KNIGHT(2905, 9692, 0, SOUTH, 5)
+        BLACK_KNIGHT(2906, 9673, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2906, 9687, 0, SOUTH, 6)
+        BLACK_KNIGHT(2906, 9706, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2907, 9676, 0, SOUTH, 6)
+        BLACK_KNIGHT_517(2907, 9711, 0, SOUTH, 6)
+        BLACK_KNIGHT(2908, 9694, 0, SOUTH, 5)
+        BLACK_KNIGHT(2908, 9702, 0, SOUTH, 5)
+        BLACK_KNIGHT(2910, 9691, 0, SOUTH, 5)
+        BLACK_KNIGHT(2911, 9677, 0, SOUTH, 5)
+        BLACK_KNIGHT(2912, 9682, 0, SOUTH, 5)
+        BLACK_KNIGHT(2912, 9688, 0, SOUTH, 5)
+        BLACK_KNIGHT(2913, 9694, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2915, 9703, 0, SOUTH, 6)
+        BLACK_KNIGHT(2915, 9710, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2916, 9677, 0, SOUTH, 6)
+        BLACK_KNIGHT(2916, 9692, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2917, 9682, 0, SOUTH, 6)
+        BLACK_KNIGHT_517(2917, 9695, 0, SOUTH, 6)
+        BLACK_KNIGHT(2919, 9679, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2920, 9703, 0, SOUTH, 6)
+        BLACK_KNIGHT(2921, 9708, 0, SOUTH, 5)
+        BLACK_KNIGHT_517(2923, 9710, 0, SOUTH, 6)
+        DWARF(2930, 9699, 0, SOUTH, 13)
+        RAT_2854(2930, 9701, 0, SOUTH, 14)
+        VELRAK_THE_EXPLORER(2931, 9685, 0, SOUTH, 3)
+        DWARF(2931, 9703, 0, SOUTH, 13)
+        RAT_2854(2932, 9687, 0, SOUTH, 14)
+        RAT_2854(2932, 9692, 0, SOUTH, 14)
+        RAT_2854(2932, 9697, 0, SOUTH, 14)
+        JAILER(2933, 9693, 0, SOUTH, 3)
+    }
+}

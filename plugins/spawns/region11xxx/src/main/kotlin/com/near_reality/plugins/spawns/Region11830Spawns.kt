@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11830Spawns : NPCSpawnsScript() {
+    init {
+        GOBLIN_660(2951, 3481, 0, SOUTH, 5)
+        GOBLIN_659(2951, 3483, 0, SOUTH, 9)
+        GOBLIN_668(2951, 3497, 0, SOUTH, 8)
+        GOBLIN_658(2951, 3501, 0, SOUTH, 2)
+        GOBLIN_658(2952, 3507, 0, SOUTH, 2)
+        GOBLIN_662(2952, 3510, 0, SOUTH, 4)
+        GOBLIN_659(2953, 3487, 0, SOUTH, 9)
+        GOBLIN_667(2954, 3491, 0, SOUTH, 4)
+        GOBLIN_657(2954, 3500, 0, SOUTH, 6)
+        GOBLIN_668(2954, 3503, 0, SOUTH, 8)
+        GOBLIN(2955, 3507, 0, SOUTH, 7)
+        1965(2955, 3510, 0, SOUTH, 2)
+        GOBLIN_667(2956, 3500, 0, SOUTH, 4)
+        GOBLIN_664(2957, 3482, 0, SOUTH, 8)
+        GOBLIN_665(2957, 3484, 0, SOUTH, 6)
+        GOBLIN_659(2957, 3492, 0, SOUTH, 9)
+        GOBLIN_663(2957, 3508, 0, SOUTH, 2)
+        GENERAL_WARTFACE(2957, 3511, 0, SOUTH, 2)
+        GOBLIN_664(2958, 3507, 0, SOUTH, 8)
+        GENERAL_BENTNOZE(2958, 3511, 0, SOUTH, 2)
+        GOBLIN_661(2959, 3499, 0, SOUTH, 5)
+        GOBLIN_657(2962, 3503, 0, SOUTH, 6)
+        GOBLIN_665(2963, 3514, 0, SOUTH, 6)
+        GOBLIN(2964, 3511, 0, SOUTH, 7)
+        GOBLIN_657(2965, 3494, 0, SOUTH, 6)
+        BLACK_BEAR(2966, 3456, 0, SOUTH, 8)
+        DRAIN_PIPE(2966, 3466, 0, SOUTH, 0)
+        MIAZRQA(2967, 3473, 0, SOUTH, 2)
+        BLACK_BEAR(2967, 3480, 0, SOUTH, 8)
+        GOBLIN_656(2969, 3489, 0, SOUTH, 5)
+        6275(2970, 3473, 0, SOUTH, 2)
+        BLACK_BEAR(2973, 3482, 0, SOUTH, 8)
+        BLACK_BEAR(2979, 3501, 0, SOUTH, 8)
+        10646(2993, 3494, 0, SOUTH, 5)
+        10643(2994, 3497, 0, SOUTH, 5)
+        //ICEFIEND_4813(2995, 3468, 0, SOUTH, 2)
+        10649(2995, 3491, 0, SOUTH, 5)
+        10639(2996, 3495, 0, SOUTH, 5)
+        //ICEFIEND_4813(2998, 3465, 0, SOUTH, 2)
+        //ICEFIEND_4813(3001, 3470, 0, SOUTH, 2)
+        //ICEFIEND_4813(3003, 3483, 0, SOUTH, 2)
+        //ICEFIEND_4813(3004, 3496, 0, SOUTH, 2)
+        //ICEFIEND_4813(3005, 3473, 0, SOUTH, 2)
+        //ICEFIEND_4813(3005, 3480, 0, SOUTH, 2)
+        //ICEFIEND_4813(3005, 3485, 0, SOUTH, 2)
+        //ICEFIEND_4813(3005, 3501, 0, SOUTH, 2)
+        //MAN_3106(3006, 3458, 0, SOUTH, 5)
+        //ICEFIEND_4813(3006, 3468, 0, SOUTH, 2)
+        GOBLIN_668(2955, 3496, 2, SOUTH, 8)
+        GOBLIN_659(2958, 3497, 2, SOUTH, 9)
+        //6276(2968, 3468, 2, SOUTH, 5)
+    }
+}

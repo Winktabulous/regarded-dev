@@ -1,0 +1,41 @@
+// 32012
+[clientscript,script32012](component $component0, int $comsubid1, int $comsubid2, int $comsubid3, int $comsubid4, int $int5, int $int6)
+def_int $int7 = 126;
+def_int $int8 = 0;
+def_int $int9 = 0;
+def_string $text0 = "Price";
+def_graphic $graphic10 = null;
+def_int $int11 = 1;
+def_int $int12 = -1;
+if (cc_find($component0, $comsubid3) = ^true) {
+	cc_settext($text0);
+}
+if (cc_find($component0, $comsubid4) = ^true) {
+	cc_setgraphic($graphic10);
+}
+if ($int11 = 1) {
+	if (cc_find($component0, $comsubid2) = ^true) {
+		cc_setgraphic("tradebacking");
+	}
+	if (cc_find($component0, $comsubid1) = ^true) {
+		cc_settrans(245);
+	}
+	.cc_setontimer(null);
+	return;
+}
+if (cc_find($component0, $comsubid3) = ^true) {
+	cc_settext($text0);
+}
+if (cc_find($component0, $comsubid4) = ^true) {
+	cc_setgraphic($graphic10);
+}
+if (cc_find($component0, $comsubid2) = ^true) {
+	cc_setgraphic("tradebacking_dark");
+}
+if (cc_find($component0, $comsubid1) = ^true) {
+	cc_settrans(255);
+}
+.cc_setonmouserepeat(null);
+.cc_setonmouseleave(null);
+.cc_setontimer(null);
+.cc_setonop(null);

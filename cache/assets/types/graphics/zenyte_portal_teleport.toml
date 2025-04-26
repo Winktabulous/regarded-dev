@@ -1,0 +1,6 @@
+# %SERVER_NAME% portal teleport graphics
+[graphics]
+id=2001
+inherit=678
+originalcolours=[39896, 39498, 39351]
+replacementcolours=[[255, 106, 50], [255, 106, 50], [255, 106, 50]]

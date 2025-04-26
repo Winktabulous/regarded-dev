@@ -1,0 +1,107 @@
+// 32031
+[proc,script32031](int $int0, int $size1, int $int2, int $height3, int $int4, int $int5, obj $obj6, int $num7, int $num8, int $num9, int $int10, int $num11, int $int12)(int, int)
+def_component $component13 = interface_5101:18;
+def_int $int14 = 494;
+def_int $int15 = 0;
+if ($num11 ! ^max_32bit_int) {
+	$int15 = 1;
+}
+def_int $int16 = 8;
+def_int $int17 = 0;
+if ($int15 = 1) {
+	$int17 = 20;
+}
+def_int $int18 = 0;
+def_int $int19 = 897;
+def_int $int20 = 1040;
+def_int $int21 = 7496785;
+if ($int12 = 1) {
+	$int21 = 3025698;
+}
+def_int $comsubid22 = $int0;
+$int0 = ~script5288($component13, $int0, $int2, $height3, $int4, $int5, 3712, $int21);
+cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 12099970)");
+cc_setonmouseleave("cc_settrans(event_com, event_comsubid, $int21)");
+if (cc_find($component13, $comsubid22) = ^true) {
+	cc_setonmouserepeat("cc_colour_swapper(event_com, event_comsubid, 11965282)");
+	cc_setonmouseleave("cc_colour_swapper(event_com, event_comsubid, 7496785)");
+}
+if ($int15 = 0 | $num11 > 0) {
+	cc_setop(1, "Add-1");
+	cc_setop(2, "Add-5");
+	cc_setop(3, "Add-10");
+	cc_setop(4, "Add-50");
+	cc_setop(10, "Examine");
+	cc_setopbase("<col=ff981f><oc_name($obj6)></col>");
+}
+cc_create($component13, ^iftype_text, $int0);
+$int0 = calc($int0 + 1);
+cc_setsize(calc($int4 - 18), $int5, ^setsize_abs, ^setsize_abs);
+cc_setposition(calc($int2 + 9), calc($height3 + $int17 + 12), ^setpos_abs_left, ^setpos_abs_top);
+cc_setcolour(0xff981f);
+cc_settextfont(verdana_11pt_regular);
+cc_settextalign(^settextalign_centre, ^settextalign_top, 14);
+cc_settextshadow(true);
+cc_settext(~script4193(oc_name($obj6), calc($int4 - 18), 1442));
+$int17 = calc($int17 / 2);
+cc_create($component13, ^iftype_graphic, $int0);
+$int0 = calc($int0 + 1);
+cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);
+cc_setposition(calc($int2 + ($int4 - 36) / 2), calc($height3 + ($int5 - 32) / 2 + 4 + $int17), ^setpos_abs_left, ^setpos_abs_top);
+cc_setgraphicshadow(0x333333);
+cc_setoutline(1);
+cc_setobject($obj6, $num7);
+def_string $string0 = ~tostring_spacer($num8, ",");
+def_int $int23 = 0;
+cc_create($component13, ^iftype_text, $int0);
+$int0 = calc($int0 + 1);
+if ($num9 ! 0) {
+	def_string $string1 = "<str><col=9f9f9f><$string0></col></str>";
+	$string1 = append($string1, " <~tostring_spacer($num9, ",")>");
+	$string0 = $string1;
+	$int23 = parawidth(removetags($string0), $int4, verdana_11pt_regular);
+} else {
+	$int23 = parawidth($string0, $int4, verdana_11pt_regular);
+}
+cc_setsize($int23, 12, ^setsize_abs, ^setsize_abs);
+cc_setposition(calc($int2 + ($int4 - $int23) / 2 + 15), calc($height3 + ($int5 - 24)), ^setpos_abs_left, ^setpos_abs_top);
+cc_settextfont(verdana_11pt_regular);
+cc_settextalign(^settextalign_centre, ^settextalign_top, 0);
+cc_settextshadow(true);
+cc_setcolour(0xff981f);
+cc_settext($string0);
+cc_create($component13, ^iftype_graphic, $int0);
+$int0 = calc($int0 + 1);
+cc_setsize(15, 15, ^setsize_abs, ^setsize_abs);
+cc_setposition(calc($int2 + ($int4 - ($int23 + 4)) / 2), calc($height3 + ($int5 - 24)), ^setpos_abs_left, ^setpos_abs_top);
+cc_setgraphic("graphic_5265");
+if ($int15 = 1) {
+	if ($num11 = 0) {
+		cc_create($component13, ^iftype_rectangle, $int0);
+		$int0 = calc($int0 + 1);
+		cc_setsize(calc($int4 - 1), calc($int5 - 1), ^setsize_abs, ^setsize_abs);
+		cc_setposition(calc($int2 + 1), calc($height3 + 1), ^setpos_abs_left, ^setpos_abs_top);
+		cc_setfill(true);
+		cc_setcolour(^black);
+		cc_settrans(128);
+	}
+	def_string $string2 = "<tostring($num11)> left";
+	def_int $width24 = parawidth($string2, $int4, verdana_11pt_regular);
+	cc_create($component13, ^iftype_rectangle, $int0);
+	$int0 = calc($int0 + 1);
+	cc_setsize(calc($width24 + 12), 16, ^setsize_abs, ^setsize_abs);
+	cc_setposition($int2, calc($height3 + 15), ^setpos_abs_left, ^setpos_abs_top);
+	cc_setfill(true);
+	cc_setcolour(^red);
+	cc_settrans(128);
+	cc_create($component13, ^iftype_text, $int0);
+	$int0 = calc($int0 + 1);
+	cc_setsize(calc($width24 + 12), 16, ^setsize_abs, ^setsize_abs);
+	cc_setposition($int2, calc($height3 + 15), ^setpos_abs_left, ^setpos_abs_top);
+	cc_setcolour(^white);
+	cc_settextfont(verdana_11pt_regular);
+	cc_settextalign(^settextalign_centre, ^settextalign_centre, 11);
+	cc_settextshadow(true);
+	cc_settext($string2);
+}
+return($int0, 1);

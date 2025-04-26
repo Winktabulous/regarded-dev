@@ -1,0 +1,89 @@
+[[sprite]]
+id = 10025
+width = 16
+height = 16
+
+[sprite.images]
+0 = "hiscores_bronze.png"
+
+[[sprite]]
+id = 10026
+width = 16
+height = 16
+
+[sprite.images]
+0 = "hiscores_silver.png"
+
+[[sprite]]
+id = 10027
+width = 16
+height = 16
+
+[sprite.images]
+0 = "hiscores_gold.png"
+
+
+[[sprite]]
+id = 10028
+width = 39
+height = 35
+
+[sprite.images]
+0 = "pointers/gold_left.png;1,10"
+
+[[sprite]]
+id = 10029
+width = 39
+height = 35
+
+[sprite.images]
+0 = "pointers/gold_right.png;1,10"
+
+
+[[sprite]]
+id = 10030
+width = 35
+height = 35
+
+[sprite.images]
+0 = "pointers/silver_big_left.png;3,5"
+
+[[sprite]]
+id = 10031
+width = 35
+height = 35
+
+[sprite.images]
+0 = "pointers/gold_big_left.png;3,5"
+
+[[sprite]]
+id = 10032
+width = 16
+height = 16
+
+[sprite.images]
+0 = "pointers/gold_right_small.png"
+
+[[sprite]]
+id = 10033
+width = 16
+height = 16
+
+[sprite.images]
+0 = "pointers/gold_small_left.png"
+
+[[sprite]]
+id = 10034
+width = 16
+height = 16
+
+[sprite.images]
+0 = "pointers/silver_right_small.png"
+
+[[sprite]]
+id = 10035
+width = 16
+height = 16
+
+[sprite.images]
+0 = "pointers/silver_small_left.png"

@@ -1,0 +1,63 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14175Spawns : NPCSpawnsScript() {
+    init {
+        DARK_WARRIOR(3524, 6108, 0, SOUTH, 5)
+        DARK_WARRIOR(3524, 6115, 0, SOUTH, 5)
+        DARK_WARRIOR(3526, 6101, 0, SOUTH, 5)
+        DARK_WARRIOR(3526, 6122, 0, SOUTH, 5)
+        DARK_WARRIOR(3530, 6095, 0, SOUTH, 5)
+        DARK_WARRIOR(3530, 6128, 0, SOUTH, 5)
+        DARK_WARRIOR(3535, 6090, 0, SOUTH, 5)
+        DARK_WARRIOR(3535, 6133, 0, SOUTH, 5)
+        DARK_WARRIOR(3541, 6086, 0, SOUTH, 5)
+        DARK_WARRIOR(3544, 6108, 0, SOUTH, 5)
+        DARK_WARRIOR(3544, 6110, 0, SOUTH, 5)
+        DARK_WARRIOR(3544, 6113, 0, SOUTH, 5)
+        DARK_WARRIOR(3544, 6115, 0, SOUTH, 5)
+        DARK_WARRIOR(3545, 6106, 0, SOUTH, 5)
+        DARK_WARRIOR(3545, 6117, 0, SOUTH, 5)
+        DARK_WARRIOR(3546, 6105, 0, SOUTH, 5)
+        DARK_WARRIOR(3546, 6118, 0, SOUTH, 5)
+        DARK_WARRIOR(3548, 6084, 0, SOUTH, 5)
+        DARK_WARRIOR(3548, 6104, 0, SOUTH, 5)
+        DARK_WARRIOR(3548, 6119, 0, SOUTH, 5)
+        DARK_WARRIOR(3550, 6104, 0, SOUTH, 5)
+        DARK_WARRIOR(3550, 6119, 0, SOUTH, 5)
+        DARK_WARRIOR(3553, 6104, 0, SOUTH, 5)
+        DARK_WARRIOR(3553, 6119, 0, SOUTH, 5)
+        DARK_WARRIOR(3555, 6084, 0, SOUTH, 5)
+        DARK_WARRIOR(3555, 6104, 0, SOUTH, 5)
+        DARK_WARRIOR(3555, 6119, 0, SOUTH, 5)
+        DARK_WARRIOR(3557, 6105, 0, SOUTH, 5)
+        DARK_WARRIOR(3557, 6118, 0, SOUTH, 5)
+        DARK_WARRIOR(3558, 6106, 0, SOUTH, 5)
+        DARK_WARRIOR(3558, 6117, 0, SOUTH, 5)
+        DARK_WARRIOR(3559, 6108, 0, SOUTH, 5)
+        DARK_WARRIOR(3559, 6110, 0, SOUTH, 5)
+        DARK_WARRIOR(3559, 6113, 0, SOUTH, 5)
+        DARK_WARRIOR(3559, 6115, 0, SOUTH, 5)
+        DARK_WARRIOR(3562, 6086, 0, SOUTH, 5)
+        DARK_WARRIOR(3568, 6090, 0, SOUTH, 5)
+        DARK_WARRIOR(3568, 6134, 0, SOUTH, 5)
+        DARK_WARRIOR(3573, 6095, 0, SOUTH, 5)
+        DARK_WARRIOR(3573, 6129, 0, SOUTH, 5)
+        DARK_WARRIOR(3573, 6138, 0, SOUTH, 5)
+        DARK_WARRIOR(3573, 6141, 0, SOUTH, 5)
+        DARK_WARRIOR(3576, 6138, 0, SOUTH, 5)
+        DARK_WARRIOR(3576, 6141, 0, SOUTH, 5)
+        DARK_WARRIOR(3577, 6101, 0, SOUTH, 5)
+        DARK_WARRIOR(3577, 6122, 0, SOUTH, 5)
+        DARK_WARRIOR(3579, 6108, 0, SOUTH, 5)
+        DARK_WARRIOR(3579, 6115, 0, SOUTH, 5)
+        DARK_WARRIOR(3541, 6137, 0, SOUTH, 5)
+        DARK_WARRIOR(3548, 6139, 0, SOUTH, 5)
+        DARK_WARRIOR(3555, 6139, 0, SOUTH, 5)
+        DARK_WARRIOR(3562, 6137, 0, SOUTH, 5)
+    }
+}

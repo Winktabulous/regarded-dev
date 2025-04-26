@@ -1,0 +1,29 @@
+# Confirm button layout
+[[component]]
+type="layer"
+id=215
+componentid=30
+parentid=1
+hidden=true
+op1="Confirm"
+clickmask=2
+x=195
+y=235
+width=90
+height=35
+onload=[92, "component:self"]
+onmouseover=[94, "component:self"]
+onmouseleave=[92, "component:self"]
+
+# Confirm text
+[[component]]
+type="text"
+id=215
+componentid=31
+parentid=30
+text="Confirm"
+font=496
+xallignment=1
+yallignment=1
+widthmode=1
+heightmode=1

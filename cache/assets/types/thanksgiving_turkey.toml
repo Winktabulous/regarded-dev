@@ -1,0 +1,14 @@
+# Thanksgiving turkey
+[[npc]]
+id=16022
+inherit=1870
+name="Thanksgiving turkey"
+combatlevel=1
+models=[52531]
+chatmodels=[]
+standanimation=-1
+walkanimation=-1
+rotate90animation=-1
+rotate180animation=-1
+rotate270animation=-1
+size=1

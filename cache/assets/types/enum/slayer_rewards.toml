@@ -1,0 +1,143 @@
+# FOR STACKABLE ITEMS THE DEFAULT QUANTITY U GET IS 250 lol
+
+# Slayer rewards
+[[enum]]
+inherit=840
+default=-1
+
+[enum.values]
+clear=true
+0=11866
+1=11875
+2=4160
+3=13226
+4=12791
+5=10551
+6=12863
+7=10887
+8=11738
+9=4081
+10=13379
+11=13381
+12=13380
+13=13377
+14=13378
+15=26706
+16=6714
+17=10581
+18=25979
+19=2952
+20=22398
+21=24699
+22=10587
+23=24266
+24=6746
+25=21817
+26=989
+27=2
+28=25781
+29=11230
+30=32161
+31=26255
+32=26300
+33=26304
+34=13116
+
+# Slayer reward quantities
+[[enum]]
+inherit=841
+default=-1
+
+[enum.values]
+clear=true
+4160=250
+11875=250
+11230=2
+2=10
+26706=1
+
+# Slayer reward costs
+[[enum]]
+inherit=842
+default=-1
+
+[enum.values]
+clear=true
+4160=35
+11866=75
+13226=750
+11875=35
+12791=750
+10551=400
+12863=300
+10887=200
+11738=10
+4081=40
+13379=40
+13381=40
+13380=40
+13377=40
+13378=40
+26706=150
+6714=200
+10581=150
+25979=400
+2952=100
+22398=150
+24699=300
+10587=40
+24266=50
+6746=400
+21817=100
+989=50
+2=1
+25781=300
+11230=1
+32161=400
+26255=400
+26300=500
+26304=500
+13116=250
+
+# Slayer reward information
+[[enum]]
+inherit=843
+default="You may exchange your points for this item."
+
+[enum.values]
+clear=true
+4160="Arrows that can pierce the hides of creatures such as Turoth and Kurasks. Levels 55 Slayer and 50 Ranged required, and a magic bow or better."
+11866="A wieldable ring that can check your task progress. It has 8 charges for teleporting to useful Slayer sites."
+13226="The herb sack has the ability to store up to 30 of each major grimy herb. Requires 58 Herblore to use."
+11875="Crossbow bolts that can pierce the hides of creatures such as Turoth and Kurasks. Levels 55 Slayer and 61 Ranged required, and a runite crossbow or better."
+12791="The rune pouch has the ability to store up to 16,000 runes of 3 types."
+10551="A torso worn by penance fighters. Requires level 40 Defence."
+12863="A powerful ranging device that fires metal balls."
+10887="An anchor used by the Barrelchest. Requires level 60 Attack & 40 Strength."
+11738="A herb box containing an assortment of random herbs, giving ten herbs per box."
+4081="An amulet which increases wthe wearer's strength and accuracy by 15% when fighting the undead."
+13379="A helmet from the Shayzien guards, used for protection against lizardmen."
+13381="A platebody from the Shayzien guards, used for protection against lizardmen."
+13380="Some greaves from the Shayzien guards, used for protection against lizardmen."
+13377="Some gloves from the Shayzien guards, used for protection against lizardmen."
+13378="Some boots from the Shayzien guards, used for protection against lizardmen."
+26706="A scroll that can be used to imbue items."
+6714="A shining paragon of wrenchly virtue."
+2952="A silver dagger that can prevent werewolves from changing form."
+22398="Used to fight Vampyres."
+24699="Super effective against Vampyres."
+10581="A sharp mystical dagger that can penetrate through Kalphite chitin."
+25979="A mystical-feeling polearm that can easily penetrate through Kalphite chitin."
+10587="Tarn Razorlor's diary, used for enchanting salve amulets."
+24266="A recreation of V's mighty shield."
+6746="The magical sword 'Silverlight', enhanced with the blood of Agrith-Naar."
+21817="The bracelet is dull and powerless."
+989="A mysterious key for a mysterious chest."
+2="Ammo for the Dwarf Cannon."
+11230="A deadly throwing dart with a dragon tip."
+32161="A powerful defensive weapon."
+25781="Scatters ashes."
+26255="Has the same stats as Barrows Gloves, In addition gives a 25% slayer xp bonus on dragon slayer tasks, and 15% more accuracy on dragons. Requires 41 defence."
+26300="You can carry dragonhide in here."
+26304="A pouch for storing bones."
+13116="A crusher for the toughest of bones"

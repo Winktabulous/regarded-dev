@@ -1,0 +1,64 @@
+{
+  "id": 11246,
+  "hitpoints": 1250,
+  "attackSpeed": 6,
+  "slayerLevel": 1,
+  "attackDistance": 25,
+  "aggressionDistance": 15,
+  "maximumDistance": 20,
+  "targetType": "PLAYER",
+  "immunityTypes": [
+    "POISON",
+    "VENOM"
+  ],
+  "aggressionType": "AGGRESSIVE",
+  "statDefinitions": {
+    "combatStats": [
+      106,
+      126,
+      90,
+      130,
+      130
+    ],
+    "aggressiveStats": [
+      72,
+      78,
+      60,
+      60,
+      265,
+      60
+    ],
+    "defensiveStats": [
+      201,
+      206,
+      188,
+      101,
+      231
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "RANGED"
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 10015,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 29,
+    "deathAnimation": {
+      "id": 9280,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": 10016,
+      "delay": 0
+    }
+  }
+}

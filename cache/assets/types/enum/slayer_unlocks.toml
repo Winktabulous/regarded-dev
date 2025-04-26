@@ -1,0 +1,39 @@
+# Slayer unlock
+[[enum]]
+inherit=834
+default="More rewards"
+
+[enum.values]
+53="Slayer Statues"
+
+# Slayer unlock desc
+[[enum]]
+inherit=835
+default=""
+
+[enum.values]
+53="Gain the ability to mount your Slayer helmet on the Slayer statue. You'll need 4 pieces of statue dropped from various bosses to unlock this."
+
+# Slayer unlock price
+[[enum]]
+inherit=836
+default=2147483647
+
+[enum.values]
+53=10000
+
+# Slayer unlock obj
+[[enum]]
+inherit=837
+default=-1
+
+[enum.values]
+53=32230
+
+# unlocks
+[[enum]]
+inherit=839
+default=-1
+
+[enum.values]
+28=53

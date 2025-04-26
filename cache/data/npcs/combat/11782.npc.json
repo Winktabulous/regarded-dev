@@ -1,0 +1,39 @@
+{
+  "id": 11782,
+  "hitpoints": 25,
+  "maximumDistance": 64,
+  "statDefinitions": {
+    "combatStats": [
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      300,
+      300,
+      300,
+      300,
+      300
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "spawnDefinitions": {
+    "deathAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

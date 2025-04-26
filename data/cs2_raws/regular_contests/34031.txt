@@ -1,0 +1,12 @@
+int, int script_34031(string string0, int arg1, int arg2, Widget widget3) {
+	CHILD.createChild(widget3, 4, arg1);
+	CHILD.setSize(0, 18, 1, 0);
+	CHILD.setPosition(0, arg2 + 7, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string0);
+	arg1 = arg1 + 1;
+	arg2 = arg2 + 25;
+	return arg1, arg2;
+}

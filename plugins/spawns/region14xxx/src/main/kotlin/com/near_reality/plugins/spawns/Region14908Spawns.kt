@@ -1,0 +1,62 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region14908Spawns : NPCSpawnsScript() {
+    init {
+        CRAB_1553(3713, 3848, 0, SOUTH, 4)
+        CRAB_1553(3714, 3856, 0, SOUTH, 4)
+        FOSSIL_ROCK(3714, 3881, 0, SOUTH, 2)
+        FOSSIL_ROCK(3714, 3887, 0, SOUTH, 2)
+        FOSSIL_ROCK(3714, 3898, 0, SOUTH, 2)
+        FOSSIL_ROCK(3715, 3845, 0, SOUTH, 2)
+        FOSSIL_ROCK(3715, 3870, 0, SOUTH, 2)
+        FOSSIL_ROCK(3716, 3849, 0, SOUTH, 2)
+        FOSSIL_ROCK(3716, 3862, 0, SOUTH, 2)
+        CRAB(3716, 3868, 0, SOUTH, 5)
+        CRAB(3716, 3875, 0, SOUTH, 5)
+        CRAB(3716, 3895, 0, SOUTH, 5)
+        7836(3717, 3840, 0, SOUTH, 0)
+        FOSSIL_ROCK(3718, 3843, 0, SOUTH, 2)
+        CRAB_1553(3718, 3847, 0, SOUTH, 4)
+        CRAB_1553(3718, 3865, 0, SOUTH, 4)
+        FOSSIL_ROCK(3718, 3878, 0, SOUTH, 2)
+        CRAB(3718, 3886, 0, SOUTH, 5)
+        FOSSIL_ROCK(3718, 3892, 0, SOUTH, 2)
+        CRAB_1553(3719, 3872, 0, SOUTH, 4)
+        FOSSIL_ROCK(3720, 3868, 0, SOUTH, 2)
+        CRAB_1553(3721, 3898, 0, SOUTH, 4)
+        FOSSIL_ROCK(3722, 3845, 0, SOUTH, 2)
+        CRAB_1553(3722, 3887, 0, SOUTH, 4)
+        CRAB(3723, 3894, 0, SOUTH, 5)
+        FOSSIL_ROCK(3723, 3897, 0, SOUTH, 2)
+        GULL(3726, 3859, 0, SOUTH, 7)
+        FOSSIL_ROCK(3726, 3889, 0, SOUTH, 2)
+        CRAB_1553(3727, 3844, 0, SOUTH, 4)
+        CRAB_1553(3729, 3893, 0, SOUTH, 4)
+        FOSSIL_ROCK(3731, 3844, 0, SOUTH, 2)
+        GULL(3731, 3900, 0, SOUTH, 7)
+        FOSSIL_ROCK(3732, 3848, 0, SOUTH, 2)
+        GULL(3732, 3874, 0, SOUTH, 7)
+        CRAB(3734, 3891, 0, SOUTH, 5)
+        CRAB_1553(3735, 3847, 0, SOUTH, 4)
+        FOSSIL_ROCK(3735, 3888, 0, SOUTH, 2)
+        FOSSIL_ROCK(3736, 3845, 0, SOUTH, 2)
+        GULL(3736, 3852, 0, SOUTH, 7)
+        GULL(3742, 3882, 0, SOUTH, 7)
+        CRAB(3743, 3845, 0, SOUTH, 5)
+        CRAB_1553(3744, 3848, 0, SOUTH, 4)
+        GULL(3745, 3873, 0, SOUTH, 7)
+        FOSSIL_ROCK(3746, 3848, 0, SOUTH, 2)
+        CRAB_1553(3750, 3851, 0, SOUTH, 4)
+        FOSSIL_ROCK(3751, 3853, 0, SOUTH, 2)
+        GULL(3752, 3900, 0, SOUTH, 7)
+        7837(3753, 3851, 0, SOUTH, 0)
+        GULL(3757, 3888, 0, SOUTH, 7)
+        7493(3761, 3869, 0, SOUTH, 2)
+        GULL(3771, 3893, 0, SOUTH, 7)
+    }
+}

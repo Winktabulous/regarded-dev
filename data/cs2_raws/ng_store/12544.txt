@@ -1,0 +1,32 @@
+void script_12544(Widget widget0) {
+	int int1;
+	widget0.clearChildren();
+	int1 = 0;
+	CHILD.createChild(widget0, 5, int1);
+	int1 = int1 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(897);
+	CHILD.setSpriteTiling(true);
+	CHILD.createChild(widget0, 3, int1);
+	int1 = int1 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.setTrans(255);
+	script_4240(widget0, CHILD.getChildId(), 255, 225, 200);
+	int1 = script_715(widget0, int1);
+	CHILD.createChild(widget0, 4, int1);
+	int1 = int1 + 1;
+	_CHILD.createChild(widget0, 5, int1);
+	int1 = int1 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setSize(13, 13, 0, 0);
+	CHILD.setRGB(0xFFB83F);
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	script_12545(VARP[4204]);
+	return;
+}

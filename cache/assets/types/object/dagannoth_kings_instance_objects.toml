@@ -1,0 +1,15 @@
+# Crack
+[[object]]
+inherit=30169
+op1="Private"
+op2="Peek"
+
+# Kings' ladder
+[[object]]
+inherit=10230
+op3="Private"
+
+# Roots
+[[object]]
+inherit=30170
+projectileclip=true

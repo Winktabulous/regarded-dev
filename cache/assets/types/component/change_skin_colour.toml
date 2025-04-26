@@ -1,0 +1,23 @@
+[[component]]
+inherit="205:0"
+width=278
+height=305
+
+[[component]]
+inherit="205:1"
+onload=[227, "component:self", "Select skin colour"]
+
+[[component]]
+inherit="205:2"
+hidden=true
+
+[[component]]
+inherit="205:6"
+hidden=true
+
+[[component]]
+inherit="205:9"
+widthmode=0
+heightmode=0
+width=66
+height=235

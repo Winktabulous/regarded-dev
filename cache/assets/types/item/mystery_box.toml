@@ -1,0 +1,6 @@
+# Mystery box
+[item]
+inherit=6199
+op1="Open"
+op2="Quick-Open"
+grandexchange=true

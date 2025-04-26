@@ -1,0 +1,130 @@
+[
+  {
+    "name": "bronze-blood-key",
+    "rewards": [
+      {
+        "percent": 25,
+        "type": "ALWAYS_ROLL",
+        "selectType": "ALL_ENTRIES",
+        "entries": [
+          {
+            "itemId": 565, // Blood rune
+            "minAmount": 250,
+            "maxAmount": 400
+          },
+          {
+            "itemId": 560, // Death rune
+            "minAmount": 400,
+            "maxAmount": 600
+          },
+          {
+            "itemId": 555, // Water rune
+            "minAmount": 600,
+            "maxAmount": 1000
+          }
+        ]
+      },
+      {
+        "percent": 100,
+        "type": "STOP_ROLL",
+        "entries": [
+          {
+            "itemId": 995, // Coins
+            "minAmount": 100000,
+            "maxAmount": 5000000
+          },
+          {
+            "itemId": 11732, // Dragon boots
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 2451, // Zamorak brew
+            "minAmount": 25,
+            "maxAmount": 25
+          },
+          {
+            "itemId": 10926, // Sanfew serum
+            "minAmount": 50,
+            "maxAmount": 50
+          },
+          {
+            "itemId": 6686, // Saradomin brew
+            "minAmount": 100,
+            "maxAmount": 100
+          },
+          {
+            "itemId": 43442, // Anglerfish
+            "minAmount": 50,
+            "maxAmount": 50
+          },
+          {
+            "itemId": 3145, // Clue scroll (elite)
+            "minAmount": 50,
+            "maxAmount": 50
+          },
+          {
+            "itemId": 2504, // Black dragonhide body
+            "minAmount": 10,
+            "maxAmount": 10
+          },
+          {
+            "itemId": 2498, // Black dragonhide chaps
+            "minAmount": 10,
+            "maxAmount": 10
+          },
+          {
+            "itemId": 4712, // Ahrims robetop
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4714, // Ahrims robeskirt
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4716, // Dharoks helm
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4718, // Dharoks greataxe
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4720, // Dharoks platebody
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4722, // Dharoks platelegs
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4732, // Karils coif
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4734, // Karils crossbow
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4736, // Karils top
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "itemId": 4738, // Karils skirt
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+// 32078
+[proc,script32078](component $component0, component $component1, component $component2, component $component3, component $component4, component $component5, component $component6)
+def_int $int7 = 0;
+if (%varcint1110 = 0) {
+	$int7 = ~script32076($component6, $int7, "---", "", verdana_13pt_regular, 0x9f9f9f);
+} else {
+	$int7 = ~script32076($component6, $int7, "Checkout", "Credits", verdana_13pt_regular, 0xff981f);
+}
+def_int $int8 = 0;
+while ($int8 < 6) {
+	def_component $component9 = null;
+	def_struct $struct10 = null;
+	def_string $text0 = "";
+	def_string $text1 = "";
+	def_string $text2 = "";
+	def_int $int11 = 0;
+	def_int $int12 = 0;
+	def_string $string13 = -1;
+	switch_int ($int8) {
+		case 5 :
+			$int11 = 101;
+			$int12 = 54;
+			$component9 = $component5;
+			$struct10 = struct_12005;
+		case 4 :
+			$int11 = 77;
+			$int12 = 44;
+			$component9 = $component4;
+			$struct10 = struct_12004;
+		case 3 :
+			$int11 = 51;
+			$int12 = 44;
+			$component9 = $component3;
+			$struct10 = struct_12003;
+		case 2 :
+			$int11 = 65;
+			$int12 = 57;
+			$component9 = $component2;
+			$struct10 = struct_12002;
+		case 1 :
+			$int11 = 67;
+			$int12 = 45;
+			$component9 = $component1;
+			$struct10 = struct_12001;
+		case 0 :
+			$int11 = 40;
+			$int12 = 32;
+			$component9 = $component0;
+			$struct10 = struct_12000;
+	}
+	$text0 = struct_param($struct10, param_10000);
+	$text1 = struct_param($struct10, param_10001);
+	$text2 = struct_param($struct10, param_10002);
+	$string13 = struct_param($struct10, param_10003);
+	def_int $int14 = calc($int8 + 1);
+	~script32030($component9, $int14, $string13, $int11, $int12, $text0, $text1, $text2, ~script5808(%varcint1110, $int14));
+	$int8 = calc($int8 + 1);
+}

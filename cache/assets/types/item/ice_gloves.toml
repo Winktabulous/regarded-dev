@@ -1,0 +1,15 @@
+# Ice gloves
+[[item]]
+inherit=1580
+op1="Wear"
+op2=""
+
+# Enhanced ice gloves
+[[item]]
+inherit=1580
+id=30030
+name="Enhanced ice gloves"
+grandexchange=true
+replacementcolours=[32511, 32511]
+op1="Wear"
+op2=""

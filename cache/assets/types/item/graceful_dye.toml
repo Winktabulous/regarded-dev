@@ -1,0 +1,7 @@
+# Graceful dye
+[[item]]
+id=2710
+inherit=22667
+name="Graceful dye"
+op1="Info"
+op5="Drop"

@@ -1,0 +1,8 @@
+# Quest list
+[enum]
+inherit=2098
+default=-1
+
+[enum.values]
+clear=true
+0=299

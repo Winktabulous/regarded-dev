@@ -1,0 +1,57 @@
+{
+  "id": 9569,
+  "hitpoints": 750,
+  "attackSpeed": 4,
+  "slayerLevel": 38,
+  "attackDistance": 2,
+  "aggressionDistance": 40,
+  "maximumDistance": 40,
+  "targetType": "PLAYER",
+  "statDefinitions": {
+    "combatStats": [
+      0,
+      0,
+      180,
+      180,
+      100
+    ],
+    "aggressiveStats": [
+      0,
+      0,
+      16,
+      18,
+      0
+    ],
+    "defensiveStats": [
+      34,
+      34,
+      34,
+      34,
+      34
+    ],
+    "otherBonuses": [
+      0,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "MAGIC",
+    "maxHit": 24,
+    "animation": {
+      "id": 8705,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 8710,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

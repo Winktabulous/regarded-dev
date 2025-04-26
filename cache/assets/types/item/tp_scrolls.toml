@@ -1,0 +1,14 @@
+# Zul andra teleport
+[[item]]
+inherit=12938
+price=9600
+
+# Key master teleport
+[[item]]
+inherit=13249
+price=9600
+
+# Revenant cave teleport
+[[item]]
+inherit=21802
+price=2200

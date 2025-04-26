@@ -1,0 +1,12 @@
+# Offers viewer button
+[component]
+id=465
+componentid=30
+parentid=1
+x=57
+y=7
+width=80
+height=20
+op1="Exchange"
+clickmask=2
+onload=[540, "component:self", "Offer Viewer"]

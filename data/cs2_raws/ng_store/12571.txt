@@ -1,0 +1,15 @@
+void script_12571(Widget widget0, int arg1) {
+	int int2;
+	int2 = widget0.getWidth();
+	if (arg1 == int2) {
+		widget0.setSize(arg1, widget0.getHeight(), 0, 0);
+		widget0.hookFrame(null);
+		return;
+	}
+	if (int2 < arg1) {
+		widget0.setSize(int2 + 1, widget0.getHeight(), 0, 0);
+	} else {
+		widget0.setSize(int2 - 1, widget0.getHeight(), 0, 0);
+	}
+	return;
+}

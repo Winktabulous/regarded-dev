@@ -1,0 +1,63 @@
+{
+  "id": 7017,
+  "hitpoints": 86,
+  "attackSpeed": 6,
+  "slayerLevel": 0,
+  "attackDistance": 4,
+  "aggressionDistance": 4,
+  "maximumDistance": 16,
+  "targetType": "PLAYER",
+  "statDefinitions": {
+    "combatStats": [
+      75,
+      73,
+      61,
+      1,
+      1
+    ],
+    "aggressiveStats": [
+      17,
+      17,
+      17,
+      0,
+      0
+    ],
+    "defensiveStats": [
+      16,
+      16,
+      18,
+      -12,
+      27
+    ],
+    "otherBonuses": [
+      15,
+      0,
+      0
+    ]
+  },
+  "attackDefinitions": {
+    "type": "CRUSH",
+    "maxHit": 10,
+    "animation": {
+      "id": 390,
+      "delay": 0
+    }
+  },
+  "blockDefinitions": {
+    "animation": {
+      "id": 424,
+      "delay": 0
+    }
+  },
+  "spawnDefinitions": {
+    "respawnDelay": 25,
+    "deathAnimation": {
+      "id": 836,
+      "delay": 0
+    },
+    "spawnAnimation": {
+      "id": -1,
+      "delay": 0
+    }
+  }
+}

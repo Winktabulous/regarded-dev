@@ -1,0 +1,55 @@
+define void script_34001(Widget, Widget) 34001
+define void script_34002() 34002
+define void script_34003(Widget, int, int, Widget, Widget, Widget, Widget, Widget) 34003
+define void script_34004(Widget, Widget, Widget, Widget, Widget, Widget) 34004
+
+
+void script_34000(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	widget1.clearChildren();
+	CHILD.createChild(widget1, 4, 0);
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	script_34002();
+	CHILD.hookVARP(&script_34001(CTX_WIDGET, CTX_WIDGET_CHILD), 19450);
+	CHILD.createChild(widget1, 4, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(0, 0, 15);
+	CHILD.setText("You can " + "<col=ffffff>" + "sacrifice" + "</col>" + " powerful items here. Their value will be converted into " + "<col=ffffff>" + "Remnant Points" + "</col>" + ", from which you can " + "<col=ffffff>" + "purchase various perks" + "</col>" + " to empower your abilities." + "<br>" + "<br>" + "Items sacrificed here " + "<col=ffffff>" + "can " + "</col>" + "<col=ff0000>" + "NEVER" + "</col>" + "<col=ffffff>" + " be retrieved" + "</col>" + ", and your Remnant Points " + "<col=ff0000>" + "CANNOT" + "</col>" + "<col=ffffff>" + " be withdrawn" + "</col>" + " or used for any other purposes.");
+	widget3.setContextMenuOption(1, "1");
+	widget4.setContextMenuOption(1, "5");
+	widget5.setContextMenuOption(1, "X");
+	widget6.setContextMenuOption(1, "All");
+	widget7.setContextMenuOption(1, "Confirm");
+	widget2.clearChildren();
+	int8 = 0;
+	CHILD.createChild(widget2, 4, int8);
+	int8 = int8 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 10, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.createChild(widget2, 4, int8);
+	int8 = int8 + 1;
+	_CHILD.setSize(0, 15, 1, 0);
+	_CHILD.setPosition(0, 30, 1, 0);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	widget2.hookVARP(&script_34003(CTX_WIDGET, CHILD.getChildId(), _CHILD.getChildId(), widget3, widget4, widget5, widget6, widget7), 19451, 19452, 19453);
+	widget2.hookContainer(&script_34003(CTX_WIDGET, CHILD.getChildId(), _CHILD.getChildId(), widget3, widget4, widget5, widget6, widget7), 93);
+	script_34004(widget2, widget3, widget4, widget5, widget6, widget7);
+	int8 = script_715(widget2, int8);
+	return;
+}

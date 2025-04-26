@@ -1,0 +1,55 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region13149Spawns : NPCSpawnsScript() {
+    init {
+        WILL_O_THE_WISP(3271, 5978, 0, SOUTH, 0)
+        WILL_O_THE_WISP_3441(3272, 5977, 0, SOUTH, 0)
+        WILL_O_THE_WISP_3441(3272, 5979, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3273, 5979, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3273, 6010, 0, SOUTH, 0)
+        BUTTERFLY(3273, 6012, 0, SOUTH, 7)
+        BUTTERFLY(3274, 6009, 0, SOUTH, 7)
+        BUTTERFLY(3274, 6011, 0, SOUTH, 7)
+        WILL_O_THE_WISP_3441(3275, 6009, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3275, 6012, 0, SOUTH, 0)
+        BUTTERFLY(3276, 6013, 0, SOUTH, 7)
+        BUTTERFLY(3277, 6008, 0, SOUTH, 7)
+        WILL_O_THE_WISP_3441(3277, 6011, 0, SOUTH, 0)
+        BUTTERFLY_238(3279, 5968, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3283, 5963, 0, SOUTH, 0)
+        4003(3284, 5965, 0, SOUTH, 5)
+        BUTTERFLY_238(3286, 5962, 0, SOUTH, 0)
+        BUTTERFLY(3286, 5978, 0, SOUTH, 7)
+        BUTTERFLY(3288, 5977, 0, SOUTH, 7)
+        ROD_FISHING_SPOT_3418(3288, 6010, 0, SOUTH, 0)
+        BUTTERFLY(3290, 5981, 0, SOUTH, 7)
+        WILL_O_THE_WISP(3291, 5975, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3291, 5977, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_3418(3291, 6005, 0, SOUTH, 0)
+        WILL_O_THE_WISP_3441(3292, 5976, 0, SOUTH, 0)
+        BUTTERFLY(3292, 5979, 0, SOUTH, 7)
+        BUTTERFLY_235(3292, 5980, 0, SOUTH, 7)
+        BUTTERFLY(3293, 5974, 0, SOUTH, 7)
+        BUTTERFLY(3293, 5976, 0, SOUTH, 7)
+        BUTTERFLY(3294, 5975, 0, SOUTH, 7)
+        BUTTERFLY(3294, 5978, 0, SOUTH, 7)
+        BUTTERFLY_238(3295, 5956, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_3418(3298, 6000, 0, SOUTH, 0)
+        ROD_FISHING_SPOT_3418(3299, 5992, 0, SOUTH, 0)
+        RABBIT_3420(3303, 5971, 0, SOUTH, 4)
+        ROD_FISHING_SPOT_3418(3306, 6000, 0, SOUTH, 0)
+        WILL_O_THE_WISP_3441(3315, 6014, 0, SOUTH, 0)
+        BUTTERFLY_238(3318, 5971, 0, SOUTH, 0)
+        RABBIT_3421(3319, 6002, 0, SOUTH, 3)
+        BUTTERFLY_238(3320, 5958, 0, SOUTH, 0)
+        RABBIT_3422(3320, 6001, 0, SOUTH, 3)
+        RABBIT_3420(3320, 6002, 0, SOUTH, 4)
+        BUTTERFLY_238(3322, 5953, 0, SOUTH, 0)
+        WILL_O_THE_WISP(3322, 6014, 0, SOUTH, 0)
+    }
+}

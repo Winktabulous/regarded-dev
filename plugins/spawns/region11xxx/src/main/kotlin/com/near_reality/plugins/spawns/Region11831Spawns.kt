@@ -1,0 +1,32 @@
+package com.near_reality.plugins.spawns
+
+import com.near_reality.scripts.npc.spawns.NPCSpawnsScript
+import com.zenyte.game.world.entity.npc.NpcId
+import com.zenyte.game.world.entity.npc.NpcId.*
+import com.zenyte.game.util.Direction.*
+
+class Region11831Spawns : NPCSpawnsScript() {
+    init {
+        DARK_WIZARD_512(2976, 3570, 0, SOUTH, 4)
+        DARK_WIZARD_512(2977, 3565, 0, SOUTH, 4)
+        DARK_WIZARD_512(2980, 3575, 0, SOUTH, 4)
+        DARK_WIZARD(2981, 3562, 0, SOUTH, 12)
+        DARK_WIZARD_512(2984, 3568, 0, SOUTH, 4)
+        DARK_WIZARD_512(2985, 3575, 0, SOUTH, 4)
+        DARK_WIZARD(2987, 3569, 0, SOUTH, 12)
+        DARK_WIZARD(2988, 3563, 0, SOUTH, 12)
+        CARNIVOROUS_CHINCHOMPA(2984, 3539, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2985, 3540, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2986, 3541, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2987, 3542, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2988, 3543, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2989, 3544, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2990, 3545, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2991, 3546, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2992, 3547, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2993, 3548, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2994, 3549, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2995, 3550, 0, SOUTH, 4)
+        CARNIVOROUS_CHINCHOMPA(2996, 3551, 0, SOUTH, 4)
+    }
+}

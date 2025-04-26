@@ -1,0 +1,55 @@
+void script_12547(Widget widget0, Enum enum1, Enum enum2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9) {
+	int int10;
+	int int11;
+	string str12;
+	widget0.clearChildren();
+	int10 = 0;
+	CHILD.createChild(widget0, 5, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setSprite(297);
+	CHILD.setSpriteTiling(true);
+	CHILD.hookMousePress(&script_6242(widget0, widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), enum1, enum2));
+	CHILD.createChild(widget0, 3, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x0E0E0C);
+	CHILD.createChild(widget0, 3, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(2, 18, 1, 0);
+	CHILD.setPosition(0, 1, 1, 2);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x474745);
+	CHILD.createChild(widget0, 5, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(16, 16, 0, 0);
+	CHILD.setPosition(2, 2, 2, 2);
+	CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(20, 16, 1, 0);
+	CHILD.setPosition(8, 2, 0, 2);
+	CHILD.setFont(1445);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	str12 = enum('i', 's', enum1, arg8);
+	CHILD.setText(str12);
+	int11 = getMaxLineWidth(str12, 512, 1445) + 6;
+	if (enum2 != null) {
+		_CHILD.createChild(widget0, 5, int10);
+		int10 = int10 + 1;
+		_CHILD.setSize(13, 13, 0, 0);
+		_CHILD.setPosition(5, 4, 0, 2);
+		_CHILD.setSprite(enum('i', 'd', enum2, arg8));
+		CHILD.setSize(0, 16, 1, 0);
+		CHILD.setPosition(22, 2, 0, 2);
+	} else {
+		CHILD.createChild(widget0, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setHidden(true);
+	}
+	script_1013(widget0);
+	return;
+}

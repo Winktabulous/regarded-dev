@@ -1,0 +1,10 @@
+// 32075
+[clientscript,script32075](component $component0, component $component1, component $component2, component $component3, component $component4)
+if (%varbit17006 < 0) {
+	%varbit17006 = 0;
+}
+if (%varbit17006 > 2) {
+	%varbit17006 = 2;
+}
+cc_deleteall($component1);
+~script32020(%varbit17006, $component0, $component1, $component2, $component3, $component4);

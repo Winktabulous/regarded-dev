@@ -1,0 +1,25 @@
+# Item ids
+[[enum]]
+id=10057
+keytype="int"
+valuetype="int"
+default=-1
+
+[enum.values]
+0=4151
+1=1127
+2=1079
+3=11802
+
+# Item values
+[[enum]]
+id=10058
+keytype="int"
+valuetype="int"
+default=-1
+
+[enum.values]
+0=1000
+1=10
+2=5
+3=1000000

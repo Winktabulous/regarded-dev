@@ -1,0 +1,4828 @@
+# Near-Reality Ancient eye
+[[item]]
+id=32002
+inherit=22667
+name="Ancient eye"
+invmodel=60000
+zoom=680
+modelroll=366
+modelpitch=310
+modelyaw=0
+offsetx=-1
+offsety=6
+placeholderid=33002
+stackable=0
+notedid=32003
+grandexchange=true
+
+# Near-Reality Ancient eye (noted)
+[[item]]
+id=32003
+inherit=22667
+name="Ancient eye"
+notedid=32002
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60000
+zoom=680
+modelroll=366
+modelpitch=310
+modelyaw=0
+offsetx=-1
+offsety=6
+
+# Near-Reality Ancient book
+[[item]]
+id=32004
+inherit=6633
+name="Ancient book"
+invmodel=60002
+primarymalemodel=60001
+primaryfemalemodel=60001
+zoom=780
+modelroll=200
+modelpitch=530
+modelyaw=0
+offsetx=-4
+offsety=4
+placeholderid=33004
+stackable=0
+notedid=32005
+grandexchange=true
+
+# Near-Reality Ancient book (noted)
+[[item]]
+id=32005
+inherit=6633
+name="Ancient book"
+notedid=32004
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60002
+primarymalemodel=60001
+primaryfemalemodel=60001
+zoom=780
+modelroll=200
+modelpitch=530
+modelyaw=0
+offsetx=-4
+offsety=4
+
+# Near-Reality Armadyl soul crystal
+[[item]]
+id=32006
+inherit=22667
+name="Armadyl soul crystal"
+invmodel=60003
+placeholderid=33006
+stackable=0
+notedid=32007
+grandexchange=true
+
+# Near-Reality Armadyl soul crystal (noted)
+[[item]]
+id=32007
+inherit=22667
+name="Armadyl soul crystal"
+notedid=32006
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60003
+
+# Near-Reality Armadyl bow
+[[item]]
+id=32008
+inherit=25867
+name="Armadyl bow"
+invmodel=60005
+primarymalemodel=60004
+primaryfemalemodel=60004
+placeholderid=33008
+stackable=0
+notedid=32009
+grandexchange=true
+
+# Near-Reality Armadyl bow (noted)
+[[item]]
+id=32009
+inherit=25867
+name="Armadyl bow"
+notedid=32008
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60005
+primarymalemodel=60004
+primaryfemalemodel=60004
+
+# Near-Reality Bandos soul crystal
+[[item]]
+id=32010
+inherit=22667
+name="Bandos soul crystal"
+invmodel=60006
+placeholderid=33010
+stackable=0
+notedid=32011
+grandexchange=true
+
+# Near-Reality Bandos soul crystal (noted)
+[[item]]
+id=32011
+inherit=22667
+name="Bandos soul crystal"
+notedid=32010
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60006
+
+# Near-Reality Bandos bow
+[[item]]
+id=32012
+inherit=25867
+name="Bandos bow"
+invmodel=60008
+primarymalemodel=60007
+primaryfemalemodel=60007
+placeholderid=33012
+stackable=0
+notedid=32013
+grandexchange=true
+
+# Near-Reality Bandos bow (noted)
+[[item]]
+id=32013
+inherit=25867
+name="Bandos bow"
+notedid=32012
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60008
+primarymalemodel=60007
+primaryfemalemodel=60007
+zoom=1800
+
+# Near-Reality Saradomin soul crystal
+[[item]]
+id=32014
+inherit=22667
+name="Saradomin soul crystal"
+invmodel=60009
+placeholderid=33014
+stackable=0
+notedid=32015
+grandexchange=true
+
+# Near-Reality Saradomin soul crystal (noted)
+[[item]]
+id=32015
+inherit=22667
+name="Saradomin soul crystal"
+notedid=32014
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60009
+
+# Near-Reality Saradomin bow
+[[item]]
+id=32016
+inherit=25867
+name="Saradomin bow"
+invmodel=60011
+primarymalemodel=60010
+primaryfemalemodel=60010
+placeholderid=33016
+stackable=0
+notedid=32017
+grandexchange=true
+
+# Near-Reality Saradomin bow (noted)
+[[item]]
+id=32017
+inherit=25867
+name="Saradomin bow"
+notedid=32016
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60011
+primarymalemodel=60010
+primaryfemalemodel=60010
+
+# Near-Reality Zamorak soul crystal
+[[item]]
+id=32018
+inherit=22667
+name="Zamorak soul crystal"
+invmodel=60012
+placeholderid=33018
+stackable=0
+notedid=32019
+grandexchange=true
+
+# Near-Reality Zamorak soul crystal (noted)
+[[item]]
+id=32019
+inherit=22667
+name="Zamorak soul crystal"
+notedid=32018
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60012
+
+# Near-Reality Zamorak bow
+[[item]]
+id=32020
+inherit=25867
+name="Zamorak bow"
+invmodel=60014
+primarymalemodel=60013
+primaryfemalemodel=60013
+placeholderid=33020
+stackable=0
+notedid=32021
+grandexchange=true
+
+# Near-Reality Zamorak bow (noted)
+[[item]]
+id=32021
+inherit=25867
+name="Zamorak bow"
+notedid=32020
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60014
+primarymalemodel=60013
+primaryfemalemodel=60013
+
+# Near-Reality Dragon kite
+[[item]]
+id=32022
+inherit=11283
+name="Dragon kite"
+examine="Poor dragon."
+invmodel=60022
+primarymalemodel=60021
+primaryfemalemodel=60021
+zoom=2180
+modelpitch=1522
+modelroll=526
+modelyaw=9
+offsetx=4
+offsety=-7
+placeholderid=33022
+stackable=0
+notedid=32023
+grandexchange=true
+
+# Near-Reality Dragon kite (noted)
+[[item]]
+id=32023
+inherit=11283
+name="Dragon kite"
+examine="Poor dragon."
+notedid=32022
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60022
+primarymalemodel=60021
+primaryfemalemodel=60021
+zoom=2180
+modelroll=1522
+modelpitch=526
+modelyaw=9
+offsetx=4
+offsety=-7
+
+# Near-Reality Ancient medallion
+[[item]]
+id=32024
+inherit=1478
+name="Ancient medallion"
+invmodel=60024
+primarymalemodel=60023
+primaryfemalemodel=60023
+zoom=480
+modelroll=26
+modelpitch=704
+modelyaw=0
+offsetx=0
+offsety=0
+placeholderid=33024
+stackable=0
+notedid=32025
+grandexchange=true
+
+# Near-Reality Ancient medallion (noted)
+[[item]]
+id=32025
+inherit=1478
+name="Ancient medallion"
+notedid=32024
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60024
+primarymalemodel=60023
+primaryfemalemodel=60023
+zoom=480
+modelroll=26
+modelpitch=704
+modelyaw=0
+offsetx=0
+offsety=0
+
+# Near-Reality Imbued ancient cape
+[[item]]
+id=32026
+inherit=21795
+name="Imbued ancient cape"
+invmodel=60026
+primarymalemodel=60025
+primaryfemalemodel=60025
+placeholderid=33026
+stackable=0
+notedid=32027
+grandexchange=false
+
+# Near-Reality Imbued ancient cape (noted)
+[[item]]
+id=32027
+inherit=21795
+name="Imbued ancient cape"
+notedid=32026
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60026
+primarymalemodel=60025
+primaryfemalemodel=60025
+grandexchange=false
+
+# Near-Reality Imbued armadyl cape
+[[item]]
+id=32028
+inherit=21795
+name="Imbued armadyl cape"
+invmodel=60028
+primarymalemodel=60027
+primaryfemalemodel=60027
+placeholderid=33028
+stackable=0
+notedid=32029
+grandexchange=false
+
+# Near-Reality Imbued armadyl cape (noted)
+[[item]]
+id=32029
+inherit=21795
+name="Imbued armadyl cape"
+notedid=32028
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60028
+primarymalemodel=60027
+primaryfemalemodel=60027
+grandexchange=false
+
+# Near-Reality Imbued bandos cape
+[[item]]
+id=32030
+inherit=21795
+name="Imbued bandos cape"
+invmodel=60030
+primarymalemodel=60029
+primaryfemalemodel=60029
+placeholderid=33030
+stackable=0
+notedid=32031
+grandexchange=false
+
+# Near-Reality Imbued bandos cape (noted)
+[[item]]
+id=32031
+inherit=21795
+name="Imbued bandos cape"
+notedid=32030
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60030
+primarymalemodel=60029
+primaryfemalemodel=60029
+grandexchange=false
+
+# Near-Reality Imbued seren cape
+[[item]]
+id=32032
+inherit=21795
+name="Imbued seren cape"
+invmodel=60033
+primarymalemodel=60032
+primaryfemalemodel=60032
+placeholderid=33032
+stackable=0
+notedid=32033
+grandexchange=false
+
+# Near-Reality Imbued seren cape (noted)
+[[item]]
+id=32033
+inherit=21795
+name="Imbued seren cape"
+notedid=32032
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60033
+primarymalemodel=60032
+primaryfemalemodel=60032
+grandexchange=false
+
+# Near-Reality Polypore spores
+[[item]]
+id=32038
+inherit=22667
+name="Polypore spores"
+placeholderid=33038
+invmodel=60039
+zoom=680
+modelroll=200
+modelpitch=339
+modelyaw=0
+offsetx=2
+offsety=0
+stackable=1
+grandexchange=true
+
+
+# Near-Reality Polypore staff (deg)
+[[item]]
+id=32040
+inherit=6605
+name="Polypore staff (deg)"
+invmodel=60041
+primarymalemodel=60040
+primaryfemalemodel=60040
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+placeholderid=33040
+stackable=0
+notedid=32041
+grandExchange = true
+
+# Near-Reality Polypore staff (deg) (noted)
+[[item]]
+id=32041
+inherit=6605
+name="Polypore staff (deg)"
+notedid=32040
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60041
+primarymalemodel=60040
+primaryfemalemodel=60040
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+
+# Near-Reality Polypore staff
+[[item]]
+id=32042
+inherit=12904
+name="Polypore staff"
+invmodel=60043
+primarymalemodel=60042
+primaryfemalemodel=60042
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+placeholderid=33042
+stackable=0
+notedid=32043
+grandexchange=false
+
+# Near-Reality Polypore staff (noted)
+[[item]]
+id=32043
+inherit=12904
+name="Polypore staff"
+notedid=32042
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60043
+primarymalemodel=60042
+primaryfemalemodel=60042
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+
+# Near-Reality Bronze key
+[[item]]
+id=32044
+inherit=275
+name="Bronze key"
+invmodel=60044
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+placeholderid=33044
+stackable=0
+notedid=32045
+grandexchange=true
+
+# Near-Reality Bronze key (noted)
+[[item]]
+id=32045
+inherit=275
+name="Bronze key"
+notedid=32044
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60044
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+
+# Near-Reality Silver key
+[[item]]
+id=32046
+inherit=275
+name="Silver key"
+invmodel=60045
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+placeholderid=33046
+stackable=0
+notedid=32047
+grandexchange=true
+
+# Near-Reality Silver key (noted)
+[[item]]
+id=32047
+inherit=275
+name="Silver key"
+notedid=32046
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60045
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+
+# Near-Reality Gold key
+[[item]]
+id=32048
+inherit=275
+name="Gold key"
+invmodel=60046
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+placeholderid=33048
+stackable=0
+notedid=32049
+grandexchange=true
+
+# Near-Reality Gold key (noted)
+[[item]]
+id=32049
+inherit=275
+name="Gold key"
+notedid=32048
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60046
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+
+# Near-Reality Platinum key
+[[item]]
+id=32050
+inherit=275
+name="Platinum key"
+invmodel=60047
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+placeholderid=33050
+stackable=0
+notedid=32051
+grandexchange=true
+
+# Near-Reality Platinum key (noted)
+[[item]]
+id=32051
+inherit=275
+name="Platinum key"
+notedid=32050
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60047
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+
+# Near-Reality Diamond key
+[[item]]
+id=32052
+inherit=275
+name="Diamond key"
+invmodel=60048
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+placeholderid=33052
+stackable=0
+notedid=32053
+grandexchange=true
+
+# Near-Reality Diamond key (noted)
+[[item]]
+id=32053
+inherit=275
+name="Diamond key"
+notedid=32052
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60048
+zoom=1013
+modelroll=1870
+modelpitch=496
+modelyaw=0
+offsetx=-7
+offsety=0
+
+# Near-Reality N tablet
+[[item]]
+id=32054
+inherit=22667
+name="N tablet"
+invmodel=60049
+modelyaw=100
+placeholderid=33054
+stackable=0
+notedid=32055
+
+# Near-Reality N tablet (noted)
+[[item]]
+id=32055
+inherit=22667
+name="N tablet"
+notedid=32054
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60049
+modelyaw=100
+
+# Near-Reality Nr tablet
+[[item]]
+id=32056
+inherit=8007
+name="Home teleport"
+op2=""
+op3=""
+op4=""
+invmodel=60050
+zoom=480
+modelroll=26
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=1
+placeholderid=33056
+placeholdertemplate=-1
+stackable=1
+notedid=32057
+grandexchange=true
+
+# Near-Reality Death cape
+[[item]]
+id=32058
+inherit=1007
+name="Death cape"
+invmodel=60052
+primarymalemodel=60051
+primaryfemalemodel=60051
+zoom=3035
+modelpitch=463
+modelroll=1025
+modelyaw=9
+offsetx=-3
+offsety=-10
+placeholderid=33058
+stackable=0
+notedid=32059
+grandexchange=true
+
+# Near-Reality Death cape (noted)
+[[item]]
+id=32059
+inherit=1007
+name="Death cape"
+notedid=32058
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60052
+primarymalemodel=60051
+primaryfemalemodel=60051
+zoom=3035
+modelpitch=463
+modelroll=1025
+modelyaw=9
+offsetx=-3
+offsety=-10
+
+# Near-Reality Lime whip
+[[item]]
+id=32060
+inherit=4151
+name="Lime whip"
+examine="Nostalgia."
+invmodel=60054
+primarymalemodel=60053
+primaryfemalemodel=60053
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+placeholderid=33060
+stackable=0
+notedid=32061
+grandexchange=true
+price=8000000
+
+# Near-Reality Lime whip (noted)
+[[item]]
+id=32061
+inherit=4151
+name="Lime whip"
+examine="Nostalgia."
+notedid=32060
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60054
+primarymalemodel=60053
+primaryfemalemodel=60053
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+price=8000000
+
+# Near-Reality Lime whip special
+[[item]]
+id=32062
+inherit=4151
+name="Lime whip special"
+invmodel=60056
+primarymalemodel=60055
+primaryfemalemodel=60055
+placeholderid=33062
+stackable=0
+notedid=32063
+grandexchange=false
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+# Near-Reality Lime whip special (noted)
+[[item]]
+id=32063
+inherit=4151
+name="Lime whip special"
+notedid=32062
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60056
+primarymalemodel=60055
+primaryfemalemodel=60055
+grandexchange=false
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+# Near-Reality Lava whip
+[[item]]
+id=32064
+inherit=4151
+name="Lava whip"
+examine="Ouch, hot!"
+invmodel=60060
+primarymalemodel=60059
+primaryfemalemodel=60059
+placeholderid=33064
+stackable=0
+notedid=32065
+grandexchange=true
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+price=7860000
+
+# Near-Reality Lava whip (noted)
+[[item]]
+id=32065
+inherit=4151
+name="Lava whip"
+examine="Ouch, hot!"
+notedid=32064
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60060
+primarymalemodel=60059
+primaryfemalemodel=60059
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+price=7860000
+
+# Near-Reality Pink partyhat
+[[item]]
+id=32066
+inherit=1048
+name="Pink partyhat"
+examine="A nice hat from a cracker."
+originalcolours=[926]
+replacementcolours=[-8236]
+placeholderid=33066
+stackable=0
+notedid=32067
+grandexchange=true
+
+# Near-Reality Pink partyhat (noted)
+[[item]]
+id=32067
+inherit=1048
+name="Pink partyhat"
+notedid=32066
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+originalcolours=[926]
+replacementcolours=[-8236]
+
+# Near-Reality Orange partyhat
+[[item]]
+id=32068
+inherit=1048
+name="Orange partyhat"
+examine="A nice hat from a cracker."
+invmodel=60058
+primarymalemodel=60057
+primaryfemalemodel=60057
+placeholderid=33068
+stackable=0
+notedid=32069
+grandexchange=true
+
+# Near-Reality Orange partyhat (noted)
+[[item]]
+id=32069
+inherit=1048
+name="Orange partyhat"
+notedid=32068
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60058
+primarymalemodel=60057
+primaryfemalemodel=60057
+
+
+# Near-Reality Donator pin ($10)
+[[item]]
+id=32070
+inherit=13190
+name="Donator pin ($10)"
+placeholderid=33070
+invmodel=60061
+stackable=1
+grandexchange=false
+op3="Trade"
+
+# Near-Reality Donator pin ($25)
+[[item]]
+id=32071
+inherit=13190
+name="Donator pin ($25)"
+placeholderid=33071
+invmodel=60062
+stackable=1
+grandexchange=false
+op3="Trade"
+
+# Near-Reality Donator pin ($50)
+[[item]]
+id=32072
+inherit=13190
+name="Donator pin ($50)"
+placeholderid=33072
+invmodel=60063
+stackable=1
+grandexchange=false
+op3="Trade"
+
+# Near-Reality Donator pin 100
+[[item]]
+id=32073
+inherit=13190
+name="Donator pin ($100)"
+placeholderid=33073
+invmodel=60064
+stackable=1
+grandexchange=false
+op3="Trade"
+
+# Near-Reality Gauntlet slayer helm
+[[item]]
+id=32074
+inherit=11864
+name="Gauntlet slayer helm"
+placeholderid=33074
+invmodel=60036
+primarymalemodel=60035
+primaryfemalemodel=60035
+stackable=0
+notedid=32075
+
+# Near-Reality Gauntlet slayer helm (noted)
+[[item]]
+id=32075
+inherit=11864
+name="Gauntlet slayer helm"
+notedid=32074
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60036
+primarymalemodel=60035
+primaryfemalemodel=60035
+
+# Near-Reality Corrupted gauntlet slayer helm
+[[item]]
+id=32076
+inherit=11864
+name="Corrupted gauntlet slayer helm"
+placeholderid=33076
+invmodel=60038
+primarymalemodel=60037
+primaryfemalemodel=60037
+stackable=0
+notedid=32077
+
+# Near-Reality Corrupted gauntlet slayer helm (noted)
+[[item]]
+id=32077
+inherit=11864
+name="Corrupted gauntlet slayer helm"
+notedid=32076
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60038
+primarymalemodel=60037
+primaryfemalemodel=60037
+
+# Near-Reality Party hat
+[[item]]
+id=32078
+inherit=1048
+name="Near Reality party hat"
+placeholderid=33078
+invmodel=60066
+primarymalemodel=60065
+primaryfemalemodel=60065
+stackable=0
+zoom=565
+modelroll=1817
+modelpitch=183
+modelyaw=0
+offsetx=1
+offsety=-2
+notedid=32078
+
+# Near-Reality Party hat (noted)
+[[item]]
+id=32079
+inherit=1049
+name="Near Reality party hat"
+notedid=32078
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60065
+
+# Near-Reality launch box
+[[item]]
+id=32080
+inherit=6199
+name="OSNR Mystery Box"
+placeholderid=33080
+invmodel=60067
+stackable=0
+zoom=780
+modelroll=861
+modelpitch=148
+modelyaw=26
+offsetx=-1
+offsety=-4
+notedid=32081
+op2="Quick-Open"
+
+# Near-Reality mystery box (noted)
+[[item]]
+id=32081
+inherit=6200
+name="OSNR Mystery Box"
+notedid=32080
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60067
+
+# Star locator
+[[item]]
+id=32082
+inherit=22667
+name="Star locator"
+op1="Locate"
+op2="Teleport"
+op3=""
+op4=""
+op5="Drop"
+invmodel=60199
+zoom=704
+modelroll=43
+modelpitch=513
+modelyaw=0
+offsetx=3
+offsety=-2
+placeholderid=-1
+stackable=0
+notedid=-1
+grandexchange=false
+
+#Near-Reality Blue ankou socks
+[[item]]
+inherit=20107
+id=32102
+name="Blue ankou socks"
+invmodel=60068
+originalcolours=[960]
+replacementcolours=[-26691]
+placeholderid=33102
+stackable=0
+notedid=32103
+
+#Near-Reality Blue ankou socks (noted)
+[[item]]
+inherit=20108
+id=32103
+name="Blue ankou socks"
+invmodel=60068
+notedid=32102
+
+#Near-Reality Blue ankou gloves
+[[item]]
+inherit=20101
+id=32104
+name="Blue ankou gloves"
+invmodel=60071
+originalcolours=[960]
+replacementcolours=[-26691]
+placeholderid=33104
+stackable=0
+notedid=32105
+
+#Near-Reality Blue ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32105
+name="Blue ankou gloves"
+invmodel=60071
+notedid=32104
+
+#Near-Reality Blue ankou's leggings
+[[item]]
+inherit=20104
+id=32106
+name="Blue ankou's leggings"
+invmodel=60074
+originalcolours=[960]
+replacementcolours=[-26691]
+placeholderid=33106
+stackable=0
+notedid=32107
+
+#Near-Reality Blue ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32107
+name="Blue ankou's leggings"
+invmodel=60074
+notedid=32106
+
+#Near-Reality Blue ankou mask
+[[item]]
+inherit=20095
+id=32108
+name="Blue ankou mask"
+invmodel=60077
+originalcolours=[960]
+replacementcolours=[-26691]
+placeholderid=33108
+stackable=0
+notedid=32109
+
+#Near-Reality Blue ankou mask (noted)
+[[item]]
+inherit=20096
+id=32109
+name="Blue ankou mask"
+invmodel=60077
+notedid=32108
+
+#Near-Reality Blue ankou top
+[[item]]
+inherit=20098
+id=32110
+name="Blue ankou top"
+invmodel=60080
+originalcolours=[960]
+replacementcolours=[-26691]
+placeholderid=33110
+stackable=0
+notedid=32111
+
+#Near-Reality Blue ankou top (noted)
+[[item]]
+inherit=20099
+id=32111
+name="Blue ankou top"
+invmodel=60080
+notedid=32110
+
+#Near-Reality Green ankou socks
+[[item]]
+inherit=20107
+id=32112
+name="Green ankou socks"
+invmodel=60083
+originalcolours=[960]
+replacementcolours=[18365]
+placeholderid=33112
+stackable=0
+notedid=32113
+
+#Near-Reality Green ankou socks (noted)
+[[item]]
+inherit=20108
+id=32113
+name="Green ankou socks"
+invmodel=60083
+notedid=32112
+
+#Near-Reality Green ankou gloves
+[[item]]
+inherit=20101
+id=32114
+name="Green ankou gloves"
+invmodel=60086
+originalcolours=[960]
+replacementcolours=[18365]
+placeholderid=33114
+stackable=0
+notedid=32115
+
+#Near-Reality Green ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32115
+name="Green ankou gloves"
+invmodel=60086
+notedid=32114
+
+#Near-Reality Green ankou's leggings
+[[item]]
+inherit=20104
+id=32116
+name="Green ankou's leggings"
+invmodel=60089
+originalcolours=[960]
+replacementcolours=[18365]
+placeholderid=33116
+stackable=0
+notedid=32117
+
+#Near-Reality Green ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32117
+name="Green ankou's leggings"
+invmodel=60089
+notedid=32116
+
+#Near-Reality Green ankou mask
+[[item]]
+inherit=20095
+id=32118
+name="Green ankou mask"
+invmodel=60092
+originalcolours=[960]
+replacementcolours=[18365]
+placeholderid=33118
+stackable=0
+notedid=32119
+
+#Near-Reality Green ankou mask (noted)
+[[item]]
+inherit=20096
+id=32119
+name="Green ankou mask"
+invmodel=60092
+notedid=32118
+
+#Near-Reality Green ankou top
+[[item]]
+inherit=20098
+id=32120
+name="Green ankou top"
+invmodel=60095
+originalcolours=[960]
+replacementcolours=[18365]
+placeholderid=33120
+stackable=0
+notedid=32121
+
+#Near-Reality Green ankou top (noted)
+[[item]]
+inherit=20099
+id=32121
+name="Green ankou top"
+invmodel=60095
+notedid=32120
+
+#Near-Reality Gold ankou socks
+[[item]]
+inherit=20107
+id=32122
+name="Gold ankou socks"
+invmodel=60098
+originalcolours=[960]
+replacementcolours=[9149]
+placeholderid=33122
+stackable=0
+notedid=32123
+
+#Near-Reality Gold ankou socks (noted)
+[[item]]
+inherit=20108
+id=32123
+name="Gold ankou socks"
+invmodel=60098
+notedid=32122
+
+#Near-Reality Gold ankou gloves
+[[item]]
+inherit=20101
+id=32124
+name="Gold ankou gloves"
+invmodel=60101
+originalcolours=[960]
+replacementcolours=[9149]
+placeholderid=33124
+stackable=0
+notedid=32125
+
+#Near-Reality Gold ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32125
+name="Gold ankou gloves"
+invmodel=60101
+notedid=32124
+
+#Near-Reality Gold ankou's leggings
+[[item]]
+inherit=20104
+id=32126
+name="Gold ankou's leggings"
+invmodel=60104
+originalcolours=[960]
+replacementcolours=[9149]
+placeholderid=33126
+stackable=0
+notedid=32127
+
+#Near-Reality Gold ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32127
+name="Gold ankou's leggings"
+invmodel=60104
+notedid=32126
+
+#Near-Reality Gold ankou mask
+[[item]]
+inherit=20095
+id=32128
+name="Gold ankou mask"
+invmodel=60107
+originalcolours=[960]
+replacementcolours=[9149]
+placeholderid=33128
+stackable=0
+notedid=32129
+
+#Near-Reality Gold ankou mask (noted)
+[[item]]
+inherit=20096
+id=32129
+name="Gold ankou mask"
+invmodel=60107
+notedid=32128
+
+#Near-Reality Gold ankou top
+[[item]]
+inherit=20098
+id=32130
+name="Gold ankou top"
+invmodel=60110
+originalcolours=[960]
+replacementcolours=[9149]
+placeholderid=33130
+stackable=0
+notedid=32131
+
+#Near-Reality Gold ankou top (noted)
+[[item]]
+inherit=20099
+id=32131
+name="Gold ankou top"
+invmodel=60110
+notedid=32130
+
+#Near-Reality White ankou socks
+[[item]]
+inherit=20107
+id=32132
+name="White ankou socks"
+invmodel=60113
+originalcolours=[960]
+replacementcolours=[124]
+placeholderid=33132
+stackable=0
+notedid=32133
+
+#Near-Reality White ankou socks (noted)
+[[item]]
+inherit=20108
+id=32133
+name="White ankou socks"
+invmodel=60113
+notedid=32132
+
+#Near-Reality White ankou gloves
+[[item]]
+inherit=20101
+id=32134
+name="White ankou gloves"
+invmodel=60116
+originalcolours=[960]
+replacementcolours=[124]
+placeholderid=33134
+stackable=0
+notedid=32135
+
+#Near-Reality White ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32135
+name="White ankou gloves"
+invmodel=60116
+notedid=32134
+
+#Near-Reality White ankou's leggings
+[[item]]
+inherit=20104
+id=32136
+name="White ankou's leggings"
+invmodel=60119
+originalcolours=[960]
+replacementcolours=[124]
+placeholderid=33136
+stackable=0
+notedid=32137
+
+#Near-Reality White ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32137
+name="White ankou's leggings"
+invmodel=60119
+notedid=32136
+
+#Near-Reality White ankou mask
+[[item]]
+inherit=20095
+id=32138
+name="White ankou mask"
+invmodel=60122
+originalcolours=[960]
+replacementcolours=[124]
+placeholderid=33138
+stackable=0
+notedid=32139
+
+#Near-Reality White ankou mask (noted)
+[[item]]
+inherit=20096
+id=32139
+name="White ankou mask"
+invmodel=60122
+notedid=32138
+
+#Near-Reality White ankou top
+[[item]]
+inherit=20098
+id=32140
+name="White ankou top"
+invmodel=60125
+originalcolours=[960]
+replacementcolours=[124]
+placeholderid=33140
+stackable=0
+notedid=32141
+
+#Near-Reality White ankou top (noted)
+[[item]]
+inherit=20099
+id=32141
+name="White ankou top"
+invmodel=60125
+notedid=32140
+
+#Near-Reality Bandos chestplate (or)
+[[item]]
+inherit=11832
+id=32142
+name="Bandos chestplate (or)"
+op1=""
+op2="Wear"
+op3="Dismantle"
+op4=""
+op5="Drop"
+invmodel=60128
+primarymalemodel=60129
+secondarymalemodel=60153
+primaryfemalemodel=60130
+secondaryfemalemodel=60154
+placeholderid=33142
+stackable=0
+notedid=32143
+zoom=1500
+modelroll=0
+modelpitch=513
+modelyaw=0
+offsetx=-1
+offsety=4
+grandexchange=true
+
+#Near-Reality Bandos chestplate (or) (noted)
+[[item]]
+inherit=11833
+id=32143
+name="Bandos chestplate (or)"
+invmodel=60128
+notedid=32142
+zoom=1500
+modelroll=0
+modelpitch=513
+modelyaw=0
+offsetx=-1
+offsety=4
+
+#Near-Reality Bandos tassets (or)
+[[item]]
+inherit=11834
+id=32144
+name="Bandos tassets (or)"
+op1=""
+op2="Wear"
+op3="Dismantle"
+op4=""
+op5="Drop"
+invmodel=60131
+primarymalemodel=60132
+primaryfemalemodel=60133
+placeholderid=33144
+stackable=0
+notedid=32145
+zoom=1780
+modelroll=0
+modelpitch=548
+modelyaw=0
+offsetx=-2
+offsety=2
+grandexchange=true
+
+#Near-Reality Bandos tassets (or) (noted)
+[[item]]
+inherit=11835
+id=32145
+name="Bandos tassets (or)"
+invmodel=60131
+notedid=32144
+zoom=1780
+modelroll=0
+modelpitch=548
+modelyaw=0
+offsetx=-2
+offsety=2
+
+#Near-Reality Bandos ornament kit
+[[item]]
+inherit=22246
+id=32146
+name="Bandos ornament kit"
+invmodel=60134
+placeholderid=33146
+stackable=0
+notedid=32147
+grandexchange=true
+
+#Near-Reality Bandos ornament kit (noted)
+[[item]]
+inherit=22247
+id=32147
+name="Bandos tassets (or)"
+invmodel=60134
+notedid=32146
+
+#Near-Reality Vote Token
+[[item]]
+inherit=275
+id=32148
+name="Vote Shard"
+invmodel=60135
+stackable=1
+grandexchange=true
+zoom=620
+modelroll=148
+modelpitch=426
+modelyaw=0
+offsetx=-1
+offsety=2
+placeholderid=33148
+
+[[item]]
+inherit=16551
+id=33148
+placeholderid=32148
+placeholdertemplate=14401
+
+#Near-Reality larrans key booster
+[[item]]
+inherit=275
+id=32149
+name="Larran's key booster"
+invmodel=60136
+stackable=1
+grandexchange=true
+zoom=980
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=-10
+offsety=-8
+op1="Activate"
+op5="Destroy"
+placeholderid=33149
+
+[[item]]
+inherit=16551
+id=33149
+placeholderid=32149
+placeholdertemplate=14401
+
+#Near-Reality Ganodermic booster
+[[item]]
+inherit=275
+id=32150
+name="Ganodermic booster"
+invmodel=60137
+stackable=1
+grandexchange=true
+zoom=5480
+modelroll=1817
+modelpitch=113
+modelyaw=0
+offsetx=-27
+offsety=-79
+op1="Activate"
+op5="Destroy"
+placeholderid=33150
+
+[[item]]
+inherit=16551
+id=33150
+placeholderid=32150
+placeholdertemplate=14401
+
+#Near-Reality slayer booster
+[[item]]
+inherit=275
+id=32151
+name="Slayer booster"
+invmodel=60138
+stackable=1
+grandexchange=true
+zoom=1180
+modelroll=96
+modelpitch=496
+modelyaw=0
+offsetx=0
+offsety=2
+op1="Activate"
+op5="Destroy"
+placeholderid=33151
+
+[[item]]
+inherit=16551
+id=33151
+placeholderid=32151
+placeholdertemplate=14401
+
+#Near-Reality Pet booster
+[[item]]
+inherit=275
+id=32152
+name="Pet booster"
+invmodel=60139
+stackable=1
+grandexchange=true
+zoom=3280
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=-14
+offsety=23
+op1="Activate"
+op5="Destroy"
+placeholderid=33152
+
+[[item]]
+inherit=16551
+id=33152
+placeholderid=32152
+placeholdertemplate=14401
+
+#Near-Reality Gauntlet booster
+[[item]]
+inherit=275
+id=32153
+name="Gauntlet booster"
+invmodel=60140
+stackable=1
+grandexchange=true
+zoom=980
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=2
+op1="Activate"
+op5="Destroy"
+placeholderid=33153
+
+[[item]]
+inherit=16551
+id=33153
+placeholderid=32153
+placeholdertemplate=14401
+
+#Near-Reality Blood money booster
+[[item]]
+inherit=275
+id=32154
+name="Blood money booster"
+invmodel=60141
+stackable=1
+grandexchange=true
+zoom=1180
+modelroll=1974
+modelpitch=600
+modelyaw=0
+offsetx=1
+offsety=5
+op1="Activate"
+op5="Destroy"
+placeholderid=33154
+
+[[item]]
+inherit=16551
+id=33154
+placeholderid=32154
+placeholdertemplate=14401
+
+#Near-Reality Clue booster
+[[item]]
+inherit=275
+id=32155
+name="Clue booster"
+invmodel=60142
+stackable=1
+grandexchange=true
+zoom=3180
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=-4
+offsety=16
+op1="Activate"
+op5="Destroy"
+placeholderid=33155
+
+[[item]]
+inherit=16551
+id=33155
+placeholderid=32155
+placeholdertemplate=14401
+
+#Near-Reality Tob booster
+[[item]]
+inherit=275
+id=32156
+name="ToB booster"
+invmodel=60143
+stackable=1
+grandexchange=true
+zoom=1180
+modelroll=1964
+modelpitch=538
+modelyaw=0
+offsetx=0
+offsety=6
+op1="Activate"
+op5="Destroy"
+placeholderid=33156
+
+[[item]]
+inherit=16551
+id=33156
+placeholderid=32156
+placeholdertemplate=14401
+
+#Near-Reality Task picker
+[[item]]
+inherit=275
+id=32157
+name="Slayer task picker scroll"
+invmodel=60144
+stackable=1
+grandexchange=true
+zoom=704
+modelroll=1922
+modelpitch=617
+modelyaw=0
+offsetx=-3
+offsety=0
+op1="Redeem"
+placeholderid=33157
+
+[[item]]
+inherit=16551
+id=33157
+placeholderid=32157
+placeholdertemplate=14401
+
+#Near-Reality Task reset
+[[item]]
+inherit=275
+id=32158
+name="Slayer task reset scroll"
+invmodel=60145
+stackable=1
+grandexchange=true
+zoom=1180
+modelroll=1922
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=5
+op1="Redeem"
+placeholderid=33158
+
+[[item]]
+inherit=16551
+id=33158
+placeholderid=32158
+placeholdertemplate=14401
+
+#Near-Reality stew
+[[item]]
+inherit=275
+id=32159
+name="Spicy stew (+5)"
+invmodel=60146
+grandexchange=true
+zoom=980
+modelroll=1415
+modelpitch=96
+modelyaw=43
+offsetx=-1
+offsety=13
+op1="Eat"
+placeholderid=33159
+
+[[item]]
+inherit=16551
+id=33159
+placeholderid=32159
+placeholdertemplate=14401
+
+#Near-Reality Inferno
+[[item]]
+inherit=275
+id=32160
+name="Inferno skip scroll"
+invmodel=60147
+grandexchange=true
+zoom=1180
+modelroll=96
+modelpitch=496
+modelyaw=0
+offsetx=0
+offsety=2
+op1="Activate"
+placeholderid=33160
+
+[[item]]
+inherit=16551
+id=33160
+placeholderid=32160
+placeholdertemplate=14401
+
+#Near-Reality excalibur
+[[item]]
+inherit=275
+id=32161
+name="Enhanced excalibur"
+zoom=1091
+modelroll=9
+modelpitch=304
+modelyaw=0
+offsetx=5
+offsety=24
+op1=""
+op2="Wield"
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+invmodel=60149
+primarymalemodel=60148
+primaryfemalemodel=60148
+placeholderid=33161
+
+[[item]]
+inherit=16551
+id=33161
+placeholderid=32161
+placeholdertemplate=14401
+
+#Near-Reality Vote Mystery box
+[[item]]
+inherit=6199
+id=32162
+name="Vote mystery box"
+invmodel=60152
+grandexchange=true
+op2="Quick-Open"
+placeholderid=33162
+
+[[item]]
+inherit=16551
+id=33162
+placeholderid=32162
+placeholdertemplate=14401
+
+#Near-Reality Cosmetic Mystery box
+[[item]]
+inherit=6199
+id=32163
+name="Cosmetic mystery box"
+grandexchange=true
+invmodel=60157
+op2="Quick-Open"
+placeholderid=33163
+
+[[item]]
+inherit=16551
+id=33163
+placeholderid=32163
+placeholdertemplate=14401
+
+#Near-Reality Super Mystery box
+[[item]]
+inherit=6199
+id=32164
+name="Super mystery box"
+invmodel=60150
+grandexchange=true
+op2="Quick-Open"
+placeholderid=33164
+
+[[item]]
+inherit=16551
+id=33164
+placeholderid=32164
+placeholdertemplate=14401
+
+#Near-Reality Ultimate Mystery box
+[[item]]
+inherit=6199
+id=32165
+name="Ultimate mystery box"
+invmodel=60151
+grandexchange=true
+op2="Quick-Open"
+placeholderid=33165
+
+[[item]]
+inherit=16551
+id=33165
+placeholderid=32165
+placeholdertemplate=14401
+
+#Near-Reality Revenant booster
+[[item]]
+inherit=275
+id=32166
+name="Revenant booster"
+invmodel=60155
+stackable=1
+grandexchange=true
+zoom=1180
+modelroll=1974
+modelpitch=548
+modelyaw=0
+offsetx=0
+offsety=6
+op1="Activate"
+op5="Destroy"
+placeholderid=33166
+
+[[item]]
+inherit=16551
+id=33166
+placeholderid=32166
+placeholdertemplate=14401
+
+#Near-Reality Nex booster
+[[item]]
+inherit=275
+id=32167
+name="Nex booster"
+invmodel=60156
+stackable=1
+grandexchange=true
+zoom=800
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=1
+offsety=0
+op1="Activate"
+op5="Destroy"
+placeholderid=33167
+
+[[item]]
+inherit=16551
+id=33167
+placeholderid=32167
+placeholdertemplate=14401
+
+#Near-Reality Barrows totem
+[[item]]
+inherit=275
+id=32168
+name="Barrows totem"
+invmodel=60161
+stackable=1
+grandexchange=true
+zoom=580
+modelroll=0
+modelpitch=461
+modelyaw=0
+offsetx=-2
+offsety=0
+op1="Activate"
+placeholderid=33168
+
+[[item]]
+inherit=16551
+id=33168
+placeholderid=32168
+placeholdertemplate=14401
+
+# Vesta's helm
+[[item]]
+inherit=1157
+id=32169
+name="Vesta's helmet"
+invmodel=60158
+primarymalemodel=60159
+primaryfemalemodel=60162
+notedid=32170
+placeholderid=32171
+grandexchange=true
+stackable=0
+zoom=635
+modelroll=0
+modelpitch=0
+modelyaw=0
+offsetx=0
+offsety=0
+
+#Vesta's helmet (noted)
+[[item]]
+inherit=1158
+id=32170
+name="Vesta's helmet"
+invmodel=60135
+notedid=32169
+
+#Vesta's helmet (placeholder)
+[[item]]
+inherit=1157
+id=32171
+placeholderid=32169
+placeholdertemplate=14401
+
+# Saradmoin Warhammer
+[[item]]
+inherit=13576
+id=32172
+name="Holy great warhammer"
+invmodel=60174
+primarymalemodel=60173
+primaryfemalemodel=60175
+notedid=32173
+placeholderid=32174
+grandexchange=true
+stackable=0
+zoom=1780
+modelroll=9
+modelpitch=320
+modelyaw=0
+offsetx=-5
+offsety=-4
+
+#Holy Great (noted)
+[[item]]
+inherit=13577
+id=32173
+name="Holy great warhammer"
+invmodel=60174
+notedid=32172
+
+#Holy Great (placeholder)
+[[item]]
+inherit=20785
+id=32174
+name="Holy great warhammer"
+invmodel=60174
+placeholderid=32172
+placeholdertemplate=14401
+
+# Holy Great lance
+[[item]]
+inherit=22978
+id=32175
+name="Holy great lance"
+invmodel=60176
+primarymalemodel=60178
+primaryfemalemodel=60177
+notedid=32176
+placeholderid=32177
+grandexchange=true
+stackable=0
+zoom=2780
+modelroll=0
+modelpitch=26
+modelyaw=235
+offsetx=1
+offsety=-7
+
+#Holy Great lance (noted)
+[[item]]
+inherit=22979
+id=32176
+name="Holy great lance"
+invmodel=60176
+notedid=32175
+
+#Holy Great lance (placeholder)
+[[item]]
+inherit=22978
+id=32177
+name="Holy great lance"
+invmodel=60176
+placeholderid=32175
+placeholdertemplate=14401
+
+# Degraded Essence
+[[item]]
+inherit=1436
+id=32178
+name="Degraded essence"
+invmodel=60172
+placeholderid=32179
+notedid=-1
+grandexchange=true
+stackable=1
+zoom=780
+modelroll=443
+modelpitch=565
+modelyaw=0
+offsetx=4
+offsety=0
+
+# Degraded Essence (placeholder)
+[[item]]
+inherit=1436
+id=32179
+name="Degraded essence"
+invmodel=60172
+placeholderid=32178
+placeholdertemplate=14401
+
+# Blood Tentacle
+[[item]]
+inherit=1436
+id=32180
+name="Blood tentacles"
+invmodel=60179
+placeholderid=32181
+notedid=-1
+grandexchange=false
+stackable=0
+zoom=880
+modelroll=0
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=1
+
+# Blood Tentacle (placeholder)
+[[item]]
+inherit=1436
+id=32181
+name="Blood tentacles"
+invmodel=60179
+placeholderid=32180
+placeholdertemplate=14401
+
+# Angelic artifact
+[[item]]
+inherit=1436
+id=32182
+name="Angelic artifact"
+invmodel=60180
+notedid=32183
+placeholderid=32184
+grandexchange=true
+stackable=0
+zoom=461
+modelroll=165
+modelpitch=513
+modelyaw=0
+offsetx=2
+offsety=2
+
+#Angelic artifact (noted)
+[[item]]
+inherit=1436
+id=32183
+name="Angelic artifact"
+invmodel=60180
+notedid=32182
+notedtemplate=799
+
+#Angelic artifact (placeholder)
+[[item]]
+inherit=1436
+id=32184
+name="Angelic artifact"
+invmodel=60180
+placeholderid=32182
+placeholdertemplate=14401
+
+#Near-Reality Malevolent energy
+[[item]]
+inherit=275
+id=32185
+name="Malevolent energy"
+invmodel=60187
+stackable=1
+zoom=804
+modelroll=43
+modelpitch=409
+modelyaw=0
+offsetx=3
+offsety=1
+op1=""
+
+[[item]]
+inherit=1436
+id=32186
+name="Ahrim the Bobbled"
+invmodel=60181
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=1436
+id=32187
+name="Dharok the Bobbled"
+invmodel=60182
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=1436
+id=32188
+name="Guthan the Bobbled"
+invmodel=60183
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=1436
+id=32189
+name="Karil the Bobbled"
+invmodel=60184
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=1436
+id=32190
+name="Torag the Bobbled"
+invmodel=60185
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=1436
+id=32191
+name="Verac the Bobbled"
+invmodel=60186
+placeholderid=-1
+notedid=-1
+stackable=0
+zoom=1480
+modelroll=130
+modelpitch=43
+modelyaw=0
+offsetx=1
+offsety=1
+grandexchange=false
+
+[[item]]
+inherit=22978
+id=32192
+name="Malovelent kiteshield"
+invmodel=60188
+primarymalemodel=60189
+primaryfemalemodel=60190
+notedid=32193
+placeholderid=32194
+grandexchange=true
+stackable=0
+zoom=1765
+modelroll=96
+modelpitch=478
+modelyaw=0
+offsetx=-8
+offsety=-14
+
+#note
+[[item]]
+inherit=22979
+id=32193
+notedid=32192
+
+#placeholder
+[[item]]
+inherit=22978
+id=32194
+placeholderid=32192
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=22978
+id=32195
+name="Mercicless kiteshield"
+invmodel=60191
+primarymalemodel=60192
+primaryfemalemodel=60193
+notedid=32196
+placeholderid=32197
+grandexchange=true
+stackable=0
+zoom=1365
+modelroll=96
+modelpitch=391
+modelyaw=0
+offsetx=-1
+offsety=1
+
+#note
+[[item]]
+inherit=22979
+id=32196
+notedid=32195
+
+#placeholder
+[[item]]
+inherit=22978
+id=32197
+placeholderid=32195
+placeholdertemplate=14401
+
+[[item]]
+inherit=22978
+id=32198
+name="Vengeful kiteshield"
+invmodel=60194
+primarymalemodel=60195
+primaryfemalemodel=60196
+notedid=32199
+placeholderid=32200
+grandexchange=true
+stackable=0
+zoom=1380
+modelroll=26
+modelpitch=565
+modelyaw=0
+offsetx=0
+offsety=5
+
+#note
+[[item]]
+inherit=22979
+id=32199
+notedid=32198
+
+#placeholder
+[[item]]
+inherit=22978
+id=32200
+placeholderid=32198
+placeholdertemplate=14401
+
+[[item]]
+inherit=22978
+id=32201
+name="Drop Rate Pin"
+invmodel=60207
+placeholderid=32202
+notedid=-1
+grandexchange=true
+stackable=0
+zoom=1180
+modelroll=1974
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=5
+op1="Claim"
+op2=""
+
+#placeholder
+[[item]]
+inherit=22978
+id=32202
+placeholderid=32201
+placeholdertemplate=14401
+
+# Pvp Mystery Box
+[[item]]
+id=32203
+inherit=6199
+name="PvP Mystery Box"
+placeholderid=32205
+invmodel=60204
+stackable=0
+zoom=2040
+modelroll=1883
+modelpitch=114
+modelyaw=26
+notedid=32204
+op2="Quick-Open"
+
+# Pvp Mystery Box (noted)
+[[item]]
+id=32204
+inherit=6200
+name="PvP Mystery Box"
+notedid=32203
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60067
+
+# PvP Mystery Box (placeholder)
+[[item]]
+id=32205
+inherit=6199
+name="PvP Mystery Box"
+placeholderid=32203
+placeholdertemplate=14401
+invmodel=60204
+
+
+# Ultimate Mystery Box (e)
+[[item]]
+id=32206
+inherit=6199
+name="Ultimate Mystery Box (e)"
+placeholderid=32208
+invmodel=60203
+stackable=0
+notedid=32207
+op2="Quick-Open"
+
+# Ultimate Mystery Box (e) (noted)
+[[item]]
+id=32207
+inherit=6200
+name="Ultimate Mystery Box (e)"
+notedid=32206
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60067
+
+# Ultimate Mystery Box (e) (placeholder)
+[[item]]
+id=32208
+inherit=6199
+name="Ultimate Mystery Box (e)"
+placeholderid=32206
+placeholdertemplate=14401
+invmodel=60203
+
+
+# 3rd Age Mystery Box
+[[item]]
+id=32209
+inherit=6199
+name="3rd Age Mystery Box"
+placeholderid=32211
+invmodel=60208
+stackable=0
+notedid=32210
+op2="Quick-Open"
+
+# 3rd Age Mystery Box (noted)
+[[item]]
+id=32210
+inherit=6200
+name="3rd Age Mystery Box"
+notedid=32209
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60208
+
+# 3rd Age Mystery Box (placeholder)
+[[item]]
+id=32211
+inherit=6199
+name="3rd Age Mystery Box"
+placeholderid=32209
+placeholdertemplate=14401
+invmodel=60208
+
+
+# Skilling Mystery Box
+[[item]]
+id=32212
+inherit=6199
+name="Skilling Mystery Box"
+placeholderid=32214
+invmodel=60209
+stackable=0
+notedid=32213
+zoom=1780
+modelroll=235
+modelpitch=165
+modelyaw=0
+offsetx=0
+offsety=-13
+
+# Skilling Mystery Box (noted)
+[[item]]
+id=32213
+inherit=6200
+name="Skilling Mystery Box"
+notedid=32212
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+invmodel=60209
+
+# Skilling Mystery Box (placeholder)
+[[item]]
+id=32214
+inherit=6199
+name="Skilling Mystery Box"
+placeholderid=32212
+placeholdertemplate=14401
+invmodel=60209
+
+[[item]]
+id=32215
+inherit=2724
+name="Mystery Box Bundle"
+op2=""
+
+[[item]]
+id=32227
+inherit=2724
+name="Slayer great axe"
+op1=""
+op2=""
+invmodel=60260
+zoom=1480
+modelroll=78
+modelpitch=583
+modelyaw=0
+offsetx=-1
+offsety=2
+
+[[item]]
+id=32228
+inherit=2724
+name="Slayer hauberk"
+op1=""
+op2=""
+invmodel=60261
+zoom=1080
+modelroll=270
+modelpitch=478
+modelyaw=0
+offsetx=0
+offsety=3
+
+[[item]]
+id=32229
+inherit=2724
+name="Slayer plateskirt"
+op1=""
+op2=""
+invmodel=60262
+zoom=1380
+modelroll=1678
+modelpitch=461
+modelyaw=0
+offsetx=-3
+offsety=4
+
+[[item]]
+id=32230
+inherit=2724
+name="Slayer platform"
+op1=""
+op2=""
+invmodel=60263
+zoom=1280
+modelroll=61
+modelpitch=113
+modelyaw=0
+offsetx=-1
+offsety=10
+
+[[item]]
+id=32231
+inherit=6199
+name="Regal Mystery Box"
+placeholderid=32233
+invmodel=60264
+stackable=0
+notedid=32232
+op2="Quick-Open"
+
+[[item]]
+id=32232
+inherit=6200
+notedid=32231
+notedtemplate=799
+
+[[item]]
+id=32233
+inherit=6199
+placeholderid=32231
+placeholdertemplate=14401
+
+[[item]]
+inherit=1050
+id=32234
+name="Pink santa hat"
+invmodel=60267
+primarymalemodel=60268
+primaryfemalemodel=60268
+placeholderid=32236
+stackable=0
+notedid=32235
+
+[[item]]
+id=32235
+inherit=6200
+notedid=32234
+notedtemplate=799
+
+[[item]]
+inherit=16551
+id=32236
+placeholderid=32234
+placeholdertemplate=14401
+
+[[item]]
+inherit=1055
+id=32237
+name="Pink h'ween mask"
+placeholderid=32239
+stackable=0
+notedid=32238
+replacementcolours=[-11564]
+
+[[item]]
+id=32238
+inherit=6200
+notedid=32237
+notedtemplate=799
+
+[[item]]
+inherit=16551
+id=32239
+placeholderid=32237
+placeholdertemplate=14401
+
+
+[[item]]
+inherit=1057
+id=32240
+name="Sleeping cap (afk)"
+invmodel=60269
+primarymalemodel=60270
+primaryfemalemodel=60271
+placeholderid=32242
+stackable=0
+notedid=32241
+zoom=652
+modelroll=1278
+modelpitch=320
+modelyaw=0
+offsetx=5
+offsety=0
+
+[[item]]
+id=32241
+inherit=6200
+notedid=32240
+notedtemplate=799
+
+[[item]]
+inherit=16551
+id=32242
+placeholderid=32240
+placeholdertemplate=14401
+
+# Near-Reality Ancient eye (placeholder)
+[[item]]
+id=33002
+inherit=22667
+name="Ancient eye"
+placeholderid=32002
+placeholdertemplate=14401
+invmodel=60000
+zoom=680
+modelroll=366
+modelpitch=310
+modelyaw=0
+offsetx=-1
+offsety=6
+
+# Near-Reality Ancient book (placeholder)
+[[item]]
+id=33004
+inherit=6633
+name="Ancient book"
+placeholderid=32004
+placeholdertemplate=14401
+invmodel=60002
+primarymalemodel=60001
+primaryfemalemodel=60001
+zoom=780
+modelroll=200
+modelpitch=530
+modelyaw=0
+offsetx=-4
+offsety=4
+
+# Near-Reality Armadyl soul crystal (placeholder)
+[[item]]
+id=33006
+inherit=22667
+name="Armadyl soul crystal"
+placeholderid=32006
+placeholdertemplate=14401
+invmodel=60003
+
+# Near-Reality Armadyl bow (placeholder)
+[[item]]
+id=33008
+inherit=25867
+name="Armadyl bow"
+placeholderid=32008
+placeholdertemplate=14401
+invmodel=60005
+primarymalemodel=60004
+primaryfemalemodel=60004
+
+# Near-Reality Bandos soul crystal (placeholder)
+[[item]]
+id=33010
+inherit=22667
+name="Bandos soul crystal"
+placeholderid=32010
+placeholdertemplate=14401
+invmodel=60006
+
+# Near-Reality Bandos bow (placeholder)
+[[item]]
+id=33012
+inherit=25867
+name="Bandos bow"
+placeholderid=32012
+placeholdertemplate=14401
+invmodel=60008
+primarymalemodel=60007
+primaryfemalemodel=60007
+
+# Near-Reality Saradomin soul crystal (placeholder)
+[[item]]
+id=33014
+inherit=22667
+name="Saradomin soul crystal"
+placeholderid=32014
+placeholdertemplate=14401
+invmodel=60009
+
+# Near-Reality Saradomin bow (placeholder)
+[[item]]
+id=33016
+inherit=25867
+name="Saradomin bow"
+placeholderid=32016
+placeholdertemplate=14401
+invmodel=60011
+primarymalemodel=60010
+primaryfemalemodel=60010
+
+# Near-Reality Zamorak soul crystal (placeholder)
+[[item]]
+id=33018
+inherit=22667
+name="Zamorak soul crystal"
+placeholderid=32018
+placeholdertemplate=14401
+invmodel=60012
+
+# Near-Reality Zamorak bow (placeholder)
+[[item]]
+id=33020
+inherit=25867
+name="Zamorak bow"
+placeholderid=32020
+placeholdertemplate=14401
+invmodel=60014
+primarymalemodel=60013
+primaryfemalemodel=60013
+
+# Near-Reality Dragon kite (placeholder)
+[[item]]
+id=33022
+inherit=11283
+name="Dragon kite"
+examine="Poor dragon."
+placeholderid=32022
+placeholdertemplate=14401
+invmodel=60022
+primarymalemodel=60021
+primaryfemalemodel=60021
+zoom=2180
+modelroll=1522
+modelpitch=526
+modelyaw=9
+offsetx=4
+offsety=-7
+
+# Near-Reality Ancient medallion (placeholder)
+[[item]]
+id=33024
+inherit=1478
+name="Ancient medallion"
+placeholderid=32024
+placeholdertemplate=14401
+invmodel=60024
+primarymalemodel=60023
+primaryfemalemodel=60023
+zoom=480
+modelroll=26
+modelpitch=704
+modelyaw=0
+offsetx=0
+offsety=0
+
+# Near-Reality Imbued ancient cape (placeholder)
+[[item]]
+id=33026
+inherit=21795
+name="Imbued ancient cape"
+placeholderid=32026
+placeholdertemplate=14401
+invmodel=60026
+primarymalemodel=60025
+primaryfemalemodel=60025
+
+# Near-Reality Imbued armadyl cape (placeholder)
+[[item]]
+id=33028
+inherit=21795
+name="Imbued armadyl cape"
+placeholderid=32028
+placeholdertemplate=14401
+invmodel=60028
+primarymalemodel=60027
+primaryfemalemodel=60027
+
+# Near-Reality Imbued bandos cape (placeholder)
+[[item]]
+id=33030
+inherit=21795
+name="Imbued bandos cape"
+placeholderid=32030
+placeholdertemplate=14401
+invmodel=60030
+primarymalemodel=60029
+primaryfemalemodel=60029
+
+# Near-Reality Imbued seren cape (placeholder)
+[[item]]
+id=33032
+inherit=21795
+name="Imbued seren cape"
+placeholderid=32032
+placeholdertemplate=14401
+invmodel=60033
+primarymalemodel=60032
+primaryfemalemodel=60032
+
+# Near-Reality Polypore spores (placeholder)
+[[item]]
+id=33038
+inherit=22667
+name="Polypore spores"
+placeholderid=32038
+placeholdertemplate=14401
+invmodel=60039
+zoom=2576
+modelroll=235
+modelpitch=235
+modelyaw=0
+offsetx=50
+offsety=-10
+
+# Near-Reality Polypore staff (deg) (placeholder)
+[[item]]
+id=33040
+inherit=6605
+name="Polypore staff (deg)"
+placeholderid=32040
+placeholdertemplate=14401
+invmodel=60041
+primarymalemodel=60040
+primaryfemalemodel=60040
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+
+# Near-Reality Polypore staff (placeholder)
+[[item]]
+id=33042
+inherit=6605
+name="Polypore staff"
+placeholderid=32042
+placeholdertemplate=14401
+invmodel=60043
+primarymalemodel=60042
+primaryfemalemodel=60042
+zoom=2580
+modelroll=1574
+modelpitch=357
+modelyaw=0
+offsetx=-2
+offsety=-2
+
+# Near-Reality Bronze key (placeholder)
+[[item]]
+id=33044
+inherit=275
+name="Bronze key"
+placeholderid=32044
+placeholdertemplate=14401
+invmodel=60044
+zoom=800
+modelroll=235
+modelpitch=496
+modelyaw=9
+offsetx=-10
+offsety=-11
+
+# Near-Reality Silver key (placeholder)
+[[item]]
+id=33046
+inherit=275
+name="Silver key"
+placeholderid=32046
+placeholdertemplate=14401
+invmodel=60045
+zoom=800
+modelroll=235
+modelpitch=496
+modelyaw=9
+offsetx=-10
+offsety=-11
+
+# Near-Reality Gold key (placeholder)
+[[item]]
+id=33048
+inherit=275
+name="Gold key"
+placeholderid=32048
+placeholdertemplate=14401
+invmodel=60046
+zoom=800
+modelroll=235
+modelpitch=496
+modelyaw=9
+offsetx=-10
+offsety=-11
+
+# Near-Reality Platinum key (placeholder)
+[[item]]
+id=33050
+inherit=275
+name="Platinum key"
+placeholderid=32050
+placeholdertemplate=14401
+invmodel=60047
+zoom=800
+modelroll=235
+modelpitch=496
+modelyaw=9
+offsetx=-10
+offsety=-11
+
+# Near-Reality Diamond key (placeholder)
+[[item]]
+id=33052
+inherit=275
+name="Diamond key"
+placeholderid=32052
+placeholdertemplate=14401
+invmodel=60048
+zoom=800
+modelroll=235
+modelpitch=496
+modelyaw=9
+offsetx=-10
+offsety=-11
+
+# Near-Reality N tablet (placeholder)
+[[item]]
+id=33054
+inherit=22667
+name="N tablet"
+placeholderid=32054
+placeholdertemplate=14401
+invmodel=60049
+modelyaw=100
+
+# Near-Reality Nr tablet (placeholder)
+[[item]]
+id=33056
+inherit=22667
+name="Nr tablet"
+placeholderid=32056
+placeholdertemplate=14401
+invmodel=60050
+zoom=480
+modelroll=26
+modelpitch=600
+modelyaw=0
+offsetx=-1
+offsety=1
+
+# Near-Reality Death cape (placeholder)
+[[item]]
+id=33058
+inherit=1007
+name="Death cape"
+placeholderid=32058
+placeholdertemplate=14401
+invmodel=60052
+primarymalemodel=60051
+primaryfemalemodel=60051
+zoom=3035
+modelroll=1025
+modelpitch=463
+modelyaw=9
+offsetx=-3
+offsety=-10
+
+# Near-Reality Lime whip (placeholder)
+[[item]]
+id=33060
+inherit=4151
+name="Lime whip"
+examine="Nostalgia."
+placeholderid=32060
+placeholdertemplate=14401
+invmodel=60054
+primarymalemodel=60053
+primaryfemalemodel=60053
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+# Near-Reality Lime whip special (placeholder)
+[[item]]
+id=33062
+inherit=4151
+name="Lime whip special"
+examine="Nostalgia."
+placeholderid=32062
+placeholdertemplate=14401
+invmodel=60056
+primarymalemodel=60055
+primaryfemalemodel=60055
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+# Near-Reality Lava whip (placeholder)
+[[item]]
+id=33064
+inherit=4151
+name="Lava whip"
+examine="Ouch, hot!"
+placeholderid=32064
+placeholdertemplate=14401
+invmodel=60060
+primarymalemodel=60059
+primaryfemalemodel=60059
+zoom=1040
+modelroll=250
+modelpitch=530
+modelyaw=0
+offsetx=-1
+offsety=5
+
+# Near-Reality Pink partyhat (placeholder)
+[[item]]
+id=33066
+inherit=1048
+name="Pink partyhat"
+examine="A nice hat from a cracker."
+placeholderid=32066
+placeholdertemplate=14401
+originalcolours=[926]
+replacementcolours=[-8236]
+
+# Near-Reality Orange partyhat (placeholder)
+[[item]]
+id=33068
+inherit=1048
+name="Orange partyhat"
+examine="A nice hat from a cracker."
+placeholderid=32068
+placeholdertemplate=14401
+invmodel=60058
+primarymalemodel=60057
+primaryfemalemodel=60057
+
+# Near-Reality Donator pin 10 (placeholder)
+[[item]]
+id=33070
+inherit=13190
+name="Donator pin 10"
+placeholderid=32070
+placeholdertemplate=14401
+invmodel=60061
+
+# Near-Reality Donator pin 25 (placeholder)
+[[item]]
+id=33071
+inherit=13190
+name="Donator pin 25"
+placeholderid=32071
+placeholdertemplate=14401
+invmodel=60062
+
+# Near-Reality Donator pin 50 (placeholder)
+[[item]]
+id=33072
+inherit=13190
+name="Donator pin 50"
+placeholderid=32072
+placeholdertemplate=14401
+invmodel=60063
+
+# Near-Reality Donator pin 100 (placeholder)
+[[item]]
+id=33073
+inherit=13190
+name="Donator pin 100"
+placeholderid=32073
+placeholdertemplate=14401
+invmodel=60064
+
+# Near-Reality Gauntlet slayer helm (placeholder)
+[[item]]
+id=33074
+inherit=11864
+name="Gauntlet slayer helm"
+placeholderid=32074
+placeholdertemplate=14401
+invmodel=60036
+primarymalemodel=60035
+primaryfemalemodel=60035
+
+# Near-Reality Corrupted gauntlet slayer helm (placeholder)
+[[item]]
+id=33076
+inherit=11864
+name="Corrupted gauntlet slayer helm"
+placeholderid=32076
+placeholdertemplate=14401
+invmodel=60038
+primarymalemodel=60037
+primaryfemalemodel=60037
+
+# Near-Reality party hat (placeholder)
+[[item]]
+id=33078
+inherit=1048
+name="Near Reality party hat"
+placeholderid=32078
+placeholdertemplate=14401
+invmodel=60065
+
+# Near-Reality launch box (placeholder)
+[[item]]
+id=33080
+inherit=6199
+name="OSNR Mystery Box"
+placeholderid=32080
+placeholdertemplate=14401
+invmodel=60067
+op2="Quick-Open"
+
+#Near-Reality Blue ankou socks (placeholder)
+[[item]]
+inherit=20107
+id=33102
+name="Blue ankou socks"
+invmodel=60068
+placeholderid=32102
+placeholdertemplate=14401
+
+#Near-Reality Blue ankou gloves (placeholder)
+[[item]]
+inherit=20101
+id=33104
+name="Blue ankou gloves"
+invmodel=60071
+placeholderid=32104
+placeholdertemplate=14401
+
+#Near-Reality Blue ankou's leggings (placeholder)
+[[item]]
+inherit=20104
+id=33106
+name="Blue ankou's leggings"
+invmodel=60074
+placeholderid=32106
+placeholdertemplate=14401
+
+#Near-Reality Blue ankou mask (placeholder)
+[[item]]
+inherit=20095
+id=33108
+name="Blue ankou mask"
+invmodel=60077
+placeholderid=32108
+placeholdertemplate=14401
+
+#Near-Reality Blue ankou top (placeholder)
+[[item]]
+inherit=20098
+id=33110
+name="Blue ankou top"
+invmodel=60080
+placeholderid=32110
+placeholdertemplate=14401
+
+#Near-Reality Green ankou socks (placeholder)
+[[item]]
+inherit=20107
+id=33112
+name="Green ankou socks"
+invmodel=60083
+placeholderid=32112
+placeholdertemplate=14401
+
+#Near-Reality Green ankou gloves (placeholder)
+[[item]]
+inherit=20101
+id=33114
+name="Green ankou gloves"
+invmodel=60086
+placeholderid=32114
+placeholdertemplate=14401
+
+#Near-Reality Green ankou's leggings (placeholder)
+[[item]]
+inherit=20104
+id=33116
+name="Green ankou's leggings"
+invmodel=60089
+placeholderid=32116
+placeholdertemplate=14401
+
+#Near-Reality Green ankou mask (placeholder)
+[[item]]
+inherit=20095
+id=33118
+name="Green ankou mask"
+invmodel=60092
+placeholderid=32118
+placeholdertemplate=14401
+
+#Near-Reality Green ankou top (placeholder)
+[[item]]
+inherit=20098
+id=33120
+name="Green ankou top"
+invmodel=60095
+placeholderid=32120
+placeholdertemplate=14401
+
+#Near-Reality Gold ankou socks (placeholder)
+[[item]]
+inherit=20107
+id=33122
+name="Gold ankou socks"
+invmodel=60098
+placeholderid=32122
+placeholdertemplate=14401
+
+#Near-Reality Gold ankou gloves (placeholder)
+[[item]]
+inherit=20101
+id=33124
+name="Gold ankou gloves"
+invmodel=60101
+placeholderid=32124
+placeholdertemplate=14401
+
+#Near-Reality Gold ankou's leggings (placeholder)
+[[item]]
+inherit=20104
+id=33126
+name="Gold ankou's leggings"
+invmodel=60104
+placeholderid=32126
+placeholdertemplate=14401
+
+#Near-Reality Gold ankou mask (placeholder)
+[[item]]
+inherit=20095
+id=33128
+name="Gold ankou mask"
+invmodel=60107
+placeholderid=32128
+placeholdertemplate=14401
+
+#Near-Reality Gold ankou top (placeholder)
+[[item]]
+inherit=20098
+id=33130
+name="Gold ankou top"
+invmodel=60110
+placeholderid=32130
+placeholdertemplate=14401
+
+#Near-Reality White ankou socks (placeholder)
+[[item]]
+inherit=20107
+id=33132
+name="White ankou socks"
+invmodel=60113
+placeholderid=32132
+placeholdertemplate=14401
+
+#Near-Reality White ankou gloves (placeholder)
+[[item]]
+inherit=20101
+id=33134
+name="White ankou gloves"
+invmodel=60116
+placeholderid=32134
+placeholdertemplate=14401
+
+#Near-Reality White ankou's leggings (placeholder)
+[[item]]
+inherit=20104
+id=33136
+name="White ankou's leggings"
+invmodel=60119
+placeholderid=32136
+placeholdertemplate=14401
+
+#Near-Reality White ankou mask (placeholder)
+[[item]]
+inherit=20095
+id=33138
+name="White ankou mask"
+invmodel=60122
+placeholderid=32138
+placeholdertemplate=14401
+
+#Near-Reality White ankou top (placeholder)
+[[item]]
+inherit=20098
+id=33140
+name="White ankou top"
+invmodel=60125
+placeholderid=32140
+placeholdertemplate=14401
+
+#Near-Reality Bandos chestplate (or) (placeholder)
+[[item]]
+inherit=11832
+id=33142
+name="Bandos chestplate (or)"
+invmodel=60128
+placeholderid=32142
+placeholdertemplate=14401
+zoom=1500
+modelroll=0
+modelpitch=513
+modelyaw=0
+offsetx=-1
+offsety=4
+
+#Near-Reality Bandos tassets (or) (placeholder)
+[[item]]
+inherit=11834
+id=33144
+name="Bandos tassets (or)"
+invmodel=60131
+placeholderid=32144
+placeholdertemplate=14401
+zoom=1780
+modelroll=0
+modelpitch=548
+modelyaw=0
+offsetx=-2
+offsety=2
+
+#Near-Reality Ornament kit (placeholder)
+[[item]]
+inherit=22246
+id=33146
+name="Bandos ornament kit"
+invmodel=60134
+placeholderid=32146
+placeholdertemplate=14401
+
+[[item]]
+id=33240
+inherit=4587
+name="Sword of 1000 Truths"
+invmodel=52012
+primarymalemodel=52011
+primaryfemalemodel=52011
+
+[[item]]
+id=33241
+inherit=13342
+name="The Mod Cape"
+examine="Only the finest individuals have the privilege of wearing this marvel."
+invmodel=52005
+primarymalemodel=52006
+primaryfemalemodel=52006
+op1="Wear"
+op2="Staff Options"
+op3="Staff Zone"
+
+[[item]]
+id=33242
+inherit=13342
+name="The Admin Cape"
+examine="Only the most top-tier individuals have the extreme privilege to wear it."
+invmodel=52003
+primarymalemodel=52004
+primaryfemalemodel=52004
+op1="Wear"
+op2="Staff Options"
+op3="Staff Zone"
+
+[[item]]
+id=33243
+inherit=13342
+name="The Owner Cape"
+examine="A cloth bestowed only by Unity Games Studios to the most world class individuals"
+invmodel=52007
+primarymalemodel=52008
+primaryfemalemodel=52008
+op1="Wear"
+op2="Staff Options"
+op3="Staff Zone"
+op4="Staff Meeting"
+
+[[item]]
+id=33244
+inherit=4587
+name="Pool Cue"
+examine="Looks like the Kraken was playing in a different kind of pool..."
+invmodel=52009
+notedid=-1
+primarymalemodel=52010
+primaryfemalemodel=52010
+zoom=2500
+modelpitch=1300
+modelroll=498
+op1="Shoot"
+
+[[item]]
+id=33245
+inherit=6863
+name="Gnome Scarf"
+examine="Uhh, I think there's still some burnt gorilla fur on here..."
+invmodel=52000
+notedid=-1
+primarymalemodel=52001
+primaryfemalemodel=52002
+op1="Wear"
+
+
+[[item]]
+id=33246
+inherit=27812
+name="Founder's Cape"
+examine="A legendary cape designated to celebrate an important event in history"
+op1="Equip"
+invmodel=52014
+primarymalemodel=52013
+primaryfemalemodel=52013
+
+# Dragon Hunter Gloves
+[[item]]
+id=26255
+inherit=23593
+name="Dragon Hunter Gloves"
+placeholderid=26256
+invmodel=60212
+notedid=-1
+primarymalemodel=60213
+primaryfemalemodel=60211
+zoom=880
+modelroll=61
+modelpitch=409
+modelyaw=0
+offsetx=1
+offsety=3
+stackable=0
+grandexchange=false
+
+# Dragon Hunter Gloves (placeholder)
+[[item]]
+id=26256
+inherit=26255
+name="Dragon Hunter Gloves"
+placeholderid=26255
+placeholdertemplate=14401
+invmodel=60212
+
+
+
+# Dragonhide Pouch
+[[item]]
+id=26300
+inherit=12020
+name="Dragonhide pouch"
+placeholderid=26301
+invmodel=60210
+stackable=0
+notedid=-1
+zoom=943
+modelroll=1835
+modelpitch=165
+modelyaw=0
+offsetx=1
+offsety=-7
+grandexchange=false
+
+
+# Dragonhide Pouch (placeholder)
+[[item]]
+id=26301
+inherit=26257
+name="Dragonhide pouch"
+placeholderid=26300
+placeholdertemplate=14401
+invmodel=60210
+
+# Dragonhide Pouch Open
+[[item]]
+id=26302
+inherit=24481
+name="Open dragonhide pouch"
+placeholderid=26303
+invmodel=60214
+stackable=0
+notedid=-1
+zoom=943
+modelroll=1835
+modelpitch=165
+modelyaw=0
+offsetx=1
+offsety=-7
+grandexchange=false
+
+
+# Open dragonhide pouch (placeholder)
+[[item]]
+id=26303
+inherit=24481
+name="Open dragonhide pouch"
+placeholderid=26302
+placeholdertemplate=14401
+invmodel=60214
+
+
+# Bone pouch
+[[item]]
+id=26304
+inherit=12020
+name="Bone pouch"
+placeholderid=26305
+invmodel=60215
+stackable=0
+notedid=-1
+zoom=943
+modelroll=1226
+modelpitch=113
+modelyaw=0
+offsetx=0
+offsety=-1
+grandexchange=false
+
+
+# Bone pouch (placeholder)
+[[item]]
+id=26305
+inherit=26257
+name="Bone pouch"
+placeholderid=26304
+placeholdertemplate=14401
+invmodel=60215
+
+# Bone pouch Open
+[[item]]
+id=26306
+inherit=24481
+name="Open Bone pouch"
+placeholderid=26307
+invmodel=60216
+stackable=0
+notedid=-1
+zoom=980
+modelroll=478
+modelpitch=9
+modelyaw=0
+offsetx=-1
+offsety=0
+grandexchange=false
+
+
+# Open Bone pouch (placeholder)
+[[item]]
+id=26307
+inherit=24481
+name="Open Bone pouch"
+placeholderid=26306
+placeholdertemplate=14401
+invmodel=60216
+
+[[item]]
+id=31300
+inherit=13438
+name="Ancient Shard Pack"
+op1="Consume"
+
+[[item]]
+id=31301
+inherit=13438
+name="Cannonball Pack"
+op1="Consume"
+
+[[item]]
+id=31302
+inherit=13438
+name="Saradomin Brew Pack"
+op1="Consume"
+
+[[item]]
+id=31303
+inherit=13438
+name="Super Restore Pack"
+op1="Consume"
+
+[[item]]
+id=31304
+inherit=13438
+name="Super Combat Pack"
+op1="Consume"
+
+[[item]]
+id=31305
+inherit=13438
+name="Karambwan Pack"
+op1="Consume"
+
+[[item]]
+id=31306
+inherit=13438
+name="Stamina Potion Pack"
+op1="Consume"
+
+[[item]]
+id=31307
+inherit=13438
+name="Anglerfish Pack"
+op1="Consume"
+
+[[item]]
+id=31308
+inherit=13438
+name="Sea Turtle Pack"
+op1="Consume"
+
+[[item]]
+id=31309
+inherit=13438
+name="Battlemage Pack"
+op1="Consume"
+
+[[item]]
+id=31310
+inherit=13438
+name="Bastion Pack"
+op1="Consume"
+
+[[item]]
+id=31311
+inherit=13438
+name="Burnt Pages Pack"
+op1="Consume"
+
+[[item]]
+id=31312
+inherit=13438
+name="Black Chinchompa Pack"
+op1="Consume"
+
+[[item]]
+id=31313
+inherit=13438
+name="Dragon Bones Pack"
+op1="Consume"
+
+[[item]]
+id=31314
+inherit=13438
+name="Granite Cannonball Pack"
+op1="Consume"
+
+[[item]]
+id=31315
+inherit=13438
+name="Sherlock's Notes (x10) Pack"
+op1="Consume"
+
+[[item]]
+id=31316
+inherit=13438
+name="Sherlock's Notes (x100) Pack"
+op1="Consume"
+
+[[item]]
+id=31317
+inherit=13438
+name="Slayer Task Reset Scroll"
+op1="Consume"
+
+[[item]]
+id=31350
+inherit=21202
+name="Masori Pegasian Ornament Kit"
+op1="Apply"
+
+[[item]]
+id=31351
+inherit=21202
+name="Ancestral Eternal Ornament Kit"
+op1="Apply"
+
+[[item]]
+id=31352
+inherit=21202
+name="Torva Primordial Ornament Kit"
+op1="Apply"
+
+[[item]]
+id=32354
+inherit=1237
+name="Carrot spear"
+examine="A spear made from a carrot."
+invmodel=60283
+primarymalemodel=60284
+primaryfemalemodel=60285
+grandexchange=true
+notedid=32426
+
+[[item]]
+inherit=1238
+id=32426
+name="Carrot spear"
+examine="A spear made from a carrot."
+notedid=32354
+
+[[item]]
+id=32355
+inherit=12397
+name="Carrot crown"
+examine="A crown made from a carrot."
+invmodel=60286
+primarymalemodel=60287
+primaryfemalemodel=60288
+grandexchange=true
+notedid=32427
+
+[[item]]
+inherit=12398
+id=32427
+name="Carrot crown"
+examine="A crown made from a carrot."
+notedid=32355
+
+[[item]]
+id=32356
+inherit=24543
+name="Broken egg shells"
+examine="A pile of broken egg shells."
+invmodel=60289
+grandexchange=false
+stackable=1
+
+[[item]]
+id=32357
+inherit=6199
+name="Easter Mystery Box"
+examine="A box containing a random Easter item."
+invmodel=60290
+op2="Quick-Open"
+grandexchange=true
+
+[[item]]
+id=32358
+inherit=27645
+name="Easter cards"
+examine="A pack of Easter cards."
+invmodel=60291
+grandexchange=true
+
+[[item]]
+id=32359
+inherit=13331
+name="Ancient Max Cape"
+examine="A max cape in the colors of the Ancients"
+primarymalemodel=52015
+primaryfemalemodel=52015
+invmodel=52016
+
+[[item]]
+id=32360
+inherit=13331
+name="Armadyl Max Cape"
+examine="A max cape in the colors of the Armadyleans"
+primarymalemodel=52017
+primaryfemalemodel=52017
+invmodel=52018
+
+[[item]]
+id=32361
+inherit=13331
+name="Bandos Max Cape"
+examine="A max cape in the colors of the Bandosians"
+primarymalemodel=52019
+primaryfemalemodel=52019
+invmodel=52020
+
+[[item]]
+id=32362
+inherit=13331
+name="Seren Max Cape"
+examine="A max cape in the colors of the worshippers of Seren"
+primarymalemodel=52021
+primaryfemalemodel=52021
+invmodel=52022
+
+[[item]]
+id=32368
+inherit=6199
+name="PVP Tourney Mystery Box"
+examine="A box containing a random item."
+
+#Orb of CoX 21584 -> -23081
+[[item]]
+id=32369
+inherit=6950
+name="Orb of Xeric"
+examine="A mysterious orb reminiscent of the colors of the Great Olm"
+stackable=1
+grandexchange=false
+originalcolours=[21584]
+replacementcolours=[13223]
+
+#Orb of TOB 21584 -> 19927
+[[item]]
+id=32370
+inherit=6950
+name="Orb of Blood"
+examine="A mysterious orb reminiscent of a night at the Theatre"
+stackable=1
+grandexchange=false
+originalcolours=[21584]
+replacementcolours=[966]
+
+#Orb of Amascut 21584 -> 31191
+[[item]]
+id=32371
+inherit=6950
+name="Orb of Amascut"
+examine="A mysterious orb reminiscent of an ancient desert tomb"
+stackable=1
+grandexchange=false
+originalcolours=[21584]
+replacementcolours=[6862]
+
+#Near-Reality BlueTBow Twisted bow
+[[item]]
+inherit=20997
+id=32378
+invmodel=60292
+primaryfemalemodel=60293
+primarymalemodel=60295
+notedid=32379
+placeholderid=32380
+op3="Dismantle"
+
+
+#Near-Reality BlueTBow Twisted bow noted
+[[item]]
+inherit=20998
+id=32379
+notedid=32378
+
+#Near-Reality BlueTBow Twisted bow placeholder
+[[item]]
+inherit=20999
+id=32380
+placeholderid=32378
+placeholdertemplate=14401
+
+#Near-Reality Blue Paint Twisted bow
+[[item]]
+inherit=27372
+id=32381
+name="Blue Paint (Twisted Bow)"
+invmodel=60294
+notedid=-1
+placeholderid=32450
+grandexchange=true
+
+#Near-Reality Blue Paint Twisted bow (placeholder)
+[[item]]
+inherit=27373
+id=32450
+placeholderid=32382
+
+#Near-Reality Divine Ornament kit
+[[item]]
+inherit=12802
+id=32382
+name="Divine ornament kit"
+invmodel=60296
+placeholderid=32449
+placeholdertemplate=-1
+notedid=32428
+
+#Near-Reality Divine Ornament kit (noted)
+[[item]]
+inherit=12803
+id=32428
+name="Divine ornament kit"
+notedid=32382
+
+#Near-Reality Divine Ornament kit (placeholder)
+[[item]]
+inherit=15096
+id=32449
+placeholderid=32382
+
+#Near-Reality PurpleTBow Twisted bow
+[[item]]
+inherit=20997
+id=32383
+invmodel=60301
+primaryfemalemodel=60302
+primarymalemodel=60304
+notedid=32384
+placeholderid=32385
+op3="Dismantle"
+
+#Near-Reality PurpleTBow Twisted bow noted
+[[item]]
+inherit=20998
+id=32384
+notedid=32383
+
+#Near-Reality PurpleTBow Twisted bow placeholder
+[[item]]
+inherit=20999
+id=32385
+placeholderid=32383
+placeholdertemplate=14401
+
+#Near-Reality PurpleTBow Ornament kit
+[[item]]
+inherit=27372
+id=32386
+name="Purple Paint (Twisted Bow)"
+invmodel=60303
+notedid=-1
+placeholderid=32448
+grandexchange=true
+
+#Near-Reality PurpleTBow Ornament kit (placeholder)
+[[item]]
+inherit=27373
+id=32448
+placeholderid=32386
+
+#Near-Reality RedTBow Twisted bow
+[[item]]
+inherit=20997
+id=32387
+invmodel=60305
+primaryfemalemodel=60306
+primarymalemodel=60308
+notedid=32388
+placeholderid=32389
+op3="Dismantle"
+
+#Near-Reality RedTBow Twisted bow noted
+[[item]]
+inherit=20998
+id=32388
+notedid=32387
+
+#Near-Reality RedTBow Twisted bow placeholder
+[[item]]
+inherit=20999
+id=32389
+placeholderid=32387
+placeholdertemplate=14401
+
+#Near-Reality RedTBow Ornament kit
+[[item]]
+inherit=27372
+id=32390
+name="Red Paint (Twisted Bow)"
+invmodel=60307
+placeholderid=32447
+notedid=-1
+grandexchange=true
+
+#Near-Reality RedTBow Ornament kit (placeholder)
+[[item]]
+inherit=27373
+id=32447
+placeholderid=32390
+
+#Near-Reality WhiteTBow Twisted bow
+[[item]]
+inherit=20997
+id=32391
+invmodel=60309
+primaryfemalemodel=60310
+primarymalemodel=60312
+notedid=32392
+placeholderid=32393
+op3="Dismantle"
+
+
+#Near-Reality WhiteTBow Twisted bow noted
+[[item]]
+inherit=20998
+id=32392
+notedid=32391
+
+#Near-Reality WhiteTBow Twisted bow placeholder
+[[item]]
+inherit=20999
+id=32393
+placeholderid=32391
+placeholdertemplate=14401
+
+#Near-Reality WhiteTbow Ornament kit
+[[item]]
+inherit=27372
+id=32394
+name="White Paint (Twisted Bow)"
+invmodel=60311
+placeholderid=32446
+grandexchange=true
+
+#Near-Reality WhiteTbow Ornament kit (placeholder)
+[[item]]
+inherit=27373
+id=32446
+placeholderid=32394
+
+#Near-Reality Black ankou socks
+[[item]]
+inherit=20107
+id=32395
+name="Black ankou socks"
+originalcolours=[960]
+replacementcolours=[0]
+placeholderid=32429
+stackable=0
+notedid=32396
+
+#Near-Reality Black ankou socks (noted)
+[[item]]
+inherit=20108
+id=32396
+name="Black ankou socks"
+notedid=32395
+
+#Near-Reality Black ankou socks (placeholder)
+[[item]]
+inherit=20109
+id=32429
+placeholderid=32395
+
+#Near-Reality Black ankou gloves
+[[item]]
+inherit=20101
+id=32397
+name="Black ankou gloves"
+originalcolours=[960]
+replacementcolours=[0]
+placeholderid=32430
+stackable=0
+notedid=32398
+
+#Near-Reality Black ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32398
+name="Black ankou gloves"
+notedid=32397
+
+#Near-Reality Black ankou gloves (placeholder)
+[[item]]
+inherit=20103
+id=32430
+placeholderid=32397
+
+#Near-Reality Black ankou's leggings
+[[item]]
+inherit=20104
+id=32399
+name="Black ankou's leggings"
+originalcolours=[960]
+replacementcolours=[0]
+placeholderid=32431
+stackable=0
+notedid=32400
+
+#Near-Reality Black ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32400
+name="Black ankou's leggings"
+notedid=32399
+
+#Near-Reality Black ankou's leggings (placeholder)
+[[item]]
+inherit=20106
+id=32431
+placeholderid=32399
+
+#Near-Reality Black ankou mask
+[[item]]
+inherit=20095
+id=32401
+name="Black ankou mask"
+originalcolours=[960]
+replacementcolours=[0]
+placeholderid=32432
+stackable=0
+notedid=32402
+
+#Near-Reality Black ankou mask (noted)
+[[item]]
+inherit=20096
+id=32402
+name="Black ankou mask"
+notedid=32401
+
+#Near-Reality Black ankou mask (placeholder)
+[[item]]
+inherit=20097
+id=32432
+placeholderid=32401
+
+#Near-Reality Black ankou top
+[[item]]
+inherit=20098
+id=32403
+name="Black ankou top"
+originalcolours=[960]
+replacementcolours=[0]
+placeholderid=32433
+stackable=0
+notedid=32404
+
+#Near-Reality Black ankou top (noted)
+[[item]]
+inherit=20099
+id=32404
+name="Black ankou top"
+notedid=32403
+
+#Near-Reality Black ankou top (placeholder)
+[[item]]
+inherit=20100
+id=32433
+placeholderid=32403
+
+#Near-Reality Purple ankou socks
+[[item]]
+inherit=20107
+id=32405
+name="Purple ankou socks"
+originalcolours=[960]
+replacementcolours=[-15536]
+placeholderid=32434
+stackable=0
+notedid=32406
+
+#Near-Reality Purple ankou socks (noted)
+[[item]]
+inherit=20108
+id=32406
+name="Purple ankou socks"
+notedid=32405
+
+#Near-Reality Purple ankou socks (placeholder)
+[[item]]
+inherit=20109
+id=32434
+placeholderid=32405
+
+
+#Near-Reality Purple ankou gloves
+[[item]]
+inherit=20101
+id=32407
+name="Purple ankou gloves"
+originalcolours=[960]
+replacementcolours=[-15536]
+placeholderid=32435
+stackable=0
+notedid=32408
+
+#Near-Reality Purple ankou gloves (noted)
+[[item]]
+inherit=20102
+id=32408
+name="Purple ankou gloves"
+notedid=32407
+
+#Near-Reality Purple ankou gloves (placeholder)
+[[item]]
+inherit=20103
+id=32435
+placeholderid=32407
+
+#Near-Reality Purple ankou's leggings
+[[item]]
+inherit=20104
+id=32409
+name="Purple ankou's leggings"
+originalcolours=[960]
+replacementcolours=[-15536]
+placeholderid=32436
+stackable=0
+notedid=32410
+
+#Near-Reality Purple ankou's leggings (noted)
+[[item]]
+inherit=20105
+id=32410
+name="Purple ankou's leggings"
+notedid=32409
+
+#Near-Reality Purple ankou's leggings (placeholder)
+[[item]]
+inherit=20106
+id=32436
+placeholderid=32409
+
+#Near-Reality Purple ankou mask
+[[item]]
+inherit=20095
+id=32411
+name="Purple ankou mask"
+originalcolours=[960]
+replacementcolours=[-15536]
+placeholderid=32437
+stackable=0
+notedid=32412
+
+#Near-Reality Purple ankou mask (noted)
+[[item]]
+inherit=20096
+id=32412
+name="Purple ankou mask"
+notedid=32411
+
+#Near-Reality Purple ankou mask (placeholder)
+[[item]]
+inherit=20097
+id=32437
+placeholderid=32411
+
+#Near-Reality Purple ankou top
+[[item]]
+inherit=20098
+id=32413
+name="Purple ankou top"
+originalcolours=[960]
+replacementcolours=[-15536]
+placeholderid=32438
+stackable=0
+notedid=32414
+
+#Near-Reality Purple ankou top (noted)
+[[item]]
+inherit=20099
+id=32414
+name="Purple ankou top"
+notedid=32413
+
+#Near-Reality Purple ankou top (placeholder)
+[[item]]
+inherit=20100
+id=32438
+placeholderid=32413
+
+#Near-Reality turquoise halloween mask
+[[item]]
+inherit=1053
+id=32415
+name="Sky blue halloween mask"
+originalcolours=[926]
+replacementcolours=[-31784]
+placeholderid=32439
+notedid=32416
+
+#Near-Reality turquoise halloween mask (noted)
+[[item]]
+inherit=1054
+id=32416
+name="Sky blue halloween mask"
+originalcolours=[926]
+replacementcolours=[-31784]
+notedid=32415
+
+#Near-Reality turquoise halloween mask (placeholder)
+[[item]]
+inherit=14397
+id=32439
+placeholderid=32415
+
+#Near-Reality orange halloween mask
+[[item]]
+inherit=1053
+id=32417
+name="Orange halloween mask"
+originalcolours=[926]
+replacementcolours=[6073]
+placeholderid=32440
+notedid=32418
+
+#Near-Reality orange halloween mask (noted)
+[[item]]
+inherit=1054
+id=32418
+name="Orange halloween mask"
+originalcolours=[926]
+replacementcolours=[6073]
+notedid=32417
+placeholderid=-1
+
+#Near-Reality orange halloween mask (placeholder)
+[[item]]
+inherit=14397
+id=32440
+placeholderid=32417
+
+#Near-Reality purple halloween mask
+[[item]]
+inherit=1053
+id=32419
+name="Purple halloween mask"
+originalcolours=[926]
+replacementcolours=[-15536]
+notedid=32420
+placeholderid=32441
+
+#Near-Reality purple halloween mask (noted)
+[[item]]
+inherit=1054
+id=32420
+name="Purple halloween mask"
+originalcolours=[926]
+replacementcolours=[-15536]
+notedid=32419
+
+#Near-Reality purple halloween mask (placeholder)
+[[item]]
+inherit=14397
+id=32441
+placeholderid=32419
+
+#Near-Reality divine spirit shield
+[[item]]
+inherit=12817
+id=32421
+name="Elysian spirit shield (or)"
+invmodel=60297
+primarymalemodel=60299
+primaryfemalemodel=60298
+notedid=32422
+placeholderid=32442
+
+#Near-Reality divine spirit shield (noted)
+[[item]]
+inherit=12818
+id=32422
+name="Elysian spirit shield (or)"
+invmodel=60297
+notedid=32421
+placeholderid=-1
+
+#Near-Reality divine spirit shield (placeholder)
+[[item]]
+inherit=15331
+id=32442
+placeholderid=32421
+
+#Near-Reality PVM Arena mystery box
+[[item]]
+id=32423
+inherit=6199
+name="PVM Arena mystery box"
+examine="A box containing a random item."
+invmodel=60290
+op2="Quick-Open"
+grandexchange=true
+placeholderid=32443
+stackable=1
+
+#Near-Reality PVM Arena mystery box (placeholder)
+[[item]]
+inherit=18086
+id=32443
+placeholderid=32423
+
+#Near-Reality World boost token
+[[item]]
+id=32424
+inherit=7478
+name="World boost token"
+examine="A token that activates a mysterious power across Gielinor."
+op1=""
+op2="Rub"
+op3=""
+op4=""
+op5="Drop"
+grandexchange=true
+placeholderid=32444
+stackable=1
+
+#Near-Reality World boost token (placeholder)
+[[item]]
+inherit=17422
+id=32444
+placeholderid=32424
+
+#Near-Reality Sir Eldric's boost scroll
+[[item]]
+id=32425
+inherit=27595
+name="Sir Eldric's boost scroll"
+examine="A boost scroll that increases the combat for PVM combat."
+op1=""
+op2="Activate"
+op3=""
+op4=""
+op5="Drop"
+grandexchange=true
+placeholderid=32445
+stackable=1
+
+#Near-Reality Sir Eldric's boost scroll (placeholder)
+[[item]]
+inherit=17422
+id=32445
+placeholderid=32425
+
+[[item]]
+inherit=7671
+id=32451
+originalcolours=[947]
+replacementcolours=[7110]
+name="Gilded boxing gloves"
+examine="Only a champion deserves to wear these"
+
+[[item]]
+inherit=28351
+id=32452
+stackable=1
+name="Potent arder-musca poison"
+examine="A more potent poison only meant for royalty"
+
+[[item]]
+inherit=28313
+id=32453
+name="Magus ring (a)"
+notedid=32605
+placeholderid=32454
+originalcolours=[7882]
+replacementcolours=[555]
+
+[[item]]
+inherit=28315
+id=32454
+name="Magus ring (a)"
+placeholderid=32453
+originalcolours=[7882]
+replacementcolours=[555]
+
+[[item]]
+inherit=28314
+id=32605
+name="Magus ring (a)"
+notedid=32453
+originalcolours=[7882]
+replacementcolours=[555]
+
+[[item]]
+inherit=28281
+name="Magus catalyst"
+
+[[item]]
+inherit=28282
+name="Magus catalyst"
+
+
+## NEXT ID STARTS FROM 32606 (inclusive)

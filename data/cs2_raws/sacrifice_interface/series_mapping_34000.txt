@@ -1,0 +1,30 @@
+CS2
+--------
+3479 => 34000 //onLoad
+3480 => 34001 //updatePoints (proc)
+3481 => 34002 //updatePointsText
+3482 => 34003 
+3483 => 34004 //updateSacrificePrice
+3484 => 34005 //setupQuantitySelectHooks
+3485 => 34006
+3486 => 34007
+3487 => 34008
+3488 => 34009 //just proc for 34010
+3489 => 34010 
+
+Varp
+-------
+261 => 19450 //puntos
+262 => 19451 //item slot
+263 => 19452 //item quantity
+264 => 19453 //sacrifice price
+
+Packed:
+34001
+34002
+
+34005
+34006
+34007
+34008
+34010

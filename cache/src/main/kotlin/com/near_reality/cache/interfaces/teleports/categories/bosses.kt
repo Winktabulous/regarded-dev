@@ -1,0 +1,41 @@
+package com.near_reality.cache.interfaces.teleports.categories
+
+import com.near_reality.cache.interfaces.teleports.builder.TeleportsBuilder
+
+internal fun TeleportsBuilder.bosses() = "Bosses Teleports"(10005) {
+    "Alchemical Hydra"(4289, 1351, 10248, 0, "https://oldschool.runescape.wiki/w/Alchemical_Hydra")
+    "Abyssal Sire"(4276, 3039, 4773, 0, "")
+    "Obor"(4261, 3098, 9833, 0, "https://oldschool.runescape.wiki/w/Obor")
+    "Bryophyta"(4262, 3174, 9898, 0, "https://oldschool.runescape.wiki/w/Bryophyta")
+    "Giant Mole"(4263, 2996, 3379, 0, "https://wiki.near-reality.com/pvm-guides/giant-mole")
+//    "King Black Dragon"(4274, 3022, 3836, 0, "https://oldschool.runescape.wiki/w/King_Black_Dragon") // needs a warning about tping into wilderness
+    "Cave Kraken"(4275, 2282, 3614, 0, "https://wiki.near-reality.com/pvm-guides/slayer-bosses/kraken")
+    "Thermonuclear Smoke Devil"(4277, 2411, 3055, 0, "https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil")
+    "Dagannoth Kings"(4268, 1913, 4368, 0, "https://oldschool.runescape.wiki/w/Dagannoth_Kings")
+    "Sarachnis"(4269, 1847, 9920, 0, "")
+    "Cerberus"(4280, 1310, 1249, 0, "https://oldschool.runescape.wiki/w/Cerberus")
+    "Skotizo"(4272, 1665, 10047, 0, "https://oldschool.runescape.wiki/w/Skotizo")
+    "Kalphite Queen"(4270, 3508, 9493, 0, "https://oldschool.runescape.wiki/w/Kalphite_Queen")
+    "God Wars Dungeon"(4282, 2882, 5311, 2, "https://oldschool.runescape.wiki/w/God_Wars_Dungeon")
+    "GWD: Bandos"(-11832, 2858, 5363, 2, "https://oldschool.runescape.wiki/w/General_Graardor")
+    "GWD: Armadyl"(-11785, 2830, 5288, 2,"https://oldschool.runescape.wiki/w/Kree%27arra")
+    "GWD: Zamorak"(-11816, 2934, 5352, 2, "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth")
+    "GWD: Saradomin"(-11838, 2926, 5261, 0, "https://oldschool.runescape.wiki/w/Commander_Zilyana")
+    "Zulrah"(4279, 2200, 3055, 0, "https://oldschool.runescape.wiki/w/Zulrah")
+    "Vanstrom Klause"(-13495, 3574, 3358, 0, "")
+    "Vorkath"(4281, 2277, 4036, 0, "https://oldschool.runescape.wiki/w/Vorkath")
+    "Corporeal Beast"(4287, 2967, 4383, 2, "https://oldschool.runescape.wiki/w/Corporeal_Beast")
+    "Nex"(4291, 2883, 5280, 2, "https://oldschool.runescape.wiki/w/Nex")
+    "The Nightmare"(4286, 3808, 9752, 1, "")
+    "Wintertodt"(4266, 1624, 3929, 0, "https://oldschool.runescape.wiki/w/Wintertodt")
+    "Zalcano"(4273, 3033, 6068, 0, "https://oldschool.runescape.wiki/w/Zalcano")
+    "Gauntlet"(4278, 3031, 6126, 1, "")
+    "Raids I: Chambers of Xeric"(4288, 1248, 3559, 0, "https://wiki.near-reality.com/raids/chambers-of-xeric")
+    "Raids II: Theatre of Blood"(4290, 3655, 3219, 0, "")
+    "Raids III: Tombs of Amascut"(-27277, 3358, 9113, 0, "")
+    "Phantom Muspah"(-27590, 2911, 10317, 0, "https://oldschool.runescape.wiki/w/Phantom_Muspah")
+    "DT2: Duke Sucellus"(-28250, 3039, 6429, 0, "https://oldschool.runescape.wiki/w/Duke_Sucellus")
+    "DT2: Vardorvis"(-28248, 1153, 3444, 0, "https://oldschool.runescape.wiki/w/Vardorvis")
+    "Tormented Demon"(-33250, 4061, 4465, 0, "")
+    "Araxxor"(-29836, 3657, 3404, 0, "")
+}

@@ -1,0 +1,74 @@
+# Jal-ImRek (Discord Referral Competition)
+[[item]]
+id=30003
+inherit=1561
+name="Jal-ImRek"
+invmodel=33010
+placeholderid=-1
+zoom=3000
+modelroll=861
+modelpitch=1000
+modelyaw=1052
+offsetx=61
+offsety=-30
+
+
+[[npc]]
+id=16016
+inherit=7697
+name="Jal-ImRek"
+combatlevel=0
+ops=["", "", "Pick-up", "", ""]
+filteredops=["", "", "Pick-up", "", ""]
+minimapvisible=true
+familiar=true
+size=1
+resizex=30
+resizey=30
+rotate90animation=7595
+rotate180animation=7595
+rotate270animation=7595
+
+# Wyrmy
+[[item]]
+id=30005
+inherit=1561
+name="Wyrmy"
+invmodel=36166
+placeholderid=-1
+zoom=1765
+modelroll=235
+modelpitch=391
+modelyaw=235
+offsetx=357
+offsety=670
+
+[[npc]]
+id=16018
+inherit=8611
+name="Wyrmy"
+combatlevel=0
+ops=["", "", "Pick-up", "", ""]
+filteredops=["", "", "Pick-up", "", ""]
+minimapvisible=true
+familiar=true
+size=1
+resizex=30
+resizey=30
+rotate90animation=8267
+rotate180animation=8267
+rotate270animation=8267
+
+# Ganodermic runt
+[[item]]
+id=32100
+inherit=1561
+name="Ganodermic Runt"
+invmodel=62001
+placeholderid=-1
+zoom=1980
+modelroll=275
+modelpitch=50
+modelyaw=0
+offsetx=11
+offsety=1

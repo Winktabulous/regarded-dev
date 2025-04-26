@@ -1,0 +1,79 @@
+int script_12553(Widget widget0, int arg1, int arg2, int arg3, int arg4, Color color5, string string6, Sprite sprite7, Color color8, int arg9, Sprite sprite10, int arg11, int arg12, int arg13, int arg14, int arg15) {
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	int16 = 4;
+	int17 = 1;
+	int18 = arg2 * (arg3 + arg4);
+	int19 = 3712;
+	if (arg15 == 0) {
+		int19 = 3714;
+	}
+	int20 = int16 - int17;
+	int21 = arg1;
+	CHILD.createChild(widget0, 3, int21);
+	CHILD.setPosition(1, int18 + 1, 0, 0);
+	CHILD.setSize(int20, arg3 - 2, 1, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(color5);
+	arg1 = arg1 + 1;
+	if (arg15 == 0) {
+		int20 = int16 * 2 - int17;
+	} else {
+		int20 = int16;
+	}
+	if (arg15 != 1) {
+		script_98(widget0, arg1, 897, int16, int18 + 2, 0, 0, int20, arg3 - 4, 1, 0);
+		CHILD.setContextMenuOption(1, "View");
+		CHILD.setOptionBase("" + string6);
+		CHILD.hookOptionClick(&script_12562(arg2, CTX_MENU_OPTION));
+	} else {
+		script_98(widget0, arg1, 297, int16, int18 + 2, 0, 0, int20, arg3 - 4, 1, 0);
+	}
+	arg1 = arg1 + 1;
+	if (int18 == 0 && arg15 == 1) {
+		int20 = int16;
+	} else {
+		int20 = 2 * int16 - int17;
+	}
+	script_98(widget0, arg1, 3528, int16, int18, 0, 0, int20, int16, 1, 0);
+	arg1 = arg1 + 1;
+	if (int18 + arg3 == widget0.getHeight() && arg15 == 1) {
+		int20 = int16;
+	} else {
+		int20 = 2 * int16 - int17;
+	}
+	script_98(widget0, arg1, 3529, int16, int18 + arg3 - int16, 0, 0, int20, int16, 1, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 3530, 0, int18 + int16, 0, 0, int16, arg3 - 2 * int16, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 3524, 0, int18, 0, 0, int16, int16, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 3526, 0, int18 + arg3 - int16, 0, 0, int16, int16, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, sprite10, 3 + arg13, int18 + arg3 / 2 - arg12 / 2 + arg14, 0, 0, arg11, arg12, 0, 0);
+	arg1 = arg1 + 1;
+	CHILD.createChild(widget0, 4, arg1);
+	int22 = 0;
+	if (sprite7 == null) {
+		CHILD.setHidden(true);
+	} else {
+		int22 = 8 + arg11 + arg9;
+		CHILD.setPosition(int22, int18, 0, 0);
+		CHILD.setSize(int22 + 6, arg3, 1, 0);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(sprite7);
+		CHILD.setRGB(color8);
+		CHILD.setText(string6);
+	}
+	arg1 = arg1 + 1;
+	if (CHILD.setChild(widget0, int21) == true) {
+		return arg1;
+	}
+	return 0;
+}
