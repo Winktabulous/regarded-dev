@@ -121,7 +121,7 @@ mXparser = { module = "org.mariuszgromada.math:MathParser.org-mXparser", version
 kord-core = { module = "dev.kord:kord-core", version = "0.15.0" }
 mysql-connector-j = { module = "com.mysql:mysql-connector-j", version = "9.2.0" }
 postgresql = { module = "org.postgresql:postgresql", version = "42.7.5" }
-mockk = { module = "io.mockk:mockk", version = "1.13.17" }
+mockk = { module = "io.mockk:mockk", version = "1.14.4" }
 
 toml4j = { module = "io.hotmoka:toml4j", version = "0.7.3" }
 
