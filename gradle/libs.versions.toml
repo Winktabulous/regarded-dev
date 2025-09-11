@@ -10,7 +10,7 @@ exposed = "0.61.0"
 slf4j = "2.0.17"
 logback = "1.5.18"
 
-netty = "4.1.119.Final"
+netty = "4.2.0.Final"
 
 asm = "9.8"
 jackson = "2.18.3"
